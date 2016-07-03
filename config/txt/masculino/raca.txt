@@ -1,0 +1,7 @@
+Humano
+Anão
+Elfo
+Gnomo
+Meio elfo
+Meio orc
+Halfling

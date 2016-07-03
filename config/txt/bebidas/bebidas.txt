@@ -1,0 +1,94 @@
+ADITIVO 
+ÁGUA 
+ÁGUA-DE-COCO 
+ÁGUA TÔNICA 
+AGUARDENTE 
+AGUARDENTE COMPOSTA 
+ÁLCOOL ETÍLICO 
+APERITIVO 
+AQUA VIT 
+ARAC 
+BAGACEIRA 
+BATIDA 
+BEBIDA ALCOÓLICA COMPOSTA 
+BRANDY 
+CACHAÇA 
+CAIPIRINHA 
+CERVEJA 
+CHÁ 
+Champagne 
+chope 
+COADJUVANTE 
+CONCENTRADO LÍQUIDO PARA REFRESCO 
+CONCENTRADO LÍQUIDO PARA REFRIGERENTE 
+CONHAQUE 
+COQUETEL 
+CORN 
+DESTILADO ALCOÓLICO SIMPLES 
+DIET & LIGHT 
+ESPUMANTE 
+FERMENTADO DE CANA 
+FERMENTADO DE FRUTA 
+FERMENTADO DE FRUTA COMPOSTO 
+FERMENTADO DE FRUTA LICOROSO 
+GENEBRA 
+GIM 
+GRAIN WHISKY 
+HIDROMEL 
+LICOR 
+LIGHT 
+MOSTO 
+NÉCTAR 
+PISCO 
+POLPA DE FRUTA 
+REFRESCO 
+REFRIGERANTE 
+RUM 
+SAQUÊ 
+SIDRA 
+SODA 
+SOCHU 
+SUCO 
+TEQUILA 
+TIQUIRA 
+UÍSQUE 
+VINAGRE 
+VINHO 
+VINHO BRASILEIRO 
+VODCA 
+XAROPE
+Cerveja 
+Vodca 
+Ice 
+Champanhe 
+Licor 
+Vinho 
+Wisk 
+Pinga 
+Bebidas tropicais
+sminorf 
+absolut 
+absinto 
+orloff 
+jurupinga 
+bomberinho 
+maria mole 
+tequila 
+marguerita 
+saque 
+mojito 
+cairpinha 
+batida 
+ice 
+red label 
+ballantines 
+conhaque 
+drehar 
+martine 
+contine 
+campari 
+catuaba 
+Skol 
+brahma 
+heinniken 
+edinguer
