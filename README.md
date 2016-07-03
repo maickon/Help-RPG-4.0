@@ -11,3 +11,4 @@ Este site visa promover recursos para o gerenciamento de contas que permitem aos
 <p>
 Além disso o Help RPG Fichas oferece utilitários com foco nas necessidades dos Rpgistas. Ferramentas como simuladores de dados, sorteio de nomes, fichas e entre outras coisas também são oferecidos por esta aplicação.
 </p>
+
