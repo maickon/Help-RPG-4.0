@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+#campo1, #campo2, #campo3, #campo4 {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+	font-size: 24px;
+	font-weight: bold;
+	height: 40px;
+	border: 1px solid #000;
+	margin: 4px;
+	background-color: #EEE9E9;
+	color: #000000;
+    size: 18px;
+    text-align: center;
+} 
