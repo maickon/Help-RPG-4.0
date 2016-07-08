@@ -44,10 +44,13 @@ class Routes_Lib{
 
 			$url = $string_file_path;
 
-			if (file_exists("{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url}")) {
+			if (file_exists("{$_SERVER['DOCUMENT_ROOT']}/app/{$url}")) {
+				require_once "{$_SERVER['DOCUMENT_ROOT']}/app/{$url}";
+			} elseif (file_exists("{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url}")) {
 				require_once "{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url}";
 			} else {
-				echo "{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url}";
+				echo '<h1>URL não Encontrada!</h1>';
+				echo "<b>{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url}</b>";
 				// require "{$_SERVER['DOCUMENT_ROOT']}/teste.php";
 			}
 		} elseif (isset($url[0])) {

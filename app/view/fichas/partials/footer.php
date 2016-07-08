@@ -2,7 +2,7 @@
 
 	// <!-- CORE JS -->
 	$_JS = [JS_CONFIG,
-			JS_NAME,
+			JS_SHEETS,
 			JS_PDF,
 			JS_JQUERY,
 			JS_BOOTSTRAP,

@@ -1,4 +1,5 @@
 <?php
+require 'rpg-names.php';
 // site name
 const SITE_NAME = 'Help RPG';
 // symbols
@@ -31,10 +32,17 @@ const DICE_CONFIG = 'Configuração';
 const DICE_ROLL_PLUS = 'Rolar +';
 const DICE_GO = 'Go';
 const DICE_SHOW_TOTAL = 'Ver total';
+// botoes
+const SHEETS_GENERATION = 'Gerar Ficha';
+const NAME_GENERATION = 'Gerar Nome';
 // utilitarios - nomes
 const UTILITIES_NAME = 'Gerador de nomes - utilitários';
 const META_DESCRIPTION_NAME = 'Gerador de nomes - Help RPG.';
 const META_KEYWORDS_NAME = 'nomes,  nomes de lugares, nome de classes, nomes de raças, nomes culturais, outros nomes, nomes de nave, nomes de super heróis';
+// utilitarios - fichas
+const UTILITIES_CHARACTER_SHEETS = 'Gerador de fichas - utilitários';
+const META_DESCRIPTION_CHARACTER_SHEETS = 'Gerador de fichas - Help RPG.';
+const META_KEYWORDS_CHARACTER_SHEETS = 'fichas RPG, lista de fichas, pesquisa por fichas, cadastro de fichas, fichas RPG, lista de fichas, pesquisa por fichas, cadastro de fichas, monstros, ficha de monstro';
 // menu itens
 const HOME = 'HOME';
 const CONTACT 	= 'CONTATO';
@@ -122,6 +130,8 @@ const NAME_OPTIONS_ORC_HALF = 'Meio Orc';
 const NAME_OPTIONS_SURNAME = 'Aplelidos';
 const NAME_OPTIONS_CLAN = 'Nome de clã'; 
 const NAME_OPTIONS_TIELFLING = "Tiefling";
+const SHEETS_NPC = 'Fichas de Npc';
+const SHEETS_MONSTERS = 'Fichas de Monstros';
 //Home page
 const RECORDS = 'REGISTROS';
 const CHARACTER_SHEETS = 'FICHAS';

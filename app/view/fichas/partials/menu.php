@@ -3,13 +3,13 @@
 $HOME = ucfirst(strtolower(HOME));
 
 // menus e urls
-$_MENU_LABELS = [$HOME, NAME_PLACES, NAME_CLASS, NAME_RACES, NAME_CULTURAL, NAME_OTHERS];
-$_MENU_URLS = [HOME_URL, NAME_PLACES_URL, NAME_CLASS_URL, NAME_RACES_URL, NAME_CULTURAL_URL, NAME_OTHERS_URL];
+$_MENU_LABELS = [$HOME, SHEETS_NPC, SHEETS_MONSTERS];
+$_MENU_URLS = [HOME_URL, SHEETS_NPC_URL, SHEETS_MONSTERS_URL];
 
 $tag->div(['class'=>'row']);
 	$tag->div(['class'=>'col-md-12']);
 	    $tag->h2();
-	        $tag->printer(UTILITIES_NAME);
+	        $tag->printer(UTILITIES_CHARACTER_SHEETS);
 	    $tag->h2;
 		
 		$tag->printer(HORIZONTAL_BAR);

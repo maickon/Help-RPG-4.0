@@ -4,14 +4,14 @@ $tag->div(['class'=>'row']);
 	$tag->div(['class'=>'col-md-8']);
 	    $tag->select('class="selectpicker margin" data-show-subtext="true" data-live-search="true" id="select"');
 	        foreach($rpg_nomes as $key => $value):
-	            $tag->option('data-subtext="Nome de '.$value.'" value="'.$key.'" title="'.$key.'"');
+	            $tag->option('data-subtext="Nome de '.$value.'" value="'.$key.'" title="'.$value.'"');
 	                $tag->printer($value);
 	            $tag->option;		
 	        endforeach;
 	    $tag->select;
 	
 	    $tag->span(['class'=>'help-inline']);
-	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=>'Gerar Nome', 'value'=>'Gerar Nome', 'onclick'=>'rand_nomes();']);
+	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=>SHEETS_GENERATION, 'value'=>SHEETS_GENERATION, 'onclick'=>'rand_ficha_npc();']);
 	    $tag->spam;
 
 	    $tag->div('class="checkbox"');
@@ -26,15 +26,6 @@ $tag->div(['class'=>'row']);
 	    $tag->div('class="row"');
 	        $tag->br();
 
-	        for($i=1; $i<10; $i++):
-
-	            $tag->div(['class'=>'col-md-4']);
-	                $tag->span(['id'=>'nome-'.$i.'', 'class'=>'nome form-control input-md no-border background-gradiente-silver']);
-	                $tag->span;
-	                $tag->br;
-	            $tag->div;
-
-	        endfor;
             
   
 	    $tag->div;

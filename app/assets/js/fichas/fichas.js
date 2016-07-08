@@ -1,5 +1,5 @@
 /*
-  Gerador de nomes
+  Gerador de Fichas
   @author Maickon Rangel
   @copyright Help RPG - 2016
 */
@@ -18,16 +18,17 @@ function download_para_pdf(){
   doc.save('sample-file.pdf');
 }
 
-function rand_nomes(){
+function rand_ficha_npc(){
     var selecionado = $("#select").val();
     if(!$('#disable_mode_draw').is(':checked')) {
       var intervalo = window.setInterval(function(){
          var raca = $.ajax({
             type: 'post',
             dataType: 'html',
-            url: JS_NAME_PATH,
+            url: JS_SERVICE_NPC_DED,
             data: {select: selecionado},
             success: function(result){
+              console.log(result);
               var json = (eval("(" + result + ")"));
               var attr = [
                         'nome-1',
@@ -59,9 +60,10 @@ function rand_nomes(){
         var raca = $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_NAME_PATH,
+          url: JS_SERVICE_NPC_DED,
           data: {select: selecionado},
           success: function(result){
+            console.log(result);
             var json = (eval("(" + result + ")"));
             var attr = [
                       'nome-1',

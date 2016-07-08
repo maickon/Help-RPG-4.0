@@ -44,12 +44,12 @@ VAGAS SLIDESHOW SCRIPTS
 $.vegas('slideshow', {
 shuffle: true,
 backgrounds: [
-	{ src: url + 'assets/img/1.jpg', fade: 1000, delay: 9000 },
-	{ src: url + 'assets/img/2.jpg', fade: 1000, delay: 9000 },
-	{ src: url + 'assets/img/3.jpg', fade: 1000, delay: 9000 },
-	{ src: url + 'assets/img/4.jpg', fade: 1000, delay: 9000 },
-	{ src: url + 'assets/img/5.jpg', fade: 1000, delay: 9000 },
-	{ src: url + 'assets/img/6.jpg', fade: 1000, delay: 9000 },
+	{ src: url + 'app/assets/img/1.jpg', fade: 1000, delay: 9000 },
+	{ src: url + 'app/assets/img/2.jpg', fade: 1000, delay: 9000 },
+	{ src: url + 'app/assets/img/3.jpg', fade: 1000, delay: 9000 },
+	{ src: url + 'app/assets/img/4.jpg', fade: 1000, delay: 9000 },
+	{ src: url + 'app/assets/img/5.jpg', fade: 1000, delay: 9000 },
+	{ src: url + 'app/assets/img/6.jpg', fade: 1000, delay: 9000 },
 ],
 
 })('overlay', {
