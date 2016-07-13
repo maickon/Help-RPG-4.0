@@ -1,5 +1,7 @@
 <?php
 require 'rpg-names.php';
+require 'rpg-fichas-id.php';
+require 'rpg-fichas-names.php';
 // site name
 const SITE_NAME = 'Help RPG';
 // symbols

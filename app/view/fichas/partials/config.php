@@ -1,8 +1,8 @@
 <?php
 $rpg_system = [
 	'ded' => RPG_DED, 
-	'ded-4.0' => RPG_DED4EDITION, 
-	'ded-5.0' => RPG_DED5EDITION, 
+	'ded4_0' => RPG_DED4EDITION, 
+	'ded5_0' => RPG_DED5EDITION, 
 	'fate' => RPG_FATE, 
 	'savage_worlds' => RPG_SEVAGE_WORLDS, 
 	'3det' => RPG_3DET, 
@@ -32,7 +32,7 @@ $rpg_system = [
 	'reinos_ferro' => RPG_REINOS_DE_FERRO, 
 	'rpg_quest' => RPG_QUEST, 
 	'scion_hero' => RPG_SCION_HERO, 
-	'shotgun Diaries' => RPG_SHOTGUN_DIARIES, 
+	'shotgun_diaries' => RPG_SHOTGUN_DIARIES, 
 	'shadowrun' => RPG_SHADOWRUN, 
 	'sistemad20' => RPG_SISTEMA_D20, 
 	'space_dragon' => RPG_SPACE_DRAGON, 

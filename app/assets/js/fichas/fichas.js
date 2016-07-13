@@ -4,6 +4,28 @@
   @copyright Help RPG - 2016
 */
 
+var rpg = 'ded';
+$.ajax({
+    type: 'get',
+    url: JS_FICHAS_PATH + rpg,
+    success: function(result){
+      $( "#ficha" ).empty();
+      $( "#ficha" ).append(result);        
+    }
+  });
+  
+$( "select" ).change(function() {
+  var rpg = $("#select").val();
+  var ficha = $.ajax({
+    type: 'get',
+    url: JS_FICHAS_PATH + rpg,
+    success: function(result){
+      $( "#ficha" ).empty();
+      $( "#ficha" ).append(result);        
+    }
+  });
+});
+
 function download_para_pdf(){
   var doc = new jsPDF();
   var specialElementHandlers = {
@@ -28,8 +50,8 @@ function rand_ficha_npc(){
             url: JS_SERVICE_NPC_DED,
             data: {select: selecionado},
             success: function(result){
-              console.log(result);
               var json = (eval("(" + result + ")"));
+              console.log(json['nomeJogador']);
               var attr = [
                         'nome-1',
                         'nome-2',
@@ -63,25 +85,13 @@ function rand_ficha_npc(){
           url: JS_SERVICE_NPC_DED,
           data: {select: selecionado},
           success: function(result){
-            console.log(result);
-            var json = (eval("(" + result + ")"));
-            var attr = [
-                      'nome-1',
-                      'nome-2',
-                      'nome-3',
-                      'nome-4',
-                      'nome-5',
-                      'nome-6',
-                      'nome-7',
-                      'nome-8',           
-                      'nome-9'           
-                      ];
-                      
-            for(var i=0; i<attr.length; i++){
-                $( "#"+attr[i] ).empty();
-                $( "#"+attr[i] ).append(json[i]);
-              } 
-            }
+            var json = (eval("(" + result + ")"));           
+            for(var key in json){
+              $( "#"+key ).empty();
+              $( "#"+key ).append(json[key]); 
+            }  
+          }
         });
     }
 }
+

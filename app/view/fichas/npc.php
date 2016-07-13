@@ -1,10 +1,9 @@
 <?php
 // load each instance required
-require_once "{$_SERVER['DOCUMENT_ROOT']}/app/index.php";
+require "{$_SERVER['DOCUMENT_ROOT']}/app/index.php";
 
 // lista rpgs
 require 'partials/config.php';
-
 // tag instance
 $tag = $lib_instance['tags'];
 
@@ -14,7 +13,7 @@ $ficha = $controllers_instance['fichas']->index();
 $personagem = $ficha->select_sheet('npc_ded');
 
 $rpg_nomes = $rpg_system;
- 
+
 $tag->div(['class'=>'container']);
     $tag->div(['class'=>'row-fluid']);
         

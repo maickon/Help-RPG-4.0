@@ -18,6 +18,9 @@ function __autoload($class_name){
 		case 'Lib':
 			require "{$_SERVER['DOCUMENT_ROOT']}/lib/{$module_name}/{$module_name}.class.php";
 			break;
+		case 'Helper':
+			require "{$_SERVER['DOCUMENT_ROOT']}/app/helpers/{$module_name}/{$module_name}.class.php";
+			break;
 		
 		default:
 			echo 'Nao encontrada!';

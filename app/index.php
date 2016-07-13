@@ -7,6 +7,7 @@
 	@copyright Help RPG - 2016
 */
 
+// ############################# Controllers Class #############################
 require_once "{$_SERVER['DOCUMENT_ROOT']}/config/initialize.php";
 
 $controllers_dir = scandir("{$_SERVER['DOCUMENT_ROOT']}/app/controllers");
@@ -21,6 +22,7 @@ for ($i=0; $i < count($controllers_dir); $i++) {
 	}
 }	
 
+// ############################# Models Class #############################
 $models_dir = scandir("{$_SERVER['DOCUMENT_ROOT']}/app/models");
 $models_instance;
 
@@ -35,6 +37,7 @@ for ($i=0; $i < count($models_dir); $i++) {
 	}
 }	
 
+// ############################# Libs Class #############################
 $lib_dir = scandir("{$_SERVER['DOCUMENT_ROOT']}/lib");
 $lib_instance;
 
@@ -56,11 +59,24 @@ for ($i=0; $i < count($lib_dir); $i++) {
 	}
 }	
 
-// $view_dir = scandir("{$_SERVER['DOCUMENT_ROOT']}/app/view");
-// $view_routers;
+// ############################# Helpers Class #############################
+$helper_dir = scandir("{$_SERVER['DOCUMENT_ROOT']}/app/helpers");
+$helper_instance;
 
-// for ($i=0; $i < count($view_dir); $i++) { 
-// 	if ($i != 0 and $i != 1) {
-// 		$view_routers["{$view_dir[$i]}_path"] = "{$_SERVER['SERVER_NAME']}/app/view/{$view_dir[$i]}/";
-// 	}
-// }	
+foreach ($helper_dir as $key => $value) {
+	if (strstr ($value, '_')) {
+		unset($helper_dir[$key]);
+	}
+}
+
+$helper_dir = array_values($helper_dir);
+
+for ($i=0; $i < count($helper_dir); $i++) { 
+	if ($i != 0 and $i != 1) {
+		$class_part_name = ucfirst($helper_dir[$i]);
+		$class_full_name = "{$class_part_name}_Helper";
+		$object = new $class_full_name;
+		$helper_instance[$helper_dir[$i]] = $object;
+		
+	}
+}	

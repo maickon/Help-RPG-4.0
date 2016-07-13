@@ -11,7 +11,7 @@ $tag->div(['class'=>'row']);
 	    $tag->select;
 	
 	    $tag->span(['class'=>'help-inline']);
-	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=>SHEETS_GENERATION, 'value'=>SHEETS_GENERATION, 'onclick'=>'rand_ficha_npc();']);
+	        $tag->input(['class'=>'btn btn-success margin', 'id'=>'select_option', 'type'=>'button', 'title'=>SHEETS_GENERATION, 'value'=>SHEETS_GENERATION, 'onclick'=>'rand_ficha_npc();']);
 	    $tag->spam;
 
 	    $tag->div('class="checkbox"');
@@ -24,21 +24,9 @@ $tag->div(['class'=>'row']);
 
 	$tag->div(['class'=>'col-md-12', 'id'=>'content']);
 	    $tag->div('class="row"');
-	        $tag->br();
-
-            
-  
+	        $tag->hr();  
+	        $tag->div('id="ficha"');
+	    	$tag->div;
 	    $tag->div;
-
-	    $tag->hr();
-	    
-	    $tag->div('class="row"');
-	        //habilidades basicas
-	         
-	    $tag->div;
-
-	$tag->div;
-
-	$tag->div('id="editor"');
 	$tag->div;
 $tag->div;

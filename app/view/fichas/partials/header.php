@@ -1,6 +1,4 @@
 <?php
-// load each instance required
-require "{$_SERVER['DOCUMENT_ROOT']}/app/index.php";
 
 // tag instance
 $tag = $lib_instance['tags'];
