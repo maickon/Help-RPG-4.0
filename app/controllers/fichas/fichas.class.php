@@ -1,19 +1,30 @@
 <?php
 
 class Fichas_Controller{
-	
+
 	function index(){
 		$ficha = new Fichas_Model;
 		$tag = new Tags_Lib;
-		require "{$_SERVER['DOCUMENT_ROOT']}/app/view/fichas/index.php";
+		// load the fichas view
+		require (new Render_Lib($ficha))->get_required_path();
 	}
 
-	function select_sheet($system_rpg){
-		$url = "fichas/partials/fichas/{$system_rpg}";
-
+	function select_sheet(){
+		$ficha = new Fichas_Model;
+		$helper = new Fichas_Helper;
+		$tag = new Tags_Lib;
+		require (new Render_Lib("partials/fichas"))->get_required_path();
 	}
 
-	function page_not_found(){
-		echo 'page_not_found';
+	function service($system_rpg){
+		$ficha = new Fichas_Model;
+		$helper = new Fichas_Helper;
+		$tag = new Tags_Lib;
+		require (new Render_Lib('fichas/service'))->get_required_path();
+	}
+
+
+	function error($parameters){
+		(new Errors_Lib())->show($parameters);
 	}
 }

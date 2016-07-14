@@ -5,6 +5,7 @@
 */
 
 var rpg = 'ded';
+console.log(JS_FICHAS_PATH + '/' + rpg);
 $.ajax({
     type: 'get',
     url: JS_FICHAS_PATH + '/' + rpg,
@@ -18,7 +19,7 @@ $( "select" ).change(function() {
   var rpg = $("#select").val();
   var ficha = $.ajax({
     type: 'get',
-    url: JS_FICHAS_PATH + rpg,
+    url: JS_FICHAS_PATH + '/' + rpg,
     success: function(result){
       $( "#ficha" ).empty();
       $( "#ficha" ).append(result);        

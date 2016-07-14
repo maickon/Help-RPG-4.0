@@ -14,3 +14,5 @@ foreach ($_JS as $key => $value) {
     $tag->script('src="' . $value . '" rel="stylesheet"'); 
     $tag->script;
 }
+
+$tag->html;

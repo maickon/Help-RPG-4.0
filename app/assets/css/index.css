@@ -17,20 +17,23 @@ img{
 }
 
 .background_white{
-padding: 20px;
-border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-margin-bottom: 40px;
-background-color: rgba(255, 255, 255, 0.10);
-cursor: pointer;
--webkit-transition: all 0.5s ease-in-out;
--moz-transition: all 0.5s ease-in-out;
--o-transition: all 0.5s ease-in-out;
-transition: all 0.5s ease-in-out;
+	padding: 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 40px;
+	background-color: rgba(255, 255, 255, 0.10);
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 .background_white:hover {
-background-color: rgba(255, 255, 255, 0.20);
+	background-color: rgba(255, 255, 255, 0.20);
 }
+
+.color-font-black{
+	color: #000000;
 }

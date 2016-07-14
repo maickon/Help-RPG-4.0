@@ -1,7 +1,6 @@
 <?php
 $tag->printer('<!DOCTYPE html>');
-    $tag->html('lang="en" class="no-js"');
-    
+$tag->html('lang="en" class="no-js"');
     $tag->head();
         $tag->meta('charset="utf-8"'); 
         $tag->meta('name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"');
@@ -33,5 +32,6 @@ $tag->printer('<!DOCTYPE html>');
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
             </script>
         <![endif]-->');
-
     $tag->head;
+    // body partial from home page
+    $tag->body('data-spy="scroll" data-target="#menu-section"');

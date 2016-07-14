@@ -1,17 +1,14 @@
 <?php 
-// load each instance required
-require "{$_SERVER['DOCUMENT_ROOT']}/app/index.php";
 
-// tag instance
-$tag = $lib_instance['tags'];
-
-// dados dos modelo de home
-$home = $controllers_instance['home']->index();
-    
-    // header partial from home page
-    require 'partials/header.php';
-
-    // body partial from home page
-    require 'partials/body.php';
-
-$tag->html;
+// header partial from home page
+require 'partials/header.php';
+// top menu partial
+require 'partials/menu.php';
+// home page section
+require 'partials/home.php';
+// utilitaries page section
+require 'partials/utilitarios.php';
+// contact page section
+require 'partials/contato.php';
+// footer page section
+require 'partials/footer.php';

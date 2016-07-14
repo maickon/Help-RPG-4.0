@@ -1,12 +1,4 @@
 <?php
-// load each instance required
-require_once "{$_SERVER['DOCUMENT_ROOT']}/app/index.php";
-
-// tag instance
-$tag = $lib_instance['tags'];
-
-// helper instance
-$helper = $helper_instance['fichas'];
 
 $tag->div('class="col-md-12"');
 	$tag->div('class="form-group"');
