@@ -2,7 +2,7 @@
 class Armaduras_Controller{
 
 	function index(){
-		$armadura = new Armaduras(ROOTPATH.ARMADURASIMGPATH);
+		$armadura = new Armaduras_Model(ROOTPATH.ARMADURASIMGPATH);
 		$armaduras = $armadura->select($armadura->getTable());
 		return $armaduras;
 	}
@@ -31,5 +31,9 @@ class Armaduras_Controller{
 		else:
 			help_header(ROOTPATHURL.ARMADURASPATH.'?status=error');
 		endif;
+	}
+
+	function page_not_found(){
+		echo 'page_not_found';
 	}
 }

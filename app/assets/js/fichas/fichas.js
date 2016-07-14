@@ -7,7 +7,7 @@
 var rpg = 'ded';
 $.ajax({
     type: 'get',
-    url: JS_FICHAS_PATH + rpg,
+    url: JS_FICHAS_PATH + '/' + rpg,
     success: function(result){
       $( "#ficha" ).empty();
       $( "#ficha" ).append(result);        

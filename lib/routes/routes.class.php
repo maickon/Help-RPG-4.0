@@ -1,11 +1,13 @@
 <?php
 /*
 	Class Routes_Lib
-	Realiza a requisiçao de paginas analizando
-	a URL passado pelo navegador.
+	Filtra a URL para o controlador decidir o que fazer
 	@author Maickon Rangel
 	@copyright help RPG - 2016
 */
+
+// torna todoas as instancias possiveis
+require_once "{$_SERVER['DOCUMENT_ROOT']}/config/initialize.php";
 
 class Routes_Lib{
 
@@ -16,52 +18,44 @@ class Routes_Lib{
 	function router(){
 		$url = (isset($_GET['url'])) ? $_GET['url'] : '';
 		$url =  array_filter(explode('/', $url));
-		$file_path;
-		$string_file_path = '';
 
-		if (count($url) > 1) {
-			foreach ($url as $key => $value) {
-				if (is_numeric($value)) {
-					$_GET['id'] = $value;
-				} else {
-					if ($key == (count($url) - 1)) {
-						$file_path[] = "{$value}.php";
-					} else {
-						$file_path[] = "{$value}/";
+		// define o nome da classe
+		$class = ucfirst("{$url[0]}_Controller");
+		$action = 'page_not_found';
+		$parameters = array();
+		// verifica se a classe existe
+		if (class_exists("{$class}")) {
+			$object = new $class;
+			// indice 1 e metodo, verifica-se a posicao 1 nao esta vazia
+			// e se tem exatamente dois elementos em $url
+			if (isset($url[1]) && count($url) == 2) {
+				if (method_exists($object, $url[1])) {
+					// se nao vaiza, define a acao
+					$action = "{$url[1]}";	
+				}
+			} elseif (count($url) > 2) {
+				foreach ($url as $key => $value) {
+					if (($key != 1) && ($key != 0)) {
+						$parameters[$key] = $value;
 					}
 				}
-			}	
-
-			// troca a barra '/' no final pela extencao .php
-			if (isset($_GET['id'])) {
-				$file_path[count($file_path) - 1] = str_replace('/', '.php', end($file_path));
-			}
-
-			// percorre o array e monta uma string URL
-			foreach ($file_path as $key => $value) {
-				$string_file_path .= $value;
-			}
-
-			$url = $string_file_path;
-
-			if (file_exists("{$_SERVER['DOCUMENT_ROOT']}/app/{$url}")) {
-				require_once "{$_SERVER['DOCUMENT_ROOT']}/app/{$url}";
-			} elseif (file_exists("{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url}")) {
-				require_once "{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url}";
+				$parameters = array_values($parameters);
+				$action = "{$url[1]}";
+			} elseif (method_exists($object, 'index')) {
+				$action = 'index';
+			} 
+			// chama o metodo definito em action
+			if (empty($parameters)) {
+				$object->$action();
+			} elseif (count($parameters) == 1) {
+				$object->$action($parameters[0]);
 			} else {
-				echo '<h1>URL não Encontrada!</h1>';
-				echo "<b>{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url}</b>";
-				// require "{$_SERVER['DOCUMENT_ROOT']}/teste.php";
-			}
-		} elseif (isset($url[0])) {
-			if (file_exists("{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url[0]}/index.php")) {
-				require_once "{$_SERVER['DOCUMENT_ROOT']}/app/view/{$url[0]}/index.php";
-			} else {
-				// require "{$_SERVER['DOCUMENT_ROOT']}/teste.php";
+				$object->$action($parameters);	
 			}
 		} else {
-			require_once "{$_SERVER['DOCUMENT_ROOT']}/app/view/home/index.php";
+			$action = 'page_not_found';
+			// chama o metodo definito em action
+			$object->$action();
 		}
-	
 	}
 }

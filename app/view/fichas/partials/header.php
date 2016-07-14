@@ -1,8 +1,4 @@
 <?php
-
-// tag instance
-$tag = $lib_instance['tags'];
-
 $tag->printer('<!DOCTYPE html>');
 
 $tag->html();
