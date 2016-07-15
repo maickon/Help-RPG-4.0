@@ -1,4 +1,7 @@
 <?php
+$type = explode('/', $_GET['url']);
+$type = empty(end($type)) ? 'npc' : end($type);
+
 $tag->br();
 $tag->div(['class'=>'row']);
 	$tag->div(['class'=>'col-md-8']);
@@ -11,7 +14,7 @@ $tag->div(['class'=>'row']);
 	    $tag->select;
 	
 	    $tag->span(['class'=>'help-inline']);
-	        $tag->input(['class'=>'btn btn-success margin', 'id'=>'select_option', 'type'=>'button', 'title'=>SHEETS_GENERATION, 'value'=>SHEETS_GENERATION, 'onclick'=>'rand_ficha_npc();']);
+	        $tag->input(['class'=>'btn btn-success margin', 'id'=>'select_option', 'type'=>'button', 'title'=>SHEETS_GENERATION, 'value'=>SHEETS_GENERATION, 'onclick'=>'rand_ficha_npc(\''.$type.'\');']);
 	    $tag->spam;
 
 	    $tag->div('class="checkbox"');

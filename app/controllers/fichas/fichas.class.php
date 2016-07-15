@@ -6,14 +6,19 @@ class Fichas_Controller{
 		$ficha = new Fichas_Model;
 		$tag = new Tags_Lib;
 		// load the fichas view
-		require (new Render_Lib($ficha))->get_required_path();
+		require (new Render_Lib())->get_required_path();
 	}
 
+	/*
+		@method select_sheet
+		Vai renderizar uma ficha pre formatada
+		de acordo com o sistema de RPG selecionado
+	*/
 	function select_sheet(){
 		$ficha = new Fichas_Model;
 		$helper = new Fichas_Helper;
 		$tag = new Tags_Lib;
-		require (new Render_Lib("partials/fichas"))->get_required_path();
+		require (new Render_Lib("partials/fichas_monstros"))->get_required_path();
 	}
 
 	function service($system_rpg){
@@ -22,13 +27,13 @@ class Fichas_Controller{
 
 	function npc(){
 		$tag = new Tags_Lib;
-		$personagem = (new Fichas_Model)->select_sheet('npc_ded');
+		$personagem = (new Fichas_Model)->select_sheet('ded_npc');
 		require (new Render_Lib())->get_required_path();
 	}
 
 	function monstros(){
 		$tag = new Tags_Lib;
-		$personagem = (new Fichas_Model)->select_sheet('monstro_ded');
+		$personagem = (new Fichas_Model)->select_sheet('ded_monstros');
 		require (new Render_Lib())->get_required_path();
 	}
 

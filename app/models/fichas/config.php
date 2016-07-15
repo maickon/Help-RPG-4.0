@@ -1,5 +1,5 @@
 <?php
 $instances_of_sheet = [
-	'monstro_ded' => 'Monstros',
-	'npc_ded' => 'Personagem'
+	'ded_monstros' => 'Monstros',
+	'ded_npc' => 'Personagem'
 ];

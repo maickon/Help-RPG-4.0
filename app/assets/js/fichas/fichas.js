@@ -5,7 +5,6 @@
 */
 
 var rpg = 'ded';
-console.log(JS_FICHAS_PATH + '/' + rpg);
 $.ajax({
     type: 'get',
     url: JS_FICHAS_PATH + '/' + rpg,
@@ -41,14 +40,14 @@ function download_para_pdf(){
   doc.save('sample-file.pdf');
 }
 
-function rand_ficha_npc(){
+function rand_ficha_npc(type){
     var selecionado = $("#select").val();
     if(!$('#disable_mode_draw').is(':checked')) {
       var intervalo = window.setInterval(function(){
          var raca = $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_NPC_DED,
+          url: JS_SERVICE_NPC_DED + '_' + type,
           data: {select: selecionado},
           success: function(result){
             var json = (eval("(" + result + ")"));           
@@ -67,7 +66,7 @@ function rand_ficha_npc(){
         var raca = $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_NPC_DED,
+          url: JS_SERVICE_NPC_DED + '_' + type,
           data: {select: selecionado},
           success: function(result){
             var json = (eval("(" + result + ")"));           
