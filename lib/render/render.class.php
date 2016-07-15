@@ -27,28 +27,35 @@ class Render_Lib{
 	*/
 
 	function render($view){
-		// separa a url por barras
-		$url = array_filter(explode('/', $_GET['url']));
+		$get_url = (isset($_GET['url'])) ? $_GET['url'] : '';
 	
-		// define o caminho base da view
-		$veiw_path = "{$_SERVER['DOCUMENT_ROOT']}/app/view/";
-
+		if ($get_url == '') {
+			$get_url = 'home/';	
+		}
+		// separa a url por barras
+		$url = array_filter(explode('/', $get_url));
+	
 		$file_name = '';
+
 		
 		if (!isset($url[1])) {
 			// parte do path
 			$partial_path = "{$url[0]}/index.php";		
-		} elseif (isset($view)) {
+		} elseif ($view != '') {
 			// parte do path
 			$partial_path = "{$url[0]}/{$view}/";
-		} else {
+		} elseif (count($url) >= 3) {
 			// parte do path
 			$partial_path = "{$url[0]}/{$url[1]}/";
+		} else {
+			$partial_path = "{$url[0]}/{$url[1]}.php";
 		}
+		
+		// define o caminho base da view
+		$veiw_path = "{$_SERVER['DOCUMENT_ROOT']}/app/view/";
 
 		// completa o cominho add o controller e a view
 		$complet_path = "{$veiw_path}{$partial_path}";
-		echo $complet_path;
 
 		// retira do array o controller e a view
 		unset($url[0]);
@@ -67,7 +74,7 @@ class Render_Lib{
 
 		// redefine o caminho completo
 		$complet_path .= $file_name;
-
+		
 		// checa sua existencia
 		if (file_exists("{$complet_path}")) {
 			$this->required_path = "{$complet_path}";

@@ -46,34 +46,18 @@ function rand_ficha_npc(){
     if(!$('#disable_mode_draw').is(':checked')) {
       var intervalo = window.setInterval(function(){
          var raca = $.ajax({
-            type: 'post',
-            dataType: 'html',
-            url: JS_SERVICE_NPC_DED,
-            data: {select: selecionado},
-            success: function(result){
-              var json = (eval("(" + result + ")"));
-              console.log(json['nomeJogador']);
-              var attr = [
-                        'nome-1',
-                        'nome-2',
-                        'nome-3',
-                        'nome-4',
-                        'nome-5',
-                        'nome-6',
-                        'nome-7',
-                        'nome-8',           
-                        'nome-9'           
-                        ];
-                        
-              for(var i=0; i<attr.length; i++){
-                  $( "#"+attr[i] ).empty();
-                  $( "#"+attr[i] ).append(json[i]);
-                } 
-              }
-          });
-
-
-
+          type: 'post',
+          dataType: 'html',
+          url: JS_SERVICE_NPC_DED,
+          data: {select: selecionado},
+          success: function(result){
+            var json = (eval("(" + result + ")"));           
+            for(var key in json){
+              $( "#"+key ).empty();
+              $( "#"+key ).append(json[key]); 
+            }  
+          }
+        });
       }, speed);
 
        window.setTimeout(function() {

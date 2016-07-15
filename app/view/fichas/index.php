@@ -3,9 +3,6 @@
 // lista rpgs
 require 'partials/config.php';
 
-// npc_ded ou monstro_ded
-$personagem = $ficha->select_sheet('npc_ded');
-
 $rpg_nomes = $rpg_system;
  
 $tag->div(['class'=>'container']);

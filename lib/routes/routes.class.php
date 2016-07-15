@@ -18,7 +18,7 @@ class Routes_Lib{
 	function router(){
 		$url = (isset($_GET['url'])) ? $_GET['url'] : '';
 	
-		if (isset($url)) {
+		if ($url != '') {
 			$url =  array_filter(explode('/', $url));
 			// define o nome da classe
 			$class = ucfirst("{$url[0]}_Controller");

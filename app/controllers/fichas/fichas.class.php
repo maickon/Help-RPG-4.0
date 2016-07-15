@@ -17,12 +17,20 @@ class Fichas_Controller{
 	}
 
 	function service($system_rpg){
-		$ficha = new Fichas_Model;
-		$helper = new Fichas_Helper;
-		$tag = new Tags_Lib;
-		require (new Render_Lib('fichas/service'))->get_required_path();
+		echo json_encode((new Fichas_Model)->select_sheet($system_rpg));
 	}
 
+	function npc(){
+		$tag = new Tags_Lib;
+		$personagem = (new Fichas_Model)->select_sheet('npc_ded');
+		require (new Render_Lib())->get_required_path();
+	}
+
+	function monstros(){
+		$tag = new Tags_Lib;
+		$personagem = (new Fichas_Model)->select_sheet('monstro_ded');
+		require (new Render_Lib())->get_required_path();
+	}
 
 	function error($parameters){
 		(new Errors_Lib())->show($parameters);
