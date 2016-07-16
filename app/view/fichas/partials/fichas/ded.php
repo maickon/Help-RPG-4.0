@@ -23,7 +23,7 @@ $tag->div('class="col-md-12"');
 	$tag->div;	
 $tag->div;	
 
-$tag->div('class="col-md-4"');
+$tag->div('class="col-md-12"');
 	$tag->div('class="form-group"');
 		$helper->label_sheet(SHEET_FORCE_LABELS, SHEET_FORCE_ID);
 		$helper->label_sheet(SHEET_DEXTERITY_LABELS, SHEET_DEXTERITY_ID);

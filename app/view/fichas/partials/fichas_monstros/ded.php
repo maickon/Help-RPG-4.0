@@ -2,24 +2,15 @@
 
 $tag->div('class="col-md-12"');
 	$tag->div('class="form-group"');
-		$helper->label_sheet(SHEET_NAME_LABELS, SHEET_NAME_ID);
-		$helper->label_sheet(SHEET_NAME_PLAYER_LABELS, SHEET_NAME_PLAYER_ID);
-		$helper->label_sheet(SHEET_XP_LABELS, SHEET_XP_ID);
-		$helper->label_sheet(SHEET_LEVEL_LABELS, SHEET_LEVEL_ID);
-		$helper->label_sheet(SHEET_DICE_LIFE_LABELS, SHEET_DICE_LIFE_ID);
-		$helper->label_sheet(SHEET_RACE_LABELS, SHEET_RACE_ID);
-		$helper->label_sheet(SHEET_CLASS_LABELS, SHEET_CLASS_ID);
-		$helper->label_sheet(SHEET_GOD_NAME_LABELS, SHEET_GOD_NAME_ID);
-		$helper->label_sheet(SHEET_RELIGION_LABELS, SHEET_RELIGION_ID);
-		$helper->label_sheet(SHEET_TREND_LABELS, SHEET_TREND_ID);
+		$helper->label_sheet(SHEET_TYPE, SHEET_TYPE_ID);
+		$helper->label_sheet(SHEET_SUBTYPE, SHEET_SUBTYPE_ID);
 		$helper->label_sheet(SHEET_SIZE_LABELS, SHEET_SIZE_ID);
-		$helper->label_sheet(SHEET_AGE_LABELS, SHEET_AGE_ID);
-		$helper->label_sheet(SHEET_SEX_LABELS, SHEET_SEX_ID);
+		$helper->label_sheet(SHEET_CHALLENGE_LEVEL, SHEET_CHALLENGE_LEVEL_ID);
+		$helper->label_sheet(SHEET_SPACE, SHEET_SPACE_ID);
+		$helper->label_sheet(SHEET_REACH, SHEET_REACH_ID);
 		$helper->label_sheet(SHEET_HEIGHT_LABELS, SHEET_HEIGHT_ID);
 		$helper->label_sheet(SHEET_WEIGHT_LABELS, SHEET_WEIGHT_ID);
-		$helper->label_sheet(SHEET_EYES_LABELS, SHEET_EYES_ID);
-		$helper->label_sheet(SHEET_HAIR_LABELS, SHEET_HAIR_ID);
-		$helper->label_sheet(SHEET_SKIN_LABELS, SHEET_SKIN_ID);
+		
 	$tag->div;	
 $tag->div;	
 

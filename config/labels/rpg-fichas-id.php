@@ -42,3 +42,9 @@ const SHEET_SKILLS_NAME_ID = 'pericias_nome';
 const SHEET_SKILLS_MOD_ID = 'pericias_mod';
 const SHEET_CLASS_ARMOR_ID = 'CA';
 const SHEET_HEALTH_POINTS_ID = 'PV';
+// Fichas monstros
+const SHEET_TYPE_ID = 'tipo';
+const SHEET_SUBTYPE_ID = 'subtipo';
+const SHEET_CHALLENGE_LEVEL_ID = 'nivel_desafio';
+const SHEET_SPACE_ID = 'espaco';
+const SHEET_REACH_ID = 'alcance';
