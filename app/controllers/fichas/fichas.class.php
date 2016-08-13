@@ -6,7 +6,7 @@ class Fichas_Controller{
 		$ficha = new Fichas_Model;
 		$tag = new Tags_Lib;
 		// load the fichas view
-		require (new Render_Lib())->get_required_path();
+		require (new Render_Lib('fichas/index'))->get_required_path();
 	}
 
 	/*
@@ -14,15 +14,20 @@ class Fichas_Controller{
 		Vai renderizar uma ficha pre formatada
 		de acordo com o sistema de RPG selecionado
 	*/
-	function select_sheet(){
+	function select_sheet($sheet){
 		$ficha = new Fichas_Model;
 		$helper = new Fichas_Helper;
 		$tag = new Tags_Lib;
-		require (new Render_Lib("partials/fichas_monstros"))->get_required_path();
+		require (new Render_Lib("partials/fichas_monstros/{$sheet}"))->get_required_path();
 	}
 
 	function service($system_rpg){
 		echo json_encode((new Fichas_Model)->select_sheet($system_rpg));
+	}
+
+	function get_ficha($system_rpg){
+		echo '<pre>';
+		print_r((new Fichas_Model)->select_sheet($system_rpg));
 	}
 
 	function npc(){

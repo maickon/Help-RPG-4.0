@@ -1,7 +1,7 @@
 <?php
 // main URLS
-const URL_BASE = 'http://127.0.0.1/';
-const URL_BASE_INTERNAL = 'C:/xampp/htdocs/';
+const URL_BASE = 'http://127.0.0.1/help-rpg-teste/';
+const URL_BASE_INTERNAL = 'C:/xampp/htdocs/help-rpg-teste/';
 // css path
 const CSS_BOOTSTRAP = URL_BASE . 'app/assets/css/bootstrap.css';
 const CSS_BOOTSTRAP_SELECT = URL_BASE . 'app/assets/css/bootstrap-select.css';

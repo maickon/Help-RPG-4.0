@@ -6,9 +6,6 @@
 	@copyright help RPG - 2016
 */
 
-// torna todoas as instancias possiveis
-require_once "{$_SERVER['DOCUMENT_ROOT']}/config/initialize.php";
-
 class Routes_Lib{
 
 	function __construct(){

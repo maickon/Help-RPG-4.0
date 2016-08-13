@@ -8,7 +8,7 @@ var speed = 50;
 var time = 950;
 
 // URL base
-var URL_BASE = 'http://127.0.0.1/';
+var URL_BASE = 'http://127.0.0.1/help-rpg-teste/';
 
 // utilitarios service path
 /*

@@ -9,11 +9,11 @@ class Fichas_Helper{
 		$this->form = new Form_Lib;
 	}
 	
-	function label_sheet($label, $name){
-		$this->tag->label();
+	function label_sheet($label, $name = ''){
+		$this->tag->label('class="ficha-label"');
 			$this->tag->printer($label);
 		$this->tag->label;
-		$this->tag->span('id="'.$name.'"');
+		$this->tag->span('class="ficha-value" id="'.$name.'"');
 		$this->tag->span;
 	}
 }

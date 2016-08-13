@@ -37,7 +37,7 @@ $('#carousel-slider').carousel({
 interval: 2000 //TIME IN MILLI SECONDS
 });
 
-var url = 'http://127.0.0.1/';
+var url = 'http://127.0.0.1/help-rpg-teste/';
 /*====================================
 VAGAS SLIDESHOW SCRIPTS
 ======================================*/

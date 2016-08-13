@@ -1,4 +1,4 @@
 <?php
 
-require 'lib/routes/routes.class.php';
+require 'config/initialize.php';
 new Routes_Lib;

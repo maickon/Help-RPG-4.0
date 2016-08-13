@@ -1,7 +1,4 @@
 <?php
-require_once "{$_SERVER['DOCUMENT_ROOT']}/app/index.php";
-
-$d = $controllers_instance['dados']->service();
 
 $result = [];
 $dado = isset($_POST['dado']) ? $_POST['dado'] : null;

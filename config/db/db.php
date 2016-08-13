@@ -2,7 +2,7 @@
 // Help RPG Database configuration
 
 //data base name
-const DB_NAME = 'helpr248_producao';
+const DB_NAME = 'help_db_producao';
 
 // data base host
 const DB_HOST = 'localhost';

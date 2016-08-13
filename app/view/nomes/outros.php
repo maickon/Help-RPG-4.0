@@ -1,11 +1,4 @@
 <?php
-// load each instance required
-require "{$_SERVER['DOCUMENT_ROOT']}/app/index.php";
-
-// tag instance
-$tag = $lib_instance['tags'];
-
-
 // options select
  $rpg_nomes = [ 
         'sobrenome'           => NAME_OPTIONS_LAST_NAME,

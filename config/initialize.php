@@ -1,16 +1,18 @@
 <?php
-require "{$_SERVER['DOCUMENT_ROOT']}/config/db/db.php";
-require "{$_SERVER['DOCUMENT_ROOT']}/config/labels/labels.php";
-require "{$_SERVER['DOCUMENT_ROOT']}/config/url/url.php";
+
+require "url/url.php";
+require URL_BASE_INTERNAL . "config/db/db.php";
+require URL_BASE_INTERNAL . "config/labels/labels.php";
+
 
 function __autoload($class_name){
 	$divide_name = explode('_', $class_name);
 	$module_name = strtolower($divide_name[0]);
 	
-	$controllers_path =	"{$_SERVER['DOCUMENT_ROOT']}/app/controllers/";
-	$model_path = "{$_SERVER['DOCUMENT_ROOT']}/app/models/";
-	$lib_path =	"{$_SERVER['DOCUMENT_ROOT']}/lib/";
-	$helper_path =	"{$_SERVER['DOCUMENT_ROOT']}/app/helpers/";
+	$controllers_path =	URL_BASE_INTERNAL . "/app/controllers/";
+	$model_path = URL_BASE_INTERNAL . "/app/models/";
+	$lib_path =	URL_BASE_INTERNAL . "/lib/";
+	$helper_path =	URL_BASE_INTERNAL . "/app/helpers/";
 
 	switch ($divide_name[1]) {
 		case 'Controller':

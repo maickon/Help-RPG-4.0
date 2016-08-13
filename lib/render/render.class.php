@@ -39,11 +39,11 @@ class Render_Lib{
 
 		
 		if (!isset($url[1])) {
-			// parte do path
+			// caminho principal da view
 			$partial_path = "{$url[0]}/index.php";		
 		} elseif ($view != '') {
 			// parte do path
-			$partial_path = "{$url[0]}/{$view}/";
+			$partial_path = "{$url[0]}/{$view}";
 		} elseif (count($url) >= 3) {
 			// parte do path
 			$partial_path = "{$url[0]}/{$url[1]}/";
@@ -52,7 +52,7 @@ class Render_Lib{
 		}
 		
 		// define o caminho base da view
-		$veiw_path = "{$_SERVER['DOCUMENT_ROOT']}/app/view/";
+		$veiw_path = URL_BASE_INTERNAL . "app/view/";
 
 		// completa o cominho add o controller e a view
 		$complet_path = "{$veiw_path}{$partial_path}";
@@ -63,20 +63,26 @@ class Render_Lib{
 		
 		// percorre o array e monta a parte do caminho que
 		// representa as subpastas
-		foreach ($url as $key => $value) {
-			if (end($url) == $value) {
-				// subentende se que o ultimo da lista e um arquivo.php
-				$file_name .= "{$value}.php";
-			} else {
-				$file_name .= "{$value}/";
+		if ($view == '') {
+			foreach ($url as $key => $value) {
+				if (end($url) == $value) {
+					// subentende se que o ultimo da lista e um arquivo.php
+					$file_name .= "{$value}.php";
+				} else {
+					$file_name .= "{$value}/";
+				}
 			}
 		}
 
 		// redefine o caminho completo
 		$complet_path .= $file_name;
-		
+	
 		// checa sua existencia
-		if (file_exists("{$complet_path}")) {
+		if (file_exists("{$complet_path}.php")) {
+			$this->required_path = "{$complet_path}.php";
+		} elseif (file_exists("{$complet_path}/index.php")) {
+			$this->required_path = "{$complet_path}/index.php";
+		} elseif (file_exists("{$complet_path}")){
 			$this->required_path = "{$complet_path}";
 		} else {
 			// caso contratio lanca um erro
