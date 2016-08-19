@@ -17,6 +17,7 @@ var URL_BASE = 'http://127.0.0.1/help-rpg-teste/';
 	Chama a classe Dados_cotroller e o seu metodo service
 */
 var JS_SERVICE_DICE_PATH = URL_BASE + 'dados/service';
+var JS_SERVICE_ADVENTURE_PATH = URL_BASE + 'geradorAventuras/service';
 var JS_SERVICE_NAME_PATH = URL_BASE + 'nomes/service';
 var JS_SERVICE_NPC_DED = URL_BASE + 'fichas/service/ded';
 var JS_SERVICE_MONSTROS_PATH = URL_BASE + 'fichas/service/ded';

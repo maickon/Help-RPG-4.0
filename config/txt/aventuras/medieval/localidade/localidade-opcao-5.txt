@@ -1,6 +1,6 @@
-no forte local
-em um pequeno vilarejo
-no complexo de cavernas próximo
-na floresta escura
-no território inimigo
-em uma estalagem na estrada
+Fronteira no forte local
+Fronteira em um pequeno vilarejo
+Fronteira no complexo de cavernas próximo
+Fronteira na floresta escura
+Fronteira no território inimigo
+Fronteira em uma estalagem na estrada

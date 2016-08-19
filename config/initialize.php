@@ -2,7 +2,7 @@
 
 require "url/url.php";
 require URL_BASE_INTERNAL . "config/db/db.php";
-require URL_BASE_INTERNAL . "config/labels/labels.php";
+require URL_BASE_INTERNAL . "config/labels/pt-br/labels.php";
 
 
 function __autoload($class_name){

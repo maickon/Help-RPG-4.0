@@ -50,7 +50,7 @@ function rand_ficha_npc(type){
           url: JS_SERVICE_NPC_DED + '_' + type,
           data: {select: selecionado},
           success: function(result){
-            var json = (eval("(" + result + ")"));           
+            var json = (eval("(" + result + ")"));         
             for(var key in json){
               $( "#"+key ).empty();
               $( "#"+key ).append(json[key]); 

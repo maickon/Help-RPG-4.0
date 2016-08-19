@@ -1,6 +1,6 @@
-Companhia de mercenários
-Ordem religiosa
-Guilda influente
-Sociedade secreta
-Comunidade local
-Grupo de aventureiros
+Organização - Companhia de mercenários
+Organização - Ordem religiosa
+Organização - Guilda influente
+Organização - Sociedade secreta
+Organização - Comunidade local
+Organização - Grupo de aventureiros

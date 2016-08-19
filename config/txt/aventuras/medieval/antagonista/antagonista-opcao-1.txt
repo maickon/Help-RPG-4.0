@@ -1,6 +1,6 @@
-Feiticeiro ou Bruxo Poderoso
-Sacerdote do Caos
-Líder Bárbaro selvagem
-Nobre enlouquecido
-Líder de uma Guilda influente
-Guerreiro ganancioso
+Pessoa Poderosa - Feiticeiro ou Bruxo Poderoso
+Pessoa Poderosa - Sacerdote do Caos
+Pessoa Poderosa - Líder Bárbaro selvagem
+Pessoa Poderosa - Nobre enlouquecido
+Pessoa Poderosa - Líder de uma Guilda influente
+Pessoa Poderosa - Guerreiro ganancioso

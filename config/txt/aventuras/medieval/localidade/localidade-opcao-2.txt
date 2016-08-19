@@ -1,6 +1,6 @@
-no templo local
-no palácio do nobre
-na sede da guilda dos mercadores
-em um museu
-na zona pobre e suja
-no subterrâneo da cidade
+Cidade Grande no templo local
+Cidade Grande no palácio do nobre
+Cidade Grande na sede da guilda dos mercadores
+Cidade Grande em um museu
+Cidade Grande na zona pobre e suja
+Cidade Grande no subterrâneo da cidade

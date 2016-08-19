@@ -1,6 +1,6 @@
-Grande número de inocentes afetados
-Pessoa amada em perigo
-Rival afetado que pede ajuda
-Nobre orgulhoso
-Monstro inocente
-Entidade sobrenatural
+Vítimas - Grande número de inocentes afetados
+Vítimas - Pessoa amada em perigo
+Vítimas - Rival afetado que pede ajuda
+Vítimas - Nobre orgulhoso
+Vítimas - Monstro inocente
+Vítimas - Entidade sobrenatural

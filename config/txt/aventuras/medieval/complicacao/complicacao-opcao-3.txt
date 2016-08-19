@@ -1,6 +1,6 @@
-Tempestade furiosa
-Monstro descontrolado
-Vulcão ativo
-Desastre mágico
-Plantas perigosas
-Bestas selvagens
+Perigos - Tempestade furiosa
+Perigos - Monstro descontrolado
+Perigos - Vulcão ativo
+Perigos - Desastre mágico
+Perigos - Plantas perigosas
+Perigos - Bestas selvagens
