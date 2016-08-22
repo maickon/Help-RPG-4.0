@@ -21,10 +21,10 @@ require 'rpg-fichas-names/rpg-fichas-names.php';
 
 // nomes de rpgs
 require 'rpg-names/rpg-names.php';
-
 // utilitarios
 require 'utilitarios/aventuras/aventuras-labels.php';
 require 'utilitarios/dados/dados-labels.php';
 require 'utilitarios/fichas/fichas-label.php';
 require 'utilitarios/nomes/nomes-labels.php';
 require 'utilitarios/outros/outros-labels.php';
+require 'utilitarios/tavernas/tavernas.php';

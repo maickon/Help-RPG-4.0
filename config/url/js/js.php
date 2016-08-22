@@ -16,3 +16,4 @@ const JS_NAME = URL_BASE . 'app/assets/js/nomes/nomes.js';
 const JS_SHEETS = URL_BASE . 'app/assets/js/fichas/fichas.js';
 const JS_CONFIG = URL_BASE . 'app/assets/js/config.js';
 const JS_AVENTURAS = URL_BASE . 'app/assets/js/aventuras/aventuras.js';
+const JS_TAVERN = URL_BASE . 'app/assets/js/tavernas/tavernas.js';

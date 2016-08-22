@@ -9,6 +9,7 @@ class GeradorAventuras_Controller extends Controller_Lib{
 	function index(){
 		$tag = new Tags_Lib();
 		$form = new Form_Lib();
+		$home_helper = new Home_Helper();
 		require (new Render_Lib())->get_required_path();
 	}
 

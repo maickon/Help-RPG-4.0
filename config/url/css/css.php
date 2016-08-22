@@ -11,3 +11,4 @@ const CSS_STYLE_SITE = URL_BASE . 'app/assets/css/style-site.css';
 const CSS_DICE = URL_BASE . 'app/assets/css/dice/dice.css';
 const CSS_NAME_FONT = URL_BASE . 'app/assets/css/nomes/fonts.css';
 const CSS_DOCS = URL_BASE . 'app/assets/css/docs.min.css';
+const CSS_ANIMATE = URL_BASE . 'app/assets/css/animate.min.css';

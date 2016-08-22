@@ -3,11 +3,10 @@
 $tag->div(['class'=>'row']);
 	$tag->div(['class'=>'col-md-12']);
 	    $tag->h2();
-	        $tag->printer(UTILITIES_ADVENTURES_GENERATE);
+	        $tag->printer(UTILITIES_TAVERN);
 	    $tag->h2;
 		
 		$tag->printer(HORIZONTAL_BAR);
-		
 	    $home_helper->utilitaries_menu();
 
 	$tag->div;

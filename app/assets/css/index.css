@@ -2,9 +2,19 @@ img{
 	border: 4px solid #000;
 }
 
+.utilitarios-link:hover{
+	color: red;
+}
+
 .icon{
 	width: 70px;
 	height: 70px;
+}
+
+.min-icon{
+	width: 30px;
+	height: 30px;
+	margin: 4px;
 }
 
 .icon_maior{
@@ -36,4 +46,12 @@ img{
 
 .color-font-black{
 	color: #000000;
+}
+
+.tavern_title_main{
+	font-size: 40px;
+}
+
+.tavern_title{
+	padding-top: 10px;
 }

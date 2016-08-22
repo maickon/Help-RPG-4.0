@@ -50,70 +50,70 @@ $_IMG_UTILITARIES = [
 	                        IMG_TAVERN, 
 	                        GENERATOR_TAVERN, 
 	                        GENERATOR_TAVERN, 
-	                        '#'
+	                        TAVERN_URL
 	                    ],
 
 					    [
 	                        IMG_MONSTER, 
 	                        CHARACTER_SHEETS, 
 	                        CHARACTER_SHEETS, 
-	                        '#'
+	                        GENERATOR_WORLDS_URL
 	                    ],
 
 					    [  
 	                        IMG_MAP, 
 	                        GENERATOR_WORLDS, 
 	                        GENERATOR_WORLDS, 
-	                        '#'
+	                        GENERATOR_WORLDS_URL
 	                    ],
 					
 	                    [
 	                        IMG_DUNGEON, 
 	                        GENERATOR_DUNGEON, 
 	                        GENERATOR_DUNGEON, 
-	                        '#'
+	                        GENERATOR_DUNGEON_URL
 	                    ],
 
 					    [
 	                        IMG_PERSONALITY, 
 	                        GENERATOR_PERSONALITIES, 
 	                        GENERATOR_PERSONALITIES, 
-	                        '#'
+	                        GENERATOR_PERSONALITIES_URL
 	                    ],
 
 					    [
 	                        IMG_CITIES, 
 	                        GENERATOR_CITIES, 
 	                        GENERATOR_CITIES, 
-	                        '#'
+	                        GENERATOR_CITIES_URL
 	                    ],
 					
 	                    [
 	                        IMG_HIGHLIGHTER, 
 	                        HIGHLIGHTER, 
 	                        HIGHLIGHTER, 
-	                        '#'
+	                        HIGHLIGHTER_URL
 	                    ],
 					
 	                    [
 	                        IMG_ITEMS, 
 	                        GENERATOR_ITENS, 
 	                        GENERATOR_ITENS, 
-	                        '#'
+	                        GENERATOR_ITENS_URL
 	                    ],
 					
 	                    [
 	                        IMG_LUCK, 
 	                        GENERATOR_LUCK, 
 	                        GENERATOR_LUCK, 
-	                        '#'
+	                        GENERATOR_LUCK_URL
 	                    ],
 					
 	                    [
 	                        IMG_SWORD, 
 	                        GENERATOR_NAME_SWORD, 
 	                        GENERATOR_NAME_SWORD, 
-	                        '#'
+	                        GENERATOR_NAME_SWORD_URL
 	                    ]
 					];
 

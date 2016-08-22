@@ -53,6 +53,6 @@ $tag->div(['class'=>'row']);
             
 	    $tag->div;
 	$tag->div;
-	$tag->hr();
-
 $tag->div;
+
+$tag->hr();

@@ -4,8 +4,8 @@ class Dados_Controller{
 	
 	function index(){
 		$tag = new Tags_Lib();
+		$home_helper = new Home_Helper();
 		require (new Render_Lib('dados'))->get_required_path();
-		return new Dados_Model;
 	}
 
 	function service(){

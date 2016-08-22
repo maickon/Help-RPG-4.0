@@ -5,6 +5,7 @@ class Fichas_Controller{
 	function index(){
 		$ficha = new Fichas_Model;
 		$tag = new Tags_Lib;
+		$home_helper = new Home_Helper();
 		// load the fichas view
 		require (new Render_Lib('fichas/index'))->get_required_path();
 	}

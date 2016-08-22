@@ -9,6 +9,7 @@ class Nomes_Controller extends Controller_Lib{
 	function index(){
 		$rota = $this;
 		$tag = new Tags_Lib();
+		$home_helper = new Home_Helper();
 		require (new Render_Lib())->get_required_path();
 	}
 
@@ -21,30 +22,35 @@ class Nomes_Controller extends Controller_Lib{
 	function lugares(){
 		$rota = $this;
 		$tag = new Tags_Lib();
+		$home_helper = new Home_Helper();
 		require (new Render_Lib('lugares'))->get_required_path();
 	}
 
 	function classes(){
 		$rota = $this;
 		$tag = new Tags_Lib();
+		$home_helper = new Home_Helper();
 		require (new Render_Lib('classes'))->get_required_path();
 	}
 
 	function racas(){
 		$rota = $this;
 		$tag = new Tags_Lib();
+		$home_helper = new Home_Helper();
 		require (new Render_Lib('racas'))->get_required_path();
 	}
 
 	function culturais(){
 		$rota = $this;
 		$tag = new Tags_Lib();
+		$home_helper = new Home_Helper();
 		require (new Render_Lib('culturais'))->get_required_path();
 	}
 
 	function outros(){
 		$rota = $this;
 		$tag = new Tags_Lib();
+		$home_helper = new Home_Helper();
 		require (new Render_Lib('outros'))->get_required_path();
 	}
 }

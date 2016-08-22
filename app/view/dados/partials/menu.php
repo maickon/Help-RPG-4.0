@@ -4,15 +4,9 @@ $tag->div(['class'=>'row']);
         $tag->h2();
             $tag->printer(UTILITIES_DICE);
         $tag->h2;
+        
         $tag->printer('|');
-        $tag->a(['href'=>'../index.php']);
-            $tag->printer('Home');
-        $tag->a;
-        $tag->printer('|');
-        $tag->a(['href'=>URL_BASE]);
-            $tag->printer('helprpg.com.br');
-        $tag->a;
-        $tag->printer('|');
+        $home_helper->utilitaries_menu();
     $tag->div;
     $tag->hr();
 $tag->div;

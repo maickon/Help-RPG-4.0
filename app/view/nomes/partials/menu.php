@@ -1,12 +1,8 @@
 <?php
-// primeira letra maiuscula de um texto minusculo
-$HOME = ucfirst(strtolower(HOME));
-
 // menus e urls
-$_MENU_LABELS = [$HOME, NAME_PLACES, NAME_CLASS, NAME_RACES, NAME_CULTURAL, NAME_OTHERS];
+$_MENU_LABELS = [NAME_PLACES, NAME_CLASS, NAME_RACES, NAME_CULTURAL, NAME_OTHERS];
 
 $_MENU_URLS = [
-				HOME_URL, 
 				$rota->lugares_path, 
 				$rota->classes_path, 
 				$rota->racas_path, 
@@ -21,11 +17,17 @@ $tag->div(['class'=>'row']);
 		
 		$tag->printer(HORIZONTAL_BAR);
 	    for ($i=0; $i < count($_MENU_URLS); $i++) { 
-		    $tag->a(['href'=> $_MENU_URLS[$i]]);
+		    $tag->a(['href'=> $_MENU_URLS[$i], 'class' => 'utilitarios-link']);
 		        $tag->printer($_MENU_LABELS[$i]);
 		    $tag->a;
 		    $tag->printer(HORIZONTAL_BAR);
 	    }
+
+	    $tag->br();
+
+		$tag->printer('|');
+	    $home_helper->utilitaries_menu();
+
 	$tag->div;
 	$tag->hr();
 $tag->div;
