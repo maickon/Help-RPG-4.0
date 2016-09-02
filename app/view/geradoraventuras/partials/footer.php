@@ -1,12 +1,12 @@
 <?php
 
 	// <!-- CORE JS -->
-	$_JS = [JS_CONFIG,
-			JS_AVENTURAS,
-			JS_PDF,
-			JS_JQUERY,
-			JS_BOOTSTRAP,
-			JS_BOOTSTRAP_SELECT
+	$_JS = [$aventura->config_js_path,
+			$aventura->aventuras_js_path.'/aventuras.js',
+			$aventura->jspdf_js_path,
+			$aventura->jquery_js_path,
+			$aventura->bootstrap_js_path,
+			$aventura->bootstrap_select_js_path
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

@@ -1,19 +1,13 @@
 <?php
-class GeradorAventuras_Model extends Raffleitemfile_Lib{
+class GeradorAventuras_Model extends Model_Lib{
 	
-	private $names;
-
-	function __construct($path = '', $number = 1){
-		parent::__construct($path, $number);
-		$this->names = $this->name_generation();
+	function __construct(){
+		parent::__construct();
+		$this->define_path(CONFIG_TXT_PATH.'aventuras/');
 	}
 
-	function name_generation(){
-		return $this->getRaffleItens();
+	function sortear_nome_arquivo($path = '', $number = 1){
+		$file = new Raffleitemfile_Lib($path, $number);
+		return $file->getRaffleItens();
 	}
-
-	function getNames(){
-		return $this->names;
-	}
-
 }

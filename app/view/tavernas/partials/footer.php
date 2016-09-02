@@ -1,12 +1,12 @@
 <?php
 
 	// <!-- CORE JS -->
-	$_JS = [JS_CONFIG,
-			JS_TAVERN,
-			JS_PDF,
-			JS_JQUERY,
-			JS_BOOTSTRAP,
-			JS_BOOTSTRAP_SELECT
+	$_JS = [$taverna->config_js_path,
+			$taverna->tavernas_js_path.'/tavernas.js',
+			$taverna->jspdf_js_path,
+			$taverna->jquery_js_path,
+			$taverna->bootstrap_js_path,
+			$taverna->bootstrap_select_js_path
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

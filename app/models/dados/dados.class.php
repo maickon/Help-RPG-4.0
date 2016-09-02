@@ -6,10 +6,11 @@
 */
 
 
-class Dados_Model{
+class Dados_Model extends Model_Lib{
 	public $d2, $d4, $d6, $d8, $d10, $d12, $d20, $d100;
 
 	function __construct(){
+		parent::__construct();
 		$this->d2();
 		$this->d4();
 		$this->d6();

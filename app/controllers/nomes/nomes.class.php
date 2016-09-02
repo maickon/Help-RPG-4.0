@@ -10,6 +10,7 @@ class Nomes_Controller extends Controller_Lib{
 		$rota = $this;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
+		$name = new Nomes_Model;
 		require (new Render_Lib())->get_required_path();
 	}
 

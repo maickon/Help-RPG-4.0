@@ -17,7 +17,13 @@ $tag->html();
             $tag->printer(UTILITIES_TAVERN);
         $tag->title;
 
-        $_CSS = [CSS_BOOTSTRAP, CSS_INDEX, CSS_NAME_FONT, CSS_FONT_AWESOM, CSS_DICE, CSS_BOOTSTRAP_SELECT, CSS_DOCS];
+        $_CSS = [
+                $taverna->bootstrap_css_path, 
+                $taverna->index_css_path, 
+                $taverna->nomes_css_path.'/nomes.css', 
+                $taverna->font_awesome_css_path, 
+                $taverna->bootstrap_select_css_path, 
+                $taverna->docs_css_path];
         // <!-- CORE CSS -->
         foreach ($_CSS as $key => $value) {
             $tag->link('href="' . $value . '" rel="stylesheet"');

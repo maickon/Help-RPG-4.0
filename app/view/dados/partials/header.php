@@ -8,7 +8,7 @@ $tag->html();
         $tag->meta('name="description" content="' . META_DESCRIPTION_DICE . '"');
         $tag->meta('name="keywords" content="' . META_KEYWORDS_DICE . '"');
         $tag->meta('name="author" content="' . META_AUTHOR . '"');
-        $tag->link('rel="icon" href=" ' . IMG_ROLL_DICE . '" sizes="32x32"');
+        $tag->link('rel="icon" href=" ' . $dados->dados_img_icon.'dados.png' . '" sizes="32x32"');
         $tag->printer('<!--[if IE]>');
             $tag->meta('http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"');
         $tag->printer('<![endif]-->');
@@ -16,7 +16,11 @@ $tag->html();
             $tag->printer(UTILITIES_DICE);
         $tag->title;
 
-        $_CSS = [CSS_BOOTSTRAP, CSS_FONT_AWESOM, CSS_DICE, CSS_BOOTSTRAP_SELECT];
+        $_CSS = [
+                    $dados->bootstrap_css_path,
+                    $dados->dice_css_path.'/dice.css', 
+                    $dados->bootstrap_select_css_path
+                ];
         // <!-- CORE CSS -->
         foreach ($_CSS as $key => $value) {
             $tag->link('href="' . $value . '" rel="stylesheet"');

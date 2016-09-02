@@ -1,0 +1,8 @@
+Simpático/Simpática|Ignorante
+Rabugento/Rabuganta|Chato/Chata
+Atencioso/Atenciosa
+Dislexo/Dislexa
+Educado/Educada|Sem educação
+Burro/Burra
+Desajeitado/Desajeitada
+Perfeccionista

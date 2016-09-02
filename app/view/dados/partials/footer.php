@@ -1,12 +1,13 @@
 <?php
 
 	// <!-- CORE JS -->
-	$_JS = [JS_CONFIG,
-			JS_DICE,
-			JS_PDF,
-			JS_JQUERY,
-			JS_BOOTSTRAP,
-			JS_BOOTSTRAP_SELECT
+	$_JS = [
+			$dados->config_js_path,
+			$dados->dice_js_path.'/dice.js',
+			$dados->jspdf_js_path,
+			$dados->jquery_js_path,
+			$dados->bootstrap_js_path,
+			$dados->bootstrap_select_js_path
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

@@ -24,3 +24,5 @@ var JS_SERVICE_NPC_DED = URL_BASE + 'fichas/service/ded';
 var JS_SERVICE_MONSTROS_PATH = URL_BASE + 'fichas/service/ded';
 // fichas html path
 var JS_FICHAS_PATH = URL_BASE + 'fichas/select_sheet';
+// rolar varios dados
+var JS_ROLL_DICES = URL_BASE + 'dados/roll_dices';

@@ -19,192 +19,192 @@ $carousel_list = [
 // Lista de utilitarios [nome-titulo-url]
 $_IMG_UTILITARIES = [
 					    [
-	                        IMG_ROLL_DICE, 
-	                        ROLL_DICE, 
-	                        ROLL_DICE, 
-	                        ROLL_DICE_URL
+	                        $dados->dados_img_icon.'dados.png', 
+	                        $dados->dados_descricao_alt, 
+	                        $dados->dados_descricao_alt, 
+	                        $dados->dados_root_path
 	                    ],
 					
 	                    [
-	                        IMG_NAMES, 
-	                        GENERATOR_NAMES, 
-	                        GENERATOR_NAMES, 
-	                        NAMES_URL
+	                        $nomes->nomes_img_icon.'nomes.png', 
+	                        $nomes->nomes_descricao_alt, 
+	                        $nomes->nomes_descricao_alt, 
+	                        $nomes->nomes_root_path
 	                    ],
 
 					    [
-	                        IMG_SHEET, 
-	                        CHARACTER_SHEETS, 
-	                        CHARACTER_SHEETS, 
-	                        RANDOM_FILE_URL
+	                        $fichas->fichas_img_icon.'ficha.png', 
+	                        $fichas->fichas_descricao_alt, 
+	                        $fichas->fichas_descricao_alt, 
+	                        $fichas->fichas_root_path
 	                    ],
 
 					    [
-	                        IMG_ADVENTURES, 
-	                        GENERATOR_ADVENTURE, 
-	                        GENERATOR_ADVENTURE, 
-	                        GENERATOR_ADVENTURE_URL
+	                        $geradoraventuras->geradoraventuras_img_icon.'aventura.png', 
+	                        $geradoraventuras->geradoraventuras_descricao_alt, 
+	                        $geradoraventuras->geradoraventuras_descricao_alt, 
+	                        $geradoraventuras->geradoraventuras_root_path
 	                    ],
 					
 	                    [
-	                        IMG_TAVERN, 
-	                        GENERATOR_TAVERN, 
-	                        GENERATOR_TAVERN, 
-	                        TAVERN_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 
 					    [
-	                        IMG_MONSTER, 
-	                        CHARACTER_SHEETS, 
-	                        CHARACTER_SHEETS, 
-	                        GENERATOR_WORLDS_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 
 					    [  
-	                        IMG_MAP, 
-	                        GENERATOR_WORLDS, 
-	                        GENERATOR_WORLDS, 
-	                        GENERATOR_WORLDS_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        IMG_DUNGEON, 
-	                        GENERATOR_DUNGEON, 
-	                        GENERATOR_DUNGEON, 
-	                        GENERATOR_DUNGEON_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 
 					    [
-	                        IMG_PERSONALITY, 
-	                        GENERATOR_PERSONALITIES, 
-	                        GENERATOR_PERSONALITIES, 
-	                        GENERATOR_PERSONALITIES_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 
 					    [
-	                        IMG_CITIES, 
-	                        GENERATOR_CITIES, 
-	                        GENERATOR_CITIES, 
-	                        GENERATOR_CITIES_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        IMG_HIGHLIGHTER, 
-	                        HIGHLIGHTER, 
-	                        HIGHLIGHTER, 
-	                        HIGHLIGHTER_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        IMG_ITEMS, 
-	                        GENERATOR_ITENS, 
-	                        GENERATOR_ITENS, 
-	                        GENERATOR_ITENS_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        IMG_LUCK, 
-	                        GENERATOR_LUCK, 
-	                        GENERATOR_LUCK, 
-	                        GENERATOR_LUCK_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        IMG_SWORD, 
-	                        GENERATOR_NAME_SWORD, 
-	                        GENERATOR_NAME_SWORD, 
-	                        GENERATOR_NAME_SWORD_URL
+	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_descricao_alt, 
+	                        $tavernas->tavernas_root_path
 	                    ]
 					];
 
 $_IMG_UTILITARIES_2 = [ 
 
 	            [
-	            	IMG_USER, 
+	            	IMG_ICON_PATH . 'usuario.png', 
 	            	USERS_REGISTERED, 
 	            	"{$home->getHomeData('count_user')} " . RECORDS
 	            ],
 				
 				[
-					IMG_ARMOR, 
+					IMG_ICON_PATH . 'armadura.png', 
 					ARMOR, 
 					"{$home->getHomeData('count_armadura')} " . RECORDS
 				],
 				
 				[
-					IMG_WEAPON, 
+					IMG_ICON_PATH . 'arma.png', 
 					WEAPONS, 
 					"{$home->getHomeData('count_arma')} " . RECORDS
 				],
 				
 				[
-					IMG_ARTIFACT, 
+					IMG_ICON_PATH . 'artefato.png', 
 					ARTIFACTS, 
 					"{$home->getHomeData('count_artefato')} " . RECORDS
 				],
 				
 				[
-					IMG_CHARACTER, 
+					IMG_ICON_PATH . 'personagem.png', 
 					FILE_PLAYER_CHARACTER, 
 					"{$home->getHomeData('count_personagem_jogador')} " . RECORDS
 				],
 				
 				[
-					IMG_CHARACTER_SHEETS, 
+					IMG_ICON_PATH . 'mais-fichas.png', 
 					FILE_NPC_CHARACTER, 
 					"{$home->getHomeData('count_personagem_npc')} " . RECORDS
 				],
 				
 				[
-					IMG_TALENTS, 
+					IMG_ICON_PATH . 'talentos.png', 
 					TALENTS, 
 					"{$home->getHomeData('count_talentos')} " . RECORDS
 				],
 				
 				[
-					IMG_SPELLS, 
+					IMG_ICON_PATH . 'magia.png', 
 					SPELLS, 
 					"{$home->getHomeData('count_magias')} " . RECORDS
 				],
 				
 				[
-					IMG_SKILLS, 
+					IMG_ICON_PATH . 'pericia.png', 
 					SKILLS, 
 					"{$home->getHomeData('count_pericias')} " . RECORDS
 				],
 				
 				[
-					IMG_ADVENTURES_REGISTER, 
+					IMG_ICON_PATH . 'aventura.png', 
 					ADVENTURES, 
 					"{$home->getHomeData('count_aventuras')} " . RECORDS
 				],
 
 				[
-					IMG_HISTORY, 
+					IMG_ICON_PATH . 'historia.png', 
 					STORIES, 
 					"{$home->getHomeData('count_historias')} " . RECORDS
 				],
 				
 				[
-					IMG_TALES, 
+					IMG_ICON_PATH . 'contos.png', 
 					TALES, 
 					"{$home->getHomeData('count_contos')} " . RECORDS
 				],
 				
 				[
-					IMG_CHRONICLES, 
+					IMG_ICON_PATH . 'cronicas.png', 
 					CHRONICLES, 
 					"{$home->getHomeData('count_cronicas')} " . RECORDS
 				],
 				
 				[	
-					IMG_SCENARIOS, 
+					IMG_ICON_PATH . 'cenarios.png', 
 					SCENARIO, 
 					"{$home->getHomeData('count_cenarios')} " . RECORDS
 				],
 				
 				[
-					IMG_BESTIARY, 
+					IMG_ICON_PATH . 'bestiario.png', 
 					BESTIARY, 
 					"{$home->getHomeData('count_bestiario')} " . RECORDS
 				]

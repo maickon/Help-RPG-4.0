@@ -54,7 +54,7 @@ $tag->div(['class'=>'row']);
           $tag->div('class="thumbnail"');
           
             $tag->div('class="dice" onclick="rolar_'.$id[0].'();"');
-              $tag->img('src="' . IMG_DICE . $options[$i].'" alt="Dado de '.$id[0].' faces."');
+              $tag->img('src="' . $dados->dice_img_path.'/' . $options[$i].'" alt="Dado de '.$id[0].' faces."');
             $tag->div;
             
             $tag->div('class="dice-text thumbnail" id="value_'.$id[0].'"');

@@ -1,9 +1,10 @@
 <?php
-class Home_Model{
+class Home_Model extends Model_Lib{
 
 	private $home_data = array();
 
 	function __construct(){
+		parent::__construct();
 		$this->home_data['count_user'] 	= $this->get_count_user();
 		$this->home_data['count_armadura'] = $this->get_count_armadura();
 		$this->home_data['count_arma'] 	= $this->get_count_arma();

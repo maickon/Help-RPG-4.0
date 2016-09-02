@@ -1,5 +1,4 @@
-Gordo/Gorda|Gordinho/Gordinha|Muito gordo/Muito Gorda
-Muito magro/Muito magra|Magro/Magra|Magro raquítico/Magra raquítica
+Gordo/Gorda|Gordinho/Gordinha|Muito gordo/Muito Gorda|Muito magro/Muito magra|Magro/Magra|Magro raquítico/Magra raquítica
 Muito feio/Muito feia|Feio/Feia|Bonito/Bonita|Muito bonito/Muito bonita|Excepcionalmente Bonito/Excepcionalmente linda|Fica sem camisa/Usa decotes bem vulgares|Dentes quebrados|Dentes Podres|Mau cheiroso/Mau cheirosa
 Sujo/Suja|Limpo/Limpa
 Caollho/Caolha|Cegos do olho esquerdo|Cego do olho direito

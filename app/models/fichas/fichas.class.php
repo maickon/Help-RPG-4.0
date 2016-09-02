@@ -1,7 +1,7 @@
 <?php
 require 'load_fichas.php';
 
-class Fichas_Model{
+class Fichas_Model extends Model_Lib{
 
 	/*
 		@method select_sheet

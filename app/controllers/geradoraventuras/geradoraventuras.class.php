@@ -7,6 +7,7 @@ class GeradorAventuras_Controller extends Controller_Lib{
 	}
 
 	function index(){
+		$aventura =  new GeradorAventuras_Model();
 		$tag = new Tags_Lib();
 		$form = new Form_Lib();
 		$home_helper = new Home_Helper();
@@ -19,120 +20,82 @@ class GeradorAventuras_Controller extends Controller_Lib{
 	}
 
 	function medieval(){
+		$aventura =  new GeradorAventuras_Model();
 		$tag = new Tags_Lib();
 		$root = $this;
 		$number = rand(1,6);
 
-		$file_antagonista = "antagonista-opcao-{$number}.txt";
-		$antagonist = new GeradorAventuras_Model(MEDIVEL_ANTGONIST_TXT_PATH. $file_antagonista);
-		
-		$file_coadjuvantes = "coadjuvantes-opcao-{$number}.txt";
-		$supporting = new GeradorAventuras_Model(MEDIVEL_SUPPORTING_TXT_PATH. $file_coadjuvantes);
-		
-		$file_complicacao = "complicacao-opcao-{$number}.txt";
-		$complication = new GeradorAventuras_Model(MEDIVEL_COMPLICATION_TXT_PATH. $file_complicacao);
-		
-		$file_localidade = "localidade-opcao-{$number}.txt";
-		$locality = new GeradorAventuras_Model(MEDIVEL_LOCALITY_TXT_PATH. $file_localidade);
-		
-		$file_objetivo_1 = "objetivo-{$number}.txt";
-		$file_objetivo_2 = "objetivo-opcao-{$number}.txt";
-		$objective_1 = new GeradorAventuras_Model(MEDIVEL_OBJECTIVE_TXT_PATH. $file_objetivo_1);
-		$objective_2 = new GeradorAventuras_Model(MEDIVEL_OBJECTIVE_TXT_PATH. $file_objetivo_2);
-		
-		$file_recompensa_1 = "recompensa-{$number}.txt";
-		$file_recompensa_2 = "recompensa-opcao-{$number}.txt";
-		$rewards_1 = new GeradorAventuras_Model(MEDIVEL_REWARDS_TXT_PATH. $file_recompensa_1);
-		$rewards_2 = new GeradorAventuras_Model(MEDIVEL_REWARDS_TXT_PATH. $file_recompensa_2);
+		$antagonist = $aventura->sortear_nome_arquivo("{$aventura->medieval_path}/antagonista/antagonista-opcao-{$number}.txt");
+		$supporting = $aventura->sortear_nome_arquivo("{$aventura->medieval_path}/coadjuvantes/coadjuvantes-opcao-{$number}.txt");
+		$complication = $aventura->sortear_nome_arquivo("{$aventura->medieval_path}/complicacao/complicacao-opcao-{$number}.txt");
+		$locality = $aventura->sortear_nome_arquivo("{$aventura->medieval_path}/localidade/localidade-opcao-{$number}.txt");
+		$objective_1 = $aventura->sortear_nome_arquivo("{$aventura->medieval_path}/objetivos/objetivo-{$number}.txt");
+		$objective_2 = $aventura->sortear_nome_arquivo("{$aventura->medieval_path}/objetivos/objetivo-opcao-{$number}.txt");
+		$rewards_1 = $aventura->sortear_nome_arquivo("{$aventura->medieval_path}/recompensas/recompensa-{$number}.txt");
+		$rewards_2 = $aventura->sortear_nome_arquivo("{$aventura->medieval_path}/recompensas/recompensa-opcao-{$number}.txt");
 
 		$aventura_completa = [
-		['titulo-objetivo' => OBJECTIVE_LABEL, 'conteudo-objetivo' => $objective_1->getNames() . $objective_2->getNames()],
-		['titulo-local' =>LOCAL_LABEL, 'conteudo-local' => $locality->getNames()],
-		['titulo-antagonista' => ANTAGONIST_LABEL, 'conteudo-antagonista' => $antagonist->getNames()],
-		['titulo-coadjuvante' => SUPPORTING_LABEL, 'conteudo-coadjuvante' => $supporting->getNames()],
-		['titulo-complicaco' => COMPLICATION_LABEL, 'conteudo-complicaco' => $complication->getNames()],
-		['titulo-recompensa' => REWARD_LABEL, 'conteudo-recompensa' => $rewards_1->getNames() . $rewards_2->getNames()]
+			['titulo-objetivo' => OBJECTIVE_LABEL, 'conteudo-objetivo' => $objective_1 . $objective_2],
+			['titulo-local' =>LOCAL_LABEL, 'conteudo-local' => $locality],
+			['titulo-antagonista' => ANTAGONIST_LABEL, 'conteudo-antagonista' => $antagonist],
+			['titulo-coadjuvante' => SUPPORTING_LABEL, 'conteudo-coadjuvante' => $supporting],
+			['titulo-complicaco' => COMPLICATION_LABEL, 'conteudo-complicaco' => $complication],
+			['titulo-recompensa' => REWARD_LABEL, 'conteudo-recompensa' => $rewards_1 . $rewards_2]
 		];
 
 		return ($aventura_completa);
 	}
 
 	function starwar(){
+		$aventura =  new GeradorAventuras_Model();
 		$tag = new Tags_Lib();
 		$root = $this;
 
-		$file_antagonista = "antagonistas.txt";
-		$antagonist = new GeradorAventuras_Model(STAR_WAR_ANTGONIST_TXT_PATH. $file_antagonista);
-		
-		$file_coadjuvantes = "coadjuvantes.txt";
-		$supporting = new GeradorAventuras_Model(STAR_WAR_SUPPORTING_TXT_PATH. $file_coadjuvantes);
-		
-		$file_complicacao = "complicacoes.txt";
-		$complication = new GeradorAventuras_Model(STAR_WAR_COMPLICATION_TXT_PATH. $file_complicacao);
-		
-		$file_localidade = "localidades.txt";
-		$locality = new GeradorAventuras_Model(STAR_WAR_LOCALITY_TXT_PATH. $file_localidade);
-		
-		$file_objetivo = "objetivos.txt";
-		$objective = new GeradorAventuras_Model(STAR_WAR_OBJECTIVE_TXT_PATH. $file_objetivo);
-		
-		$file_recompensa = "recompensas.txt";
-		$rewards = new GeradorAventuras_Model(STAR_WAR_REWARDS_TXT_PATH. $file_recompensa);
+		$antagonist = $aventura->sortear_nome_arquivo("{$aventura->starwars_path}/antagonistas.txt");
+		$supporting = $aventura->sortear_nome_arquivo("{$aventura->starwars_path}/coadjuvantes.txt");
+		$complication = $aventura->sortear_nome_arquivo("{$aventura->starwars_path}/complicacoes.txt");
+		$locality = $aventura->sortear_nome_arquivo("{$aventura->starwars_path}/localidades.txt");
+		$objective = $aventura->sortear_nome_arquivo("{$aventura->starwars_path}/objetivos.txt");
+		$rewards= $aventura->sortear_nome_arquivo("{$aventura->starwars_path}/recompensas.txt");
 
 		$aventura_completa = [
-		['titulo-objetivo' => OBJECTIVE_LABEL, 'conteudo-objetivo' => $objective->getNames()],
-		['titulo-local' =>LOCAL_LABEL, 'conteudo-local' => $locality->getNames()],
-		['titulo-antagonista' => ANTAGONIST_LABEL, 'conteudo-antagonista' => $antagonist->getNames()],
-		['titulo-coadjuvante' => SUPPORTING_LABEL, 'conteudo-coadjuvante' => $supporting->getNames()],
-		['titulo-complicaco' => COMPLICATION_LABEL, 'conteudo-complicaco' => $complication->getNames()],
-		['titulo-recompensa' => REWARD_LABEL, 'conteudo-recompensa' => $rewards->getNames()]
+		['titulo-objetivo' => OBJECTIVE_LABEL, 'conteudo-objetivo' => $antagonist],
+		['titulo-local' =>LOCAL_LABEL, 'conteudo-local' => $locality],
+		['titulo-antagonista' => ANTAGONIST_LABEL, 'conteudo-antagonista' => $antagonist],
+		['titulo-coadjuvante' => SUPPORTING_LABEL, 'conteudo-coadjuvante' => $supporting],
+		['titulo-complicaco' => COMPLICATION_LABEL, 'conteudo-complicaco' => $complication],
+		['titulo-recompensa' => REWARD_LABEL, 'conteudo-recompensa' => $rewards]
 		];
 
 		return ($aventura_completa);
 	}
 
 	function apocalipse(){
+		$aventura =  new GeradorAventuras_Model();
 		$tag = new Tags_Lib();
 		$root = $this;
 		$number = rand(1,6);
 
-		$file_antagonista_1 = "antagonista-{$number}.txt";
-		$file_antagonista_2 = "antagonista-opcao-{$number}.txt";
-		$antagonist_1 = new GeradorAventuras_Model(APOCALIPSE_ANTGONIST_TXT_PATH. $file_antagonista_1);
-		$antagonist_2 = new GeradorAventuras_Model(APOCALIPSE_ANTGONIST_TXT_PATH. $file_antagonista_2);
-		
-		$file_coadjuvantes_1 = "coadjuvantes-{$number}.txt";
-		$file_coadjuvantes_2 = "coadjuvantes-opcao-{$number}.txt";
-		$supporting_1 = new GeradorAventuras_Model(APOCALIPSE_SUPPORTING_TXT_PATH. $file_coadjuvantes_1);
-		$supporting_2 = new GeradorAventuras_Model(APOCALIPSE_SUPPORTING_TXT_PATH. $file_coadjuvantes_2);
-		
-		$file_complicacao_1 = "complicacao-{$number}.txt";
-		$file_complicacao_2 = "complicacao-opcao-{$number}.txt";
-		$complication_1 = new GeradorAventuras_Model(APOCALIPSE_COMPLICATION_TXT_PATH. $file_complicacao_1);
-		$complication_2 = new GeradorAventuras_Model(APOCALIPSE_COMPLICATION_TXT_PATH. $file_complicacao_2);
-		
-		$file_localidade_1 = "localidade-{$number}.txt";
-		$file_localidade_2 = "localidade-opcao-{$number}.txt";
-		$locality_1 = new GeradorAventuras_Model(APOCALIPSE_LOCALITY_TXT_PATH. $file_localidade_1);
-		$locality_2 = new GeradorAventuras_Model(APOCALIPSE_LOCALITY_TXT_PATH. $file_localidade_2);
-		
-		$file_objetivo_1 = "objetivo-{$number}.txt";
-		$file_objetivo_2 = "objetivo-opcao-{$number}.txt";
-		$objective_1 = new GeradorAventuras_Model(APOCALIPSE_OBJECTIVE_TXT_PATH. $file_objetivo_1);
-		$objective_2 = new GeradorAventuras_Model(APOCALIPSE_OBJECTIVE_TXT_PATH. $file_objetivo_2);
-		
-		$file_recompensa_1 = "recompensa-{$number}.txt";
-		$file_recompensa_2 = "recompensa-opcao-{$number}.txt";
-		$rewards_1 = new GeradorAventuras_Model(APOCALIPSE_REWARDS_TXT_PATH. $file_recompensa_1);
-		$rewards_2 = new GeradorAventuras_Model(APOCALIPSE_REWARDS_TXT_PATH. $file_recompensa_2);
+		$antagonist_1 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/antagonista/antagonista-{$number}.txt");
+		$antagonist_2 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/antagonista/antagonista-opcao-{$number}.txt");
+		$supporting_1 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/coadjuvantes/coadjuvantes-{$number}.txt");
+		$supporting_2 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/coadjuvantes/coadjuvantes-opcao-{$number}.txt");		
+		$complication_1 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/complicacao/complicacao-{$number}.txt");
+		$complication_2 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/complicacao/complicacao-opcao-{$number}.txt");		
+		$locality_1 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/localidade/localidade-{$number}.txt");
+		$locality_2 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/localidade/localidade-opcao-{$number}.txt");		
+		$objective_1 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/objetivos/objetivo-{$number}.txt");
+		$objective_2 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/objetivos/objetivo-opcao-{$number}.txt");
+		$rewards_1 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/recompensas/recompensa-{$number}.txt");
+		$rewards_2 = $aventura->sortear_nome_arquivo("{$aventura->apocaliptica_path}/recompensas/recompensa-opcao-{$number}.txt");
 
 		$aventura_completa = [
-		['titulo-objetivo' => OBJECTIVE_LABEL, 'conteudo-objetivo' => $objective_1->getNames() .' '. $objective_2->getNames()],
-		['titulo-local' =>LOCAL_LABEL, 'conteudo-local' => $locality_1->getNames().' '.$locality_2->getNames()],
-		['titulo-antagonista' => ANTAGONIST_LABEL, 'conteudo-antagonista' => $antagonist_1->getNames().' '.$antagonist_2->getNames()],
-		['titulo-coadjuvante' => SUPPORTING_LABEL, 'conteudo-coadjuvante' => $supporting_1->getNames().' '.$supporting_2->getNames()],
-		['titulo-complicaco' => COMPLICATION_LABEL, 'conteudo-complicaco' => $complication_1->getNames().' '.$complication_2->getNames()],
-		['titulo-recompensa' => REWARD_LABEL, 'conteudo-recompensa' => $rewards_1->getNames() .' '. $rewards_2->getNames()]
+		['titulo-objetivo' => OBJECTIVE_LABEL, 'conteudo-objetivo' => $objective_1 .' '. $objective_2],
+		['titulo-local' =>LOCAL_LABEL, 'conteudo-local' => $locality_1.' '.$locality_2],
+		['titulo-antagonista' => ANTAGONIST_LABEL, 'conteudo-antagonista' => $antagonist_1.' '.$antagonist_2],
+		['titulo-coadjuvante' => SUPPORTING_LABEL, 'conteudo-coadjuvante' => $supporting_1.' '.$supporting_2],
+		['titulo-complicaco' => COMPLICATION_LABEL, 'conteudo-complicaco' => $complication_1.' '.$complication_2],
+		['titulo-recompensa' => REWARD_LABEL, 'conteudo-recompensa' => $rewards_1 .' '. $rewards_2]
 		];
 
 		return ($aventura_completa);

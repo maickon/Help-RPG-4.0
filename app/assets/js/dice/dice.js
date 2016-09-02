@@ -21,8 +21,7 @@ function processar_rolagem(qtd_rol, dado){
           $.ajax({
             type: 'post',
             dataType: 'html',
-            url: JS_SERVICE_DICE_PATH,
-            data: {dado: dado, q:qtd},
+            url: JS_ROLL_DICES + '/' + dado + '/' + qtd ,
             success: function(result){
               var json = (eval("(" + result + ")"));
               for(var i=0; i<qtd; i++){
@@ -40,7 +39,7 @@ function processar_rolagem(qtd_rol, dado){
       $.ajax({
         type: 'post',
         dataType: 'html',
-        url: JS_SERVICE_DICE_PATH,
+        url: JS_ROLL_DICES  + '/' + dado + '/' + qtd,
         data: {dado: dado, q:qtd},
         success: function(result){
           var json = (eval("(" + result + ")"));
@@ -80,7 +79,7 @@ function rolar_d4(){
          $.ajax({
             type: 'post',
             dataType: 'html',
-            url: JS_SERVICE_DICE_PATH,
+            url: JS_SERVICE_DICE_PATH + '/d4/1',
             data: {dado: "d4"},
             success: function(result){
               var json = (eval("(" + result + ")"));
@@ -105,7 +104,7 @@ function rolar_d4(){
         $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_DICE_PATH,
+          url: JS_SERVICE_DICE_PATH  + '/d4/1',
           data: {dado: "d4"},
           success: function(result){
             var json = (eval("(" + result + ")"));
@@ -130,7 +129,7 @@ function rolar_d6(){
         $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_DICE_PATH,
+          url: JS_SERVICE_DICE_PATH  + '/d6/1',
           data: {dado: "d6"},
           success: function(result){
             var json = (eval("(" + result + ")"));
@@ -155,7 +154,7 @@ function rolar_d6(){
         $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_DICE_PATH,
+          url: JS_SERVICE_DICE_PATH  + '/d6/1',
           data: {dado: "d6"},
           success: function(result){
             var json = (eval("(" + result + ")"));
@@ -180,7 +179,7 @@ function rolar_d8(){
        $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_DICE_PATH,
+          url: JS_SERVICE_DICE_PATH  + '/d8/1',
           data: {dado: "d8"},
           success: function(result){
             var json = (eval("(" + result + ")"));
@@ -205,7 +204,7 @@ function rolar_d8(){
       $.ajax({
         type: 'post',
         dataType: 'html',
-        url: JS_SERVICE_DICE_PATH,
+        url: JS_SERVICE_DICE_PATH  + '/d8/1',
         data: {dado: "d8"},
         success: function(result){
           var json = (eval("(" + result + ")"));
@@ -230,7 +229,7 @@ function rolar_d10(){
        $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_DICE_PATH,
+          url: JS_SERVICE_DICE_PATH  + '/d10/1',
           data: {dado: "d10"},
           success: function(result){
             var json = (eval("(" + result + ")"));
@@ -255,7 +254,7 @@ function rolar_d10(){
       $.ajax({
         type: 'post',
         dataType: 'html',
-        url: JS_SERVICE_DICE_PATH,
+        url: JS_SERVICE_DICE_PATH  + '/d10/1',
         data: {dado: "d10"},
         success: function(result){
           var json = (eval("(" + result + ")"));
@@ -280,7 +279,7 @@ function rolar_d12(){
        $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_DICE_PATH,
+          url: JS_SERVICE_DICE_PATH  + '/d12/1',
           data: {dado: "d12"},
           success: function(result){
             var json = (eval("(" + result + ")"));
@@ -305,7 +304,7 @@ function rolar_d12(){
       $.ajax({
         type: 'post',
         dataType: 'html',
-        url: JS_SERVICE_DICE_PATH,
+        url: JS_SERVICE_DICE_PATH  + '/d12/1',
         data: {dado: "d12"},
         success: function(result){
           var json = (eval("(" + result + ")"));
@@ -330,7 +329,7 @@ function rolar_d20(){
        $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_DICE_PATH,
+          url: JS_SERVICE_DICE_PATH  + '/d20/1',
           data: {dado: "d20"},
           success: function(result){
             var json = (eval("(" + result + ")"));
@@ -355,7 +354,7 @@ function rolar_d20(){
       $.ajax({
         type: 'post',
         dataType: 'html',
-        url: JS_SERVICE_DICE_PATH,
+        url: JS_SERVICE_DICE_PATH  + '/d20/1',
         data: {dado: "d20"},
         success: function(result){
           var json = (eval("(" + result + ")"));
@@ -380,7 +379,7 @@ function rolar_d100(){
        $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_DICE_PATH,
+          url: JS_SERVICE_DICE_PATH  + '/d100/1',
           data: {dado: "d100"},
           success: function(result){
             var json = (eval("(" + result + ")"));
@@ -405,7 +404,7 @@ function rolar_d100(){
       $.ajax({
         type: 'post',
         dataType: 'html',
-        url: JS_SERVICE_DICE_PATH,
+        url: JS_SERVICE_DICE_PATH  + '/d100/1',
         data: {dado: "d100"},
         success: function(result){
           var json = (eval("(" + result + ")"));

@@ -17,7 +17,14 @@ $tag->html();
             $tag->printer(UTILITIES_ADVENTURES_GENERATE);
         $tag->title;
 
-        $_CSS = [CSS_BOOTSTRAP, CSS_INDEX, CSS_NAME_FONT, CSS_FONT_AWESOM, CSS_DICE, CSS_BOOTSTRAP_SELECT, CSS_DOCS];
+        $_CSS = [
+                    $aventura->bootstrap_css_path, 
+                    $aventura->index_css_path, 
+                    $aventura->nomes_css_path.'/nomes.css', 
+                    $aventura->font_awesome_css_path, 
+                    $aventura->bootstrap_select_css_path, 
+                    $aventura->docs_css_path
+                ];
         // <!-- CORE CSS -->
         foreach ($_CSS as $key => $value) {
             $tag->link('href="' . $value . '" rel="stylesheet"');

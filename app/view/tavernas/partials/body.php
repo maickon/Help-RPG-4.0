@@ -42,6 +42,12 @@ $tag->div(['class'=>'row']);
 		        $tag->span('id="taverneiro_profissao"');
 		        $tag->span;
 
+				$tag->h4('id="garcon_personalidade_titulo" class="tavern_title"');
+		        $tag->h4;
+				
+		        $tag->div('id="garcon_personalidade"');
+		        $tag->div;
+
 		        $tag->h4('id="personalidade_titulo" class="tavern_title"');
 		        $tag->h4;
 				
@@ -56,6 +62,24 @@ $tag->div(['class'=>'row']);
 
 		        $tag->h4('id="comidas_titulo" class="tavern_title"');
 		        $tag->h4;
+
+		        $tag->div('id="taverna_porcoes"');
+		        $tag->div; 
+
+		       	$tag->div('id="taverna_petiscos"');
+		        $tag->div;
+
+		        $tag->h4('id="pratos_titulo" class="tavern_title"');
+		        $tag->h4;
+
+		        $tag->div('id="taverna_pratos"');
+		        $tag->div;
+
+		        $tag->h4('id="sobremesa_titulo" class="tavern_title"');
+		        $tag->h4;
+
+		        $tag->div('id="taverna_sobremesas"');
+		        $tag->div;
 
 		        $tag->div('id="taverna_carnes"');
 		        $tag->div;
@@ -74,7 +98,27 @@ $tag->div(['class'=>'row']);
 
 		        $tag->div('id="taverna_bebidas"');
 		        $tag->div;
-				
+
+		        $tag->div('id="taverna_bebidas_simples"');
+		        $tag->div;
+
+		        $tag->div('id="taverna_bebidas_cervejas"');
+		        $tag->div;
+
+		       	$tag->div('id="taverna_bebidas_quentes"');
+		        $tag->div;
+
+				$tag->h4('id="objetos_briga_titulo" class="tavern_title"');
+		        $tag->h4;
+
+		        $tag->div('id="taverna_objetos_briga"');
+		        $tag->div;
+
+		        $tag->h4('id="atracao_titulo" class="tavern_title"');
+		        $tag->h4;
+
+		        $tag->div('id="taverna_atracao"');
+		        $tag->div;
 	        $tag->div;
 	        
 			

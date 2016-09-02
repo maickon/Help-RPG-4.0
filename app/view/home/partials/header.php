@@ -15,7 +15,13 @@ $tag->html('lang="en" class="no-js"');
             $tag->printer(SITE_NAME);
         $tag->title;
 
-        $_CSS = [CSS_BOOTSTRAP, CSS_INDEX, CSS_ICONS, CSS_FONT_AWESOM, CSS_FANCYBOX, CSS_ANIMATIONS, CSS_STYLE_SITE];
+        $_CSS = [
+                    $home->bootstrap_css_path, 
+                    $home->index_css_path, 
+                    $home->ionicons_css_path, 
+                    $home->font_awesome_css_path, 
+                    $home->animations_css_path,
+                    $home->style_site_css_path];
         // <!-- CORE CSS -->
         foreach ($_CSS as $key => $value) {
             $tag->link('href="' . $value . '" rel="stylesheet"');

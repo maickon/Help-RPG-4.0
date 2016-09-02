@@ -1,0 +1,58 @@
+X-Salada: Pão hambúrguer, hambúrguer, queijo, alface, maionese, tomate
+X-Burger: Pão hambúrguer, hambúrguer, queijo
+X-Bacon: Pão hambúrguer, hambúrguer, queijo, bacon, alface, maionese
+X-Egg: Pão hamburguer, hamburguer, queijo, ovo, alface, maionese, tomate
+Big Burger: Pão hambúrguer, hamburguer, creme de milho, queijo, bacon
+Especial: Pão hambúrguer, 2 hamburguers, queijo, tomate, alface, maionese
+X-Salada Canadense: Pão hambúrguer, hamb., lombo canadense, queijo, alface, maionese, tomate
+X-Salada Tender: Pão hambúrguer, hambúrguer, tender, queijo, alface, maionese, tomate
+X-Salada Calabresa: Pão hambúrguer, hambúrguer, calabresa, queijo, alface, maionese, tomate
+À moda da casa: Pão de forma, peito de frango, ovos c/ bacon, alface, maionese
+X-Frango: Pão hambúrguer, peito de frango, queijo, bacon, maionese
+Big Frango: Pão hambúrguer, peito de frango, creme de milho, queijo bacon, maionese
+Frangão: Pão hambúrguer, peito de frango, provolone, tomate, maionese
+Churrasco com queijo: Pão francês, bife, queijo, tomate
+Churrasco com vinagrete: Pão francês, bife, vinagrete
+Churrasco Especial: Pão francês, bife, queijo, tomate, ovo, bacon
+Lombo com pimentão: Pão francês, lombo, pimentão
+Lombo com queijo: Pão francês, lombo, queijo, tomate
+Atração: Pão francês, lombo, bacon, queijo, ovo, tomate, maionese
+Lombo Canadense: Pão francês, lombo canadense, queijo, tomate
+Misto Quente: Pão francês, presunto, queijo
+Bauru: Pão francês, presunto, queijo, tomate, alface
+Americano: Pão de forma, presunto, queijo, tomate, alface, ovo
+Salame: Pão francês, salame fatiado, queijo
+Loucura: Pão francês, carne louca, alface, presunto, queijo
+Tender: Pão francês, tender, tomate, queijo, alface, maionese
+Quero Mais: Pão francês, presunto, queijo, calabresa, tomate, bacon, alface, maionese
+Saboroso: Pão francês, calabresa, queijo, tomate, alface
+Sensação: Pão francês, queijo, ovo, bacon, alface, tomate, presunto
+Bifão: Pão hamburguer, bife, ovo, bacon, tomate,presunto, queijo, alface
+Fominha: Pão hamb., peito frango, hamburguer, presunto, queijo, bacon, ovo, alface, tomate
+Bocão: Pão hambu., peito frango, calabresa, presunto, ovo, bacon, alface, maionese
+Lanchão: Pão hamb., peito frango, lombo canadense, catupiry, provolone, tomate, maionese
+Gostosão: Pão hamb., peito frango, presunto, queijo, catupiry, provolone, maionese
+Chega Mais I: Pão francês, peito frango, hamb., ovo, alface, tomate, maionese, bacon
+Chega Mais II: Pão francês, bife, calabresa, bacon, ovo, alface, tomate, maionese
+Bandeirantes: Peito frango, pres., queijo, ovo, alface, fritas, vinagrete de pimentão, maionese
+Filé Mignom com queijo: Pão francês, filé, queijo, tomate
+Filé Mignom com especial: Pão francês, filé, queijo, tomate, bacon, ovo
+X-Linguiça: Pão hambúrguer, hambúrguer de linguiça com queijo
+X-Linguiça Vinagrete: Pão francês, hambúrguer de linguiça com queijo e vinagrete
+X-Linguiça com queijo: Pão francês, hambúrguer de linguiça com queijo
+X-Linguiça com Rúcula: Queijo, vinagrete, rúcula
+X-Linguiça com Vinagrete: Queijo, vinagrete
+X-Linguiça com tomate seco: Queijo, rúcula, tomate seco
+Mineirinho Light: Pão semi-integral, filé frango, queijo minas padrão light, cebola caramelizada, abacaxi, alface, tomate
+Naturinha: Pão semi-integral, peito peru, queijo minas padrão light, milho, alface, tomate
+Levinho: Pão semi-integral, peito peru, queijo prato, cebola
+X-Light: Pão semi-integral, hambúrguer frango, peito peru, queijo prato,mostarda, alface, tomate
+Misto: Duas fatias de presunto, quatro fatias de queijo, pão de hambúrguer
+Americano: Presunto, queijo, ovo frito, alface, tomate
+Hambúrguer: Hambúrguer carne, alface, tomate
+X-Búrguer: Hambúrguer carne, queijo, alface, tomate
+X-Frambúrguer: Hambúrguer frango, queijo, alface, tomate
+X-Galinha: Frango desfiado, queijo, alface, tomate
+X-Egg Búrguer: Hambúrguer carne, queijo, ovo frito, alface, tomate
+X-Bacon: Hambúrguer carne, queijo, bacon tostado, alface, tomate
+X-Egg Bacon: Hambúrguer carne, queijo, bacon tostado, ovo frito, alface, tomate

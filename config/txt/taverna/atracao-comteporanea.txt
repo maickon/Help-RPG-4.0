@@ -16,7 +16,7 @@ Folk
 Forró
 Funk
 Funk Carioca
-Gospel/Religioso
+Gospel ou Religioso
 Gótico
 Grunge
 Hard Rock
@@ -28,10 +28,10 @@ Indie
 Industrial
 Infantil
 Instrumental
-J-Pop/J-Rock
+J-Pop ou J-Rock
 Jazz
 Jovem Guarda
-K-Pop/K-Rock
+K-Pop ou K-Rock
 Kizomba
 Metal
 MPB
@@ -41,8 +41,8 @@ New Wave
 Pagode
 Piano Rock
 Pop
-Pop/Punk
-Pop/Rock
+Pop ou Punk
+Pop ou Rock
 Pós-Punk
 Post-Rock
 Power-Pop

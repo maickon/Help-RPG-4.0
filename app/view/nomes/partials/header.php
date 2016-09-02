@@ -17,7 +17,12 @@ $tag->html();
             $tag->printer(UTILITIES_NAME);
         $tag->title;
 
-        $_CSS = [CSS_BOOTSTRAP, CSS_INDEX, CSS_NAME_FONT, CSS_FONT_AWESOM, CSS_DICE, CSS_BOOTSTRAP_SELECT];
+        $_CSS = [
+            $name->bootstrap_css_path, 
+            $name->index_css_path,
+            $name->font_awesome_css_path,
+            $name->dice_css_path.'/dice.css',
+            $name->bootstrap_select_css_path];
         // <!-- CORE CSS -->
         foreach ($_CSS as $key => $value) {
             $tag->link('href="' . $value . '" rel="stylesheet"');
