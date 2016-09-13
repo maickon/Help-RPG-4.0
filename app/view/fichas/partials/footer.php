@@ -1,12 +1,13 @@
 <?php
 
 	// <!-- CORE JS -->
-	$_JS = [JS_CONFIG,
-			JS_PDF,
-			JS_JQUERY,
-			JS_BOOTSTRAP,
-			JS_BOOTSTRAP_SELECT,
-			JS_SHEETS
+	$_JS = [
+			$ficha->config_js_path,
+			$ficha->jspdf_js_path,
+			$ficha->jquery_js_path,
+			$ficha->bootstrap_js_path,
+			$ficha->bootstrap_select_js_path,
+			$ficha->fichas_js_path.'/fichas.js'
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

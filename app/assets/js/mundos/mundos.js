@@ -6,22 +6,22 @@
 var wc = {
     projection: {
         square: {
-            title: "ProjeÃ§Ã£o Quadrado"
+            title: "Projeção Quadrado"
         },
         mercator: {
-            title: "ProjeÃ§Ã£o Mercator"
+            title: "Projeção Mercator"
         },
         transmerc: {
-            title: "ProjeÃ§Ã£o Transversal"
+            title: "Projeção Transversal"
         },
         icosahedral: {
-            title: "ProjeÃ§Ã£o Icosahedral"
+            title: "Projeção Icosahedral"
         },
         mollweide: {
-            title: "ProjeÃ§Ã£o em elipse"
+            title: "Projeção em elipse"
         },
         sinusoidal: {
-            title: "ProjeÃ§Ã£o sinusoidal"
+            title: "Projeção sinusoidal"
         }
     },
     palette: palette

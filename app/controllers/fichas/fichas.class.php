@@ -32,12 +32,16 @@ class Fichas_Controller{
 	}
 
 	function npc(){
+		$ficha = new Fichas_Model;
+		$home_helper = new Home_Helper();
 		$tag = new Tags_Lib;
 		$personagem = (new Fichas_Model)->select_sheet('ded_npc');
 		require (new Render_Lib())->get_required_path();
 	}
 
 	function monstros(){
+		$ficha = new Fichas_Model;
+		$home_helper = new Home_Helper();
 		$tag = new Tags_Lib;
 		$personagem = (new Fichas_Model)->select_sheet('ded_monstros');
 		require (new Render_Lib())->get_required_path();

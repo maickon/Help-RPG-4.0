@@ -7,7 +7,7 @@ $tag->html('lang="en" class="no-js"');
         $tag->meta('name="description" content="' . META_DESCRIPTION . '"');
         $tag->meta('name="keywords" content="' . META_KEYWORDS . '"');
         $tag->meta('name="author" content="' . META_AUTHOR . '"');
-        $tag->link('rel="shortcut icon" href="' . IMG_SHORTCUT_ICON . '"');
+        $tag->link('rel="shortcut icon" href="' . $home->home_img_icon . '../logo-icon.png"');
         $tag->printer('<!--[if IE]>');
             $tag->meta('http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"');
         $tag->printer('<![endif]-->');

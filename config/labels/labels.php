@@ -37,18 +37,7 @@ const DICE_SHOW_TOTAL = 'Ver total';
 // botoes
 const SHEETS_GENERATION = 'Gerar Ficha';
 const NAME_GENERATION = 'Gerar Nome';
-// utilitarios - nomes
-const UTILITIES_NAME = 'Gerador de nomes - utilitários';
-const META_DESCRIPTION_NAME = 'Gerador de nomes - Help RPG.';
-const META_KEYWORDS_NAME = 'nomes,  nomes de lugares, nome de classes, nomes de raças, nomes culturais, outros nomes, nomes de nave, nomes de super heróis';
-// utilitarios - fichas
-const UTILITIES_CHARACTER_SHEETS = 'Gerador de fichas - utilitários';
-const META_DESCRIPTION_CHARACTER_SHEETS = 'Gerador de fichas - Help RPG.';
-const META_KEYWORDS_CHARACTER_SHEETS = 'fichas RPG, lista de fichas, pesquisa por fichas, cadastro de fichas, fichas RPG, lista de fichas, pesquisa por fichas, cadastro de fichas, monstros, ficha de monstro';
-// utilitarios - gerador aventuras
-const UTILITIES_ADVENTURES_GENERATE = 'Gerador de aventuras - utilitários';
-const META_DESCRIPTION_ADVENTURES_GENERATE = 'Gerador de aventuras - Help RPG.';
-const META_KEYWORDS_ADVENTURES_GENERATE = 'Aventuras para RPG, aventura medieval, aventura apocaliptica, aventura star wars, sorteio de aventura RPG';
+
 // menu itens
 const HOME = 'HOME';
 const CONTACT 	= 'CONTATO';

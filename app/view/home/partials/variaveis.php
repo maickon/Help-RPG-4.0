@@ -54,10 +54,10 @@ $_IMG_UTILITARIES = [
 	                    ],
 
 					    [
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
+	                        $mundos->mundos_img_icon.'mapa.png', 
+	                        $mundos->mundos_descricao_alt, 
+	                        $mundos->mundos_descricao_alt, 
+	                        $mundos->mundos_root_path
 	                    ],
 
 					    [  

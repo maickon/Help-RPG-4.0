@@ -8,7 +8,7 @@ $tag->html();
         $tag->meta('name="description" content="' . META_DESCRIPTION_ADVENTURES_GENERATE . '"');
         $tag->meta('name="keywords" content="' . META_KEYWORDS_ADVENTURES_GENERATE . '"');
         $tag->meta('name="author" content="' . META_AUTHOR . '"');
-        $tag->link('rel="shortcut icon" href="' . IMG_ADVENTURES . '"');
+        $tag->link('rel="shortcut icon" href="' . $aventura->geradoraventuras_img_icon . '/aventura.png"');
 
         $tag->printer('<!--[if IE]>');
             $tag->meta('http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"');
@@ -16,7 +16,7 @@ $tag->html();
         $tag->title();
             $tag->printer(UTILITIES_ADVENTURES_GENERATE);
         $tag->title;
-
+  
         $_CSS = [
                     $aventura->bootstrap_css_path, 
                     $aventura->index_css_path, 

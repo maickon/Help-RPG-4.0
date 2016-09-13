@@ -25,7 +25,7 @@ function rand_nomes(){
          var raca = $.ajax({
             type: 'post',
             dataType: 'html',
-            url: JS_SERVICE_NAME_PATH,
+            url: JS_SERVICE_NAME_PATH + '/' + selecionado + '/9',
             data: {select: selecionado},
             success: function(result){
               var json = (eval("(" + result + ")"));
@@ -59,7 +59,7 @@ function rand_nomes(){
         var raca = $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_NAME_PATH,
+          url: JS_SERVICE_NAME_PATH + '/' + selecionado + '/9',
           data: {select: selecionado},
           success: function(result){
             var json = (eval("(" + result + ")"));

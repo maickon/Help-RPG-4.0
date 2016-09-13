@@ -9,7 +9,9 @@ class Mundos_Controller extends Controller_Lib{
 	function index(){
 		$rota = $this;
 		$tag = new Tags_Lib();
+		$form = new Form_Lib();
 		$home_helper = new Home_Helper();
+		$mundos = new Mundos_Model();
 		require (new Render_Lib())->get_required_path();
 	}
 

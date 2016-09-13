@@ -8,7 +8,7 @@ $tag->html();
         $tag->meta('name="description" content="' . META_DESCRIPTION_TAVERN . '"');
         $tag->meta('name="keywords" content="' . META_KEYWORDS_TAVERN . '"');
         $tag->meta('name="author" content="' . META_AUTHOR . '"');
-        $tag->link('rel="shortcut icon" href="' . IMG_TAVERN . '"');
+        $tag->link('rel="shortcut icon" href="' . $taverna->tavernas_img_icon . '/taverna.png"');
 
         $tag->printer('<!--[if IE]>');
             $tag->meta('http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"');

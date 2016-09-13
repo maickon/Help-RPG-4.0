@@ -1,16 +1,13 @@
 <?php
-
 	// <!-- CORE JS -->
-	$_JS = [JS_CONFIG,
-			JS_NAME,
-			JS_PDF,
-			JS_JQUERY,
-			JS_BOOTSTRAP,
-			JS_BOOTSTRAP_SELECT,
-			JS_MUNDO,
-			JS_PROTOTYPE,
-			JS_CANVAS,
-			JS_CONFIG,
+	$_JS = [
+			$mundos->jquery_js_path,
+			$mundos->mundos_js_path.'/world_configuration.js',
+			$mundos->prototype_js_path,
+			$mundos->mundos_js_path.'/prng.js',
+			$mundos->canvas_js_path,
+			$mundos->mundos_js_path.'/mundos.js',
+			$mundos->jspdf_js_path,
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

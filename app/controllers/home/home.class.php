@@ -10,6 +10,7 @@ class Home_Controller{
 		$nomes = new Nomes_Model;
 		$fichas = new Fichas_Model;
 		$geradoraventuras = new GeradorAventuras_Model;
+		$mundos = new Mundos_Model;
 		$tavernas = new Tavernas_Model;
 
 		require (new Render_Lib())->get_required_path();
