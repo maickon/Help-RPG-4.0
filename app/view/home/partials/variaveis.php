@@ -54,17 +54,17 @@ $_IMG_UTILITARIES = [
 	                    ],
 
 					    [
-	                        $mundos->mundos_img_icon.'mapa.png', 
-	                        $mundos->mundos_descricao_alt, 
-	                        $mundos->mundos_descricao_alt, 
-	                        $mundos->mundos_root_path
+	                        $masmorras->masmorras_img_icon.'masmorras.png', 
+	                        $masmorras->masmorras_descricao_alt, 
+	                        $masmorras->masmorras_descricao_alt, 
+	                        $masmorras->masmorras_root_path
 	                    ],
 
 					    [  
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
+	                        $masmorras->masmorras_img_icon.'mapa.png', 
+	                        $masmorras->masmorras_descricao_alt, 
+	                        $masmorras->masmorras_descricao_alt, 
+	                        $masmorras->masmorras_root_path
 	                    ],
 					
 	                    [
