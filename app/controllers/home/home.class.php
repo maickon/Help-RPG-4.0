@@ -14,6 +14,7 @@ class Home_Controller{
 		$masmorras = new Masmorras_Model;
 		$tavernas = new Tavernas_Model;
 		$masmorras = new Masmorras_Model;
+		$personalidades = new Personalidades_Model;
 
 		require (new Render_Lib())->get_required_path();
 	}

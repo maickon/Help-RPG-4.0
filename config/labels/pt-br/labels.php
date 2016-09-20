@@ -30,3 +30,4 @@ require 'utilitarios/outros/outros-labels.php';
 require 'utilitarios/tavernas/tavernas.php';
 require 'utilitarios/mapa-mundi/mapa-mundi.php';
 require 'utilitarios/masmorras/masmorras.php';
+require 'utilitarios/personalidades/personalidades.php';

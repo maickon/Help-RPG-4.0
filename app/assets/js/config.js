@@ -22,6 +22,7 @@ var JS_SERVICE_NAME_PATH = URL_BASE + 'nomes/service';
 var JS_SERVICE_TAVERN_PATH = URL_BASE + 'tavernas/service';
 var JS_SERVICE_NPC_DED = URL_BASE + 'fichas/service/ded';
 var JS_SERVICE_MONSTROS_PATH = URL_BASE + 'fichas/service/ded';
+var JS_SERVICE_PERSONALIDADES_PATH = URL_BASE + 'personalidades/service';
 // fichas html path
 var JS_FICHAS_PATH = URL_BASE + 'fichas/select_sheet';
 // rolar varios dados

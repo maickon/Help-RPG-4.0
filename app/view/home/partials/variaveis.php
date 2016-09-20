@@ -68,49 +68,49 @@ $_IMG_UTILITARIES = [
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $personalidades->personalidades_img_icon.'personalidades.png', 
+	                        $personalidades->personalidades_descricao_alt, 
+	                        $personalidades->personalidades_descricao_alt, 
+	                        $personalidades->personalidades_root_path
+	                    ],
+
+					    [
+	                        $tavernas->tavernas_img_icon.'cidades.png', 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_root_path
 	                    ],
 
 					    [
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
-	                    ],
-
-					    [
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_img_icon.'marcador.png', 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_img_icon.'item.png', 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_img_icon.'sorte.png', 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_img_icon.'tempo.png', 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_root_path
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'taverna.png', 
+	                        $tavernas->tavernas_img_icon.'espadas.png', 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_descricao_alt, 
 	                        $tavernas->tavernas_root_path
