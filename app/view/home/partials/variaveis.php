@@ -82,10 +82,10 @@ $_IMG_UTILITARIES = [
 	                    ],
 
 					    [
-	                        $tavernas->tavernas_img_icon.'marcador.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
+	                        $marcadores->marcadores_img_icon.'marcador.png', 
+	                        $marcadores->marcadores_descricao_alt, 
+	                        $marcadores->marcadores_descricao_alt, 
+	                        $marcadores->marcadores_root_path
 	                    ],
 					
 	                    [
