@@ -75,10 +75,10 @@ $_IMG_UTILITARIES = [
 	                    ],
 
 					    [
-	                        $tavernas->tavernas_img_icon.'cidades.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
+	                        $cidades->cidades_img_icon.'cidades.png', 
+	                        $cidades->cidades_descricao_alt, 
+	                        $cidades->cidades_descricao_alt, 
+	                        $cidades->cidades_root_path
 	                    ],
 
 					    [

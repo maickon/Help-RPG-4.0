@@ -6,4 +6,3 @@ Vila grande
 Cidade pequena
 Cidade grande
 Metrópole
-Metrópole central

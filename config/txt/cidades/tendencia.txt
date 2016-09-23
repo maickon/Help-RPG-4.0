@@ -1,0 +1,9 @@
+Leal e Bom
+Neutro e Bom
+Caótico e Bom
+Leal e Neutro
+Neutro e Autêntico
+Caótico e Neutro
+Leal e Mal
+Neutro e Mal
+Caótico e Mal
