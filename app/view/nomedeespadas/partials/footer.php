@@ -1,12 +1,12 @@
 <?php
 
 	// <!-- CORE JS -->
-	$_JS = [$tempo->jquery_js_path,
-			$tempo->config_js_path,
-			$tempo->bootstrap_js_path,
-			$tempo->tempo_js_path.'/tempo.js',
-			$tempo->jspdf_js_path,
-			$tempo->bootstrap_select_js_path
+	$_JS = [$nomedeespadas->jquery_js_path,
+			$nomedeespadas->config_js_path,
+			$nomedeespadas->bootstrap_js_path,
+			$nomedeespadas->nomedeespadas_js_path.'/nomedeespadas.js',
+			$nomedeespadas->jspdf_js_path,
+			$nomedeespadas->bootstrap_select_js_path
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

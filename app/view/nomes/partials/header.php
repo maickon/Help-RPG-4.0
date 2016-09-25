@@ -8,7 +8,7 @@ $tag->html();
         $tag->meta('name="description" content="' . META_DESCRIPTION_NAME . '"');
         $tag->meta('name="keywords" content="' . META_KEYWORDS_NAME . '"');
         $tag->meta('name="author" content="' . META_AUTHOR . '"');
-        $tag->link('rel="shortcut icon" href="' . $name->nomes_img_icon.'/nomes.png"');
+        $tag->link('rel="shortcut icon" href="' . $name->nomes_img_icon.'nomes.png"');
 
         $tag->printer('<!--[if IE]>');
             $tag->meta('http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"');

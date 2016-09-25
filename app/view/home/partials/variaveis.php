@@ -110,10 +110,10 @@ $_IMG_UTILITARIES = [
 	                    ],
 					
 	                    [
-	                        $espadas->espadas_img_icon.'espadas.png', 
-	                        $espadas->espadas_descricao_alt, 
-	                        $espadas->espadas_descricao_alt, 
-	                        $espadas->espadas_root_path
+	                        $nomedeespadas->nomedeespadas_img_icon.'espadas.png', 
+	                        $nomedeespadas->nomedeespadas_descricao_alt, 
+	                        $nomedeespadas->nomedeespadas_descricao_alt, 
+	                        $nomedeespadas->nomedeespadas_root_path
 	                    ]
 					];
 

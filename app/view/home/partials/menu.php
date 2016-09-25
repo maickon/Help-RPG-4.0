@@ -17,7 +17,7 @@ $tag->div('class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-sec
             
             $menu = [
                         ['#'.strtolower(HOME),       HOME],
-                        ['#'.strtolower(str_replace('Á', 'a', UTILITIES)),UTILITIES],
+                        ['#'.strtolower(RECORDS), RECORDS],
                         ['#'.strtolower(CONTACT),    CONTACT],
                         [strtolower(WORDPRESS_URL),    BLOG],
                         [strtolower(YOU_TUBE_URL),    YOU_TUBE_PAGE]

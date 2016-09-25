@@ -3,7 +3,7 @@
 $tag->div(['class'=>'row']);
 	$tag->div(['class'=>'col-md-12']);
 	    $tag->h2();
-	        $tag->printer(UTILITIES_TIME);
+	        $tag->printer(UTILITIES_SWORD_NAME);
 	    $tag->h2;
 		
 		$tag->printer(HORIZONTAL_BAR);

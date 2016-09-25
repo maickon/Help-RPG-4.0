@@ -4,14 +4,6 @@ $tag->div(['class'=>'container']);
 	$tag->div(['class'=>'row']); 	
 		$tag->br();
 		$tag->div('class="col-md-12"');		       
-	        $tag->select('class="selectpicker margin" data-show-subtext="true" data-live-search="true" id="select"');
-		        foreach($opcoes as $key => $value):
-		            $tag->option('value="'.$value[2].'" title="'.$value[1].'"');
-		                $tag->printer($value[1]);
-		            $tag->option;		
-		        endforeach;
-		    $tag->select;
-
 		    $tag->select('class="selectpicker margin" data-show-subtext="true" data-live-search="true" id="select_qtd"');
 		        $count = 1;
 		        while($count != 10):
@@ -23,7 +15,7 @@ $tag->div(['class'=>'container']);
 		    $tag->select;
 		
 		    $tag->span(['class'=>'help-inline']);
-		        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> TIME_GENERATE_LABEL, 'value'=> TIME_GENERATE_LABEL, 'onclick'=>'sortear_tempo();']);
+		        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> SWORD_NAME_GENERATE_LABEL, 'value'=> SWORD_NAME_GENERATE_LABEL, 'onclick'=>'sortear_nome_de_espada();']);
 		    $tag->spam;
 
 		    $tag->div('class="checkbox"');

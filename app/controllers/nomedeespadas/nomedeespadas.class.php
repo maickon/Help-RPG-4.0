@@ -10,39 +10,43 @@ class Nomedeespadas_Controller extends Controller_Lib{
 		$rota = $this;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
-		$espadas = new Nomedeespadas_Model;
+		$nomedeespadas = new Nomedeespadas_Model;
 		require (new Render_Lib())->get_required_path();
 	}
 
 	function service($params){
-		$espadas = new Nomedeespadas_Model;
-		$attr = "{$params[0]}_path";
+		if (!is_numeric($params)) {
+			$this->error();
+		} else{
+			$nomedeespadas = new Nomedeespadas_Model;
+			$label = null;
 
-		$tipos = [
-			'precipitacao' 	=> TIME_PRECIPITATION_LABEL,
-			'temperatura'	=> TIME_TEMPERATURE_LABEL,
-			'vento'			=> TIME_WIND_LABEL,
-			'clima'			=> TIME_CLIMATE_LABEL,
-			'todos' 		=> TIME_ALL_LABEL
-    	];
-
-		if (is_array($params)) {
-			if ($params[0] == 'todos') {
-				$nome[] = (new Raffleitemfile_Lib($espadas->clima_path, 1))->getRaffleItens();	
-				$nome[] = (new Raffleitemfile_Lib($espadas->vento_path, 1))->getRaffleItens();	
-				$nome[] = (new Raffleitemfile_Lib($espadas->temperatura_path, 1))->getRaffleItens();	
-				$nome[] = (new Raffleitemfile_Lib($espadas->precipitacao_path, 1))->getRaffleItens();	
-				$nomes = ['titulo' => $tipos[$params[0]], 'descricao' => $nome];
-			} else {
-				$nome = (new Raffleitemfile_Lib("{$tempo->$attr}", $params[1]))->getRaffleItens();	
-				$nomes = ['titulo' => $tipos[$params[0]], 'descricao' => $nome];
+			if ($params > 1) {
+				$label = SWORD_NAME_LABEL_PLURAL;
+			} elseif ($params == 1) {
+				$label = SWORD_NAME_LABEL_SINGULAR;
 			}
-		} else {
-			$nome = (new Raffleitemfile_Lib("{$tempo->$attr}", 1))->getRaffleItens();
-			$nomes = ['titulo' => $tipos[$params], 'descricao' => $nome];
+			
+			$primeiro_nome = (new Raffleitemfile_Lib("{$nomedeespadas->primeiro_nome_path}", $params))->getRaffleItens();	
+			$segundo_nome = (new Raffleitemfile_Lib("{$nomedeespadas->segundo_nome_path}", $params))->getRaffleItens();	
+			
+			if (is_array($primeiro_nome)) {
+				for($i=0; $i<count($primeiro_nome); $i++) {
+					$descricao[] = "{$primeiro_nome[$i]} {$segundo_nome[$i]}";
+				}
+			} else {
+				$descricao = "{$primeiro_nome} {$segundo_nome}";
+			}
+
+			$nomes = ['titulo' => $label, 'descricao' => $descricao];
+		
+			// echo '<pre>';
+			// print_r($nome);
+			echo json_encode($nomes);
 		}
-		// echo '<pre>';
-		// print_r($nome);
-		echo json_encode($nomes);
+	}
+
+	function error(){
+		echo '<center><h1>Error 404 - Página não encontrada.</h1></center>';
 	}
 }

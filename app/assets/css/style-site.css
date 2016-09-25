@@ -189,7 +189,7 @@ background-color: rgba(255, 255, 255, 0.20);
 SERVICES SECTION STYLES
 ============================================================ */
 
-#utilitarios .utilitarios-wrapper {
+#registros .registros-wrapper {
 padding: 20px;
 border-radius: 5px;
 -moz-border-radius: 5px;
@@ -203,15 +203,15 @@ cursor: pointer;
 transition: all 0.5s ease-in-out;
 }
 
-#utilitarios .utilitarios-wrapper:hover {
+#registros .registros-wrapper:hover {
 background-color: rgba(255, 255, 255, 0.20);
 }
 
-#utilitarios h3 {
+#registros h3 {
 font-family: 'Oswald', sans-serif;
 }
 
-#utilitarios .utilitarios-wrapper i {
+#registros .registros-wrapper i {
 margin: 5px;
 color: rgb(40, 141, 203);
 font-size: 60px;

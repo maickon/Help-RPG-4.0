@@ -20,7 +20,7 @@ class Home_Controller{
 		$itens = new Itens_Model();
 		$sorte = new Sorte_Model();
 		$tempo = new Tempo_Model();
-		$espadas = new Nomedeespadas_Model();
+		$nomedeespadas = new Nomedeespadas_Model();
 		
 		require (new Render_Lib())->get_required_path();
 	}

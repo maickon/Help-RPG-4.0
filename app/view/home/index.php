@@ -7,7 +7,7 @@ require 'partials/menu.php';
 // home page section
 require 'partials/home.php';
 // utilitaries page section
-require 'partials/utilitarios.php';
+require 'partials/registros.php';
 // contact page section
 require 'partials/contato.php';
 // footer page section

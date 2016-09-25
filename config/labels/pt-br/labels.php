@@ -36,3 +36,4 @@ require 'utilitarios/marcadores/marcadores.php';
 require 'utilitarios/itens/itens.php';
 require 'utilitarios/sorte/sorte.php';
 require 'utilitarios/tempo/tempo.php';
+require 'utilitarios/nomedeespadas/nomedeespadas.php';

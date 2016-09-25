@@ -19,4 +19,4 @@ const GENERATOR_CITIES_URL = URL_BASE . 'cidades/';
 const HIGHLIGHTER_URL = URL_BASE . 'marcadores/';
 const GENERATOR_ITENS_URL = URL_BASE . 'itens/';
 const GENERATOR_LUCK_URL = URL_BASE . 'sorte/';
-const GENERATOR_NAME_SWORD_URL = URL_BASE . 'namedeespadas/';
+const GENERATOR_NAME_SWORD_URL = URL_BASE . 'nomedeespadas/';
