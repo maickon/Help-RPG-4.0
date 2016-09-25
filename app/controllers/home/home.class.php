@@ -19,6 +19,8 @@ class Home_Controller{
 		$marcadores = new Marcadores_Model();
 		$itens = new Itens_Model();
 		$sorte = new Sorte_Model();
+		$tempo = new Tempo_Model();
+		$espadas = new Nomedeespadas_Model();
 		
 		require (new Render_Lib())->get_required_path();
 	}

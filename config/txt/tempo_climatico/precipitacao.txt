@@ -5,3 +5,7 @@ Precipitação leve, como garoa, chuvisco e alguns flocos de neve.
 Precipitação moderada, com chuva leve por algumas horas e neve.
 Precipitação forte, com chuva por um dia inteiro, neve constante, granizo.
 Tempestade, chuva forte causando alagamentos e nevasca.
+Chuva Fraca com relâmpagos.
+Chuva forte com grande ventania.
+Chuva fote com relâmpagos e ventanhia.
+Céu muito nublado.

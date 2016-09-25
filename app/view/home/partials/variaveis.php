@@ -103,17 +103,17 @@ $_IMG_UTILITARIES = [
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'tempo.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
+	                        $tempo->tempo_img_icon.'tempo.png', 
+	                        $tempo->tempo_descricao_alt, 
+	                        $tempo->tempo_descricao_alt, 
+	                        $tempo->tempo_root_path
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'espadas.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
+	                        $espadas->espadas_img_icon.'espadas.png', 
+	                        $espadas->espadas_descricao_alt, 
+	                        $espadas->espadas_descricao_alt, 
+	                        $espadas->espadas_root_path
 	                    ]
 					];
 
