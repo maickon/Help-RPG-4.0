@@ -89,10 +89,10 @@ $_IMG_UTILITARIES = [
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'item.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
+	                        $itens->itens_img_icon.'item.png', 
+	                        $itens->itens_descricao_alt, 
+	                        $itens->itens_descricao_alt, 
+	                        $itens->itens_root_path
 	                    ],
 					
 	                    [

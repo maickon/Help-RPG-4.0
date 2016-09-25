@@ -17,6 +17,7 @@ class Home_Controller{
 		$personalidades = new Personalidades_Model;
 		$cidades = new Cidades_Model;
 		$marcadores = new Marcadores_Model();
+		$itens = new Itens_Model();
 		
 		require (new Render_Lib())->get_required_path();
 	}
