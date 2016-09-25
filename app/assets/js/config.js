@@ -25,6 +25,7 @@ var JS_SERVICE_MONSTROS_PATH = URL_BASE + 'fichas/service/ded';
 var JS_SERVICE_PERSONALIDADES_PATH = URL_BASE + 'personalidades/service';
 var JS_SERVICE_CITIES_PATH = URL_BASE + 'cidades/service';
 var JS_SERVICE_ITENS_PATH = URL_BASE + 'itens/service';
+var JS_SERVICE_LOCK_PATH = URL_BASE + 'sorte/service';
 // fichas html path
 var JS_FICHAS_PATH = URL_BASE + 'fichas/select_sheet';
 // rolar varios dados

@@ -1,5 +1,4 @@
-
-function rand_item_aleatorio(){
+function rand_sorte_aleatorio(){
   var item = $("#select").val();
   var qtd = $("#select_qtd").val();
   if(!$('#disable_mode_draw').is(':checked')) {
@@ -7,7 +6,7 @@ function rand_item_aleatorio(){
        var raca = $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_ITENS_PATH + '/' + item + '/' + qtd,
+          url: JS_SERVICE_LOCK_PATH + '/' + item + '/' + qtd,
           success: function(result){
             var json = (eval("(" + result + ")"));
                 for(var key in json){
@@ -35,7 +34,7 @@ function rand_item_aleatorio(){
       var raca = $.ajax({
           type: 'post',
           dataType: 'html',
-          url: JS_SERVICE_ITENS_PATH + '/' + item + '/' + qtd,
+          url: JS_SERVICE_LOCK_PATH + '/' + item + '/' + qtd,
           success: function(result){
             var json = (eval("(" + result + ")"));
                 for(var key in json){
@@ -56,38 +55,4 @@ function rand_item_aleatorio(){
         });
   }
 
-}
-
-function rand_item_comum_aleatorio(){
-  var intervalo = window.setInterval(function(){
-     var raca = $.ajax({
-        type: 'post',
-        dataType: 'html',
-        data: {item: tipo_item},
-        url: '../gerador/itens-comuns.php',
-        success: function(result){
-          var json = (eval("(" + result + ")"));
-          var attr = [
-                      'poder_arma',
-                      'poder_armadura',
-                      'material',
-                      'aprimoramento',
-                      'arma',
-                      'armadura',
-                      'titulo',
-                      'titulo_poder',
-                      'titulo_material',
-                      'titulo_aprimoramento'         
-                      ];
-          for(var i=0; i<attr.length; i++){
-              $( "#"+attr[i] ).empty();
-              $( "#"+attr[i] ).append(json[attr[i]]);
-            } 
-          }
-      });
-    }, speed);
-
-     window.setTimeout(function() {
-        clearInterval(intervalo);
-    }, time);
 }

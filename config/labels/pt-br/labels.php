@@ -34,3 +34,4 @@ require 'utilitarios/personalidades/personalidades.php';
 require 'utilitarios/cidades/cidades.php';
 require 'utilitarios/marcadores/marcadores.php';
 require 'utilitarios/itens/itens.php';
+require 'utilitarios/sorte/sorte.php';

@@ -96,10 +96,10 @@ $_IMG_UTILITARIES = [
 	                    ],
 					
 	                    [
-	                        $tavernas->tavernas_img_icon.'sorte.png', 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_descricao_alt, 
-	                        $tavernas->tavernas_root_path
+	                        $sorte->sorte_img_icon.'sorte.png', 
+	                        $sorte->sorte_descricao_alt, 
+	                        $sorte->sorte_descricao_alt, 
+	                        $sorte->sorte_root_path
 	                    ],
 					
 	                    [

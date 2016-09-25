@@ -1,0 +1,36 @@
+Ferradura: Duplique a velocidade de sua montaria - Duração: 5 rodadas.
+Floco de neve: Reduz em 1 os danos de de magias ou efeitos frio - Duração: 2 rodadas.
+Espada de aço:  +1 nas jogadas de dano corpo a corpo - Duração: 2 rodadas.
+Botas:  + 5% nos testes para mover-se silenciosamente - Duração: 2 rodadas.
+Escama de peixes: Capaz de respirar debaixo d'água - Duração: 5 rodadas.
+Vassoura: Limpa seu corpo e equipamento de maldição e sujeira - Duração: Imediatamente.
+Livro: Você pode relançar qualquer feitiço de primeiro nível, que você já tenha lançado recentemente - Duração: 1 rodada.
+Estátua da serpente: +1 em salvamento contra envenenamento - Duração: 3 rodadas.
+Rocha reluzente: +1 em salvamento contra petrificação - Duração: 3 rodadas.
+Mochila: Reduz o seu nível de carga emDuração: 5 rodadas.
+Cabeça encolhida:  +1 em salvamento contra morte - Duração: 3 rodadas.
+Monóculo: Você pode ver duas vezes mais longe - Duração: 5 rodadas.
+Garrafa: Você agora está sóbrio - Duração: Imediato.
+Sol: curar 1 ponto de vida - Duração: Imediato.
+Pena: Reduzir dano por queda em 1 - Duração: 2 rodadas.
+Adaga: Próximo ataque pelas costas faz dano x3 - Duração: 1 rodada.
+Ponta de flecha: +1 em danos variados - Duração: 2 rodadas.
+Garrafa de  perfume: +1 para testes de reação - Duração: 5 rodadas.
+Cabeça de leão: Os seus aliados ganham +1 em checks de morDuração: 5 rodadas.
+Rolo de pergaminho: +1 em salvamento contra magia - Duração: 3 rodadas.
+Globo ocular: Você não pode ser surpreendido - Duração: 2 rodadas.
+Espelho: Você não pode atacado furtivamente - Duração: 1 rodada.
+Crânio: +1 na rolagem de turn undead - Duração: 1 rodada.
+Moeda: +5% na rolagem de pungar - Duração: 2 rodadas.
+Galho: +1 para salvamentos com varinhas, bastões, barras - Duração: 3 rodadas.
+Lanterna: Todos os testes de encontros aleatórios caem pela metade - Duração: 24 horas.
+Escudo: Da próxima vez que você chegar à zero pontos de vida você ganha 1 ponto de vida. - Duração: 5 rodadas.
+Machado: Próximo ataque corpo a corpo bem sucedido causa dano máximo - Duração: 2 rodadas.
+Dedal:  Evoca um zumbi para lutar por você - Duração:  5 rodadas.
+Castelo: Um +1 ou maior é necessário para uma arma mágica atingi-lo - Duração: 1 rodada.
+Touro: Todas as moedas que possui aumentam em 20% - Duração: imediato.
+Lápide: Você está imune a drenar - Duração: 3 rodadas.
+Ampulheta: Sua categoria de idade é reduzida em 1 – Duração: imediato.
+Coruja: Você ganha 1.000 xp - Duração: Imediato.
+Esfera de metal:  Uma esfera aparece diante de seus inimigos e causa 6d6 de dano “abençoado” em um raio de 10 pés - Duração:  imediato.
+Poeira Golem: Um feiticeiro está buscando resquícios de bugigangas já usadas em algum lugar específico (casa, castelo, dungeon, guilda). Ele está contratando aventureiros para encontrar tanta poeira de bugigangas quanto possível. Para cada libra de poeira que ele vai pagar 10 peças de ouro. A magia residual aparentemente é um grande componente para a criação de um golem.

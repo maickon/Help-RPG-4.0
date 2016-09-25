@@ -18,6 +18,7 @@ class Home_Controller{
 		$cidades = new Cidades_Model;
 		$marcadores = new Marcadores_Model();
 		$itens = new Itens_Model();
+		$sorte = new Sorte_Model();
 		
 		require (new Render_Lib())->get_required_path();
 	}

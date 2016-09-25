@@ -19,8 +19,10 @@ class Itens_Controller extends Controller_Lib{
 		$tipos = [
 			'itens_estupidos' 	=> 'Itens mágicos Estúpidos',
 			'armas_magicas'		=> 'Armas mágicas',
+			'armas_comuns'		=> 'Armas comuns',
 			'escudos_magicos' 	=> 'Escudos mágicos',
 			'armaduras_magicas' => 'Armaduras mágicas',
+			'bugigangas' 		=> 'Bugigangas',
 			'botas' 			=> 'Botas',
 			'capa'				=> 'Capas',
 			'colar'				=> 'Colar',
