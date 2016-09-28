@@ -1,5 +1,5 @@
 <?php
-class Talentos_Model extends HelperRecord_Lib{
+class Login_Model extends Model_Lib{
 	
 	function __construct(){
 		parent::__construct();	

@@ -19,14 +19,21 @@ $tag->div('class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-sec
                         ['#'.strtolower(HOME),       HOME],
                         ['#'.strtolower(RECORDS), RECORDS],
                         ['#'.strtolower(CONTACT),    CONTACT],
+                        ['#'.strtolower(LOGIN),       LOGIN],
                         [strtolower(WORDPRESS_URL),    BLOG],
                         [strtolower(YOU_TUBE_URL),    YOU_TUBE_PAGE]
                     ];    
             foreach ($menu as $key => $value) {
                 $tag->li();
-                    $tag->a('href="' . $value[0] . '"');
-                        $tag->printer($value[1]);
-                    $tag->a;
+                    if ($value[1] == 'LOGIN') {
+                        $tag->a('href="' . $value[0] . ' role="button" data-toggle="modal" data-target="#login-modal""');
+                            $tag->printer($value[1]);
+                        $tag->a;
+                    } else {
+                        $tag->a('href="' . $value[0] . '"');
+                            $tag->printer($value[1]);
+                        $tag->a;
+                    }
                 $tag->li;
             }
          

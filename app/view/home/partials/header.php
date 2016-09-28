@@ -17,11 +17,13 @@ $tag->html('lang="en" class="no-js"');
 
         $_CSS = [
                     $home->bootstrap_css_path, 
+                    $home->login_css_path . '/login.css',
                     $home->index_css_path, 
                     $home->ionicons_css_path, 
                     $home->font_awesome_css_path, 
                     $home->animations_css_path,
-                    $home->style_site_css_path];
+                    $home->style_site_css_path 
+                ];
         // <!-- CORE CSS -->
         foreach ($_CSS as $key => $value) {
             $tag->link('href="' . $value . '" rel="stylesheet"');

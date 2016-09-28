@@ -122,90 +122,105 @@ $_IMG_UTILITARIES_2 = [
 	            [
 	            	IMG_ICON_PATH . 'usuario.png', 
 	            	USERS_REGISTERED, 
-	            	"{$home->getHomeData('count_user')} " . RECORDS
+	            	"{$usuarios_registrados} " . RECORDS,
+	            	URL_BASE . 'usuario'
 	            ],
 				
 				[
 					IMG_ICON_PATH . 'armadura.png', 
 					ARMOR, 
-					"{$home->getHomeData('count_armadura')} " . RECORDS
+					"{$armaduras_registradas} " . RECORDS,
+					URL_BASE . 'armadura'
 				],
 				
 				[
 					IMG_ICON_PATH . 'arma.png', 
 					WEAPONS, 
-					"{$home->getHomeData('count_arma')} " . RECORDS
+					"{$armas_registradas} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'artefato.png', 
 					ARTIFACTS, 
-					"{$home->getHomeData('count_artefato')} " . RECORDS
+					"{$artefatos_registrados} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'personagem.png', 
 					FILE_PLAYER_CHARACTER, 
-					"{$home->getHomeData('count_personagem_jogador')} " . RECORDS
+					"{$personagens_jogadores_registrados} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'mais-fichas.png', 
 					FILE_NPC_CHARACTER, 
-					"{$home->getHomeData('count_personagem_npc')} " . RECORDS
+					"{$personagens_monstros_registrados} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'talentos.png', 
 					TALENTS, 
-					"{$home->getHomeData('count_talentos')} " . RECORDS
+					"{$talentos_registrados} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'magia.png', 
 					SPELLS, 
-					"{$home->getHomeData('count_magias')} " . RECORDS
+					"{$magias_registradas} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'pericia.png', 
 					SKILLS, 
-					"{$home->getHomeData('count_pericias')} " . RECORDS
+					"{$pericias_registradas} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'aventura.png', 
 					ADVENTURES, 
-					"{$home->getHomeData('count_aventuras')} " . RECORDS
+					"{$aventuras_registradas} " . RECORDS,
+					URL_BASE . ''
 				],
 
 				[
 					IMG_ICON_PATH . 'historia.png', 
 					STORIES, 
-					"{$home->getHomeData('count_historias')} " . RECORDS
+					"{$historias_registradas} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'contos.png', 
 					TALES, 
-					"{$home->getHomeData('count_contos')} " . RECORDS
+					"{$contos_registrados} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'cronicas.png', 
 					CHRONICLES, 
-					"{$home->getHomeData('count_cronicas')} " . RECORDS
+					"{$cronicas_registradas} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[	
 					IMG_ICON_PATH . 'cenarios.png', 
 					SCENARIO, 
-					"{$home->getHomeData('count_cenarios')} " . RECORDS
+					"{$cenarios_registrados} " . RECORDS,
+					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'bestiario.png', 
 					BESTIARY, 
-					"{$home->getHomeData('count_bestiario')} " . RECORDS
+					"{$bestiarios_registrados} " . RECORDS,
+					URL_BASE . ''
 				]
 			];

@@ -1,0 +1,858 @@
+2016-09-26 01:04:39 => Checando se tabela existe: OK<br>2016-09-26 01:04:39 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:08:55 => Checando se tabela existe: OK<br>2016-09-26 01:08:55 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:08:55 => Checando se tabela existe: OK<br>2016-09-26 01:08:55 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-09-26 01:08:55 => Checando se tabela existe: OK<br>2016-09-26 01:08:55 => Dados retornados com sucesso na tabela <b>armas</b><br>Instrução sql::<b>SELECT * FROM armas</b>
+2016-09-26 01:08:56 => Checando se tabela existe: OK<br>2016-09-26 01:08:56 => Dados retornados com sucesso na tabela <b>artefatos</b><br>Instrução sql::<b>SELECT * FROM artefatos</b>
+2016-09-26 01:08:56 => Checando se tabela existe: OK<br>2016-09-26 01:08:56 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:08:56 => Checando se tabela existe: OK<br>2016-09-26 01:08:56 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:08:56 => Checando se tabela existe: OK<br>2016-09-26 01:08:56 => Método __select()<br>Ocorreu um erro ao tentar retornar dados na tabela <b>personagens</b>. Verifique se o nome da coluna está correto.
+2016-09-26 01:12:04 => Checando se tabela existe: OK<br>2016-09-26 01:12:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:12:43 => Checando se tabela existe: OK<br>2016-09-26 01:12:43 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:12:43 => Checando se tabela existe: OK<br>2016-09-26 01:12:43 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-09-26 01:12:43 => Checando se tabela existe: OK<br>2016-09-26 01:12:43 => Dados retornados com sucesso na tabela <b>armas</b><br>Instrução sql::<b>SELECT * FROM armas</b>
+2016-09-26 01:13:30 => Checando se tabela existe: OK<br>2016-09-26 01:13:30 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:13:30 => Checando se tabela existe: OK<br>2016-09-26 01:13:30 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-09-26 01:13:30 => Checando se tabela existe: OK<br>2016-09-26 01:13:30 => Dados retornados com sucesso na tabela <b>armas</b><br>Instrução sql::<b>SELECT * FROM armas</b>
+2016-09-26 01:13:30 => Checando se tabela existe: OK<br>2016-09-26 01:13:30 => Dados retornados com sucesso na tabela <b>artefatos</b><br>Instrução sql::<b>SELECT * FROM artefatos</b>
+2016-09-26 01:13:58 => Checando se tabela existe: OK<br>2016-09-26 01:13:58 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:13:58 => Checando se tabela existe: OK<br>2016-09-26 01:13:58 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-09-26 01:13:58 => Checando se tabela existe: OK<br>2016-09-26 01:13:58 => Dados retornados com sucesso na tabela <b>armas</b><br>Instrução sql::<b>SELECT * FROM armas</b>
+2016-09-26 01:13:58 => Checando se tabela existe: OK<br>2016-09-26 01:13:58 => Dados retornados com sucesso na tabela <b>artefatos</b><br>Instrução sql::<b>SELECT * FROM artefatos</b>
+2016-09-26 01:13:58 => Checando se tabela existe: OK<br>2016-09-26 01:13:58 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:13:58 => Checando se tabela existe: OK<br>2016-09-26 01:13:58 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:13:58 => Checando se tabela existe: OK<br>2016-09-26 01:13:58 => Método __select()<br>Ocorreu um erro ao tentar retornar dados na tabela <b>personagens</b>. Verifique se o nome da coluna está correto.
+2016-09-26 01:15:27 => Checando se tabela existe: OK<br>2016-09-26 01:15:27 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:15:27 => Checando se tabela existe: OK<br>2016-09-26 01:15:27 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-09-26 01:15:27 => Checando se tabela existe: OK<br>2016-09-26 01:15:27 => Dados retornados com sucesso na tabela <b>armas</b><br>Instrução sql::<b>SELECT * FROM armas</b>
+2016-09-26 01:15:27 => Checando se tabela existe: OK<br>2016-09-26 01:15:27 => Dados retornados com sucesso na tabela <b>artefatos</b><br>Instrução sql::<b>SELECT * FROM artefatos</b>
+2016-09-26 01:15:27 => Checando se tabela existe: OK<br>2016-09-26 01:15:27 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:15:27 => Checando se tabela existe: OK<br>2016-09-26 01:15:27 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:15:27 => Checando se tabela existe: OK<br>2016-09-26 01:15:27 => Método __select()<br>Ocorreu um erro ao tentar retornar dados na tabela <b>personagens</b>. Verifique se o nome da coluna está correto.
+2016-09-26 01:16:49 => Checando se tabela existe: OK<br>2016-09-26 01:16:49 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:16:49 => Checando se tabela existe: OK<br>2016-09-26 01:16:49 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-09-26 01:16:49 => Checando se tabela existe: OK<br>2016-09-26 01:16:49 => Dados retornados com sucesso na tabela <b>armas</b><br>Instrução sql::<b>SELECT * FROM armas</b>
+2016-09-26 01:16:49 => Checando se tabela existe: OK<br>2016-09-26 01:16:49 => Dados retornados com sucesso na tabela <b>artefatos</b><br>Instrução sql::<b>SELECT * FROM artefatos</b>
+2016-09-26 01:16:49 => Checando se tabela existe: OK<br>2016-09-26 01:16:49 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:16:49 => Checando se tabela existe: OK<br>2016-09-26 01:16:49 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:16:49 => Checando se tabela existe: OK<br>2016-09-26 01:16:49 => Método __select()<br>Ocorreu um erro ao tentar retornar dados na tabela <b>personagens</b>. Verifique se o nome da coluna está correto.
+2016-09-26 01:22:11 => Checando se tabela existe: OK<br>2016-09-26 01:22:11 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:22:11 => Checando se tabela existe: OK<br>2016-09-26 01:22:11 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-09-26 01:22:11 => Checando se tabela existe: OK<br>2016-09-26 01:22:11 => Dados retornados com sucesso na tabela <b>armas</b><br>Instrução sql::<b>SELECT * FROM armas</b>
+2016-09-26 01:22:11 => Checando se tabela existe: OK<br>2016-09-26 01:22:11 => Dados retornados com sucesso na tabela <b>artefatos</b><br>Instrução sql::<b>SELECT * FROM artefatos</b>
+2016-09-26 01:22:11 => Checando se tabela existe: OK<br>2016-09-26 01:22:11 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:22:11 => Checando se tabela existe: OK<br>2016-09-26 01:22:11 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:22:11 => Checando se tabela existe: OK<br>2016-09-26 01:22:11 => Método __select()<br>Ocorreu um erro ao tentar retornar dados na tabela <b>personagens</b>. Verifique se o nome da coluna está correto.
+2016-09-26 01:24:34 => Checando se tabela existe: OK<br>2016-09-26 01:24:34 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 01:24:34 => Checando se tabela existe: OK<br>2016-09-26 01:24:34 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-09-26 01:24:34 => Checando se tabela existe: OK<br>2016-09-26 01:24:34 => Dados retornados com sucesso na tabela <b>armas</b><br>Instrução sql::<b>SELECT * FROM armas</b>
+2016-09-26 01:24:34 => Checando se tabela existe: OK<br>2016-09-26 01:24:34 => Dados retornados com sucesso na tabela <b>artefatos</b><br>Instrução sql::<b>SELECT * FROM artefatos</b>
+2016-09-26 01:24:34 => Checando se tabela existe: OK<br>2016-09-26 01:24:34 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:24:34 => Checando se tabela existe: OK<br>2016-09-26 01:24:34 => Dados retornados com sucesso na tabela <b>personagens</b><br>Instrução sql::<b>SELECT * FROM personagens WHERE tipo = ? </b>
+2016-09-26 01:24:34 => Checando se tabela existe: OK<br>2016-09-26 01:24:34 => Método __select()<br>Ocorreu um erro ao tentar retornar dados na tabela <b>personagens</b>. Verifique se o nome da coluna está correto.
+2016-09-26 01:46:16 => Checando se tabela existe: OK<br>2016-09-26 01:46:16 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 02:06:40 => Checando se tabela existe: OK<br>2016-09-26 02:06:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 02:06:47 => Checando se tabela existe: OK<br>2016-09-26 02:06:47 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 02:11:04 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) FROM usuarios</b>
+2016-09-26 02:11:22 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) FROM usuarios</b>
+2016-09-26 02:11:40 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:11:48 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:12:00 => Checando se tabela existe: OK<br>2016-09-26 02:12:00 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 02:12:00 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:18:05 => Checando se tabela existe: OK<br>2016-09-26 02:18:05 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 02:18:05 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:18:54 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:19:09 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:19:28 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:19:55 => Checando se tabela existe: OK<br>2016-09-26 02:19:55 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 02:19:55 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:20:03 => Checando se tabela existe: OK<br>2016-09-26 02:20:03 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 02:20:03 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:20:20 => Checando se tabela existe: OK<br>2016-09-26 02:20:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 02:20:20 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:20:39 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:20:54 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:21:03 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:25:55 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:25:55 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:26:08 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:26:08 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:27:34 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:27:34 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:27:34 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:38:15 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:38:16 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:38:17 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:38:17 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:38:17 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens</b>
+2016-09-26 02:38:36 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:38:36 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:38:36 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:38:36 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:38:36 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens</b>
+2016-09-26 02:44:48 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:44:48 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:44:48 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:44:48 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:44:48 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens</b>
+2016-09-26 02:46:46 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:46:46 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:46:46 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:46:46 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:46:46 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens</b>
+2016-09-26 02:47:08 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:47:08 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:47:08 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:47:08 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:47:08 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens</b>
+2016-09-26 02:48:05 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:48:05 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:48:05 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:48:05 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:49:13 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:49:13 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:49:13 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:49:13 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:49:13 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 02:49:18 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:49:18 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:49:18 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:49:18 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:49:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 02:51:38 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:51:38 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:51:38 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:51:38 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:51:38 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 02:51:38 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 02:52:02 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:52:02 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:52:02 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:52:02 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:52:02 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 02:52:02 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 02:52:34 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:52:34 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:52:34 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:52:34 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:52:34 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 02:52:34 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 02:55:06 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:55:06 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:55:06 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:55:06 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:55:06 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 02:55:06 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 02:55:26 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:55:26 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:55:26 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:55:26 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:55:26 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 02:55:26 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 02:55:26 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 02:56:10 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 02:56:10 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 02:56:10 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 02:56:10 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 02:56:10 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 02:56:10 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 02:56:10 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:04:35 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:04:35 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:04:35 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:04:35 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:04:35 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:04:35 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:04:35 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:04:45 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:04:45 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:04:45 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:04:45 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:04:45 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:04:45 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:04:45 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:04:45 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:06:17 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:06:17 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:06:17 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:06:18 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:06:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:06:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:06:18 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:06:18 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:06:18 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:06:44 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:06:55 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:08:45 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:08:45 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:08:45 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:08:45 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:08:45 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:08:45 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:08:45 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:08:45 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:08:46 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:08:46 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 03:16:27 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 03:16:28 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 03:16:49 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 03:16:56 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:22:52 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:22:53 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 03:22:53 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 03:22:53 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 03:22:53 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 03:22:53 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 03:25:21 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 03:28:00 => Checando se tabela existe: OK<br>2016-09-26 03:28:00 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:29:04 => Checando se tabela existe: OK<br>2016-09-26 03:29:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:29:06 => Checando se tabela existe: OK<br>2016-09-26 03:29:06 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:29:08 => Checando se tabela existe: OK<br>2016-09-26 03:29:08 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:29:10 => Checando se tabela existe: OK<br>2016-09-26 03:29:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:29:50 => Checando se tabela existe: OK<br>2016-09-26 03:29:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:29:51 => Checando se tabela existe: OK<br>2016-09-26 03:29:51 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:30:18 => Checando se tabela existe: OK<br>2016-09-26 03:30:18 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:35:39 => Checando se tabela existe: OK<br>2016-09-26 03:35:39 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 03:35:52 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 03:35:59 => Checando se tabela existe: OK<br>2016-09-26 03:35:59 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 03:36:29 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 03:37:06 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 03:37:07 => Checando se tabela existe: OK<br>2016-09-26 03:37:07 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:52:35 => Checando se tabela existe: OK<br>2016-09-26 03:52:35 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:52:53 => Checando se tabela existe: OK<br>2016-09-26 03:52:53 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:53:01 => Checando se tabela existe: OK<br>2016-09-26 03:53:01 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 03:53:23 => Checando se tabela existe: OK<br>2016-09-26 03:53:23 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:03:15 => Checando se tabela existe: OK<br>2016-09-26 04:03:15 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:05:01 => Checando se tabela existe: OK<br>2016-09-26 04:05:01 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:05:43 => Checando se tabela existe: OK<br>2016-09-26 04:05:43 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:06:23 => Checando se tabela existe: OK<br>2016-09-26 04:06:23 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:09:31 => Checando se tabela existe: OK<br>2016-09-26 04:09:31 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:10:32 => Checando se tabela existe: OK<br>2016-09-26 04:10:32 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:25:59 => Checando se tabela existe: OK<br>2016-09-26 04:25:59 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:27:53 => Checando se tabela existe: OK<br>2016-09-26 04:27:53 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:31:55 => Checando se tabela existe: OK<br>2016-09-26 04:31:55 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:41:35 => Checando se tabela existe: OK<br>2016-09-26 04:41:35 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:41:38 => Checando se tabela existe: OK<br>2016-09-26 04:41:38 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:41:54 => Checando se tabela existe: OK<br>2016-09-26 04:41:54 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:43:43 => Checando se tabela existe: OK<br>2016-09-26 04:43:43 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:44:43 => Checando se tabela existe: OK<br>2016-09-26 04:44:43 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:45:20 => Checando se tabela existe: OK<br>2016-09-26 04:45:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:45:44 => Checando se tabela existe: OK<br>2016-09-26 04:45:44 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:45:51 => Checando se tabela existe: OK<br>2016-09-26 04:45:51 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:46:49 => Checando se tabela existe: OK<br>2016-09-26 04:46:49 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 04:49:04 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 04:49:05 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 05:07:04 => Checando se tabela existe: OK<br>2016-09-26 05:07:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 05:37:36 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 05:37:46 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 05:37:48 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 05:37:49 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 05:37:49 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 05:37:50 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 05:37:50 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 05:37:50 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 05:37:50 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 05:37:51 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 05:37:52 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 05:37:53 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 05:37:54 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 05:37:55 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 05:37:55 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:05:03 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:05:05 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:05:06 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:05:06 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:05:06 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:05:06 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:05:06 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:05:06 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:05:07 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:05:07 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:05:08 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:05:09 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:05:09 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:05:10 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:05:10 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:21:01 => Checando se tabela existe: OK<br>2016-09-26 18:21:01 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-09-26 18:28:58 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:29:00 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:29:01 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:29:01 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:29:03 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:29:04 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:32:01 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:32:26 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:32:26 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:32:26 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:32:26 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:32:26 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:32:27 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:34:03 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:39:54 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:39:55 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:40:19 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:41:04 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:41:05 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:41:05 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:42:15 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:42:40 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:42:46 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:42:47 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:42:47 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:42:47 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:42:47 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:42:47 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:50:55 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:52:20 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:53:56 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:54:04 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:54:05 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:54:05 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:54:05 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:54:05 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:54:45 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:57:16 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:57:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:57:19 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:58:29 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 18:59:46 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:02:21 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:04:38 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:04:39 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:04:39 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:04:39 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:05:07 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:05:43 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:05:43 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:05:43 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:05:44 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:07:02 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:07:20 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:07:42 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:11:49 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:12:06 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:12:07 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:12:07 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:12:07 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:12:07 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:12:07 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:12:07 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-09-26 19:12:52 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-09-26 19:12:52 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-09-26 19:12:52 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-09-26 19:12:53 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>

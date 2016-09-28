@@ -12,6 +12,7 @@ const WHO_AM_I 	= 'QUEM SOU';
 const FACEBOOK 	= 'PÁGINA NO FACEBOOK';
 const YOUTUBE 	= 'CANAL NO YOUTUBE';
 const BLOG 		= 'BLOG HELP RPG';
+const LOGIN 	= 'LOGIN';
 
 //Home page
 const RECORDS = 'REGISTROS';

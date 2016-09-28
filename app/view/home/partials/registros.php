@@ -17,7 +17,7 @@ $tag->section('id="registros"');
                 $tag->div('class="col-xs-12 col-sm-4 col-md-4 col-lg-4"');
                     $tag->div('class="registros-wrapper"');
                       
-                        $tag->a('href="#" class="icon-content"');
+                        $tag->a('href="'.$value[3].'" class="icon-content"');
                             $tag->img('src="' . $value[0] . '" class="icon_maior img-circle" alt="' . $value[1] . '" title="' . $value[1] . '"');
                         $tag->a;
                     

@@ -63,3 +63,15 @@ img{
 .legendas{
 	border: nome;
 }
+/*login msg text color*/
+#text-login-msg, #text-register-msg, #text-lost-msg{
+	color: blue;
+}
+
+.checkbox {
+	color: blue;
+}
+
+#login_register_btn:hover, #login_lost_btn:hover, #register_login_btn:hover, #register_lost_btn:hover{
+	color: blue;
+}

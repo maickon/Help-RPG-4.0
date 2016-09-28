@@ -1,29 +1,23 @@
-<?php 
-require_once '../../header.php';
+<?php
 
+$_CSS = [
+            $login->bootstrap_css_path, 
+            $login->login_css_path . '/login.css'
+        ];
+        // <!-- CORE CSS -->
+        foreach ($_CSS as $key => $value) {
+            $tag->link('href="' . $value . '" rel="stylesheet"');
+        }
 
-$tag->body('role="document"');
+require 'partials/form.html';
+
+$_JS = [
+			$login->jquery_js_path,
+			$login->bootstrap_js_path,
+			$login->login_js_path.'/login.js',
+		];
+	foreach ($_JS as $key => $value) {
+	    $tag->script('src="' . $value . '" rel="stylesheet"'); 
+	    $tag->script;
+	}
 	
-	global $parametros;
-
-	new Components('menu', $parametros);
-
-	
-	$form->_container();
-		$form->_col(4);
-		$form->col_();
-		
-		$form->_col(4);
-			$form->_col(12);
-				$tag->br();
-				helper_adsense_responsivo_02();
-				$tag->br();
-			$form->col_();
-		$form->col_();
-
-		$form->_col(12);
-			new Components('login');
-		$form->col_();
-	$form->container_();
-
-require_once '../../footer.php';

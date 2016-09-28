@@ -8,6 +8,7 @@ require 'social/social.php';
 require 'txt/aventuras/aventuras.php';
 require 'txt/tavernas/tavernas.php';
 
+const LOG_PATH = URL_BASE_INTERNAL . 'config/log/log.txt';
 // img url
 const IMG_ICON_PATH = URL_BASE . 'app/assets/img/icons/';
 const CONFIG_DB_PATH = 'config/db/';

@@ -37,3 +37,7 @@ require 'utilitarios/itens/itens.php';
 require 'utilitarios/sorte/sorte.php';
 require 'utilitarios/tempo/tempo.php';
 require 'utilitarios/nomedeespadas/nomedeespadas.php';
+
+// paginas com cadastro em banco de dados
+require 'paginas-cadastro/usuario.php';
+require 'paginas-cadastro/armadura.php';

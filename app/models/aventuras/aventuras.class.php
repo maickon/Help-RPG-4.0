@@ -1,21 +1,7 @@
 <?php
-class Aventuras_Model extends DbPersistence_Model{
-	private $attr;
+class Aventuras_Model extends HelperRecord_Lib{
 	
-	function __construct($path = "", $warning_msg = 'Já existe uma aventura com este nome!'){
-		parent::__construct(strtolower(get_class($this)), $path, $warning_msg);
-	}
-	
-	function __set($attr_name, $attr_value){
-	
-		$this->attr["{$attr_name}"] = $attr_value;
-	}
-	
-	function __get($attr){
-		return $this->attr["{$attr}"];
-	}
-	
-	function getTable(){
-		return $this->table;
+	function __construct(){
+		parent::__construct();	
 	}
 }
