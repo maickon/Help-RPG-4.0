@@ -1,83 +1,84 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-require_once '../../header.php';
+<?php require 'partials/header.php'; ?>
 
-new Components('menu', $parametros);
-global $s, $form, $tag;
+<body class="theme-red">
+    <!-- Page Loader -->
+    <?php require 'partials/page_loader.php'; ?>
+    <!-- #END# Page Loader -->
+    
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    
+    <!-- Search Bar -->
+    <?php require 'partials/search_bar.php'; ?>
+    <!-- #END# Search Bar -->
 
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="index.html">Social Help RPG</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Call Search -->
+                    <?php require 'partials/call_search.php'; ?>
+                    <!-- #END# Call Search -->
 
-$form->_row();
-	$form->_container();
-		$form->h1("Painel - Bem vindo ao Help Rpg Fichas");
-		if($s->get_session('login')):
-			$tag->h3();
-				$tag->imprime("Ola ".$_SESSION['nome']);
-			$tag->h3;
-		else:
-			$tag->h3();
-				$tag->div('class="alert alert-danger"');
-					$tag->imprime('erro');
-				$tag->div;
-			$tag->h3;
-			 $s->restricted_access();
-		endif;
-		$form->hr();
-		
-		$user = new Usuarios();
-		$armadura 	= new Armaduras('');
-		$arma 		= new Armas('');
-		$artefato 	= new Artefatos('');
-		$historias 	= new Historias();
-		$contos 	= new Contos();
-		$cronicas 	= new Cronicas();
-		$aventuras 	= new Aventuras();
-		
-		$number_user 		= $user->select('usuarios');
-		$number_armaduras 	= $armadura->select('armaduras');
-		$number_armas 		= $arma->select('armas');
-		$number_artefatos 	= $artefato->select('artefatos');
-		$number_contos 		= $contos->select('contos');
-		$number_cronicas 	= $cronicas->select('cronicas');
-		$number_aventuras 	= $aventuras->select('aventuras');
-		
-		$qtd_user 		= count($number_user);
-		$qtd_armaduras 	= count($number_armaduras);
-		$qtd_armas 		= count($number_armas);
-		$qtd_artefatos 	= count($number_artefatos);
-		$qtd_aventuras 	= count($number_aventuras);
-		$qtd_contos 	= count($number_contos);
-		$qtd_cronicas 	= count($number_cronicas);
-		
-		$qtd_total_utilitarios = 5;
-		$qtd_total_itens = ($qtd_armaduras+$qtd_armas+$qtd_artefatos);
-		
-		$img_title = [
-						['jogadores.jpg',USUARIOS_CADASTRADOS, $qtd_user],
-						['monstros.jpg',MONSTROS_CADASTRADOS, 0],
-						['boss.jpg',CHEFES_DE_FASE, 0],
-						['armas.jpg',ITENS_CADASTRADOS, $qtd_total_itens],
-						['aventuras.jpg',AVENTURAS, $qtd_aventuras],
-						['contos.jpg',CONTOS, $qtd_contos],
-						['cronicas.jpg',CRONICAS, $qtd_cronicas],
-						['utilitarios.jpg',UTILITARIOS, $qtd_total_utilitarios]
-					];
-		
-		for($i=0; $i<count($img_title); $i++):
-			$form->_col(3);
-				$tag->div('class="panel panel-default panel-index"');
-					$tag->img('src="'.ROOTPATHURL.IMGPATH.$img_title[$i][0].'" alt="dados" class="img-circle img-responsive"');		
-					$tag->h3();
-						$tag->imprime("<i>{$img_title[$i][2]}</i>");
-						$tag->br();
-						$tag->small();
-							$tag->imprime($img_title[$i][1]);
-						$tag->small;
-					$tag->h3;
-				$tag->div;
-			$form->col_();
-		endfor;
-		
-	$form->container_();
-$form->row_();
+                    <!-- Notifications -->
+                    <?php require 'partials/notifications.php'; ?>
+                    <!-- #END# Notifications -->
+                    
+                    <!-- Tasks -->
+                    <?php require 'partials/tasks.php'; ?>
+                    <!-- #END# Tasks -->
 
-require_once '../../footer.php';
+                    <li class="pull-right">
+                        <a href="javascript:void(0);" class="js-right-sidebar" data-close="true">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- User Info -->
+            <?php require 'partials/user_info.php'; ?>
+            <!-- #User Info -->
+            
+            <!-- Menu -->
+            <?php require 'partials/menu.php'; ?>
+            <!-- #Menu -->
+            
+            <!-- Footer -->
+            <?php require 'partials/footer.php'; ?>
+            <!-- #Footer -->
+        </aside>
+        <!-- #END# Left Sidebar -->
+        
+        <!-- Right Sidebar -->
+        <?php require 'partials/right_sidebar.php'; ?>
+        <!-- #END# Right Sidebar -->
+
+    </section>
+
+    <!-- Content -->
+    <?php require 'partials/content.php'; ?>
+    <!-- #END# Content -->
+
+    <!-- Javascript -->
+    <?php require 'partials/javascript.php'; ?>
+    <!-- #END# Javascript -->
+
+</body>
+
+</html>
