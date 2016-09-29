@@ -123,14 +123,14 @@ $_IMG_UTILITARIES_2 = [
 	            	IMG_ICON_PATH . 'usuario.png', 
 	            	USERS_REGISTERED, 
 	            	"{$usuarios_registrados} " . RECORDS,
-	            	URL_BASE . 'usuario'
+	            	URL_BASE . ''
 	            ],
 				
 				[
 					IMG_ICON_PATH . 'armadura.png', 
 					ARMOR, 
 					"{$armaduras_registradas} " . RECORDS,
-					URL_BASE . 'armadura'
+					URL_BASE . ''
 				],
 				
 				[
