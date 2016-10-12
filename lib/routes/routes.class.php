@@ -61,7 +61,8 @@ class Routes_Lib{
 					$object->$action($parameters);	
 				}
 			} else {
-				(new Errors_Lib())->show("Classe {$class} não existe.");
+				// (new Errors_Lib())->show("Classe {$class} não existe.");
+				header("Location: " . URL_BASE . 'erro');
 			}
 		} else {
 			$home = new Home_Controller;

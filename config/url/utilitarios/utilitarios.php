@@ -7,7 +7,7 @@ define('GENERATOR_FEATURES_URL',  URL_BASE . 'caracteristicas/');
 define('ADVENTURES_URL',  URL_BASE . 'aventuras/');
 define('RANDOM_FILE_URL',  URL_BASE . 'fichas/');
 define('RANDOM_MONSTERS_URL',  URL_BASE . 'monstro-aleatoria/');
-define('ROLL_DICE_URL ',  URL_BASE . 'dados/');
+define('ROLL_DICE_URL',  URL_BASE . 'dados/');
 define('NAMES_URL',  URL_BASE . 'nomes/');
 define('GENERATOR_ADVENTURE_URL',  URL_BASE . 'geradorAventuras/');
 define('UTILITIES_URL',  URL_BASE . 'utilitarios/');

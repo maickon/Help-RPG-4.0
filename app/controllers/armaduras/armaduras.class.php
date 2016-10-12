@@ -1,39 +1,55 @@
 <?php
-class Armaduras_Controller{
+class Armaduras_Controller extends Controller_Lib{
+
+	function __construct(){
+		parent::get_path();
+	}
 
 	function index(){
-		$armadura = new Armaduras_Model(ROOTPATH.ARMADURASIMGPATH);
-		$armaduras = $armadura->select($armadura->getTable());
-		return $armaduras;
+		$tag = new Tags_Lib;
+		$form = new Form_Lib;
+		$armadura = new Armaduras_Model();
+		$painel = new Painel_Model;
+		$armaduras = $armadura->select('armaduras');
+		require (new Render_Lib())->get_required_path();
+	}		
+
+	function novo(){
+		$tag = new Tags_Lib;
+		$form = new Form_Lib;
+		$painel = new Painel_Model;
+		$sistemas_helper = new Sistemasrpg_Helper();
+		$armaduras_helper = new Armaduras_Helper;
+		require (new Render_Lib('novo'))->get_required_path();
 	}
 
-	function new(){
-		$create_armadura = new Armaduras(ROOTPATH.ARMADURASIMGPATH);
-		$_REQUEST['img'] =  $_FILES['img'];
-		$create_armadura->create($_REQUEST);
+	function salvar(){
+		$armadura = new Armaduras_Model();
+		if (count($_REQUEST) < 4) {
+			$this->error();
+			exit();
+		} else {
+			$campos = ['nome','sistema','descricao'];
+			$valores= [$_REQUEST['nome'],$_REQUEST['sistema'],$_REQUEST['descricao']];
+			if ($armadura->insert('armaduras', $campos, $valores)) {
+				$armadura = $armadura->maxId('armaduras')[0];
+				header("Location: {$this->visualizar_path}{$armadura['id']}");
+			} else {
+				header("Location: {$this->novo}?status=erro");
+			}
+		}
 	}
 
-	function create(){
-		$create_armadura = new Armaduras(ROOTPATH.ARMADURASIMGPATH);
+	function visualizar($params){
+		$tag = new Tags_Lib;
+		$form = new Form_Lib;
+		$painel = new Painel_Model;
+		$armadura = new Armaduras_Model();
+		$armadura_view = $armadura->select('armaduras', '*', ['id', '=', $params])[0];
+		require (new Render_Lib('visualizar'))->get_required_path();
 	}
 
-	function edit(){
-		$objeto = new Armaduras(ROOTPATH.ARMADURASIMGPATH);
-		$armadura = $objeto->select($objeto->getTable(), null, [['id','=', $_GET['id'] ? $_GET['id'] : ' ']]);
-		$create_armadura->update_data($_REQUEST);
-	}
-
-	function delete(){
-		$armadura = $show_armadura->select($show_armadura->getTable(), null, [['id','=', $_GET['id'] ? $_GET['id'] : ' ']]);
-		$delete = $show_armadura->delete_data($armadura);
-		if($delete == 1):
-			help_header(ROOTPATHURL.ARMADURASPATH.'?status=deleted');
-		else:
-			help_header(ROOTPATHURL.ARMADURASPATH.'?status=error');
-		endif;
-	}
-
-	function page_not_found(){
-		echo 'page_not_found';
+	function error(){
+		echo '<center><h1>PÁGINA NÃO EXISTE!</h1></center>';
 	}
 }

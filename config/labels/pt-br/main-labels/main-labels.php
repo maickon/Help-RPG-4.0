@@ -1,6 +1,8 @@
 <?php
 // site name
 const SITE_NAME = 'Help RPG';
+const SITE_NAME_HELP = 'Help';
+const SITE_NAME_RPG = 'RPG';
 // symbols
 const HORIZONTAL_BAR = '|';
 // home page - meta tags

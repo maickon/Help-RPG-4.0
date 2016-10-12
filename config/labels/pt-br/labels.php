@@ -39,5 +39,9 @@ require 'utilitarios/tempo/tempo.php';
 require 'utilitarios/nomedeespadas/nomedeespadas.php';
 
 // paginas com cadastro em banco de dados
-require 'paginas-cadastro/usuario.php';
-require 'paginas-cadastro/armadura.php';
+require 'paginas/usuario.php';
+require 'paginas/armadura.php';
+require 'paginas/login.php';
+require 'paginas/erro.php';
+require 'paginas/inscreverse.php';
+require 'paginas/recuperar_senha.php';

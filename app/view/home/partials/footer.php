@@ -3,7 +3,6 @@
 // <!-- CORE JS -->
 $_JS = [$home->jquery_js_path,
 		$home->bootstrap_js_path,
-		$home->login_js_path.'/login.js',
 		$home->vegas_js_path.'/jquery.vegas.min.js',
 		$home->jquery_easing_js_path,
 		$home->source_js_path.'/jquery.fancybox.js',

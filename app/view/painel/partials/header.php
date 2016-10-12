@@ -17,8 +17,11 @@
             $painel->url->painel_css_path . '/plugins/animate-css/animate.css',
             $painel->url->painel_css_path . '/plugins/material-design-preloader/md-preloader.css',
             $painel->url->painel_css_path . '/plugins/morrisjs/morris.css',
+            $painel->url->painel_css_path . '/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css',
+            $painel->url->painel_css_path . '/plugins/bootstrap-select/css/bootstrap-select.css',
             $painel->url->painel_css_path . '/style.css', 
-            $painel->url->painel_css_path . '/themes/all-themes.css'
+            $painel->url->painel_css_path . '/themes/all-themes.css',
+            $painel->url->index_css_path 
         ];
         // <!-- CORE CSS -->
         foreach ($_CSS as $key => $value) {
