@@ -9,7 +9,7 @@
             <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
             <ul class="dropdown-menu pull-right">
                 <li>
-                    <a href="javascript:void(0);"><i class="material-icons">person</i>Profile</a>
+                    <a href="<?php echo URL_BASE.'usuario/profile'; ?>"><i class="material-icons">person</i>Profile</a>
                 </li>
                 <li role="seperator" class="divider"></li>
                     <li>
@@ -19,11 +19,11 @@
                         <a href="javascript:void(0);"><i class="material-icons">widgets</i>Utilitários</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"><i class="material-icons">fingerprint</i>Seus Feitos</a>
+                        <a href="<?php echo URL_BASE.'usuario/feitos'; ?>"><i class="material-icons">fingerprint</i>Seus Feitos</a>
                     </li>
                     <li role="seperator" class="divider">
                 </li>
-                    <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sair</a>
+                    <li><a href="<?php echo URL_BASE.'login/sair'; ?>"><i class="material-icons">input</i>Sair</a>
                 </li>
             </ul>
         </div>

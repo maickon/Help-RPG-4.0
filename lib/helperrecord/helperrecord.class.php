@@ -560,8 +560,10 @@ class HelperRecord_Lib{
                     $this->successMsg('__select', $message);
                     return $s->fetchAll(PDO::FETCH_ASSOC);
                 else:
-                    $this->errorMsgSelectTable('__select', $table, $s->errorInfo()[2]);
-                    return array();
+                    $message = "{$this->now} => Nenhum dado foi retornando da tabela <b>{$table}</b>";
+                    $message .= "<br>Instrução sql::<b>{$s->queryString}</b>\n";
+                    $this->successMsg('__select', $message);
+                    return $s->fetchAll(PDO::FETCH_ASSOC);
                 endif;
             else:
                 $this->errorMsgSelectTable('__select', $table);

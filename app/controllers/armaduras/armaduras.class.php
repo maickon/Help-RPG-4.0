@@ -40,7 +40,7 @@ class Armaduras_Controller extends Controller_Lib{
 		}
 	}
 
-	function visualizar($params){
+	function visualizar($params=''){
 		$tag = new Tags_Lib;
 		$form = new Form_Lib;
 		$painel = new Painel_Model;

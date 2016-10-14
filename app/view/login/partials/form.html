@@ -6,14 +6,19 @@
     </div>
     <div class="card">
         <div class="body">
-            <form id="sign_in" method="POST">
-                <div class="msg"><?php echo $login->msg; ?></div>
+            <form id="sign_in" method="POST" action="login/entrar">
+                <?php if (isset($_REQUEST['erro']) and $_GET['erro'] == 'true') {?>
+                    <div class="msg-danger"><?php echo $login->msg_erro; ?></div>                    
+                <?php } else { ?>
+                    <div class="msg"><?php echo $login->msg; ?></div>
+                <?php }?>
+
                 <div class="input-group">
                     <span class="input-group-addon">
                         <i class="material-icons">person</i>
                     </span>
                     <div class="form-line">
-                        <input type="text" class="form-control" name="usuario" placeholder="<?php echo $login->usuario; ?>" required autofocus>
+                        <input type="text" class="form-control" name="email" placeholder="<?php echo $login->email; ?>" required autofocus>
                     </div>
                 </div>
                 <div class="input-group">
