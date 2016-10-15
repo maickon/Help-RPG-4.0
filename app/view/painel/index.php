@@ -1,5 +1,5 @@
 <?php
-session_start();
+@session_start();
 if (isset($_SESSION['id']) and isset($_SESSION['nome']) and isset($_SESSION['login'])) {
 	require 'partials/home_page.php';
 	// <!-- Content -->

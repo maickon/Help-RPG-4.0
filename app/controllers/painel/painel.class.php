@@ -10,6 +10,7 @@ class Painel_Controller extends Controller_Lib{
 		$tag = new Tags_Lib;
 		$form = new Form_Lib;
 		$painel = new Painel_Model;
+		$usuario = new Usuario_Model;
 		require (new Render_Lib())->get_required_path();
 	}
 

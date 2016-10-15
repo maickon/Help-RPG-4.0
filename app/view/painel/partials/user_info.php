@@ -1,10 +1,10 @@
-<div class="user-info" style="background: url('<?php echo $painel->url->painel_img_path . '/user-img-background.jpg'; ?>'); no-repeat no-repeat;">
+<div class="user-info" style="background: url('<?php echo $_SESSION['capa_link']; ?>'); no-repeat no-repeat; width: 100% !important;">
     <div class="image">
-        <img src="https://scontent.fgig3-1.fna.fbcdn.net/v/t1.0-9/1463149_604240096309885_1617269446_n.jpg?oh=6638166e3e8253452a0b6234e887cbc7&oe=58AD2D60" width="48" height="48" alt="User" />
+        <img src="<?php echo $_SESSION['foto_link']; ?>" width="48" height="48" alt="User" />
     </div>
     <div class="info-container">
-        <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Maickon Rangel</div>
-        <div class="email">maicko.rangel@helprpg.com.br</div>
+        <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION['nome']; ?></div>
+        <div class="email"><?php echo $_SESSION['email']; ?></div>
         <div class="btn-group user-helper-dropdown">
             <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
             <ul class="dropdown-menu pull-right">

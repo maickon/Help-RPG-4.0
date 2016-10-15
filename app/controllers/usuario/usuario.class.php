@@ -42,19 +42,19 @@ class Usuario_Controller extends Controller_Lib{
 		$personagem = new Personagens_Model;
 		$talento = new Talentos_Model;
 		session_start();
-		$armaduras_count = $armadura->qtd_max('armaduras', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$armas_count = $arma->qtd_max('armas', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$artefatos_count = $artefato->qtd_max('artefatos', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$aventuras_count = $aventura->qtd_max('aventuras', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$bestiario_count = $bestiario->qtd_max('bestiario', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$cenarios_count = $cenario->qtd_max('cenarios', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$contos_count = $contos->qtd_max('contos', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$cronicas_count = $cronica->qtd_max('cronicas', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$historias_count = $historia->qtd_max('historias', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$magias_count = $magia->qtd_max('magias', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$pericias_count = $pericia->qtd_max('pericias', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$personagens_count = $personagem->qtd_max('personagens', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		$talentos_count = $talento->qtd_max('talentos', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$armaduras_count 		= $armadura->qtd_max('armaduras', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$armas_count 			= $arma->qtd_max('armas', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$artefatos_count 		= $artefato->qtd_max('artefatos', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$aventuras_count 		= $aventura->qtd_max('aventuras', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$bestiario_count 		= $bestiario->qtd_max('bestiario', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$cenarios_count 		= $cenario->qtd_max('cenarios', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$contos_count 			= $contos->qtd_max('contos', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$cronicas_count 		= $cronica->qtd_max('cronicas', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$historias_count 		= $historia->qtd_max('historias', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$magias_count 			= $magia->qtd_max('magias', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$pericias_count 		= $pericia->qtd_max('pericias', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$personagens_count 		= $personagem->qtd_max('personagens', 'dono = "'.$_SESSION['nome'].'"')['count'];
+		$talentos_count 		= $talento->qtd_max('talentos', 'dono = "'.$_SESSION['nome'].'"')['count'];
 		
 		$counts = [
 					'ARMADURAS'=>$armaduras_count,
@@ -72,5 +72,12 @@ class Usuario_Controller extends Controller_Lib{
 					'TALENTOS'=>$talentos_count
 				];
 		require (new Render_Lib('feitos'))->get_required_path();
+	}
+
+	function editar(){
+		$tag = new Tags_Lib;
+		$form = new Form_Lib;
+		$painel = new Painel_Model;
+		require (new Render_Lib('editar'))->get_required_path();
 	}		
 }
