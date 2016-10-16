@@ -33,7 +33,8 @@ class Login_Controller extends Controller_Lib{
 		if (isset($_REQUEST['email']) and isset($_REQUEST['senha'])) {
 			$usuario = new Usuario_Model;
 			$usuario_login = $usuario->select('usuarios', '*', [ ['email', '=', $_REQUEST['email']], 
-																 ['senha', '=', md5($_REQUEST['senha'])] 
+																 ['senha', '=', md5($_REQUEST['senha'])],
+																 ['ativo', '=', '1'] 
 															   ], 'AND');
 			if (count($usuario_login) == 1) {
 				session_start();
@@ -51,6 +52,29 @@ class Login_Controller extends Controller_Lib{
 			header("Location: " .URL_BASE. "login");
 		}
 		print_r($_REQUEST);
+	}
+
+	function verificar($params = ''){
+		if (is_array($params) or $params == '') {
+			$this->error();
+		}
+
+		if (is_string($params)) {
+			$usuario = new Usuario_Model;
+			$usuario_validado = $usuario->select('usuarios', ['hash_code'], ['hash_code', '=', $params]);
+			if (count($usuario_validado) == 1) {
+				if ($usuario->update('usuarios', ['ativo'], ['1'], 'hash_code', $params)) {
+					$usuario->update('usuarios', ['hash_code'], ['expirado'], 'hash_code', $params);
+					header("Location: " .URL_BASE. "login?status=conta_ativada");
+				} else {
+					header('Location: ' . URL_BASE . 'erro/msg/' . LOGIN_ERRO_CONTA_ATIVADA);
+				}
+			} else {
+				header('Location: ' . URL_BASE . 'erro/msg/' . LOGIN_ERRO_HASH_NAO_ENCONTRADA);
+			}
+			echo '<pre>';
+			print_r($usuario_validado);
+		}
 	}
 
 	function error(){

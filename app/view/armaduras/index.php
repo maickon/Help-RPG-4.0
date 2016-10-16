@@ -3,6 +3,7 @@ session_start();
 if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login'])) {
     header("Location: " . URL_BASE);
 }
+
 require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
 
  $tag->section('class="content"');

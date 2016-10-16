@@ -3632,3 +3632,654 @@
 2016-10-15 03:37:41 => Checando se tabela existe: OK<br>2016-10-15 03:37:41 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
 2016-10-15 03:50:27 => Checando se tabela existe: OK<br>2016-10-15 03:50:27 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
 2016-10-15 03:52:17 => Checando se tabela existe: OK<br>2016-10-15 03:52:17 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 14:22:39 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 14:22:43 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 14:22:43 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 14:22:43 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 14:22:44 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 14:22:44 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 14:22:44 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 14:22:44 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 14:22:46 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 14:22:47 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 14:22:47 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 14:22:48 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 14:22:48 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 14:22:49 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 14:22:49 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 14:31:02 => Checando se tabela existe: OK<br>2016-10-15 14:31:02 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:31:18 => Checando se tabela existe: OK<br>2016-10-15 14:31:18 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:31:35 => Checando se tabela existe: OK<br>2016-10-15 14:31:35 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:31:54 => Checando se tabela existe: OK<br>2016-10-15 14:31:54 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:32:10 => Checando se tabela existe: OK<br>2016-10-15 14:32:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:33:10 => Checando se tabela existe: OK<br>2016-10-15 14:33:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:33:22 => Checando se tabela existe: OK<br>2016-10-15 14:33:22 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:34:18 => Checando se tabela existe: OK<br>2016-10-15 14:34:18 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:34:27 => Checando se tabela existe: OK<br>2016-10-15 14:34:27 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:34:36 => Checando se tabela existe: OK<br>2016-10-15 14:34:36 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:34:47 => Checando se tabela existe: OK<br>2016-10-15 14:34:47 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:35:06 => Checando se tabela existe: OK<br>2016-10-15 14:35:06 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:39:07 => Checando se tabela existe: OK<br>2016-10-15 14:39:07 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:56:39 => Checando se tabela existe: OK<br>2016-10-15 14:56:39 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:56:58 => Checando se tabela existe: OK<br>2016-10-15 14:56:58 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 14:59:18 => Checando se tabela existe: OK<br>2016-10-15 14:59:18 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:03:43 => Checando se tabela existe: OK<br>2016-10-15 15:03:43 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:13:42 => Checando se tabela existe: OK<br>2016-10-15 15:13:42 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:18:32 => Checando se tabela existe: OK<br>2016-10-15 15:18:32 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:20:22 => Checando se tabela existe: OK<br>2016-10-15 15:20:22 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:21:14 => Checando se tabela existe: OK<br>2016-10-15 15:21:14 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:23:53 => Checando se tabela existe: OK<br>2016-10-15 15:23:53 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:30:51 => Checando se tabela existe: OK<br>2016-10-15 15:30:51 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:34:11 => Checando se tabela existe: OK<br>2016-10-15 15:34:11 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:34:23 => Checando se tabela existe: OK<br>2016-10-15 15:34:23 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:34:29 => Checando se tabela existe: OK<br>2016-10-15 15:34:29 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:35:42 => Checando se tabela existe: OK<br>2016-10-15 15:35:42 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:36:52 => Checando se tabela existe: OK<br>2016-10-15 15:36:52 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:39:32 => Checando se tabela existe: OK<br>2016-10-15 15:39:32 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:39:58 => Checando se tabela existe: OK<br>2016-10-15 15:39:58 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:41:15 => Checando se tabela existe: OK<br>2016-10-15 15:41:15 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:42:22 => Checando se tabela existe: OK<br>2016-10-15 15:42:22 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:42:44 => Checando se tabela existe: OK<br>2016-10-15 15:42:44 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:43:04 => Checando se tabela existe: OK<br>2016-10-15 15:43:04 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:44:26 => Checando se tabela existe: OK<br>2016-10-15 15:44:26 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:47:29 => Checando se tabela existe: OK<br>2016-10-15 15:47:29 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:48:42 => Checando se tabela existe: OK<br>2016-10-15 15:48:42 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:51:32 => Checando se tabela existe: OK<br>2016-10-15 15:51:32 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 15:55:05 => Checando se tabela existe: OK<br>2016-10-15 15:55:05 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:02:45 => Checando se tabela existe: OK<br>2016-10-15 16:02:45 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:05:11 => Checando se tabela existe: OK<br>2016-10-15 16:05:11 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:07:34 => Checando se tabela existe: OK<br>2016-10-15 16:07:34 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:07:48 => Checando se tabela existe: OK<br>2016-10-15 16:07:48 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:10:57 => Checando se tabela existe: OK<br>2016-10-15 16:10:57 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:12:45 => Checando se tabela existe: OK<br>2016-10-15 16:12:45 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:14:34 => Checando se tabela existe: OK<br>2016-10-15 16:14:34 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:16:08 => Checando se tabela existe: OK<br>2016-10-15 16:16:08 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:17:44 => Checando se tabela existe: OK<br>2016-10-15 16:17:44 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:19:33 => Checando se tabela existe: OK<br>2016-10-15 16:19:33 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 16:22:08 => Checando se tabela existe: OK<br>2016-10-15 16:22:08 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:06:41 => Checando se tabela existe: OK<br>2016-10-15 18:06:41 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? </b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 18:06:59 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 18:12:07 => Checando se tabela existe: OK<br>2016-10-15 18:12:07 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:15:27 => Checando se tabela existe: OK<br>2016-10-15 18:15:27 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:16:28 => Checando se tabela existe: OK<br>2016-10-15 18:16:28 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:19:59 => Checando se tabela existe: OK<br>2016-10-15 18:19:59 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:19:59 => Checando se tabela existe: OK<br>2016-10-15 18:19:59 => Método __insert()<br>A quantidade de colunas da tabela <b>usuarios</b> e seus respectivos valores não correspondem.
+2016-10-15 18:22:12 => Checando se tabela existe: OK<br>2016-10-15 18:22:12 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:22:12 => Checando se tabela existe: OK<br>2016-10-15 18:22:12 => Método __insert()<br>A quantidade de colunas da tabela <b>usuarios</b> e seus respectivos valores não correspondem.
+2016-10-15 18:23:11 => Checando se tabela existe: OK<br>2016-10-15 18:23:11 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:23:11 => Checando se tabela existe: OK<br>2016-10-15 18:23:11 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 18:24:38 => Checando se tabela existe: OK<br>2016-10-15 18:24:38 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:25:57 => Checando se tabela existe: OK<br>2016-10-15 18:25:57 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:25:57 => Checando se tabela existe: OK<br>2016-10-15 18:25:57 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 18:27:31 => Checando se tabela existe: OK<br>2016-10-15 18:27:31 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:27:31 => Checando se tabela existe: OK<br>2016-10-15 18:27:31 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 18:40:23 => Checando se tabela existe: OK<br>2016-10-15 18:40:23 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras WHERE id = ? </b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 18:40:24 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 18:40:29 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 18:40:37 => Checando se tabela existe: OK<br>2016-10-15 18:40:37 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? </b>
+2016-10-15 18:41:21 => Checando se tabela existe: OK<br>2016-10-15 18:41:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 18:41:47 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 18:42:18 => Checando se tabela existe: OK<br>2016-10-15 18:42:18 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:43:14 => Checando se tabela existe: OK<br>2016-10-15 18:43:14 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:43:43 => Checando se tabela existe: OK<br>2016-10-15 18:43:43 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 18:43:43 => Checando se tabela existe: OK<br>2016-10-15 18:43:43 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 19:06:37 => Checando se tabela existe: OK<br>2016-10-15 19:06:37 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:06:37 => Checando se tabela existe: OK<br>2016-10-15 19:06:37 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 19:07:10 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 19:08:31 => Checando se tabela existe: OK<br>2016-10-15 19:08:31 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:09:59 => Checando se tabela existe: OK<br>2016-10-15 19:09:59 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:09:59 => Checando se tabela existe: OK<br>2016-10-15 19:09:59 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 19:10:34 => Checando se tabela existe: OK<br>2016-10-15 19:10:34 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:10:34 => Checando se tabela existe: OK<br>2016-10-15 19:10:34 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 19:11:11 => Checando se tabela existe: OK<br>2016-10-15 19:11:11 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:11:11 => Checando se tabela existe: OK<br>2016-10-15 19:11:11 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 19:11:40 => Checando se tabela existe: OK<br>2016-10-15 19:11:40 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:11:40 => Checando se tabela existe: OK<br>2016-10-15 19:11:40 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 19:12:54 => Checando se tabela existe: OK<br>2016-10-15 19:12:54 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:12:54 => Checando se tabela existe: OK<br>2016-10-15 19:12:54 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 19:14:35 => Checando se tabela existe: OK<br>2016-10-15 19:14:35 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:14:35 => Checando se tabela existe: OK<br>2016-10-15 19:14:35 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login) VALUES (?, ?, ?, ?)</b>
+2016-10-15 19:38:51 => Checando se tabela existe: OK<br>2016-10-15 19:38:51 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 19:38:51 => Checando se tabela existe: OK<br>2016-10-15 19:38:51 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login, hash_code) VALUES (?, ?, ?, ?, ?)</b>
+2016-10-15 19:42:11 => Checando se tabela existe: OK<br>2016-10-15 19:42:11 => Método __select()<br>Ocorreu um erro ao tentar retornar dados na tabela <b>usuarios</b>. Verifique se o nome da coluna está correto.
+2016-10-15 19:43:40 => Checando se tabela existe: OK<br>2016-10-15 19:43:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 19:44:10 => Checando se tabela existe: OK<br>2016-10-15 19:44:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 19:44:15 => Checando se tabela existe: OK<br>2016-10-15 19:44:15 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 19:44:20 => Checando se tabela existe: OK<br>2016-10-15 19:44:20 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 19:44:33 => Checando se tabela existe: OK<br>2016-10-15 19:44:33 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 19:47:51 => Checando se tabela existe: OK<br>2016-10-15 19:47:51 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-15 19:48:07 => Checando se tabela existe: OK<br>2016-10-15 19:48:07 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 19:48:17 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 19:56:55 => Checando se tabela existe: OK<br>2016-10-15 19:56:55 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 19:56:55 => Checando se tabela existe: OK<br>2016-10-15 19:56:55 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET ativo = ? WHERE hash_code = ?</b>
+2016-10-15 19:58:56 => Checando se tabela existe: OK<br>2016-10-15 19:58:56 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-15 19:59:07 => Checando se tabela existe: OK<br>2016-10-15 19:59:07 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-15 19:59:20 => Checando se tabela existe: OK<br>2016-10-15 19:59:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 19:59:20 => Checando se tabela existe: OK<br>2016-10-15 19:59:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 19:59:45 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 20:00:21 => Checando se tabela existe: OK<br>2016-10-15 20:00:21 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 20:00:21 => Checando se tabela existe: OK<br>2016-10-15 20:00:21 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login, hash_code) VALUES (?, ?, ?, ?, ?)</b>
+2016-10-15 20:01:10 => Checando se tabela existe: OK<br>2016-10-15 20:01:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 20:01:10 => Checando se tabela existe: OK<br>2016-10-15 20:01:10 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET ativo = ? WHERE hash_code = ?</b>
+2016-10-15 20:01:21 => Checando se tabela existe: OK<br>2016-10-15 20:01:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-15 20:03:40 => Checando se tabela existe: OK<br>2016-10-15 20:03:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 20:03:40 => Checando se tabela existe: OK<br>2016-10-15 20:03:40 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET ativo = ? WHERE hash_code = ?</b>
+2016-10-15 20:06:18 => Checando se tabela existe: OK<br>2016-10-15 20:06:18 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 20:06:18 => Checando se tabela existe: OK<br>2016-10-15 20:06:18 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET ativo = ? WHERE hash_code = ?</b>
+2016-10-15 20:06:18 => Checando se tabela existe: OK<br>2016-10-15 20:06:18 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET hash_code = ? WHERE hash_code = ?</b>
+2016-10-15 20:07:16 => Checando se tabela existe: OK<br>2016-10-15 20:07:16 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 20:07:16 => Checando se tabela existe: OK<br>2016-10-15 20:07:16 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login, hash_code) VALUES (?, ?, ?, ?, ?)</b>
+2016-10-15 20:07:47 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 20:07:47 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 20:07:47 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 20:07:48 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 20:08:02 => Checando se tabela existe: OK<br>2016-10-15 20:08:02 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 20:08:16 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 20:08:31 => Checando se tabela existe: OK<br>2016-10-15 20:08:31 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT email FROM usuarios WHERE email = ? </b>
+2016-10-15 20:08:31 => Checando se tabela existe: OK<br>2016-10-15 20:08:31 => Dados inseridos com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>INSERT INTO usuarios (nome, email, senha, login, hash_code) VALUES (?, ?, ?, ?, ?)</b>
+2016-10-15 20:09:17 => Checando se tabela existe: OK<br>2016-10-15 20:09:17 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 20:09:17 => Checando se tabela existe: OK<br>2016-10-15 20:09:17 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET ativo = ? WHERE hash_code = ?</b>
+2016-10-15 20:09:17 => Checando se tabela existe: OK<br>2016-10-15 20:09:17 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET hash_code = ? WHERE hash_code = ?</b>
+2016-10-15 20:09:41 => Checando se tabela existe: OK<br>2016-10-15 20:09:41 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 20:10:56 => Checando se tabela existe: OK<br>2016-10-15 20:10:56 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-15 20:11:22 => Checando se tabela existe: OK<br>2016-10-15 20:11:22 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 20:11:53 => Checando se tabela existe: OK<br>2016-10-15 20:11:53 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:11:53 => Checando se tabela existe: OK<br>2016-10-15 20:11:53 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:13:59 => Checando se tabela existe: OK<br>2016-10-15 20:13:59 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:14:01 => Checando se tabela existe: OK<br>2016-10-15 20:14:01 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:14:17 => Checando se tabela existe: OK<br>2016-10-15 20:14:17 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:14:24 => Checando se tabela existe: OK<br>2016-10-15 20:14:24 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:14:40 => Checando se tabela existe: OK<br>2016-10-15 20:14:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:14:41 => Checando se tabela existe: OK<br>2016-10-15 20:14:41 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:15:31 => Checando se tabela existe: OK<br>2016-10-15 20:15:31 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:15:32 => Checando se tabela existe: OK<br>2016-10-15 20:15:32 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:16:04 => Checando se tabela existe: OK<br>2016-10-15 20:16:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:16:04 => Checando se tabela existe: OK<br>2016-10-15 20:16:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 20:16:59 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 20:17:07 => Checando se tabela existe: OK<br>2016-10-15 20:17:07 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 20:18:49 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 20:18:56 => Checando se tabela existe: OK<br>2016-10-15 20:18:56 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-15 20:20:12 => Checando se tabela existe: OK<br>2016-10-15 20:20:12 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT hash_code FROM usuarios WHERE hash_code = ? </b>
+2016-10-15 20:20:18 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 20:20:18 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 20:20:18 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 20:20:18 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 20:20:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 20:20:18 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 20:20:18 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 20:20:18 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 20:20:19 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 20:20:19 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 20:20:19 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 20:20:19 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 20:20:19 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 20:20:19 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 20:20:19 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 20:21:05 => Checando se tabela existe: OK<br>2016-10-15 20:21:05 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:28:31 => Checando se tabela existe: OK<br>2016-10-15 21:28:31 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:31:04 => Checando se tabela existe: OK<br>2016-10-15 21:31:04 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:31:10 => Checando se tabela existe: OK<br>2016-10-15 21:31:10 => Nenhum dado foi retornando da tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:31:21 => Checando se tabela existe: OK<br>2016-10-15 21:31:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:32:39 => Checando se tabela existe: OK<br>2016-10-15 21:32:39 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:32:41 => Checando se tabela existe: OK<br>2016-10-15 21:32:41 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:32:51 => Checando se tabela existe: OK<br>2016-10-15 21:32:51 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:34:05 => Checando se tabela existe: OK<br>2016-10-15 21:34:05 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:34:10 => Checando se tabela existe: OK<br>2016-10-15 21:34:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:35:03 => Checando se tabela existe: OK<br>2016-10-15 21:35:03 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:36:20 => Checando se tabela existe: OK<br>2016-10-15 21:36:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:36:34 => Checando se tabela existe: OK<br>2016-10-15 21:36:34 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:36:45 => Checando se tabela existe: OK<br>2016-10-15 21:36:45 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:36:54 => Checando se tabela existe: OK<br>2016-10-15 21:36:54 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:37:15 => Checando se tabela existe: OK<br>2016-10-15 21:37:15 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:37:22 => Checando se tabela existe: OK<br>2016-10-15 21:37:22 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:37:26 => Checando se tabela existe: OK<br>2016-10-15 21:37:26 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:39:54 => Checando se tabela existe: OK<br>2016-10-15 21:39:54 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:40:03 => Checando se tabela existe: OK<br>2016-10-15 21:40:03 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:40:21 => Checando se tabela existe: OK<br>2016-10-15 21:40:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:40:39 => Checando se tabela existe: OK<br>2016-10-15 21:40:39 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:40:50 => Checando se tabela existe: OK<br>2016-10-15 21:40:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:43:37 => Checando se tabela existe: OK<br>2016-10-15 21:43:37 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:45:24 => Checando se tabela existe: OK<br>2016-10-15 21:45:24 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:45:35 => Checando se tabela existe: OK<br>2016-10-15 21:45:35 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:45:57 => Checando se tabela existe: OK<br>2016-10-15 21:45:57 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:46:06 => Checando se tabela existe: OK<br>2016-10-15 21:46:06 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 21:47:19 => Checando se tabela existe: OK<br>2016-10-15 21:47:19 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:00:39 => Checando se tabela existe: OK<br>2016-10-15 22:00:39 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:00:48 => Checando se tabela existe: OK<br>2016-10-15 22:00:48 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:02:10 => Checando se tabela existe: OK<br>2016-10-15 22:02:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:02:33 => Checando se tabela existe: OK<br>2016-10-15 22:02:33 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-15 22:02:40 => Checando se tabela existe: OK<br>2016-10-15 22:02:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:14:35 => Checando se tabela existe: OK<br>2016-10-15 22:14:35 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:18:29 => Checando se tabela existe: OK<br>2016-10-15 22:18:29 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:18:34 => Checando se tabela existe: OK<br>2016-10-15 22:18:34 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:21:42 => Checando se tabela existe: OK<br>2016-10-15 22:21:42 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-15 22:21:42 => Checando se tabela existe: OK<br>2016-10-15 22:21:42 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:24:41 => Checando se tabela existe: OK<br>2016-10-15 22:24:41 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:24:47 => Checando se tabela existe: OK<br>2016-10-15 22:24:47 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:25:17 => Checando se tabela existe: OK<br>2016-10-15 22:25:17 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:25:28 => Checando se tabela existe: OK<br>2016-10-15 22:25:28 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:26:09 => Checando se tabela existe: OK<br>2016-10-15 22:26:09 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:26:48 => Checando se tabela existe: OK<br>2016-10-15 22:26:48 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:26:53 => Checando se tabela existe: OK<br>2016-10-15 22:26:53 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:27:32 => Checando se tabela existe: OK<br>2016-10-15 22:27:32 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:27:44 => Checando se tabela existe: OK<br>2016-10-15 22:27:44 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:28:04 => Checando se tabela existe: OK<br>2016-10-15 22:28:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:28:15 => Checando se tabela existe: OK<br>2016-10-15 22:28:15 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:30:17 => Checando se tabela existe: OK<br>2016-10-15 22:30:17 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:30:20 => Checando se tabela existe: OK<br>2016-10-15 22:30:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:30:56 => Checando se tabela existe: OK<br>2016-10-15 22:30:56 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:31:15 => Checando se tabela existe: OK<br>2016-10-15 22:31:15 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:34:12 => Checando se tabela existe: OK<br>2016-10-15 22:34:12 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-15 22:34:14 => Checando se tabela existe: OK<br>2016-10-15 22:34:14 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 22:34:25 => Checando se tabela existe: OK<br>2016-10-15 22:34:25 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 23:50:47 => Checando se tabela existe: OK<br>2016-10-15 23:50:47 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 23:51:21 => Checando se tabela existe: OK<br>2016-10-15 23:51:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-15 23:51:24 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 23:51:25 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-15 23:51:31 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-15 23:51:41 => Checando se tabela existe: OK<br>2016-10-15 23:51:41 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-10-16 00:25:02 => Checando se tabela existe: OK<br>2016-10-16 00:25:02 => Dados retornados com sucesso na tabela <b>armaduras</b><br>Instrução sql::<b>SELECT * FROM armaduras</b>
+2016-10-16 00:25:24 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-16 00:25:25 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-16 00:25:47 => Checando se tabela existe: OK<br>2016-10-16 00:25:47 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:25:54 => Checando se tabela existe: OK<br>2016-10-16 00:25:54 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:27:02 => Checando se tabela existe: OK<br>2016-10-16 00:27:02 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:27:36 => Checando se tabela existe: OK<br>2016-10-16 00:27:36 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:31:24 => Checando se tabela existe: OK<br>2016-10-16 00:31:24 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:31:42 => Checando se tabela existe: OK<br>2016-10-16 00:31:42 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:45:08 => Checando se tabela existe: OK<br>2016-10-16 00:45:08 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:45:32 => Checando se tabela existe: OK<br>2016-10-16 00:45:32 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:46:45 => Checando se tabela existe: OK<br>2016-10-16 00:46:45 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:46:51 => Checando se tabela existe: OK<br>2016-10-16 00:46:51 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:47:00 => Checando se tabela existe: OK<br>2016-10-16 00:47:00 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:47:10 => Checando se tabela existe: OK<br>2016-10-16 00:47:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:47:22 => Checando se tabela existe: OK<br>2016-10-16 00:47:22 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:47:24 => Checando se tabela existe: OK<br>2016-10-16 00:47:24 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:48:01 => Checando se tabela existe: OK<br>2016-10-16 00:48:01 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:48:06 => Checando se tabela existe: OK<br>2016-10-16 00:48:06 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:48:22 => Checando se tabela existe: OK<br>2016-10-16 00:48:22 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:48:31 => Checando se tabela existe: OK<br>2016-10-16 00:48:31 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:49:23 => Checando se tabela existe: OK<br>2016-10-16 00:49:23 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:49:40 => Checando se tabela existe: OK<br>2016-10-16 00:49:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:50:24 => Checando se tabela existe: OK<br>2016-10-16 00:50:24 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:50:50 => Checando se tabela existe: OK<br>2016-10-16 00:50:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:50:59 => Checando se tabela existe: OK<br>2016-10-16 00:50:59 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:51:05 => Checando se tabela existe: OK<br>2016-10-16 00:51:05 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:52:15 => Checando se tabela existe: OK<br>2016-10-16 00:52:15 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:52:56 => Checando se tabela existe: OK<br>2016-10-16 00:52:56 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:53:56 => Checando se tabela existe: OK<br>2016-10-16 00:53:56 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 00:53:57 => Checando se tabela existe: OK<br>2016-10-16 00:53:57 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:56:41 => Checando se tabela existe: OK<br>2016-10-16 00:56:41 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 00:57:40 => Checando se tabela existe: OK<br>2016-10-16 00:57:40 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, data_nascimento = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 00:57:40 => Checando se tabela existe: OK<br>2016-10-16 00:57:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:03:03 => Checando se tabela existe: OK<br>2016-10-16 01:03:03 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:05:30 => Checando se tabela existe: OK<br>2016-10-16 01:05:30 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:05:31 => Checando se tabela existe: OK<br>2016-10-16 01:05:31 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:07:50 => Checando se tabela existe: OK<br>2016-10-16 01:07:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:10:16 => Checando se tabela existe: OK<br>2016-10-16 01:10:16 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:11:08 => Checando se tabela existe: OK<br>2016-10-16 01:11:08 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:11:49 => Checando se tabela existe: OK<br>2016-10-16 01:11:49 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:12:00 => Checando se tabela existe: OK<br>2016-10-16 01:12:00 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, data_nascimento = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 01:12:00 => Checando se tabela existe: OK<br>2016-10-16 01:12:00 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:12:03 => Checando se tabela existe: OK<br>2016-10-16 01:12:03 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:12:20 => Checando se tabela existe: OK<br>2016-10-16 01:12:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:12:39 => Checando se tabela existe: OK<br>2016-10-16 01:12:39 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:13:32 => Checando se tabela existe: OK<br>2016-10-16 01:13:32 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:14:34 => Checando se tabela existe: OK<br>2016-10-16 01:14:34 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:14:40 => Checando se tabela existe: OK<br>2016-10-16 01:14:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:14:56 => Checando se tabela existe: OK<br>2016-10-16 01:14:56 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:15:12 => Checando se tabela existe: OK<br>2016-10-16 01:15:12 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:15:18 => Checando se tabela existe: OK<br>2016-10-16 01:15:18 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:15:27 => Checando se tabela existe: OK<br>2016-10-16 01:15:27 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:16:57 => Checando se tabela existe: OK<br>2016-10-16 01:16:57 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:17:38 => Checando se tabela existe: OK<br>2016-10-16 01:17:38 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:18:02 => Checando se tabela existe: OK<br>2016-10-16 01:18:02 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:18:26 => Checando se tabela existe: OK<br>2016-10-16 01:18:26 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:19:02 => Checando se tabela existe: OK<br>2016-10-16 01:19:02 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:19:59 => Checando se tabela existe: OK<br>2016-10-16 01:19:59 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:20:36 => Checando se tabela existe: OK<br>2016-10-16 01:20:36 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:20:57 => Checando se tabela existe: OK<br>2016-10-16 01:20:57 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:22:31 => Checando se tabela existe: OK<br>2016-10-16 01:22:31 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:22:54 => Checando se tabela existe: OK<br>2016-10-16 01:22:54 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, data_nascimento = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 01:22:54 => Checando se tabela existe: OK<br>2016-10-16 01:22:54 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:22:58 => Checando se tabela existe: OK<br>2016-10-16 01:22:58 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:23:10 => Checando se tabela existe: OK<br>2016-10-16 01:23:10 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, data_nascimento = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 01:23:10 => Checando se tabela existe: OK<br>2016-10-16 01:23:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:23:17 => Checando se tabela existe: OK<br>2016-10-16 01:23:17 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:43:52 => Checando se tabela existe: OK<br>2016-10-16 01:43:52 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:46:24 => Checando se tabela existe: OK<br>2016-10-16 01:46:24 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:48:23 => Checando se tabela existe: OK<br>2016-10-16 01:48:23 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:49:50 => Checando se tabela existe: OK<br>2016-10-16 01:49:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:49:54 => Checando se tabela existe: OK<br>2016-10-16 01:49:54 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:50:09 => Checando se tabela existe: OK<br>2016-10-16 01:50:09 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:50:52 => Checando se tabela existe: OK<br>2016-10-16 01:50:52 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:56:50 => Checando se tabela existe: OK<br>2016-10-16 01:56:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:57:30 => Checando se tabela existe: OK<br>2016-10-16 01:57:30 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:59:35 => Checando se tabela existe: OK<br>2016-10-16 01:59:35 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, data_nascimento = ?, cidade = ?, estado = ?, whats_app = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 01:59:35 => Checando se tabela existe: OK<br>2016-10-16 01:59:35 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 01:59:40 => Checando se tabela existe: OK<br>2016-10-16 01:59:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:01:22 => Checando se tabela existe: OK<br>2016-10-16 02:01:22 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, data_nascimento = ?, cidade = ?, estado = ?, whats_app = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 02:01:22 => Checando se tabela existe: OK<br>2016-10-16 02:01:22 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:01:28 => Checando se tabela existe: OK<br>2016-10-16 02:01:28 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:03:46 => Checando se tabela existe: OK<br>2016-10-16 02:03:46 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:04:16 => Checando se tabela existe: OK<br>2016-10-16 02:04:16 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, pais = ?, data_nascimento = ?, cidade = ?, estado = ?, whats_app = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 02:04:16 => Checando se tabela existe: OK<br>2016-10-16 02:04:16 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:04:20 => Checando se tabela existe: OK<br>2016-10-16 02:04:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:05:30 => Checando se tabela existe: OK<br>2016-10-16 02:05:30 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:14:50 => Checando se tabela existe: OK<br>2016-10-16 02:14:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:15:36 => Checando se tabela existe: OK<br>2016-10-16 02:15:36 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:17:04 => Checando se tabela existe: OK<br>2016-10-16 02:17:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:21:02 => Checando se tabela existe: OK<br>2016-10-16 02:21:02 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, pais = ?, data_nascimento = ?, cidade = ?, estado = ?, whats_app = ?, skype = ?, rpgs_preferido = ?, classe_preferida = ?, raca_preferida = ?, e_mestre = ?, frase_preferida = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 02:21:02 => Checando se tabela existe: OK<br>2016-10-16 02:21:02 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:21:08 => Checando se tabela existe: OK<br>2016-10-16 02:21:08 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:34:43 => Checando se tabela existe: OK<br>2016-10-16 02:34:43 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:37:29 => Checando se tabela existe: OK<br>2016-10-16 02:37:29 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:37:35 => Checando se tabela existe: OK<br>2016-10-16 02:37:35 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:37:47 => Checando se tabela existe: OK<br>2016-10-16 02:37:47 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:38:01 => Checando se tabela existe: OK<br>2016-10-16 02:38:01 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:38:04 => Checando se tabela existe: OK<br>2016-10-16 02:38:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:38:07 => Checando se tabela existe: OK<br>2016-10-16 02:38:07 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:39:23 => Checando se tabela existe: OK<br>2016-10-16 02:39:23 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:39:25 => Checando se tabela existe: OK<br>2016-10-16 02:39:25 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:51:33 => Checando se tabela existe: OK<br>2016-10-16 02:51:33 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:51:39 => Checando se tabela existe: OK<br>2016-10-16 02:51:39 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:53:12 => Checando se tabela existe: OK<br>2016-10-16 02:53:12 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 02:54:10 => Checando se tabela existe: OK<br>2016-10-16 02:54:10 => Dados atualizados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>UPDATE usuarios SET nome = ?, sexo = ?, pais = ?, data_nascimento = ?, cidade = ?, estado = ?, whats_app = ?, skype = ?, rpgs_preferido = ?, classe_preferida = ?, raca_preferida = ?, e_mestre = ?, frase_preferida = ?, login = ?, foto_link = ?, capa_link = ?, facebook_link = ?, twitter_link = ?, gplus_link = ?, pagina_social = ?, site_pessoal = ?, email = ?, descricao = ? WHERE id = ?</b>
+2016-10-16 02:54:10 => Checando se tabela existe: OK<br>2016-10-16 02:54:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:29:42 => Checando se tabela existe: OK<br>2016-10-16 03:29:42 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:29:51 => Checando se tabela existe: OK<br>2016-10-16 03:29:51 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:31:11 => Checando se tabela existe: OK<br>2016-10-16 03:31:11 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:32:58 => Checando se tabela existe: OK<br>2016-10-16 03:32:58 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:33:19 => Checando se tabela existe: OK<br>2016-10-16 03:33:19 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:33:21 => Checando se tabela existe: OK<br>2016-10-16 03:33:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:33:50 => Checando se tabela existe: OK<br>2016-10-16 03:33:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:36:32 => Checando se tabela existe: OK<br>2016-10-16 03:36:32 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:37:12 => Checando se tabela existe: OK<br>2016-10-16 03:37:12 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:37:40 => Checando se tabela existe: OK<br>2016-10-16 03:37:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:37:45 => Checando se tabela existe: OK<br>2016-10-16 03:37:45 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:37:59 => Checando se tabela existe: OK<br>2016-10-16 03:37:59 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:38:14 => Checando se tabela existe: OK<br>2016-10-16 03:38:14 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:38:27 => Checando se tabela existe: OK<br>2016-10-16 03:38:27 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:41:41 => Checando se tabela existe: OK<br>2016-10-16 03:41:41 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:45:55 => Checando se tabela existe: OK<br>2016-10-16 03:45:55 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:46:18 => Checando se tabela existe: OK<br>2016-10-16 03:46:18 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:49:00 => Checando se tabela existe: OK<br>2016-10-16 03:49:00 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:52:09 => Checando se tabela existe: OK<br>2016-10-16 03:52:09 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:52:36 => Checando se tabela existe: OK<br>2016-10-16 03:52:36 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:52:49 => Checando se tabela existe: OK<br>2016-10-16 03:52:49 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:53:14 => Checando se tabela existe: OK<br>2016-10-16 03:53:14 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:54:50 => Checando se tabela existe: OK<br>2016-10-16 03:54:50 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:57:08 => Checando se tabela existe: OK<br>2016-10-16 03:57:08 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 03:58:53 => Checando se tabela existe: OK<br>2016-10-16 03:58:53 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:00:04 => Checando se tabela existe: OK<br>2016-10-16 04:00:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:01:34 => Checando se tabela existe: OK<br>2016-10-16 04:01:34 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:01:47 => Checando se tabela existe: OK<br>2016-10-16 04:01:47 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:02:02 => Checando se tabela existe: OK<br>2016-10-16 04:02:02 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:02:07 => Checando se tabela existe: OK<br>2016-10-16 04:02:07 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:02:11 => Checando se tabela existe: OK<br>2016-10-16 04:02:11 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:02:17 => Checando se tabela existe: OK<br>2016-10-16 04:02:17 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:05:36 => Checando se tabela existe: OK<br>2016-10-16 04:05:36 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE dono = "Orochi"</b>
+2016-10-16 04:05:53 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos WHERE dono = "Orochi"</b>
+2016-10-16 04:06:10 => Checando se tabela existe: OK<br>2016-10-16 04:06:10 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:10:40 => Checando se tabela existe: OK<br>2016-10-16 04:10:40 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:10:58 => Checando se tabela existe: OK<br>2016-10-16 04:10:58 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:11:42 => Checando se tabela existe: OK<br>2016-10-16 04:11:42 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:14:21 => Checando se tabela existe: OK<br>2016-10-16 04:14:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:16:26 => Checando se tabela existe: OK<br>2016-10-16 04:16:26 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:16:30 => Checando se tabela existe: OK<br>2016-10-16 04:16:30 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 04:17:47 => Checando se tabela existe: OK<br>2016-10-16 04:17:47 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:17:56 => Checando se tabela existe: OK<br>2016-10-16 04:17:56 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:18:29 => Checando se tabela existe: OK<br>2016-10-16 04:18:29 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:20:21 => Checando se tabela existe: OK<br>2016-10-16 04:20:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:21:14 => Checando se tabela existe: OK<br>2016-10-16 04:21:14 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:31:51 => Checando se tabela existe: OK<br>2016-10-16 04:31:51 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:32:07 => Checando se tabela existe: OK<br>2016-10-16 04:32:07 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:33:21 => Checando se tabela existe: OK<br>2016-10-16 04:33:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:35:14 => Checando se tabela existe: OK<br>2016-10-16 04:35:14 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:36:09 => Checando se tabela existe: OK<br>2016-10-16 04:36:09 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:36:48 => Checando se tabela existe: OK<br>2016-10-16 04:36:48 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:36:54 => Checando se tabela existe: OK<br>2016-10-16 04:36:54 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:36:58 => Checando se tabela existe: OK<br>2016-10-16 04:36:58 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:37:01 => Checando se tabela existe: OK<br>2016-10-16 04:37:01 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:37:08 => Checando se tabela existe: OK<br>2016-10-16 04:37:08 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:37:16 => Checando se tabela existe: OK<br>2016-10-16 04:37:16 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:37:21 => Checando se tabela existe: OK<br>2016-10-16 04:37:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:38:04 => Checando se tabela existe: OK<br>2016-10-16 04:38:04 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:39:15 => Checando se tabela existe: OK<br>2016-10-16 04:39:15 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:39:33 => Checando se tabela existe: OK<br>2016-10-16 04:39:33 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:50:53 => Checando se tabela existe: OK<br>2016-10-16 04:50:53 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:51:20 => Checando se tabela existe: OK<br>2016-10-16 04:51:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:53:15 => Checando se tabela existe: OK<br>2016-10-16 04:53:15 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:54:21 => Checando se tabela existe: OK<br>2016-10-16 04:54:21 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:54:32 => Checando se tabela existe: OK<br>2016-10-16 04:54:32 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:54:54 => Checando se tabela existe: OK<br>2016-10-16 04:54:54 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:56:01 => Checando se tabela existe: OK<br>2016-10-16 04:56:01 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:57:14 => Checando se tabela existe: OK<br>2016-10-16 04:57:14 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:57:20 => Checando se tabela existe: OK<br>2016-10-16 04:57:20 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:57:56 => Checando se tabela existe: OK<br>2016-10-16 04:57:56 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:58:22 => Checando se tabela existe: OK<br>2016-10-16 04:58:22 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 04:58:25 => Checando se tabela existe: OK<br>2016-10-16 04:58:25 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+                                                                                                                                                                                        2016-10-16 06:20:13 => Checando se tabela existe: OK<br>2016-10-16 06:20:13 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 06:21:28 => Checando se tabela existe: OK<br>2016-10-16 06:21:28 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>
+2016-10-16 06:21:29 => Checando se tabela existe: OK<br>2016-10-16 06:21:29 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 06:24:13 => Checando se tabela existe: OK<br>2016-10-16 06:24:13 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 06:26:45 => Checando se tabela existe: OK<br>2016-10-16 06:26:45 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 06:27:38 => Checando se tabela existe: OK<br>2016-10-16 06:27:38 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios</b>
+2016-10-16 06:28:14 => Quantidade de registros encontrado em <b>usuarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM usuarios</b>
+2016-10-16 06:28:14 => Quantidade de registros encontrado em <b>armaduras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armaduras</b>
+2016-10-16 06:28:14 => Quantidade de registros encontrado em <b>armas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM armas</b>
+2016-10-16 06:28:14 => Quantidade de registros encontrado em <b>artefatos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM artefatos</b>
+2016-10-16 06:28:14 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Personagem jogador'</b>
+2016-10-16 06:28:14 => Quantidade de registros encontrado em <b>personagens</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM personagens WHERE tipo = 'Monstro'</b>
+2016-10-16 06:28:14 => Quantidade de registros encontrado em <b>talentos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM talentos</b>
+2016-10-16 06:28:14 => Quantidade de registros encontrado em <b>magias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM magias</b>
+2016-10-16 06:28:15 => Quantidade de registros encontrado em <b>pericias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM pericias</b>
+2016-10-16 06:28:15 => Quantidade de registros encontrado em <b>aventuras</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM aventuras</b>
+2016-10-16 06:28:15 => Quantidade de registros encontrado em <b>historias</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM historias</b>
+2016-10-16 06:28:15 => Quantidade de registros encontrado em <b>contos</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM contos</b>
+2016-10-16 06:28:15 => Quantidade de registros encontrado em <b>cronicas</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cronicas</b>
+2016-10-16 06:28:15 => Quantidade de registros encontrado em <b>cenarios</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM cenarios</b>
+2016-10-16 06:28:15 => Quantidade de registros encontrado em <b>bestiario</b> retornado com sucesso!<br>Instruçãosql:<b>SELECT COUNT(*) as count FROM bestiario</b>
+2016-10-16 06:28:25 => Checando se tabela existe: OK<br>2016-10-16 06:28:25 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE email = ? AND senha = ? AND ativo = ? </b>
+2016-10-16 06:28:32 => Checando se tabela existe: OK<br>2016-10-16 06:28:32 => Dados retornados com sucesso na tabela <b>usuarios</b><br>Instrução sql::<b>SELECT * FROM usuarios WHERE id = ? </b>

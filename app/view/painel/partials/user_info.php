@@ -16,6 +16,9 @@
                         <a href="javascript:void(0);"><i class="material-icons">group</i>Amigos</a>
                     </li>
                     <li>
+                        <a href="<?php echo URL_BASE.'usuario/listar'; ?>"><i class="material-icons">people_outline</i>Pessoas</a>
+                    </li>
+                    <li>
                         <a href="javascript:void(0);"><i class="material-icons">widgets</i>Utilitários</a>
                     </li>
                     <li>

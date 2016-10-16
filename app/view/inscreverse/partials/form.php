@@ -5,14 +5,14 @@
     </div>
     <div class="card">
         <div class="body">
-            <form id="sign_up" method="POST">
+            <form id="sign_up" method="POST" action="<?php echo URL_BASE.'usuario/salvar' ?>">
                 <div class="msg"><?php echo $inscreverse->novo_membro; ?></div>
                 <div class="input-group">
                     <span class="input-group-addon">
                         <i class="material-icons">person</i>
                     </span>
                     <div class="form-line">
-                        <input type="text" class="form-control" name="namesurname" placeholder="<?php echo $inscreverse->usuario; ?>" required autofocus>
+                        <input type="text" class="form-control" name="login" placeholder="<?php echo $inscreverse->usuario; ?>" required autofocus>
                     </div>
                 </div>
                 <div class="input-group">
@@ -28,7 +28,7 @@
                         <i class="material-icons">lock</i>
                     </span>
                     <div class="form-line">
-                        <input type="password" class="form-control" name="password" minlength="6" placeholder="<?php echo $inscreverse->senha; ?>" required>
+                        <input type="password" class="form-control" name="senha" minlength="6" placeholder="<?php echo $inscreverse->senha; ?>" required>
                     </div>
                 </div>
                 <div class="input-group">

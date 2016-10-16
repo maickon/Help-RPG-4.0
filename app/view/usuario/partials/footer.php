@@ -1,14 +1,16 @@
-<?php
+	<?php
 
 $_JS = [	
 			$painel->url->painel_js_path . '/plugins/jquery/jquery.min.js',
 			$painel->url->painel_js_path . '/plugins/bootstrap/js/bootstrap.js',
 			$painel->url->painel_js_path . '/plugins/bootstrap-select/js/bootstrap-select.js',
 			$painel->url->painel_js_path . '/plugins/jquery-slimscroll/jquery.slimscroll.js',
+			$painel->url->painel_js_path . '/plugins/jquery-inputmask/jquery.inputmask.bundle.js',
 			$painel->url->painel_js_path . '/plugins/node-waves/waves.js',
 			$painel->url->painel_js_path . '/plugins/jquery-countto/jquery.countTo.js',
 			$painel->url->painel_js_path . '/plugins/jquery-sparkline/jquery.sparkline.js',
-			$painel->url->painel_js_path . '/plugins/tinymce/tinymce.js',
+			// $painel->url->painel_js_path . '/plugins/tinymce/tinymce.js',
+			$painel->url->painel_js_path . '/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js',
 			$painel->url->painel_js_path . '/plugins/ckeditor/ckeditor.js',
 			
 			$painel->url->painel_js_path . '/plugins/jquery-datatable/jquery.dataTables.js',
@@ -21,6 +23,7 @@ $_JS = [
 			$painel->url->painel_js_path . '/plugins/jquery-datatable/extensions/export/buttons.html5.min.js',
 			$painel->url->painel_js_path . '/plugins/jquery-datatable/extensions/export/buttons.print.min.js',
 			$painel->url->painel_js_path . '/admin.js',
+			$painel->url->painel_js_path . '/advanced-form-elements.js',
 			$painel->url->painel_js_path . '/infobox-4.js',
 			$painel->url->painel_js_path . '/plugins/tables/jquery-datatable.js',
 			$painel->url->painel_js_path . '/editors.js',

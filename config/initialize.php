@@ -2,6 +2,7 @@
 require "url/url.php";
 
 define('URL_BASE_INTERNAL_DB', URL_BASE_INTERNAL . 'config/db/db.php');
+define('URL_BASE_INTERNAL_MAIL', URL_BASE_INTERNAL . 'config/mail/mail.php');
 define('URL_BASE_INTERNAL_LABELS', URL_BASE_INTERNAL . 'config/labels/pt-br/labels.php');
 define('URL_BASE_INTERNAL_CONTROLLER', URL_BASE_INTERNAL . '/app/controllers/');
 define('URL_BASE_INTERNAL_MODEL', URL_BASE_INTERNAL . '/app/models/');
@@ -9,6 +10,7 @@ define('URL_BASE_INTERNAL_LIB', URL_BASE_INTERNAL . '/lib/');
 define('URL_BASE_INTERNAL_HELPER', URL_BASE_INTERNAL . '/app/helpers/');
 
 require URL_BASE_INTERNAL_DB;
+require URL_BASE_INTERNAL_MAIL;
 require URL_BASE_INTERNAL_LABELS;
 
 

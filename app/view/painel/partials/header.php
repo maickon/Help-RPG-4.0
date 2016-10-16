@@ -4,7 +4,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Help Rpg - Admin</title>
     <!-- Favicon-->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $painel->url->logo_icon_img_path; ?>" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -16,9 +16,11 @@
             $painel->url->painel_css_path . '/plugins/node-waves/waves.css',
             $painel->url->painel_css_path . '/plugins/animate-css/animate.css',
             $painel->url->painel_css_path . '/plugins/material-design-preloader/md-preloader.css',
+            $painel->url->painel_css_path . '/plugins/waitme/waitMe.css',
             $painel->url->painel_css_path . '/plugins/morrisjs/morris.css',
             $painel->url->painel_css_path . '/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css',
             $painel->url->painel_css_path . '/plugins/bootstrap-select/css/bootstrap-select.css',
+            $painel->url->painel_css_path . '/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css',
             $painel->url->painel_css_path . '/style.css', 
             $painel->url->painel_css_path . '/themes/all-themes.css',
             $painel->url->index_css_path 

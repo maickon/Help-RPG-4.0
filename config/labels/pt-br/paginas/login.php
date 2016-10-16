@@ -5,6 +5,8 @@ const LOGIN_META_DESCRIPTION = 'Página de login do Help RPG.';
 const LOGIN_META_KEYWORDS = 'Login, Entrar, Logar';
 
 const LOGIN_MAIN_MSG = 'Faça login para começar a sua sessão.';
+const LOGIN_ERRO_CONTA_ATIVADA = 'Um erro ocorreu! Sua conta não foi ativada.';
+const LOGIN_ERRO_HASH_NAO_ENCONTRADA = 'Seu código de ativação está inválido.';
 const LOGIN_MSG_ERRO = 'Usuário ou senha estão incorretos.';
 const LOGIN_USUARIO = 'Usuário';
 const LOGIN_EMAIL = 'Email';
