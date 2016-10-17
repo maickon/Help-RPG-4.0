@@ -28,6 +28,7 @@ $_JS = [
 			$painel->url->painel_js_path . '/plugins/tables/jquery-datatable.js',
 			$painel->url->painel_js_path . '/editors.js',
 			$painel->url->painel_js_path . '/demo.js',
+			$painel->url->usuario_js_path . '/usuario.js',
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

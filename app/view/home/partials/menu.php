@@ -19,7 +19,7 @@ $tag->div('class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-sec
                         ['#'.strtolower(HOME),       HOME],
                         ['#'.strtolower(RECORDS), RECORDS],
                         ['#'.strtolower(CONTACT),    CONTACT],
-                        [strtolower(LOGIN),            LOGIN],
+                        [URL_BASE.strtolower(LOGIN),            LOGIN],
                         [strtolower(WORDPRESS_URL),    BLOG],
                         [strtolower(YOU_TUBE_URL),    YOU_TUBE_PAGE]
                     ];    

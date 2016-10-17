@@ -155,8 +155,7 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                     $tag->printer('<span class="font-bold">Sexo</span>');
                                 $tag->h2;
                                 $tag->p('class="font-18"');
-                                    $sexo = ['m'=>USUARIO_LABEL_SEXO_MASCULINO, 'f'=>USUARIO_LABEL_SEXO_FEMININO];
-                                    $tag->printer($sexo[$usuario->sexo]);
+                                    $tag->printer($usuario->sexo);
                                 $tag->p;
                             $tag->div;
 
@@ -164,10 +163,12 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                 $tag->h2('class="card-inside-title"');
                                     $tag->printer('<span class="font-bold">Idade</span>');
                                 $tag->h2;
-                                $idade = date('Y')-explode('/', $usuario->data_nascimento)[2];
-                                $tag->p('class="font-18"');
-                                    $tag->printer("{$idade} anos");
-                                $tag->p;
+                                if (!empty($usuario->data_nascimento)) {
+                                    $idade = date('Y')-explode('/', $usuario->data_nascimento)[2];
+                                    $tag->p('class="font-18"');
+                                        $tag->printer("{$idade} anos");
+                                    $tag->p;
+                                }
                             $tag->div;
 
                             $tag->div('class="col-md-3"');
@@ -246,7 +247,7 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                 $tag->h2('class="card-inside-title"');
                                     $tag->printer('<span class="font-bold">É mestre e tem experiência?</span>');
                                 $tag->h2;
-                                $resposta = ['s'=>USUARIO_LABEL_SIM,'n'=>USUARIO_LABEL_NAO];
+                                $resposta = [''=>'','s'=>USUARIO_LABEL_SIM,'n'=>USUARIO_LABEL_NAO];
                                 $tag->p('class="font-18"');
                                     $tag->printer($resposta[$usuario->e_mestre]);
                                 $tag->p;

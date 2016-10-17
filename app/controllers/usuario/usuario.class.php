@@ -14,7 +14,7 @@ class Usuario_Controller extends Controller_Lib{
 		require (new Render_Lib())->get_required_path();
 	}
 
-	function profile(){
+	function profile($id = ''){
 		session_start();
 		if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login']))
 		    header("Location: " . URL_BASE);
@@ -22,7 +22,19 @@ class Usuario_Controller extends Controller_Lib{
 		$tag = new Tags_Lib;
 		$form = new Form_Lib;
 		$usuario_modelo = new Usuario_Model();
-		$usuario = (object)$usuario_modelo->select('usuarios', '*', ['id','=',$_SESSION['id']])[0];
+		if (is_numeric($id)) {
+			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$id]);
+		} else if ($id == ''){
+			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$_SESSION['id']]);
+		} else {
+			header('Location: ' . URL_BASE . 'erro/codigo/404');
+		}
+	
+		if (count($usuario) == 0) {
+			header('Location: ' . URL_BASE . 'erro/codigo/404');
+		} elseif (count($usuario) == 1) {
+			$usuario = $usuario[0];
+		} 
 		$painel = new Painel_Model;
 		require (new Render_Lib('profile'))->get_required_path();
 	}
@@ -176,5 +188,19 @@ class Usuario_Controller extends Controller_Lib{
 		$usuario = new Usuario_Model();
 		$usuarios = $usuario->select('usuarios');
 		require (new Render_Lib('listar'))->get_required_path();
+	}
+
+	function filtrar($filtro = ''){
+		$usuario = new Usuario_Model();
+		$nome = ['nome', 'LIKE', "%{$filtro}%"];
+		$login = ['login', 'LIKE', "%{$filtro}%"];
+		$sexo = ['sexo', 'LIKE', "%{$filtro}%"];
+		$data_nascimento = ['data_nascimento', 'LIKE', "%{$filtro}%"];
+		$cidade = ['cidade', 'LIKE', "%{$filtro}%"];
+		$estado = ['estado', 'LIKE', "%{$filtro}%"];
+		$pais = ['pais', 'LIKE', "%{$filtro}%"];
+		$usuario_filtrado = $usuario->select('usuarios','*',[ $nome, $login, $sexo, $data_nascimento, $cidade, $estado, $pais], 'OR');
+		$toJason = json_encode($usuario_filtrado);
+		echo $toJason;
 	}		
 }

@@ -196,13 +196,13 @@ class HelperRecord_Lib{
             $message = "{$this->now} => ID máximo na <b>{$table}</b> retornada com sucesso!";
             $message .= "<br>Instruçãosql:<b>{$s->queryString}</b>\n";
             $this->logRegister($message);
-            $maxIdData = $s->fetchAll(PDO::FETCH_ASSOC);  
+            $maxIdData = $s->fetchAll(PDO::FETCH_OBJ);  
             $s2 = $this->conn->prepare("SELECT * FROM {$table} WHERE id = {$maxIdData[0]['MAX(Id)']}");
             if($s2->execute()):
                 $message2 = "{$this->now} => Dados na tabela <b>{$table}</b> retornados com sucesso!";
                 $message2 .= "<br>Instrução sql:<b>{$s2->queryString}</b>\n";
                 $this->logRegister($message2); 
-                return $s2->fetchAll(PDO::FETCH_ASSOC);  
+                return $s2->fetchAll(PDO::FETCH_OBJ);  
             endif;
         else:
             $message = "Um erro ocorreu. ID máximo na <b>{$table}</b> não pode ser retornada.<br>";
@@ -223,13 +223,13 @@ class HelperRecord_Lib{
             $message = "{$this->now} => ID máximo na <b>{$table}</b> retornada com sucesso!";
             $message .= "<br>Instruçãosql:<b>{$s->queryString}</b>\n";
             $this->logRegister($message);
-            $maxIdData = $s->fetchAll(PDO::FETCH_ASSOC);  
+            $maxIdData = $s->fetchAll(PDO::FETCH_OBJ);  
             $s2 = $this->conn->prepare("SELECT * FROM {$table} WHERE id = {$maxIdData[0]['MIN(Id)']}");
             if($s2->execute()):
                 $message2 = "{$this->now} => Dados na tabela <b>{$table}</b> retornados com sucesso!";
                 $message2 .= "<br>Instrução sql:<b>{$s2->queryString}</b>\n";
                 $this->logRegister($message2); 
-                return $s2->fetchAll(PDO::FETCH_ASSOC);  
+                return $s2->fetchAll(PDO::FETCH_OBJ);  
             endif;
         else:
             $message = "Um erro ocorreu. ID mínimo na <b>{$table}</b> não pode ser retornada.<br>";
@@ -255,7 +255,7 @@ class HelperRecord_Lib{
             $message = "{$this->now} => Quantidade de registros encontrado em <b>{$table}</b> retornado com sucesso!";
             $message .= "<br>Instruçãosql:<b>{$s->queryString}</b>\n";
             $this->logRegister($message);
-            return $s->fetchAll(PDO::FETCH_ASSOC)[0];  
+            return $s->fetchAll(PDO::FETCH_OBJ)[0];  
         else:
             $message = "Um erro ocorreu. Não foi possível retornar o número total de registros da tabela <b>{$table}</b>.<br>";
             $message .= "$this->conn->errorInfo()[2]";
@@ -304,7 +304,7 @@ class HelperRecord_Lib{
                 $message = "{$this->now} => Dados na <b>{$table}</b> retornado com sucesso!";
                 $message .= "<br>Instruçãosql:<b>{$select->queryString}</b>\n";
                 $this->logRegister($message);
-                return $select->fetchAll(PDO::FETCH_ASSOC);  
+                return $select->fetchAll(PDO::FETCH_OBJ);  
             else:
                 $message = "Um erro ocorreu. Os dados da <b>{$table}</b> não pode ser retornado.<br>";
                 $message .= "$this->conn->errorInfo()[2]";
@@ -354,7 +354,7 @@ class HelperRecord_Lib{
                 $message = "{$this->now} => Dados na <b>{$table}</b> retornado com sucesso!";
                 $message .= "<br>Instruçãosql:<b>{$select->queryString}</b>\n";
                 $this->logRegister($message);
-                return $select->fetchAll(PDO::FETCH_ASSOC);  
+                return $select->fetchAll(PDO::FETCH_OBJ);  
             else:
                 $message = "Um erro ocorreu. Os dados da <b>{$table}</b> não pode ser retornado.<br>";
                 $message .= "$this->conn->errorInfo()[2]";
@@ -558,12 +558,12 @@ class HelperRecord_Lib{
                     $message = "{$this->now} => Dados retornados com sucesso na tabela <b>{$table}</b>";
                     $message .= "<br>Instrução sql::<b>{$s->queryString}</b>\n";
                     $this->successMsg('__select', $message);
-                    return $s->fetchAll(PDO::FETCH_ASSOC);
+                    return $s->fetchAll(PDO::FETCH_OBJ);
                 else:
                     $message = "{$this->now} => Nenhum dado foi retornando da tabela <b>{$table}</b>";
                     $message .= "<br>Instrução sql::<b>{$s->queryString}</b>\n";
                     $this->successMsg('__select', $message);
-                    return $s->fetchAll(PDO::FETCH_ASSOC);
+                    return $s->fetchAll(PDO::FETCH_OBJ);
                 endif;
             else:
                 $this->errorMsgSelectTable('__select', $table);
