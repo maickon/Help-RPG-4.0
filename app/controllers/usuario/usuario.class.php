@@ -24,6 +24,13 @@ class Usuario_Controller extends Controller_Lib{
 		$usuario_modelo = new Usuario_Model();
 		if (is_numeric($id)) {
 			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$id]);
+			$amizade = new Amizades_Model;
+			$colunas = ['id_usuario_requisitante','id_usuario_requisitado'];
+			$valores = [$_SESSION['id'], $id];
+			$amizade = $amizade->select('amizades','*', [ [$colunas[0], '=', $valores[0]], [$colunas[1], '=', $valores[1]] ], 'AND');
+			if (count($amizade) == 0) {
+				$amizade[0]->status = 'desconhecido';
+			}
 		} else if ($id == ''){
 			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$_SESSION['id']]);
 		} else {
@@ -36,6 +43,7 @@ class Usuario_Controller extends Controller_Lib{
 			$usuario = $usuario[0];
 		} 
 		$painel = new Painel_Model;
+		
 		require (new Render_Lib('profile'))->get_required_path();
 	}
 

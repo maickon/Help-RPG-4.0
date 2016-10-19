@@ -13,7 +13,7 @@
                 </li>
                 <li role="seperator" class="divider"></li>
                     <li>
-                        <a href="javascript:void(0);"><i class="material-icons">group</i>Amigos</a>
+                        <a href="<?php echo URL_BASE.'amizades/listar'; ?>"><i class="material-icons">group</i>Amigos</a>
                     </li>
                     <li>
                         <a href="<?php echo URL_BASE.'usuario/listar'; ?>"><i class="material-icons">people_outline</i>Pessoas</a>
