@@ -1,0 +1,7 @@
+Humano
+Elfo
+Meio-Elfo
+Orc
+Meio-Orc
+Anão
+Outros

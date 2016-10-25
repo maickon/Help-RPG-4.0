@@ -7,10 +7,14 @@ class Painel_Controller extends Controller_Lib{
 	}
 
 	function index(){
+		session_start();
 		$tag = new Tags_Lib;
 		$form = new Form_Lib;
 		$painel = new Painel_Model;
-		$usuario = new Usuario_Model;
+		$usuario = (new Usuario_Model())->select('usuarios','*',['id','=',$_SESSION['id']])[0];
+		$time_ago = new Timeago_Helper;
+		$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
+		$time_line = (new Timeline_Model())->select('timeline');
 		require (new Render_Lib())->get_required_path();
 	}
 

@@ -82,7 +82,10 @@ class Login_Controller extends Controller_Lib{
 	}
 
 	function sair(){
+		ini_set('date.timezone', 'America/Sao_paulo');
 		session_start();
+		$usuario = new Usuario_Model;
+		$usuario->update('usuarios',['ultimo_login'],[date('Y-m-d H:i:s')], 'id', $_SESSION['id']);
 		session_destroy();
 		header("Location: " . URL_BASE);
 	}

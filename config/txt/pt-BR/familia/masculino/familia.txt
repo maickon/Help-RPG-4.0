@@ -1,0 +1,9 @@
+Pai
+Irmão
+Filho
+Avo
+Tataravo
+Tio
+Neto
+Afilhado
+Sobrinho

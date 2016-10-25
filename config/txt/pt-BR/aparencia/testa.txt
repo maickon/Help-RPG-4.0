@@ -1,0 +1,9 @@
+Longo
+Oval
+Redondo
+Retangular
+Quadrado
+Triangular
+Diamante
+Triango Invertido
+Coração

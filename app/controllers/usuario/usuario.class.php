@@ -24,12 +24,12 @@ class Usuario_Controller extends Controller_Lib{
 		$usuario_modelo = new Usuario_Model();
 		if (is_numeric($id)) {
 			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$id]);
-			$amizade = new Amizades_Model;
-			$colunas = ['id_usuario_requisitante','id_usuario_requisitado'];
+			$amizades = new Amizades_Model;
+			$colunas = ['de','para'];
 			$valores = [$_SESSION['id'], $id];
-			$amizade = $amizade->select('amizades','*', [ [$colunas[0], '=', $valores[0]], [$colunas[1], '=', $valores[1]] ], 'AND');
+			$amizade = $amizades->select('amizades','*', [ [$colunas[0], '=', $valores[0]], [$colunas[1], '=', $valores[1]] ], 'AND');
 			if (count($amizade) == 0) {
-				$amizade[0]->status = 'desconhecido';
+				$amizade = $amizades->select('amizades','*', [ [$colunas[0], '=', $valores[1]], [$colunas[1], '=', $valores[0]] ], 'AND');
 			}
 		} else if ($id == ''){
 			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$_SESSION['id']]);
@@ -43,6 +43,9 @@ class Usuario_Controller extends Controller_Lib{
 			$usuario = $usuario[0];
 		} 
 		$painel = new Painel_Model;
+
+		$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
+		$time_ago = new Timeago_Helper;
 		
 		require (new Render_Lib('profile'))->get_required_path();
 	}
@@ -106,6 +109,9 @@ class Usuario_Controller extends Controller_Lib{
 		$form = new Form_Lib;
 		$painel = new Painel_Model;
 		$usuario = (object)(new Usuario_Model())->select('usuarios','*',[ ['id','=',$_SESSION['id']] ])[0];
+
+		$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
+		$time_ago = new Timeago_Helper;
 		require (new Render_Lib('editar'))->get_required_path();
 	}
 
@@ -194,6 +200,8 @@ class Usuario_Controller extends Controller_Lib{
 		$form = new Form_Lib;
 		$painel = new Painel_Model;
 		$usuario = new Usuario_Model();
+		$time_ago = new Timeago_Helper;
+		$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
 		$usuarios = $usuario->select('usuarios');
 		require (new Render_Lib('listar'))->get_required_path();
 	}

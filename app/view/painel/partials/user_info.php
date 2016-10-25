@@ -1,10 +1,10 @@
-<div class="user-info" style="background: url('<?php echo $_SESSION['capa_link']; ?>'); no-repeat no-repeat; width: 100% !important;">
+<div class="user-info" style="background: url('<?php echo $usuario->capa_link; ?>'); no-repeat no-repeat; width: 100% !important;">
     <div class="image">
-        <img src="<?php echo $_SESSION['foto_link']; ?>" width="48" height="48" alt="User" />
+        <img src="<?php echo $usuario->foto_link; ?>" width="48" height="48" alt="User" />
     </div>
     <div class="info-container">
-        <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION['nome']; ?></div>
-        <div class="email"><?php echo $_SESSION['email']; ?></div>
+        <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $usuario->nome; ?></div>
+        <div class="email"><?php echo $usuario->email; ?></div>
         <div class="btn-group user-helper-dropdown">
             <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
             <ul class="dropdown-menu pull-right">

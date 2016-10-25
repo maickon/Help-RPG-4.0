@@ -1,0 +1,9 @@
+Preto
+Branco
+Azul
+Azul-esverdeado
+Cinza
+Verde
+Vermelho
+Castanho
+violeta

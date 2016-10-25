@@ -17,7 +17,7 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                         $tag->div('class="col-md-4"');
                             $tag->div('class="form-group"');
                                 $tag->div('class="form-line"');
-                                    $tag->input('name="search" id="filtro" onkeydown="filtrar_usuario(value)" class="form-control" placeholder=" Encontre alguém"');
+                                    $tag->input('name="search" id="filtro" onkeydown="filtrar_amizade(value)" class="form-control" placeholder=" Encontre alguém"');
                                 $tag->div;
                             $tag->div;
                             $tag->span('id="filter-count"');

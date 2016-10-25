@@ -1,0 +1,163 @@
+Armadura
+Armadura Gladiadora
+Armadura Acolchoada (Couro)
+Armadura de Prata
+Armadura de Bronze
+Armadura de Ferro
+Armadura de Aço
+Armadura de Mithril
+Armadura de Batalha
+Armadura de Combate
+Armadura de Guerra
+Peitoral de Aço
+Peitoral de Ferro
+Peitoral de Aço Reforçado
+Peitoral de aço Completo
+Cota de Malha
+Cota de Talas
+Loriga Segmentada
+Corselete de Couro
+Gibão de Couro (Não envolve a perna)
+Brunea
+Manto
+Armadura da Atração da Retirada: Criada a partir da essência dos elementais do vento, esta armadura
+permite que o personagem se afaste de um inimigo e o atraia para uma armadilha.
+Armadura da Bravura Compartilhada: Os versos e imagens que recobrem a superficie desta armadura são uma fonte de inspiração para o usuário e para os que a vislumbram.
+Armadura do Calor Interior: Criada do couro deferas elementais, esta armadura emite uma aura de calor reconfortante.
+Armadura do Espírito Protetor: O poder primitivo contido nesta armadura de couro extrai a energia de seu companheiro espiritual para protegê-Io de um ataque quando sua guarda está baixa.
+Armadura do Criador de Lendas: Ao trajar esta armadura impressionante, você inspira seus aliados a criar suas próprias lendas.
+Armadura do Espírito Urso: Criada do couro do urso e entalhada com invocações ao espírito dessa fera, esta armadura concede a durabilidade do urso à sua fúria.
+Armadura do Escudo Espiritual: Esta armadura de couro é gravada com imagens de espíritos de animais
+e seu poder flui através do companheiro espiritual do usuário até os aliados dele.
+Armadura da Fera Agressora: Quando veste esta armadura, você consegue sentir o espírito da fera dentro de você, instigando-o a saltar para frente e atacar.
+Armadura do Espírito da Pantera: Criada de pedaços do couro de uma pantera nobre, esta armadura foi imbuída com o poder e a resiliência do espírito da pantera.
+Armadura da Fera Caçadora: Esta armadura carrega o espírito de uma fera caçadora. Quando você assume a forma animal, esse espírito guia seus movimentos.
+Armadura da Fera Perseverante: o espírito que habita dentro desta armadura reluzente concede a você afortitude para renovar suas energias,mesmo após os ferimentos mais graves.
+Armadura da Luz Protetora: Chamas amarelas e brancas brincam sobre os elos desta armadura. Quando um inimigo o atinge, chamas irrompem em uma conflagração punitiva.
+Armadura do Fogo Astral: Os pequenos cristais nos elos desta armadura brilham como estrelas e quando são expostos à energia divina, elas incendeiam e o enchem com uma energia protetora.
+Armadura do Pássaro Roca: Esta armadura foi decorada com penas de pássaro roca. Quando você assume a forma animal, consegue canalizar o espírito dessa fera e adotar suaforma.
+Armadura da Fuga Súbita: Esta armadura reluzente permite que você invoque a energia astral para escapar de um ataque.
+Armadura da Penitência: Runas de expulsão complexas foram inscritas nos elos desta armadura, prometendo a punição divina para todos que o ferirem.
+Armadura da Fúria Sangrenta: Esta armadura foi confeccionada do couro de um temível beemote. A fúria do sangue dessa criatura agora alimenta a fúria do usuário.
+Armadura do Predador: Quando você assume a forma animal, o espírito primitivo da armadura o preenche com o poder de derrotar um inimigo em fuga.
+Armadura da Presa Córnea: Pequenas presas brotam das ombreiras desta armadura. Ela concede a resistência de um javali, permitindo que você ataque mesmo quando o inimigo o derruba.
+Armadura de Skald: Esta armadura, uma favorita entre os bardos itinerantes, aprimora a habilidade do usuário de se livrar de situações complicadas.
+Armadura da Reprimenda: Esta cota de malha de prata brilha conforme a magia divina dentro dela fortalece suas defesas contra um inimigo que sofreu sua fúria.
+Armadura da Vinha da Vida: Esta armadura foi tecida com um padrão complexo de vinhas que formam um relacionamento simbiótico com o usuário.
+Armadura da Retribuição Divina: Quando o personagem é atingido, o poder divino que imbui os elos desta armadura brilha e fortalece seus ataques contra aqueles que oferem.
+Armadura das Vinhas de Sangue: Esta armadura possui tentáculos semelhantes a raízes ocultas. Quando você é atingido, essas raízes se expandem, concedendo proteção superior.
+Armadura do Sangue da Vida: Esta armadura é repleta de espíritos primitivos que sustentam e protegem o usuário contra os ataques inimigos.
+Armadura da Vitória Ousada: A magia que flui por esta armadura impressionante fortalece o usuário ou um de seus aliados conforme vocês se aproximam da vitória.
+Vestimentas da Determina Ágil: Essas vestimentas bordadas canalizam sua determinação e concedem agilidade.
+Vestimentas da Determinação Desesperada: O poder divino contido nas vestimentas transforma golpes mortais em ataques simples.
+Vestimentas da Determinação Indomável: Estas vestes ornamentadas canalizam a determinação do usuário e o preenchem de força de vontade e determinação.
+Vestimentas da Determinação Perpétua: O poder divino desta vestimenta o protege de danos contínuos.
+Vestimentas da Determinação Vigorosa: Estas vestimentas bordadas canalizam sua força de vontade para gerar resistência.
+Vestimentas do Espírito Perseverante: O poder divino contido nesta armadura o protege do mal.
+Armadura Aeriforme: Esta armadura constantemente flui como nuvens num céu cinzento e concede ao seu dono uma sensação de leveza ao se mover.
+Armadura Ágil: A flexibilidade desta armadura permite que seu usuário tenha uma enorme liberdade de movimento.
+Armadura do Aperfeiçoamento: A flexibilidade desta armadura permite que seu usuário tenha uma enorme liberdade de movimento.
+Armadura Ágil: Esta armadura de aço fosco parece ser extremamente bem feita, mas
+muito simples. Quanto mais ela é golpeada, mais resistenteela se torna.
+Armadura de Argila Elukiana: Esculpida de pedras encontradas no Caos Elemental, esta armadura repele até mesmo os ácidos mais fortes
+Armadura da Atração: Esta armadura robusta consegue atrair projéteis, permitindo que você proteja melhor seus aliados.
+Armadura Berrante: Esta armadura é coberta em padrões ornamentais de rostos gritando que ampliam sua capacidade de destruir a determinação dos inimigos.
+Armadura Aquosa: Gelada ao toque, essa armadura sempre parece estar úmida. Uma pessoa que a estiver usando consegue se transformar em água, mas a um custo.
+Armadura Bestial: Criada a partir da pele, pelo e ossos de ursos das cavernas, esta armadura concede ao seu usuário o vigor de uma fera perseguindo sua presa.
+Armadura de Choque: Criada em forjas carregadas de eletricidade, esta armadura crepita
+com energia e faz com que qualquer adversário lamente a decisão de atacá-lo.
+Armadura Cintilante: O brilho desta armadura fica mais forte quando você mais precisa de sua proteção mágica.
+Armadura Congelada: Partículas de gelo flutuam em volta desta armadura, enquanto seu usuário permanece quente e resistente ao frio.
+Armadura do Campeão: Imbuída do espírito de um grande herói de eras passadas, esta armadura se esforça para que suas façanhas não sejam menos lendárias.
+Armadura Contra Assassinos: Decorada com símbolos semelhantes a olhos estilizados, esta armadura impede que osinimigos o surpreendam.
+Armadura das Chamas Cândidas: Esta armadura absorve luz e pode ser convertida para proteger contra outros efeitos.
+Armadura de Corais: Esta armadura pesada foi criada pelos elfos, que tentavam instituir patrulhas
+amfíbias para proteger os rios e lagos nas fronteiras de suas terras.
+Armadura Deslocadora: Ao vestir esta armadura, você parece estar em vários lugares ao mesmo tempo.
+Armadura de Cristal: Aparentemente feita de quartzo sólido, esta armadura amplia suas capacidades mentais quando você estiver gravemente ferido.
+Armadura do Dom da Vida: Esta armadura protege contra a energia necrótica e fornece mais saúde quando necessário.
+Armadura da Deflexão: Esta armadura é mais resistente do que aparenta à primeira vista e muitos inimigos já foram surpreendidos ao ver seus ataques subitamente desviados para um aliado.
+Armadura da Durabilidade: Quando seus aliados dependem que você continue lutando, essa armadurao ajuda a manter-se no combate.
+Armadura do Entusiasmo: Esta armadura protege o corpo e fortifica o espírito.
+Armadura do Encorajamento: Seu ânimo nunca ficará abatido enquanto você estiver vestindo esta armadura.
+Armadura do Escárnio a Morte: Quem veste esta armadura ri dos poderes necrótico se consegue disparar uma rajada de energia negra debilitante contra seus adversários.
+Armadura Enevoada: O metal desta armadura parece refletir várias tonalidades de roxo e cinza, como se estivesse cheio de nuvens de tempestade. O usuário se sente resistente aos poderes das tempestades.
+Armadura Escorregadia: É diflcil segurá-lo enquanto você estiver vestindo esta armadura.
+Armadura Estimulante: Qualquer líder teria orgulho de usar esta armadura, pois não existe ato mais honroso que ajudar seus aliados nas horas de desespero.
+Armadura Esquelética: Coberto de ossos, o dono desta armadura apresenta o aspecto aterrorizante de uma criatura morta-viva, adquirindo resistências similares e fazendo com que qualquer morto-vivo hesite em atacá-lo.
+Armadura do Esquivador de Gigantes: Esta armadura protege contra os ataques de criaturas maiores.
+Armadura do Estrategista: Em combate, a força mental é tão importante quanto a força física e esta armadura assegura que você disponha de ambas.
+Armadura forjada a sangue: Forjada de ferro batido resfriado em sangue, esta armadura protege melhor àqueles que derramam mais o sangue alheio.
+Armadura do Fogo Álgido: Uma fina camada de gelo reveste as placas desta armadura, protegendo você ou um aliado contra ofrio e o calor extremos.
+Armadura da Forma de Rato: Pequenos retalhos de pele lustrosa parecem formar este corselete,que possui franjas que lembram, de forma perturbadora, as caudas de um roedor. Com ele,você consegue assumir a forma sorrateira de um rato.
+Armadura de Folhas do Mato: Criada pelos elfos a partir de folhas caídas, essas armaduras são as preferidas dos patrulheiros e ladinos que se embrenham nas matas.
+Armadura da Forma de Vapor: Enquanto estiver usando esta armadura, nenhuma prisão será capaz de segurá-lo, nenhuma porta impedirá sua passagem, e nenhuma elevação estará além do seu alcance.
+Armadura da Forja Obscura: Esta armadura não absorve apenas força física, mas torna-se ainda mais resistente após ser repetidamente golpeada.
+Armadura Ímã da Guerra: Esta armadura assesura que seu dono esteja cercado não apenas de camadas de proteção, mas também de inimigos ansiosos.
+Armadura do Impostor: Num piscar de olhos, esta armadura metálica pode se parecer com trapos ou com um manto fino, fornecendo o disfarce perfeito para qualquer situação.
+Armadura da Fortificação: Os draconatos não são inexperientes no combate e desenvolveram esta armadura para desviar os ataques mais letais.
+Armadura Imunizante: Esta armadura branca lustrosa fornece ao seu usuário uma sensação de pureza física, como se ele fosse capaz de resistir até mesmo aos venenos e doenças mais letais.
+Armadura Furta-Sangue: A supeifície desta armadura parece estar constantemente coberta de sangue escorrendo por sua superfície.
+Armadura Íntegra: Imbuída da convicção de seu criador, esta armadura pune os adversários que não lutam limpo.
+Armadura Invocada: Quem possui essa armadura extraordinária jamais precisa se preocupar em ser apanhado desprotegido.
+Armadura Macabra: Ossos adornam seus braços e pernas, costelas estão dispostas no peito e um crânio no alto da cabeça faz as vezes de um elmo.
+Armadura Irrefutável: Esta armadura simples de placas metálicas restabelece a força de vontade do usuário ao mesmo tempo em que protege seu corpo.
+Armadura do Mártir: Esta armadura de cor vermelha permite que seu usuário proteja seus aliados, mesmo à custa de sua própria saúde.
+Armadura de Irrupção: Enquanto usar esta armadura, paredes não serão obstáculo.
+Armadura da Mente Feérica: Partículas prateadas de luz dançam em torno da cabeça daqueles que ousarem atacá-lo.
+Armadura de Luz Estelar: Banhada na radiância de estrelas distantes, esta armadura protege contra luzes nocivas.A luz das estrelas também o resguarda contra ataques.
+Armadura de Mitral: Uma armadura de mitral brilha como prata polida. A maioria das pessoas que já usaram uma delas alega que ela salvou suas vidas em mais de uma ocasião.
+Armadura da Negação: O usuário desta armadura não precisa temer os efeitos adversos de um ataque inimigo fracassado.
+Armadura da Noite: Usando essa armadura, você é capaz de sufocar a luz e se camuflar em nuvens rodopiantes de sombras.
+Armadura de Nulocristal: Negra como uma noite sem estrelas, esta armadura desestabiliza as armas conforme desvia seus golpes.
+Armadura de Pele de Serpente: Feita de escamas descartadas por uma cobra gigante, esta armadura mantém a resistência da serpente contra venenos.
+Armadura Peloriana: A bênção de Pelor torna essas armaduras douradas surpreendentemente resistentes.
+Armadura do Perseguidor: A energia do Pendor das Sombras e da Agrestia das Fadas se mesclam para tornar esta armadura o melhor equipamento para um caçador.
+Armadura Protetora da Alma: Esta armadura fortalece sua determinação fisica e mental.
+Armadura da Presa de Cobra: Enfeitada por presas de serpentes, esta armadura não apenas confere resistência a venenos letais, mas também é um perigo para os atacantes.
+Armadura do Pulso: Muitos grandes heróis sobreviveram a batalhas perigosas graças aos beneficios ofensivos e defensivos desta armadura.
+Armadura da Purificação: O exterior desta armadura é coberto por símbolos de cura, enquanto seu interior tem várias faixas de seda que o envolvem confortavelmente e se movem para aliviar seu sofrimento.
+Armadura das Proezas: Os símbolos arcanos bordados nessa armadura emitem um brilho forte quando ela libera o poder previamente armazenado.
+Armadura Reflexiva: Este item protege usuários menos ágeis contra aforça de ataques que geralmente ignoram armaduras.
+Armadura Reforçada: Esta armadura resguarda seu usuário mesmo quando ele não está precavido o bastante para proteger a si mesmo.
+Armadura Repulsora: Incrustada de runas esotéricas, esta armadura é capaz de repelir até mesmo os inimigos mais persistentes.
+Armadura Salubre: O aço brilhante desta armadura se torna vermelho quando seu dono se cura, concedendo proteção adicional.
+Armadura da Resistência: As proteções espirituais desta armadura fornecem resistência adicional.
+Armadura do Sangueardente: Esta armadura envolve seu dono em chamas calcinantes sempre que ele estiver sangrando.
+Armadura do Sacrifício: Esses robes desprovidos de adornos aparentemente não têm qualquer capacidade defensiva, porém auxiliam seus aliados nos momentos de sofrimento.
+Armadura de Sebo de Cobra:  Couro surrado desta armadura reluz com óleos tóxicos.
+Armadura do Senhor da Tempestade: Com esta armadura, você é capaz de submeter os elementos à sua vontade, dominando o poder da tempestade.
+Armadura do Senhor das Feras: Feita de peles e couro de animais, esta armadura é adornada com chifres, dentes e garras e faz com que qualquer animal pense duas vezes antes de atacar seu usuário.
+Armadura Térrea: Esculpidas em pedra bruta, as placas dessa armadura volumosa permitem que seus usuários desfrutem da resistência ilimitada da terra.
+Armadura do Sobrevivente: Esta armadura concede ao seu dono uma sensação de segurança enquanto ele estiver na companhia de aliados devotados.
+Armadura de Trama do Caos: Tecida de puro caos, esta armadura possui padrões abstratos que parecem torcer ou girar lentamente.
+Armadura do Sofrimento Compartilhado: Q]quando os inimigos infligem dano contínuo, esta armadura permite que você faça o mesmo com eles.
+Armadura de Urzes: Dizem que os eladrin foram os inventores dessas armaduras, criando uma forma de proteção que permanece oculta até ser acionada.
+Armadura Solar: Esta armadura revestida de cobre parece absorver o sol, emitindo um brilho avermelhado caloroso e revigorante.
+Armadura Versátil: O dono desta armadura se move com velocidade além do esperado e consegue empregar essa velocidade em seu beneficio contra inimigos despreparados.
+Armadura da Visão Tremulante: Seu corpo se torna indistinto e nebuloso para os demais, que precisam forçar a vista para vê-la com clareza.
+Armadura do Zelote: Esta armadura é cercada por centelhas de luzes cuja intensidade aumenta quando os mortos-vivos se aproximam.
+Armadura do Veterano: Surrada e gasta, esta armadura discreta lhe ajuda a aproveitar todas as suas experiências ao máximo.
+Armadura do Vínculo Espiritual: Esta armadura absorve tanto a energia da luz quanto a das trevas e consegue até transformar essa força destrutiva em cura.
+Brunea de Dragão Azul: Raios elétricos saltam dessa armadura azul berrante, atingindo os inimigos próximos.
+Brunea de Dragão Branco: Uma nevoa gélida emana do meio das escamas brancas desta armadura, deixando seu corpo para atingir o adversário.
+Brunea de Ora ão Vermelho: Ao desferir um golpe especialmente poderoso, as vívidas escamas vermelhas desta armadura emanam chamas que fluem por seu braço e sua arma até atingir o adversário.
+Brunea de Dragão Negro: As escamas negras e lustrosas dessa armadura concedem ao usuário parte do poder de um dragão negro.
+Casaco do Resplandor: A magia entrelaçada nesta armadura a torna extremamente reflexiva e brilhante. Ele é muito eficiente contra ataques de energia e visuais.
+Brunea de Dragão Verde: Esta brunea verde potencializa seus ataques com veneno.
+Robe da Absorção: Este robe absorve a durabilidade da armadura dos atacantes, nivelando a proteção concedida a essas criaturas e sua.
+Robe da Abstenção: o tecido simples deste robe faz com que muitos inimigos subestimem a proteção que ele oferece. 
+Robe da Contingência: Bordado com fios da Asrestia das Fadas, este traje é o preferido de muitos magos, por ajudá-los a escapar de situações difíceis.
+Robe do Arquidemônio: Tecido com peles de humanos, diabos e demônios, este robe macabro atrai a vista dos observadores para os olhos dominadores de seu usuário.
+Robe de Estrelas: O tecido negro e aveludado deste robe reluz com delicados pontos de luz que podem se intensificar com um comando.
+Robe do Llitide: Este robe é apertado e lustroso, com um penacho atrás da cabeça. Ele pode proteger seu usuário de dano se ele conseguir compelir uma pobre alma qualquer a ajudá-lo.
+Robe do Caminho Sanguíneo: Este traje recompensa o usuário quando seus inimigos são derrotados.
+Robe Cintilante: Feito de sedas finas, este robe emana luz quando seu usuário deseja e também é capaz de liberar um turbilhão de cores que confunde os inimigos.
+Robe dos Olhos: Este fino tecido de seda parece ser coberto de espirais coloridas ou penas de pavão, mas na verdade são dezenas de olhos arregalados.
+Robe Opositor da Tempestade: Os padrões bordados nesse robe lembram nuvens e grandes relâmpagos. Você adquire proteção contra tempestades e a capaddade de invocar o poder dela.
+Robe de Pele Rochosa: Em combate, este robe cinza endurece sua pele, fornecendo resistência adidonal.
+Robe de Penas: Este robe é coberto de espinhos delgados, que fazem qualquer adversário pensar duas vezes antes de atacar seu usuário.
+Robe Opositor das Chamas: Decorado com desenhos de chamas, este robe é capaz de repelir e invocar o fogo.
+Robe Prismático: Várias tonalidades foscas se misturam nesse robe, tornando-se vivas e vibrantes para deixar os espectadores atônitos quando você é atacado.
+Robe Opositor do Gelo: Este robe é cravejado com uma miríade de cristais de gelo do Caos Elementa!, que protegem contra os efeitos do frio e imbui seus ataques com uma frigidez arrepiante.
+Traje de Greda: Criado pelos elfos por meio de uma técnica secreta que envolve o uso do próprio solo na tecelagem, esta roupa de pano macio fornece ao seu usuário certo controle sobre a terra e as plantas.

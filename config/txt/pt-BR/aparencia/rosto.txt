@@ -1,0 +1,8 @@
+Oval
+Redondo
+Triângulo Invertido
+Quadrado
+Retângulo
+Diamante
+Rosto Longo
+Pêra

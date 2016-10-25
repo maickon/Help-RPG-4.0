@@ -1,0 +1,20 @@
+Flame Tongue: Essa espada causa dano de fogo,uma vez por dia ela pode explodir,pega até em 10 m de distancia causando 4d6,e em um ataque decisivo causa 4d6 .
+Adaga com Asas: Esta adaga pode pairar sozinha para lançar suas magias ou protegêm de ferimentos. 
+Dente do Caos: Esta adaga parece mudar de forma em sua mão, transformando-se exatamente no que você precisa para atingir o inimigo.
+Lâmina da Canção Perfurante: Esta lâmina é silenciosa até desferir o golpe fatal, quando então emite uma nota aguda que destroça a armadura do alvo.
+Adaga da Retorção Elemental: Esta ada8a permite que você utilize as resistênàa do inimigo a seu favor.
+Lâmina da Canção Pungente: Quando esta lâmina canaliza a magia bárdica, ela libera um uivo que deixa os inimigos sem seus sentidos.
+Adaga do Dente Dracônico: Entalhada a partir de um dente de dragão, esta adaga consegue eliminar as defesas elementais de uma criatura.
+Lâmina da Canção Ritmada: Quando brandida em arco, esta lâmina libera uma ode inspiradora de vitória que aumenta em intensidade a cada inimigo derrotado.
+Bastão da Cólera Brilhante: Quando você invoca o poder radiante deste bastão, consegue intensificar seu poder para cegar ou pasmar um inimigo.
+Bastão da Contenção Fascinante: O poder divino canalizado através deste bastão deixa o inimigo deslumbrado, prendendo-o ao chão.
+Bastão da Dispensa Colérica: O poder deste bastão permite que você desloque o inimigo para um local onde seus aliados possam lidar com ele.
+Bastão da Esperança Triunfante: Quando seu inimigo cai, o poder divino deste bastão revigora você, pois justiça foi feita.
+Bastão da Invocação Dupla: Quando o poder divino avassalador contido neste bastão é liberado, você cria um eco de um poder usado anteriormente, recriando um ataque devastador.
+Bastão do Valor Ressurgente: Quando invoca o poder radiante deste bastão, você consegue intensificar seu poder para cegar ou pasmar um inimigo.
+Bastão da Invocação Poderosa: Quando sua oração castiga os inimigos, eles se afastam cambaleantes sob o peso do poder deste bastão.
+Bastão da Justiça Compensatória: Quando você agarra este bastão, palavras de poder divino brotam de seus lábios para castigar os inimigos que ousarem feri-Ia.
+Bastão da Justiça Penitente: A ira divina canalizada por este bastão cai como uma cascata de ruína sobre o inimigo.
+Cajado da Explosão Solar: Adornado com um discosolar reluzente, este cajado pode emanar luz solar radiante quando você é atinaido.
+Cajado da Proteção Distante: Com uma palavra, você proteae um aliado contra o ataque deum inimigo, prometendo uma rápida resposta seseucompanheiro for ferido.
+Cajado da Provocação: O inimigo atingido por você fica marcado temporariamente como um anátema, provocando até mesmo os próprios aliados a destruí-Io.

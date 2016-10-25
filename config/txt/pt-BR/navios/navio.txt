@@ -1,0 +1,279 @@
+Albacore (SS-218)
+Amberjack (SS-219)
+Argonaut (SM-1)
+Barbel (SS-316)
+Bonefish (SS-223)
+Bullhead (SS-332)
+Capelin (SS-289)
+Cisco (SS-290)
+Corvina (SS-226)
+Darter (SS-227)
+Dorado (SS-248)
+Escolar (SS-294)
+Flier (SS-250)
+Golet (SS-361)
+Grampus (SS-207)
+Grayback (SS-208)
+Grayling (SS-209)
+Grenadier (SS-210)
+Growler (SS-215)
+Grunion (SS-216)
+Gudgeon (SS-211)
+Harder (SS-257)
+Herring (SS-233)
+Kete (SS-369)
+Lagarto (SS-371)
+Perch (SS-176)
+Pickerel (SS-177)
+Pompano (SS-181)
+R-12
+Robalo (SS-273)
+Runner (SS-275)
+S-26 (SS-131)
+S-27 (SS-132)
+S-28 (SS-133)
+S-36 (SS-141)
+S-39 (SS-144)
+S-44 (SS-155)
+Scamp (SS-277)
+Scorpion (SS-278)
+Sculpin (SS-191)
+Sealion (SS-195)
+Seawolf (SS-197)
+Shark (SS-174)
+Shark (SS-314)
+Snook (SS-279)
+Swordfish (SS-193)
+Tang (SS-306)
+Trigger (SS-237)
+Triton (SS-201)
+Trout (SS-202)
+Tullibee (SS-284)
+Wahoo (SS-238)
+Eversole (DE-404) 
+Fechteler (DE-157) 
+Fiske (DE-143) 
+Frederick C. Davis (DE-136) 
+Holder (DE-401) 
+Leopold (DE-319) 
+Oberrender (DE-344) 
+Rich (DE-695) 
+Samuel B. Roberts (DE-413) 
+Shelton (DE-407) 
+Underhill (DE-682) 
+Roche (DE-197) 
+Aaron Ward (DD-483)
+Abner Read (DD-526)
+Barton (DD-599)
+Beatty (DD-640)
+Benham (DD-397)
+Blue (DD-387)
+Borie (DD-215)
+Bristol (DD-453)
+Brownson (DD-518)
+Buck (DD-420)
+Bush (DD-529)
+Callaghan (DD-792)
+Chevalier (DD-451)
+Colhoun (DD-801)
+Cooper (DD-695)
+Corry (DD-463)
+Cushing (DD-376)
+De Haven (DD-469)
+Drexler (DD-741)
+Duncan (DD-485)
+Edsall (DD-219)
+Emmons (DD-457)
+Glennon (DD-620)
+Gwin (DD-433)
+Halligan (DD-584)
+Hammann (DD-412)
+Henley (DD-391)
+Hoel (DD-533)
+Hovey (DD-208)
+Hull (DD-350)
+Ingraham (DD-444)
+Jacob Jones (DD-130)
+Jarvis (DD-393)
+Johnston (DD-557)
+Laffey (DD-459)
+Lansdale (DD-426)
+Leary (DD-158)
+Little (DD-803)
+Long (DD-209)
+Longshaw (DD-559)
+Luce (DD-522)
+Maddox (DD-622)
+Mahan (DD-364)
+Mannert L. Abele (DD-733)
+Meredith (DD-434)
+Meredith (DD-726)
+Monaghan (DD-354)
+Monssen (DD-436)
+Morrison (DD-560)
+O'Brien (DD-415)
+Parrott (DD-218)
+Peary (DD-226)
+Perkins (DD-377)
+Perry (DD-340)
+Pillsbury (DD-227)
+Pope (DD-225)
+Porter (DD-356)
+Preston (DD-379)
+Pringle (DD-477)
+Reid (DD-369)
+Reuben James (DD-245)
+Rowan (DD-405)
+Sims (DD-409)
+Spence (DD-512)
+Stewart (DD-224)
+Strong (DD-467)
+Sturtevant (DD-240)
+Truxtun (DD-229)
+Tucker (DD-374)
+Turner (DD-648)
+Twiggs (DD-591)
+Walke (DD-416)
+Warrington (DD-383)
+William D. Porter (DD-579)
+Worden (DD-352)
+Atlanta (CL-51)
+Helena (CL-50)
+Juneau (CL-52)
+São Paulo
+Niterói
+Defensora
+Constituição
+Liberal
+Independência
+União
+Greenhalgh
+Rademaker
+Inhaúma
+Jaceguai
+Júlio de Noronha
+Barroso
+Tamandaré
+Jerônimo de Albuquerque
+Cunha Moreira
+Mariz e Barros
+Tupi
+Tamoio
+Timbira
+Tapajó
+Tikuna
+Riachuelo
+Humaitá
+Tonelero
+Angostura
+Álvaro Alberto
+Almirante Saboia
+Mattoso Maia
+Garcia D'Avila
+Bahia
+Brasil
+Felinto Perry	
+Almirante Gastão Motta
+Marajó
+Meios distritais
+Pedro Teixeira
+Raposo Tavares
+Roraima
+Rondônia
+Amapá
+Grajaú
+Guaíba
+Graúna
+Goiana
+Guajará
+Guaporé
+Gurupá
+Gurupi
+Guanabara
+Guarujá
+Guaratuba
+Gravataí
+Piratini
+Pirajá
+Pampeiro
+Parati
+Penedo
+Poti
+Bocaina
+Babitonga
+Amazonas
+Apa
+Araguari
+Marlim
+Barracuda
+Dourado
+Albacora
+Anequim
+Pargo
+Macaé
+Macau
+Maracanã
+Maragogipe
+Matinhos
+Mangaratiba
+Miramar
+Pará
+Potengi
+Aratu
+Anhatomirim
+Atalaia
+Araçatuba
+Abrolhos
+Albardão
+Tritão
+Tridente
+Triunfo
+Almirante Guilhem
+Almirante Guillobel
+Parnaíba
+Doutor Montenegro
+Oswaldo Cruz
+Carlos Chagas
+Soares de Meirelles
+Tenente Maximiano
+Paraguassú
+Almirante Leverger
+Piraim
+Fluvial Piraim
+Imperial Marinheiro
+Caboclo
+Meios de pesquisa
+Almirante Maximiano
+Ary Rongel
+Antares
+Sirius
+Amorim do Valle
+Taurus
+Garnier Sampaio
+Cruzeiro do Sul
+Almirante Graça Aranha
+Rio Tocantins
+Rio Xingu
+Rrio Solimões
+Rio Negro
+Caravelas
+Comandante Varella
+Tenente Castelo
+Comandante Manhães
+Tenente Boanerges
+Faroleiro Mario Seixas
+Avisos de instrução
+Aspirante Nascimento
+Guarda-Marinha Jansen
+Guarda-Marinha Brito
+Rosca Fina
+Voga Picada
+Leva Arriba
+Avisos
+Almirante Hess
+Aspirante Moura
+Navios-museu
+Bauru
+Riachuelo
+Solimões
+Rebocador Laurindo Pitta

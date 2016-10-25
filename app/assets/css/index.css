@@ -1,6 +1,12 @@
 .utilitarios-link:hover{
 	color: red;
 }
+
+.scroll{
+	overflow: auto;
+	max-height: 400px;
+}
+
 .icon{
 	width: 70px;
 	height: 70px;

@@ -52,14 +52,24 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                             $tag->ul('class="header-dropdown m-r--5"');
                                 $tag->li();
                                     $tag->div('class="btn-group"');
-                                        if ($amizade[0]->status == 'aprovacao') {
-                                            $tag->button('type="button" id="fazer_amizade" title="Aguardando resposta." class="btn btn-default waves-effect"'); 
-                                                $tag->printer('Aguardando resposta...'); 
-                                            $tag->button;
-                                        } elseif ($amizade[0]->status == 'aprovado') {
-                                             $tag->button('type="button" id="fazer_amizade" class="btn btn-default waves-effect"'); 
-                                                $tag->printer('Ele é seu amigo'); 
-                                            $tag->button;
+                                        if (count($amizade) != 0) {
+                                            if (($amizade[0]->status == 'aprovacao') and ($amizade[0]->de == $_SESSION['id'])) {
+                                                $tag->button('type="button" id="fazer_amizade" title="Aguardando resposta." class="btn btn-default waves-effect"'); 
+                                                    $tag->printer('Aguardando resposta...'); 
+                                                $tag->button;
+                                            } elseif ($amizade[0]->status == 'aprovado') {
+                                                 $tag->button('type="button" id="fazer_amizade" class="btn btn-default waves-effect"'); 
+                                                    $tag->printer('Ele é seu amigo'); 
+                                                $tag->button;
+                                            } elseif (($amizade[0]->status == 'aprovacao') and ($amizade[0]->para == $_SESSION['id'])) {
+                                                $tag->button('type="button" id="aceitar_amizade" onclick="aceitar_amizade('.$usuario->id.','.$_SESSION['id'].');" title="Aceitar o pedido de amizade." class="btn btn-default waves-effect"'); 
+                                                    $tag->printer('Aceitar pedido de amizade'); 
+                                                $tag->button;
+                                            } else {
+                                                $tag->button('type="button" id="fazer_amizade" onclick="fazer_amizade('.$_SESSION['id'].','.$usuario->id.');" title="Fazer pedido de amizade." class="btn btn-default waves-effect"'); 
+                                                    $tag->printer('Fazer pedido de amizade'); 
+                                                $tag->button;
+                                            }
                                         } else {
                                             $tag->button('type="button" id="fazer_amizade" onclick="fazer_amizade('.$_SESSION['id'].','.$usuario->id.');" title="Fazer pedido de amizade." class="btn btn-default waves-effect"'); 
                                                 $tag->printer('Fazer pedido de amizade'); 
@@ -87,14 +97,16 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                                     $tag->printer('Comparar status'); 
                                                 $tag->a; 
                                             $tag->li;
-                                            if ($amizade[0]->status == 'aprovado') {
-                                                $tag->li('role="separator" class="divider desfazer"'); 
-                                                $tag->li;
-                                                $tag->li('class="desfazer"');
-                                                    $tag->a('href="#" onclick="desfazer_amizade('.$_SESSION['id'].','.$usuario->id.');" title="Desfazer pedido de amizade." class="waves-effect waves-block"'); 
-                                                        $tag->printer('Desfazer amizade'); 
-                                                    $tag->a; 
-                                                $tag->li;
+                                            if (count($amizade) != 0) {
+                                                if ($amizade[0]->status == 'aprovado') {
+                                                    $tag->li('role="separator" class="divider desfazer"'); 
+                                                    $tag->li;
+                                                    $tag->li('class="desfazer"');
+                                                        $tag->a('href="#" onclick="desfazer_amizade('.$_SESSION['id'].','.$usuario->id.');" title="Desfazer pedido de amizade." class="waves-effect waves-block"'); 
+                                                            $tag->printer('Desfazer amizade'); 
+                                                        $tag->a; 
+                                                    $tag->li;
+                                                }
                                             }
                                         $tag->ul;
                                     $tag->div;

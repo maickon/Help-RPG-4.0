@@ -1,0 +1,62 @@
+Portuguesa: Presunto, mussarela, calabresa, ervilhas, palmito, ovos, cebola e orégano
+Portuguesa com Milho: Presunto, mussarela, calabresa, ervilhas, palmito, ovos, cebola, orégano, azeitonas e milho
+Portuguesa com Bacon: Presunto, mussarela, calabresa, ervilhas, palmito, ovos, cebola, orégano, azeitonas e bacon
+Presunto: Presunto, mussarela, tomate, orégamo e azeitona
+Mussarela: Mussarela, tomate, orégamo e azeitonas
+Calabresa: Mussarela, calabresa, cebola, orégamo e azeitonas
+Calabresa Especial: Mussarela, calabresa, cebola, mussarela, orégamo e azeitonas
+Atum: Mussarela, atum, cebola, orégamo e azeitonas
+Atum Especial: Mussarela, atum, cebola, orégamo, azeitonas e mussarela
+Salame: Mussarela, salame, cebola, orégamo e azeitonas
+Provolone: Mussarela, provolone, tomate, orégano e azeitonas
+Milho Verde: Mussarela, milho, orégano e azeitonas
+Milho Verde com creme: Mussarela, orégano, azeitonas, creme e milho
+Palmito: Mussarela, palmito, tomate, orégano e azeitonas
+Bacon: Mussarela, bacon, orégano e azeitonas
+Cebola: Mussarela, cebola, orégano e azeitonas
+Legumes: Mussarela, ervilhas, milho, tomate, orégano e azeitonas
+Lombo Canadense: Mussarela, lombo, cebola, orégano e azeitonas
+Tender: Mussarela, tender, cebola, orégano, azeitonas
+À moda da Casa: Mussarela, creme de milho, bacon, frango desfiado, orégano, azeitonas
+Especial: Mussarela, presunto, atum, calabresa, cebola, orégano e azeitonas
+Catupiry: Mussarela, catupiry, tomate, orégano, azeitonas
+Catupiry com Frango: Catupiry, frango, mussarela, orégano e azeitonas
+Catupiry com Presunto: Catupiry, presunto, mussarela, orégano e azeitonas
+Catupiry com Milho: Catupiry, milho, mussarela, orégano e azeitonas
+Catupiry com Calabresa: Catupiry, calabresa, cebola, mussarela, orégano e azeitonas
+Catupiry com Salame: Catupiry, salame, cebola, mussarela, orégano e azeitonas
+Catupiry com Lombo: Catupiry, lombo, cebola, mussarela, orégano e azeitonas
+Catupiry com Tender: Catupiry, tender, cebola, mussarela, orégano e azeitonas
+Três queijos: Provolone, catupiry, mussarela, orégano e azeitonas
+Aliche: Aliche, cebola, mussarela, orégano e azeitonas
+Loucura: Carne louca, mussarela, orégano e azeitonas
+Catupiry com palmito: Catupiry, palmito, tomate, mussarela, orégano e azeitonas
+Catupiry com atum: Catupiry, atum, cebola, mussarela, orégano e azeitonas
+Catupiry com frango e bacon: Catupiry, frango desfiado, bacon, mussarela, orégano e azeitonas
+Três queijos com frango e bacon: Provolone, catupiry, frango desfiado, bacon, mussarela, orégano e azeitonas
+Portuguesa com catupiry: Presunto, catupiry, calabresa, ervilha, palmito, ovo, cebola, mussarela, orégano, azeitonas
+Escarola com mussarela: Mussarela, escarola, orégano, azeitona
+Escarola com catupiry: Catupiry, escarola, mussarela, orégano, azeitonas
+Quatro queijos: Catupiry, provolone, gorgonzola, mussarela, orégano, azeitonas
+Carne Moída: Carne moída, pimentão, cebola, mussarela, orégano, azeitonas
+Cinco queijos: Catupiry, provolone, gorgonzola, parmesão, mussarela, orégano, azeitonas
+Champignon: Catupiry, champignon, mussarela, orégano, azeitonas
+Banana: Leite Moça, mussarela, banana, uva passa e canela
+Caipira: Catupiry, mussarela, frango, milho, orégano e azeitonas
+Brócolis: Mussarela, brócolis, orégano e azeitonas
+Camarão com mussarela: Camarão ao molho com palmito, mussarela, orégano e azeitonas
+Camarão com Catupiry: Camarão ao molho com palmito, mussarela e catupiry, orégano e azeitonas
+Tomate seco com manjericão: Mussarela, tomate seco, manjericão, orégano e azeitonas
+Marguerita: Mussarela, manjericão, tomate, orégano e azeitonas
+Tomate Seco com Rúcula: Mussarela, tomate seco e rúcula, orégano, azeitonas
+Beringela Seca: Mussarela, beringela seca, cebola e manjericão, orégano e azeitonas
+Beringela Seca com rúcula: Mussarela, beringela seca, cebola, rúcula, tomate seco, orégano e azeitonas
+Baiana: Mussarela, calabresa moída c/ pimenta e cebola, orégano e azeitonas
+Napolitana: Mussarela, parmesão, tomate orégano e azeitonas
+Calabresa com Rúcula: Mussarela, calabresa, rúcula, cebola, orégano e azeitonas
+Calabresa com Palmito: Mussarela, calabresa, palmito, tomate orégano e azeitonas
+Carne seca com Alho: Carne seca,alho, mussarela, cebola, orégano e azeitonas
+Carne Seca: Carne seca, mussarela, cebola, orégano e azeitonas
+Mussarela com Alho: Mussarela, alho, orégano e azeitonas
+Três queijo com Palmito: Provolone, catupiry, palmito, mussarela, orégano e azeitonas
+Legumes com ovo com cobertura de mussarela: Mussarela, ervilha, milho, tomate, orégano, azeitonas, ovo e mussarela por cima

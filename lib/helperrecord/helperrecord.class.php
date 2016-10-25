@@ -89,6 +89,14 @@ class HelperRecord_Lib{
         return false;
     }
 
+    private function errorMsgDirectInstruction($action, $table){
+        $message = "{$this->now} => Método {$action}()<br>";
+        $message .= "Instrução sql não foi concluida com sucesso.\n";
+        $this->logRegister($message);
+        trigger_error($message, 256);
+        return false;
+    }
+
     private function successMsg($action, $message){
         $this->logRegister($message);
     }
@@ -655,6 +663,18 @@ class HelperRecord_Lib{
         endif;
     }
     
+    private function __direct_instruction($sql, $table = 'Não informada'){
+        $instruction = $this->conn->prepare($sql);
+        if($instruction->execute()):
+            $message = "{$this->now} => Instrução executada com sucesso na tabela <b>{$table}<b>";
+            $message .= "<br>Instrução sql::<b>{$instruction->queryString}</b>\n";
+            $this->successMsg('__direct_instruction', $message);
+            return $instruction->fetchAll(PDO::FETCH_OBJ);
+        else:
+            $this->errorMsgDirectInstruction('__direct_instruction', $table, $instruction->errorInfo()[2]);
+        endif;
+    }
+
     function check_duplicate($table, $fields, $values){
         if($this->__checkTableExists($table)):
             $s = "SELECT count(*) from {$table} WHERE ";
@@ -719,5 +739,9 @@ class HelperRecord_Lib{
     
     public function delete($table, $where = null, $logical = 'AND'){
         return $this->__delete($table, $where, $logical);
+    }
+
+    public function direct_instruction($sql, $table){
+        return $this->__direct_instruction($sql, $table);
     }
 }
