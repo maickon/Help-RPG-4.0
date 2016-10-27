@@ -1,0 +1,7 @@
+IMG**http://hekelotia-rpg.weebly.com/uploads/1/0/3/3/10333055/1701519_orig.jpg
+TITLE**Espadas
+DESCRIPTION**Se você está sem ideias para qual nome colocar na sua espada, então este utilitário poderá te ajudar. Ele gera um nome aleatório para uma espada. Você pode sortear até 9 nomes ao mesmo tempo.
+LENGUAGE**Portugês Brasileiro
+SITE_NAME**Help RPG
+FONT**http://helprpg.com.br
+APP_LINK**nomedeespadas

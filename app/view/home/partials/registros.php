@@ -6,7 +6,7 @@ $tag->section('id="registros"');
         $tag->div('class="row text-center header"');
             $tag->div('class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animate-in" data-anim-type="fade-in-up"');
                 $tag->h3();
-                    $tag->printer(RECORDS);
+                    $tag->printer($language->MENU_RECORDS);
                 $tag->h3;
                 $tag->hr();
             $tag->div;

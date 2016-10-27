@@ -7,6 +7,7 @@ class Masmorras_Controller extends Controller_Lib{
 
 	function index(){
 		$rota = $this;
+		$language = new Locale_Lib;
 		$tag = new Tags_Lib();
 		$form = new Form_Lib();
 		$home_helper = new Home_Helper();

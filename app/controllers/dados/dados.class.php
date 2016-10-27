@@ -3,6 +3,7 @@
 class Dados_Controller{
 	
 	function index(){
+		$language = new Locale_Lib();
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		$dados = new Dados_Model;

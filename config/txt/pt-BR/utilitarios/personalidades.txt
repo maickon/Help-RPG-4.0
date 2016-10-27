@@ -1,0 +1,7 @@
+IMG**https://dadosmalditos.files.wordpress.com/2015/06/11181693_1842097269349520_3645416182213662414_n.jpg
+TITLE**Personalidades
+DESCRIPTION**Este gerador oferece 7 tipos de personalidades para você sortear e definir um tipo de personalidade para algum NPC ou a qualquer outro. Dentre as características tempos: aspecto negativo, aspecto positivo, aspecto geral, aspecto ideológico, um medo de alguma coisa e uma tendência. Caso o jogador deseje, ele pode escolher todas as características para sortear.
+LENGUAGE**Portugês Brasileiro
+SITE_NAME**Help RPG
+FONT**http://helprpg.com.br
+APP_LINK**personalidades

@@ -1,0 +1,7 @@
+IMG**http://mycean-rpg.weebly.com/uploads/2/9/8/8/29889375/361837296.jpg
+TITLE**Npc Gerador D&D 3.5
+DESCRIPTION**Esta ferramenta permite gerar personagens aleatórios para os heróis de sua campanha encontrar.
+LENGUAGE**Inglês
+SITE_NAME**Myth Weavers
+FONT**http://www.myth-weavers.com/
+APP_LINK**generate_npc.php?

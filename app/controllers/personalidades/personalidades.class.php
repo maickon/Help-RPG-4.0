@@ -3,6 +3,7 @@
 Class Personalidades_Controller{
 	
 	function index(){
+		$language = new Locale_Lib;
 		$personalidades = new Personalidades_Model();
 		$tag = new Tags_Lib;
 		$home_helper = new Home_Helper();
@@ -10,33 +11,34 @@ Class Personalidades_Controller{
 	}
 
 	function service($param){
+		$language = new Locale_Lib;
 		if ($param == 'todos') {
 			$personalidades = [
 				'aspecto_titulo' => '',
 				'aspecto' => '',
-				'aspecto_negativo_titulo' => LABEL_ASPECTO_NEGATIVO,
+				'aspecto_negativo_titulo' => $language->PERSONALITY_BAD_ASPECT,
 				'aspecto_negativo' => $this->aspecto_negativo(),
-				'aspecto_positivo_titulo' => LABEL_ASPECTO_POSITIVO,
+				'aspecto_positivo_titulo' => $language->PERSONALITY_GOOD_ASPECT,
 				'aspecto_positivo' => $this->aspecto_positivo(),
-				'aspecto_geral_titulo' => LABEL_ASPECTO_GERAL,
+				'aspecto_geral_titulo' => $language->PERSONALITY_GENERAL_ASPECT,
 				'aspecto_geral' => $this->aspecto_geral(),
-				'aspecto_ideologico_titulo' => LABEL_ASPECTO_IDEOLOGICO,
+				'aspecto_ideologico_titulo' => $language->PERSONALITY_IDEOLOGIC_ASPECT,
 				'aspecto_ideologia' => $this->aspecto_ideologia(),
-				'aspecto_medo_titulo' => LABEL_ASPECTO_MEDO,
+				'aspecto_medo_titulo' => $language->PERSONALITY_FEAR_ASPECT,
 				'aspecto_medo' => $this->aspecto_medo(),
-				'aspecto_tendencia_titulo' => LABEL_ASPECTO_TENDENCIA,
+				'aspecto_tendencia_titulo' => $language->PERSONALITY_TRAND_ASPECT,
 				'aspecto_tendencia' => $this->aspecto_tendencia()
 			];
 		} else {
 			$personalidade = new Personalidades_Model();
 			if (method_exists($personalidade, $param)) {
 				$titulos = [
-							'aspecto_negativo' => LABEL_ASPECTO_NEGATIVO,
-							'aspecto_positivo' => LABEL_ASPECTO_POSITIVO,
-							'aspecto_geral' => LABEL_ASPECTO_GERAL,
-							'aspecto_ideologia' => LABEL_ASPECTO_IDEOLOGICO,
-							'aspecto_medo' => LABEL_ASPECTO_MEDO,
-							'aspecto_tendencia' => LABEL_ASPECTO_TENDENCIA
+							'aspecto_negativo' => $language->PERSONALITY_BAD_ASPECT,
+							'aspecto_positivo' => $language->PERSONALITY_GOOD_ASPECT,
+							'aspecto_geral' => $language->PERSONALITY_GENERAL_ASPECT,
+							'aspecto_ideologia' => $language->PERSONALITY_IDEOLOGIC_ASPECT,
+							'aspecto_medo' => $language->PERSONALITY_FEAR_ASPECT,
+							'aspecto_tendencia' => $language->PERSONALITY_TRAND_ASPECT
 							];
 				$personalidades['aspecto_titulo'] = $titulos[$param];			
 				$personalidades['aspecto'] = $personalidade->$param();

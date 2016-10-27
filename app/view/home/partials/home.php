@@ -37,7 +37,7 @@ $tag->div('id="home"');
                 $tag->div('class="row text-center header"');
                     $tag->div('class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animate-in" data-anim-type="fade-in-up"');
                         $tag->h3();
-                            $tag->printer(UTILITIES);
+                            $tag->printer($language->MENU_UTILITIES);
                         $tag->h3;
                         $tag->hr();
                     $tag->div;

@@ -1,0 +1,9 @@
+TIME_UTILITIES::Simulador de tempo climático - utilitários
+TIME_META_DESCRIPTION::Simulador de tempo climático- Help RPG.
+TIME_META_KEYWORDS::clima, tempo, frio, quente, chuvoso, relâmpago, tempestade, nublado, gerador
+TIME_GENERATE_LABEL::Simular Tempo
+TIME_PRECIPITATION_LABEL::Precipitação
+TIME_TEMPERATURE_LABEL::Temperatura
+TIME_WIND_LABEL::Vento
+TIME_ALL_LABEL::Todos
+TIME_CLIMATE_LABEL::Clima

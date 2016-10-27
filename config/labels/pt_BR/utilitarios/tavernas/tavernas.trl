@@ -1,0 +1,31 @@
+TAVERN_UTILITIES::Gerador de tavernas - utilitários
+TAVERN_META_DESCRIPTION::Gerador de tavernas - Help RPG.
+TAVERN_META_KEYWORDS::tavernas RPG, gerador de tavernas, taverna aleatória, encontrar taverna
+TAVERN_TYPE::Tipo de taverna
+TAVERN_MEDIEVAL::Medieval
+TAVERN_PUB_BAR::Bar
+TAVERN_RESTAURANT::Restaurante
+TAVERN_TAVERN::Botequim
+TAVERN_PUB::Pub
+TAVERN_SALOOM::Saloom
+TAVERN_HAS_LABEL::Possui de
+TAVERN_EXPERIENCE_LABEL:: de experiência.
+TAVERN_YEARS_LABEL::anos
+TAVERN_MONTHS_LABEL::meses
+TAVERN_DAYS_LABEL::dias
+TAVERN_NAME_TXT::Taverna
+TAVERN_IN_TXT::Estalagem do
+TAVERN_PERSONALITY_TITLE::Aspecto de personalidade e outras características:: 
+TAVERN_APPEARANCE_TITLE::Aparencia:: 
+TAVERN_SOME_DRINKS_TITLE::Bebidas:: 
+TAVERN_PLATES_TITLE::Pratos:: 
+TAVERN_PLAYING_TITLE::Tocando 
+TAVERN_AN_ATTRACTION_TITLE::Uma atração 
+TAVERN_DESSERT_TITLE::Sobremesas:: 
+TAVERN_SOME_FOOD_TITLE::Algumas coisas para comer disponíveis:: 
+TAVERN_SOME_FIGTH_OBJECTS_TITLE::Em caso de briga! saiba o que pode estar próximo a você:: 
+TAVERN_GARCON_PERSONALITY_TITLE::Aspecto de personalidade e outras características dos Garçons
+TAVERN_OWNER::Dono::
+TAVERN_RACE::Raça::
+TAVERN_WITH::Tem 
+TAVERN_YEARS:: anos. 

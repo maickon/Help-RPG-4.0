@@ -1,0 +1,17 @@
+ADVENTURE_UTILITIES_GENERATE::Gerador de aventuras - utilitários
+ADVENTURE_META_DESCRIPTION_GENERATE::Gerador de aventuras - Help RPG.
+ADVENTURE_META_KEYWORDS_GENERATE::Aventuras para RPG, aventura medieval, aventura apocaliptica, aventura star wars, sorteio de aventura RPG
+ADVENTURE_DISABLE_MODE_DRAW::Desativar modo sorteio 
+ADVENTURE_OBJECTIVE_LABEL::Um objetivo 
+ADVENTURE_LOCAL_LABEL::Um local 
+ADVENTURE_ANTAGONIST_LABEL::Um antagonista 
+ADVENTURE_SUPPORTING_LABEL::Um coadjuvante 
+ADVENTURE_COMPLICATION_LABEL::Uma complicação 
+ADVENTURE_REWARD_LABEL::Uma recompensa 
+ADVENTURE_TYPE::Aventura tipo - 
+ADVENTURE_TYPE_MEDIVEL::medieval
+ADVENTURE_TYPE_STAR_WAR::starwar
+ADVENTURE_TYPE_APOCALIPSE::apocalipse
+ADVENTURE_MEDIVEL_LABEL::Medieval
+ADVENTURE_STAR_WAR_LABEL::Star War
+ADVENTURE_APOCALIPSE_LABEL::Apocalipse

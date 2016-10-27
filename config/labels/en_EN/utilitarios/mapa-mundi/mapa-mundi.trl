@@ -1,0 +1,15 @@
+WORLDMAP_UTILITIES :: Generator mundi maps - utilities
+WORLDMAP_META_DESCRIPTION :: Generator mundi maps - Help RPG.
+WORLDMAP_META_KEYWORDS :: world map, map of kingdoms, continents map, RPG maps
+WORLDMAP_LABEL_RAND_ID :: random ID ::
+WORLDMAP_LABEL_PROJECTION :: Projection
+WORLDMAP_LABEL_PALET :: Palette
+WORLDMAP_LABEL_WATER ::% water in the world:
+WORLDMAP_LABEL_ICE ::% ice in the world:
+WORLDMAP_LABEL_IMG_SIZE :: Image Size:
+WORLDMAP_LABEL_INTERACTION :: Intereções:
+WORLDMAP_LABEL_ROTATION :: rotation:
+WORLDMAP_BUTTON_LABEL_NEW :: New
+WORLDMAP_BUTTON_LABEL_SAVE :: Save as PNG
+WORLDMAP_BUTTON_LABEL_PRINT :: Give print
+WORLDMAP_ERROR_CANVAS_MSG :: Your browser does not support HTML5 & lt; canvas & gt; element.

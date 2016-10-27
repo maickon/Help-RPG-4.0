@@ -15,13 +15,13 @@ $tag->div(['class'=>'container']);
 		    $tag->select;
 		
 		    $tag->span(['class'=>'help-inline']);
-		        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> SWORD_NAME_GENERATE_LABEL, 'value'=> SWORD_NAME_GENERATE_LABEL, 'onclick'=>'sortear_nome_de_espada();']);
+		        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> $language->SWORD_NAME_GENERATE_LABEL, 'value'=> $language->SWORD_NAME_GENERATE_LABEL, 'onclick'=>'sortear_nome_de_espada();']);
 		    $tag->spam;
 
 		    $tag->div('class="checkbox"');
 		     	$tag->label();
 		       		$tag->input('type="checkbox" checked id="disable_mode_draw"');
-		        	$tag->printer(DISABLE_MODE_DRAW);
+		        	$tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
 		      	$tag->label;
 	    	$tag->div;
 		$tag->div;	

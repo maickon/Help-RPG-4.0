@@ -1,0 +1,7 @@
+IMG**https://taverna7ventos.files.wordpress.com/2014/12/craft1.jpg
+TITLE**Marcadores
+DESCRIPTION**Estes marcadores servem para marcar vida de personagens, sua defesa, ataque e entre outras coisas. Também serve de utilidade para marcar vida de jogadores de magic.
+LENGUAGE**Portugês Brasileiro
+SITE_NAME**Help RPG
+FONT**http://helprpg.com.br
+APP_LINK**cidades

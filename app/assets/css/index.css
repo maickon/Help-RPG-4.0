@@ -2,6 +2,16 @@
 	color: red;
 }
 
+.utilitarios-content{
+	margin-top: 100px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+a img.utilitarios-thumbnail{
+	width:200px;
+	height:100px;
+}
 .scroll{
 	overflow: auto;
 	max-height: 400px;

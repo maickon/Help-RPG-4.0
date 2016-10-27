@@ -1,0 +1,17 @@
+ADVENTURE_UTILITIES_GENERATE :: Generator adventures - utilities
+ADVENTURE_META_DESCRIPTION_GENERATE :: Generator adventures - Help RPG.
+ADVENTURE_META_KEYWORDS_GENERATE :: Adventures for RPG, medieval adventure, apocalyptic adventure, Star Wars adventure, RPG adventure draw
+ADVENTURE_DISABLE_MODE_DRAW :: Off mode draw
+ADVENTURE_OBJECTIVE_LABEL :: A goal
+ADVENTURE_LOCAL_LABEL :: A local
+ADVENTURE_ANTAGONIST_LABEL :: An antagonist
+ADVENTURE_SUPPORTING_LABEL :: A walk
+ADVENTURE_COMPLICATION_LABEL :: A complication
+ADVENTURE_REWARD_LABEL :: A reward
+ADVENTURE_TYPE :: type Adventure -
+ADVENTURE_TYPE_MEDIVEL medieval ::
+ADVENTURE_TYPE_STAR_WAR :: starwar
+ADVENTURE_TYPE_APOCALIPSE :: Apocalypse
+ADVENTURE_MEDIVEL_LABEL :: Medieval
+ADVENTURE_STAR_WAR_LABEL :: Star Wars
+ADVENTURE_APOCALIPSE_LABEL :: Apocalypse

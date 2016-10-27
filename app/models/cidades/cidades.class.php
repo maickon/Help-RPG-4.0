@@ -5,6 +5,7 @@ class Cidades_Model extends Model_Lib{
 		parent::__construct();
 		$this->define_path(CONFIG_TXT_PATH.'cidades/');
 		$this->tamanho = $this->tamanho();
+		$this->language = new Locale_Lib;
 		// parametros = populacao min, populacao max, limite em PO, mod. de poder central, mod. comunidade
 		$this->cidades = [
 			'Lugarejo' 			=> [20, 40, 40, -1, -3],
@@ -46,7 +47,7 @@ class Cidades_Model extends Model_Lib{
 		$min = $this->cidades[rtrim($this->tamanho)][0];
 		$max = $this->cidades[rtrim($this->tamanho)][1];
 		$populacao = number_format(rand($min, $max));
-		return $populacao . CITIES_POPULATION_SIZE_LABEL;
+		return $populacao . $this->language->CITIES_POPULATION_SIZE_LABEL;
 	}
 
 	function limite_po(){
@@ -55,14 +56,14 @@ class Cidades_Model extends Model_Lib{
 
 	function composicao_racial(){
 		$racas = [
-				CITIES_HUMAN_LABEL,
-				CITIES_HALFLING_LABEL,
-				CITIES_ELF_LABEL,
-				CITIES_DWARF_LABEL,
-				CITIES_GNOMES_LABEL,
-				CITIES_HALF_ELF_LABEL,
-				CITIES_HELF_ORC_LABEL,
-				CITIES_OTHERS_LABEL
+				$this->language->CITIES_HUMAN_LABEL,
+				$this->language->CITIES_HALFLING_LABEL,
+				$this->language->CITIES_ELF_LABEL,
+				$this->language->CITIES_DWARF_LABEL,
+				$this->language->CITIES_GNOMES_LABEL,
+				$this->language->CITIES_HALF_ELF_LABEL,
+				$this->language->CITIES_HELF_ORC_LABEL,
+				$this->language->CITIES_OTHERS_LABEL
 			];
 
 		$racas_porcentagem = [
@@ -103,41 +104,41 @@ class Cidades_Model extends Model_Lib{
 
 		if ($rolagem <= 13) {
 			$opcoes = [
-				CITIES_CONVENTIONAL_OPTION_1_LABEL,
-				CITIES_CONVENTIONAL_OPTION_2_LABEL,
-				CITIES_CONVENTIONAL_OPTION_3_LABEL,
-				CITIES_CONVENTIONAL_OPTION_4_LABEL
+				$this->language->CITIES_CONVENTIONAL_OPTION_1_LABEL,
+				$this->language->CITIES_CONVENTIONAL_OPTION_2_LABEL,
+				$this->language->CITIES_CONVENTIONAL_OPTION_3_LABEL,
+				$this->language->CITIES_CONVENTIONAL_OPTION_4_LABEL
 			];
-			$this->tipo_poder_central = CITIES_CONVENTIONAL_LABEL;
-			$this->tipo_poder_central_descricao = CITIES_CONVENTIONAL_DESCRIPTION_LABEL;
+			$this->tipo_poder_central = $this->language->CITIES_CONVENTIONAL_LABEL;
+			$this->tipo_poder_central_descricao = $this->language->CITIES_CONVENTIONAL_DESCRIPTION_LABEL;
 			$this->tipo_poder_central_escolhido = $opcoes[rand(0,3)];
 		} elseif ($rolagem >= 14 and $rolagem <= 18) {
 			$opcoes = [
-				CITIES_INCOMUM_OPTION_1_LABEL,
-				CITIES_INCOMUM_OPTION_2_LABEL,
-				CITIES_INCOMUM_OPTION_3_LABEL,
-				CITIES_INCOMUM_OPTION_4_LABEL,
-				CITIES_INCOMUM_OPTION_5_LABEL,
-				CITIES_INCOMUM_OPTION_6_LABEL,
-				CITIES_INCOMUM_OPTION_7_LABEL,
-				CITIES_INCOMUM_OPTION_8_LABEL,
-				CITIES_INCOMUM_OPTION_9_LABEL
+				$this->language->CITIES_INCOMUM_OPTION_1_LABEL,
+				$this->language->CITIES_INCOMUM_OPTION_2_LABEL,
+				$this->language->CITIES_INCOMUM_OPTION_3_LABEL,
+				$this->language->CITIES_INCOMUM_OPTION_4_LABEL,
+				$this->language->CITIES_INCOMUM_OPTION_5_LABEL,
+				$this->language->CITIES_INCOMUM_OPTION_6_LABEL,
+				$this->language->CITIES_INCOMUM_OPTION_7_LABEL,
+				$this->language->CITIES_INCOMUM_OPTION_8_LABEL,
+				$this->language->CITIES_INCOMUM_OPTION_9_LABEL
 			];
-			$this->tipo_poder_central = CITIES_INCOMUM_LABEL;
-			$this->tipo_poder_central_descricao = CITIES_INCOMUM_DESCRIPTION_LABEL;
+			$this->tipo_poder_central = $this->language->CITIES_INCOMUM_LABEL;
+			$this->tipo_poder_central_descricao = $this->language->CITIES_INCOMUM_DESCRIPTION_LABEL;
 			$this->tipo_poder_central_escolhido = $opcoes[rand(0,8)];
 		} else {
 			$opcoes = [
-				CITIES_MAGIC_OPTION_1_LABEL,
-				CITIES_MAGIC_OPTION_2_LABEL,
-				CITIES_MAGIC_OPTION_3_LABEL,
-				CITIES_MAGIC_OPTION_4_LABEL,
-				CITIES_MAGIC_OPTION_5_LABEL,
-				CITIES_MAGIC_OPTION_6_LABEL,
-				CITIES_MAGIC_OPTION_7_LABEL
+				$this->language->CITIES_MAGIC_OPTION_1_LABEL,
+				$this->language->CITIES_MAGIC_OPTION_2_LABEL,
+				$this->language->CITIES_MAGIC_OPTION_3_LABEL,
+				$this->language->CITIES_MAGIC_OPTION_4_LABEL,
+				$this->language->CITIES_MAGIC_OPTION_5_LABEL,
+				$this->language->CITIES_MAGIC_OPTION_6_LABEL,
+				$this->language->CITIES_MAGIC_OPTION_7_LABEL
 			];
-			$this->tipo_poder_central = CITIES_MAGIC_LABEL;
-			$this->tipo_poder_central_descricao = CITIES_MAGIC_DESCRIPTION_LABEL;
+			$this->tipo_poder_central = $this->language->CITIES_MAGIC_LABEL;
+			$this->tipo_poder_central_descricao = $this->language->CITIES_MAGIC_DESCRIPTION_LABEL;
 			$this->tipo_poder_central_escolhido = $opcoes[rand(0,6)];
 		}
 	}

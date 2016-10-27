@@ -5,21 +5,21 @@ $tag->br();
 $tag->div(['class'=>'row']);
   $tag->div(['class'=>'col-md-12']);    
     $tag->div('class="btn btn-primary" onclick="location.reload();"');
-      $tag->printer(DICE_CLEAR);
+      $tag->printer($language->DICE_CLEAR);
     $tag->div;
 
     $tag->div('class="btn btn-success" onclick="rolar_todos();"');
-      $tag->printer(DICE_ROLL_DICE);
+      $tag->printer($language->DICE_ROLL_DICE);
     $tag->div;
 
     $tag->div('class="btn-group"'); 
       $tag->button('type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"');
-        $tag->printer(DICE_CONFIG);
+        $tag->printer($language->DICE_CONFIG);
         $tag->span('class="caret"');
         $tag->span;
       $tag->button; 
 
-      $opt = [DICE_OPTION_CONFIC2X4, DICE_OPTION_CONFIC2X6, DICE_OPTION_CONFIC3X3, DICE_OPTION_CONFIC7X1];
+      $opt = [$language->DICE_OPTION_CONFIC2X4, $language->DICE_OPTION_CONFIC2X6, $language->DICE_OPTION_CONFIC3X3, $language->DICE_OPTION_CONFIC7X1];
       $config  = [3, 2, 4, 12];
       
       $tag->ul('class="dropdown-menu"'); 
@@ -36,7 +36,7 @@ $tag->div(['class'=>'row']);
     $tag->div('class="checkbox"');
       $tag->label();
         $tag->input('type="checkbox" id="disable_mode_draw"');
-        $tag->printer(DISABLE_MODE_DRAW);
+        $tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
       $tag->label;
     $tag->div;
 
@@ -62,7 +62,7 @@ $tag->div(['class'=>'row']);
             $tag->div;
   	              	
             $tag->span('class="span-dice"');
-          	 $tag->printer(DICE_ROLL_PLUS);
+          	 $tag->printer($language->DICE_ROLL_PLUS);
           	$tag->span;
           	
             $tag->input('class="input-dice" id="input_'.$id[0].'"');
@@ -72,14 +72,14 @@ $tag->div(['class'=>'row']);
             $tag->span;
         	
             $tag->span('class="small btn btn-default" onclick="processar_rolagem(input_'.$id[0].',\''.$id[0].'\');"');
-        		  $tag->printer(DICE_GO);
+        		  $tag->printer($language->DICE_GO);
             $tag->span;
           	
             $tag->div('id="rolagem_'.$id[0].'" class="rolagem"');
           	$tag->div;
 
             $tag->div('class="total" id="total_'.$id[0].'" class="rolagem" onclick="total(\''.$id[0].'\');"');
-              $tag->printer(DICE_SHOW_TOTAL);
+              $tag->printer($language->DICE_SHOW_TOTAL);
             $tag->div;
 
           $tag->div;

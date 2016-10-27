@@ -1,0 +1,53 @@
+CITIES_UTILITIES::Gerador de cidades - utilitários
+CITIES_META_DESCRIPTION::Gerador de cidades - Help RPG.
+CITIES_META_KEYWORDS::gerador, cidades, habitantes, raças, população, tipo de governo, tamanho
+CITIES_GENERATION::Gerar cidade
+CITIES_SIZE_LABEL::Tamanho
+CITIES_POPULATION_LABEL::População
+CITIES_GOLD_LIMIT_LABEL::Limite PO
+CITIES_REGENT_LABEL::Governante
+CITIES_POPULATION_SIZE_LABEL:: Habitantes
+CITIES_CONVENTIONAL_LABEL::Convencional
+CITIES_CONVENTIONAL_DESCRIPTION_LABEL::A comunidade tem uma forma de governo tradicional.
+CITIES_CONVENTIONAL_OPTION_1_LABEL:: Um burgomestre 
+CITIES_CONVENTIONAL_OPTION_2_LABEL:: Um conselho 
+CITIES_CONVENTIONAL_OPTION_3_LABEL:: Um senhor feudal que governa a área como vassalo de um suserano mais poderoso 
+CITIES_CONVENTIONAL_OPTION_4_LABEL:: Um nobre que governa a comunidade como uma cidade-estado 	
+CITIES_INCOMUM_LABEL::Incomum
+CITIES_INCOMUM_DESCRIPTION_LABEL::Talvez a comunidade tenha um burgomestre ou um conselho, mas o verdadeiro poder jaz em outras mãos.
+CITIES_INCOMUM_OPTION_1_LABEL::Uma gilda
+CITIES_INCOMUM_OPTION_2_LABEL::Uma organização formal de mercadores.
+CITIES_INCOMUM_OPTION_3_LABEL::Uma organização formal de artesãos.
+CITIES_INCOMUM_OPTION_4_LABEL::Uma organização formal de profissionais.
+CITIES_INCOMUM_OPTION_5_LABEL::Uma organização formal de ladrões.
+CITIES_INCOMUM_OPTION_6_LABEL::Uma organização formal de assasinos.
+CITIES_INCOMUM_OPTION_7_LABEL::Uma organização formal de combatentes.
+CITIES_INCOMUM_OPTION_8_LABEL::Uma organização de um grupo de aventureiros consagrados.
+CITIES_INCOMUM_OPTION_9_LABEL::Um ancião.
+CITIES_MAGIC_LABEL::Mágico
+CITIES_MAGIC_DESCRIPTION_LABEL::A comunidade tem como líder um ou mais conjuradores, pode ser um clério, mago, feiticeiro ou etc.
+CITIES_MAGIC_OPTION_1_LABEL::Um feiticeiro solitário enclausurado em uma torre.
+CITIES_MAGIC_OPTION_2_LABEL::Um mago ditador.
+CITIES_MAGIC_OPTION_3_LABEL::Um mago solitário.
+CITIES_MAGIC_OPTION_4_LABEL::Um sacertote de um deus local.
+CITIES_MAGIC_OPTION_5_LABEL::Um sacertote.
+CITIES_MAGIC_OPTION_6_LABEL::Um feiticeiro poderoso.
+CITIES_MAGIC_OPTION_7_LABEL::Um clérigo.
+CITIES_HUMAN_LABEL::Humanos
+CITIES_HALFLING_LABEL::Halflings
+CITIES_ELF_LABEL::Elfos
+CITIES_OTHERS_LABEL::Outros
+CITIES_DWARF_LABEL::Anões
+CITIES_GNOMES_LABEL::Gnomos
+CITIES_HALF_ELF_LABEL::Meio Elfos
+CITIES_HELF_ORC_LABEL::Meio Orcs
+CITIES_NAME_LABEL::Nome
+CITIES_LIMIT_PO_LABEL::Limite em Peças de Ouro
+CITIES_CENTRAL_POWER_LABEL::Tipo de poder central
+CITIES_CENTRAL_POWER_DESCRIPTION_LABEL::Descrição
+CITIES_CENTRAL_POWER_CHOSED_LABEL::Líder
+CITIES_TRAND_LABEL::Tendência
+CITIES_RACIAL_COMPOSED_LABEL::Composição racial
+CITIES_CUTURAL_LABEL::Aspectos culturais
+CITIES_RELIGION_LABEL::Aspecto religioso
+CITIES_DEFENSE_LABEL::Aspecto defensivo

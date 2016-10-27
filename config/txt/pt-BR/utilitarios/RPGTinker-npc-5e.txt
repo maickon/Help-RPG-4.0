@@ -1,0 +1,7 @@
+IMG**http://www.rederpg.com.br/wp/wp-content/uploads/2015/08/monstermanual_th.jpg
+TITLE**D&D 5e NPC Generator
+DESCRIPTION**Olá pessoal! RPGTinker é uma ferramenta para a construção de NPCs para D&D 5e. Basta escolher um modelo, pontuações, habilidades, rolar dados e seu NPC está pronto para usar na batalha! Você pode até mesmo imprimir um PDF! Em 5E, monstros e especialmente NPCs seguem regras diferentes para os jogadores. Eles geralmente são uma "esponja danos", ter um monte de pontos de vida e baixo dano. Eu não encontrei qualquer outro gerador para NPCs, apenas para os jogadores. Que me inspirou a criar uma ferramenta específica para NPCs. O DMG é um pouco incerto sobre como construir NPCs, e assim muitas das características descritas aqui são de minha compreensão das regras. A ferramenta está em construção e receber novos recursos a cada dia. Ele provavelmente tem alguns (ou muitos) erros na mesma. Ajude-o a melhorá-lo dando o seu feedback!
+LENGUAGE**Inglês
+SITE_NAME**RPGTinker
+FONT**http://rpgtinker.com/
+APP_LINK** 

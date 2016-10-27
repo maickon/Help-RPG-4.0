@@ -6,7 +6,7 @@ $tag->div(['class'=>'row']);
 		$tag->div(['class'=>'btn-group']);
 	       
 	        $tag->button(['class'=>'btn btn-default dropdown-toggle', 'data-toggle'=>'dropdown', 'aria-haspopup'=>'true', 'aria-expanded'=>'false', 'type'=>'button']);
-	        	$tag->printer(HIGHLIGHTER_SELECT_MSG_LABEL);
+	        	$tag->printer($language->HIGHLIGHTER_SELECT_MSG_LABEL);
 		        
 		        $tag->span('class="caret"');
 		        $tag->span;
@@ -17,14 +17,14 @@ $tag->div(['class'=>'row']);
 	        $tag->button;
 	 
 	        $tipos = [
-	        			["#",HIGHLIGHTER_OPTION_1_LABEL,'tipo1'],
-	        			["#",HIGHLIGHTER_OPTION_2_LABEL,'tipo2'],
-	        			["#",HIGHLIGHTER_OPTION_3_LABEL,'tipo3'],
-	        			["#",HIGHLIGHTER_OPTION_4_LABEL,'tipo4'],
-	        			["#",HIGHLIGHTER_OPTION_5_LABEL,'tipo5'],
-	        			["#",HIGHLIGHTER_OPTION_6_LABEL,'tipo6'],
-	        			["#",HIGHLIGHTER_OPTION_7_LABEL,'tipo7'],
-	        			["#",HIGHLIGHTER_OPTION_8_LABEL,'tipo8']
+	        			["#",$language->HIGHLIGHTER_OPTION_1_LABEL,'tipo1'],
+	        			["#",$language->HIGHLIGHTER_OPTION_2_LABEL,'tipo2'],
+	        			["#",$language->HIGHLIGHTER_OPTION_3_LABEL,'tipo3'],
+	        			["#",$language->HIGHLIGHTER_OPTION_4_LABEL,'tipo4'],
+	        			["#",$language->HIGHLIGHTER_OPTION_5_LABEL,'tipo5'],
+	        			["#",$language->HIGHLIGHTER_OPTION_6_LABEL,'tipo6'],
+	        			["#",$language->HIGHLIGHTER_OPTION_7_LABEL,'tipo7'],
+	        			["#",$language->HIGHLIGHTER_OPTION_8_LABEL,'tipo8']
 	        		];
 
 	        $tag->ul('class="dropdown-menu"');
@@ -41,7 +41,7 @@ $tag->div(['class'=>'row']);
 
     $tag->div('class="col-md-3"');
 	    $tag->span(['class'=>'help-inline']);
-	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'value'=>''.HIGHLIGHTER_BUTTON_LABEL_CLEAR.'', 'onclick'=>'location.reload();']);
+	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'value'=>''.$language->HIGHLIGHTER_BUTTON_LABEL_CLEAR.'', 'onclick'=>'location.reload();']);
 	    $tag->span;
 	$tag->div;
 $tag->div;

@@ -1,0 +1,7 @@
+IMG**http://www.myrpgame.com/wp-content/uploads/2010/11/the_tavern.jpg
+TITLE**Nomes
+DESCRIPTION**Este utilitário gera diversos tipos de nomes distribuídos pelas seguintes categorias Lugares, Classes, Raças, Culturais e Outros. Este acervo de nomes conta com mais de 10.000 tipos de variaçõs. 
+LENGUAGE**Portugês Brasileiro
+SITE_NAME**Help RPG
+FONT**http://helprpg.com.br
+APP_LINK**nomes

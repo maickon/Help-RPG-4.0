@@ -13,7 +13,7 @@ define('GENERATOR_ADVENTURE_URL',  URL_BASE . 'geradorAventuras/');
 define('UTILITIES_URL',  URL_BASE . 'utilitarios/');
 
 define('GENERATOR_WORLDS_URL',  URL_BASE . 'mundos/');
-define('GENERATOR_DUNGEON_URL',  URL_BASE . 'tavernas/');
+define('GENERATOR_DUNGEON_URL',  URL_BASE . 'masmorras/');
 define('GENERATOR_PERSONALITIES_URL',  URL_BASE . 'personalidades/'); 
 define('GENERATOR_CITIES_URL',  URL_BASE . 'cidades/');
 define('HIGHLIGHTER_URL',  URL_BASE . 'marcadores/');

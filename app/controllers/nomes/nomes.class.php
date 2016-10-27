@@ -8,6 +8,7 @@ class Nomes_Controller extends Controller_Lib{
 
 	function index(){
 		$rota = $this;
+		$language = new Locale_Lib();
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		$name = new Nomes_Model;
@@ -24,6 +25,7 @@ class Nomes_Controller extends Controller_Lib{
 
 	function lugares(){
 		$rota = $this;
+		$language = new Locale_Lib();
 		$name = new Nomes_Model;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
@@ -31,32 +33,36 @@ class Nomes_Controller extends Controller_Lib{
 	}
 
 	function classes(){
-		$name = new Nomes_Model;
 		$rota = $this;
+		$language = new Locale_Lib();
+		$name = new Nomes_Model;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		require (new Render_Lib('classes'))->get_required_path();
 	}
 
 	function racas(){
-		$name = new Nomes_Model;
 		$rota = $this;
+		$language = new Locale_Lib();
+		$name = new Nomes_Model;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		require (new Render_Lib('racas'))->get_required_path();
 	}
 
 	function culturais(){
-		$name = new Nomes_Model;
 		$rota = $this;
+		$language = new Locale_Lib();
+		$name = new Nomes_Model;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		require (new Render_Lib('culturais'))->get_required_path();
 	}
 
 	function outros(){
-		$name = new Nomes_Model;
 		$rota = $this;
+		$language = new Locale_Lib();
+		$name = new Nomes_Model;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		require (new Render_Lib('outros'))->get_required_path();

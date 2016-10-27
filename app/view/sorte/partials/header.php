@@ -5,16 +5,16 @@ $tag->html();
     $tag->head();
         $tag->meta('charset="utf-8"'); 
         $tag->meta('name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"');
-        $tag->meta('name="description" content="' . META_DESCRIPTION_LUCK . '"');
-        $tag->meta('name="keywords" content="' . META_KEYWORDS_LUCK . '"');
-        $tag->meta('name="author" content="' . META_AUTHOR . '"');
+        $tag->meta('name="description" content="' . $language->LUCK_META_DESCRIPTION . '"');
+        $tag->meta('name="keywords" content="' . $language->LUCK_META_KEYWORDS . '"');
+        $tag->meta('name="author" content="' . $language->SITE_META_AUTHOR . '"');
         $tag->link('rel="shortcut icon" href="' . $sorte->sorte_img_icon.'/sorte.png"');
 
         $tag->printer('<!--[if IE]>');
             $tag->meta('http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"');
         $tag->printer('<![endif]-->');
         $tag->title();
-            $tag->printer(UTILITIES_LUCK);
+            $tag->printer($language->LUCK_UTILITIES);
         $tag->title;
 
         $_CSS = [

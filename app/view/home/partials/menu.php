@@ -9,19 +9,19 @@ $tag->div('class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-sec
                 $tag->span('class="icon-bar"'); $tag->span;
             $tag->button;
             $tag->a('class="navbar-brand" href="#"');
-                $tag->printer(SITE_NAME);
+                $tag->printer($language->SITE_NAME);
             $tag->a;
         $tag->div;
         $tag->div('class="navbar-collapse collapse"');
             $tag->ul('class="nav navbar-nav navbar-right"');
             
             $menu = [
-                        ['#'.strtolower(HOME),       HOME],
-                        ['#'.strtolower(RECORDS), RECORDS],
-                        ['#'.strtolower(CONTACT),    CONTACT],
-                        [URL_BASE.strtolower(LOGIN),            LOGIN],
-                        [strtolower(WORDPRESS_URL),    BLOG],
-                        [strtolower(YOU_TUBE_URL),    YOU_TUBE_PAGE]
+                        ['#'.strtolower($language->MENU_HOME),          $language->MENU_HOME],
+                        ['#'.strtolower($language->MENU_RECORDS),       $language->MENU_RECORDS],
+                        ['#'.strtolower($language->MENU_CONTACT),       $language->MENU_CONTACT],
+                        [URL_BASE.strtolower($language->MENU_LOGIN),    $language->MENU_LOGIN],
+                        [strtolower(WORDPRESS_URL),                     $language->MENU_BLOG],
+                        [strtolower(YOU_TUBE_URL),                      $language->MENU_YOUTUBE]
                     ];    
             foreach ($menu as $key => $value) {
                 $tag->li();

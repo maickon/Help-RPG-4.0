@@ -1,0 +1,18 @@
+DUNGEON_UTILITIES::Gerador de masmorras - utilitários
+DUNGEON_META_DESCRIPTION::Gerador de masmorras - Help RPG
+DUNGEON_META_KEYWORDS::masmorras, labitinro, masmorra RPG, mapa de masmorra, masmorra aleatória
+DUNGEON_LABEL_NAME_DUNGEON::Nome da Masmorra::
+DUNGEON_LABEL_MAP_STYLE::Estilo do mapa::
+DUNGEON_LABEL_GRID::Grid::
+DUNGEON_LABEL_LAYOUT_DUNGEON::Layout da Masmorra::
+DUNGEON_LABEL_DUNGEON_SIZE::Tamanho da Masmorra::
+DUNGEON_LABEL_STAIRS::Escadas::
+DUNGEON_LABEL_LAYOUT_ROOM::Layout da Sala::
+DUNGEON_LABEL_ROOM_SIZE::Tamanho da Sala::
+DUNGEON_LABEL_DOORS::Portas::
+DUNGEON_LABEL_HALLS::Corredores::
+DUNGEON_LABEL_EXIT_LANES::Remover becos sem saída?::
+DUNGEON_BUTTON_LABEL_NEW::Novo
+DUNGEON_BUTTON_LABEL_SAVE::Salvar como PNG
+DUNGEON_BUTTON_LABEL_PRINT::Dar print
+DUNGEON_ERROR_CANVAS_MSG::Seu navegador não tem suporte ao HTML5 &lt;canvas&gt; element.

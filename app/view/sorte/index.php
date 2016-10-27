@@ -1,19 +1,19 @@
 <?php
 
 $tipos = [
-			["#",LUCK_LABEL,'tipo1'],
-			["#",YOU_LUCK_LABEL,'tipo2'],
-			["#",YOU_LOVE_LUCK_LABEL,'tipo3'],
-			["#",YOUR_BEST_FRIEND_LUCK_LABEL,'tipo4'],
-			["#",NEXT_PERSON_LUCK_LABEL,'tipo5'],
-			["#",ENEMY_LUCK_LABEL,'tipo6'],
-			["#",HIS_RIVAL_LUCK_LABEL,'tipo7'],
-			["#",FAMILY_LUCK_LABEL,'tipo8'],
-			["#",NEXT_TOUCH_PEOPLE_LUCK_LABEL,'tipo9'],
-			["#",TO_BUMP_LUCK_LABEL,'tipo10'],
-			["#",TO_KNOW_LUCK_LABEL,'tipo11'],
-			["#",WOMAN_LUCK_LABEL,'tipo12'],
-			["#",MAN_LUCK_LABEL,'tipo13'],
+			["#",$language->LUCK_LABEL,'tipo1'],
+			["#",$language->LUCK_YOU_LABEL,'tipo2'],
+			["#",$language->LUCK_YOU_LOVE_LABEL,'tipo3'],
+			["#",$language->LUCK_YOUR_BEST_FRIEND_LABEL,'tipo4'],
+			["#",$language->LUCK_NEXT_PERSON_LABEL,'tipo5'],
+			["#",$language->LUCK_ENEMY_LABEL,'tipo6'],
+			["#",$language->LUCK_HIS_RIVAL_LABEL,'tipo7'],
+			["#",$language->LUCK_FAMILY_LABEL,'tipo8'],
+			["#",$language->LUCK_NEXT_TOUCH_PEOPLE_LABEL,'tipo9'],
+			["#",$language->LUCK_TO_BUMP_LABEL,'tipo10'],
+			["#",$language->LUCK_TO_KNOW_LABEL,'tipo11'],
+			["#",$language->LUCK_WOMAN_LABEL,'tipo12'],
+			["#",$language->LUCK_MAN_LABEL,'tipo13'],
 		];
     	
 require 'partials/header.php';

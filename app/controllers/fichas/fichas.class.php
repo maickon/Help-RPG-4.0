@@ -3,6 +3,7 @@
 class Fichas_Controller{
 
 	function index(){
+		$language = new Locale_Lib();
 		$ficha = new Fichas_Model;
 		$tag = new Tags_Lib;
 		$home_helper = new Home_Helper();
@@ -16,13 +17,14 @@ class Fichas_Controller{
 		de acordo com o sistema de RPG selecionado
 	*/
 	function select_sheet($sheet){
+		$language = new Locale_Lib();
 		$ficha = new Fichas_Model;
 		$helper = new Fichas_Helper;
 		$tag = new Tags_Lib;
 		require (new Render_Lib("partials/fichas_monstros/{$sheet}"))->get_required_path();
 	}
 
-	function service($system_rpg){
+	function service($system_rpg = ''){
 		echo json_encode((new Fichas_Model)->select_sheet($system_rpg));
 	}
 
@@ -32,6 +34,7 @@ class Fichas_Controller{
 	}
 
 	function npc(){
+		$language = new Locale_Lib();
 		$ficha = new Fichas_Model;
 		$home_helper = new Home_Helper();
 		$tag = new Tags_Lib;
@@ -40,6 +43,7 @@ class Fichas_Controller{
 	}
 
 	function monstros(){
+		$language = new Locale_Lib();
 		$ficha = new Fichas_Model;
 		$home_helper = new Home_Helper();
 		$tag = new Tags_Lib;

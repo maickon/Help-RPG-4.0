@@ -1,0 +1,14 @@
+LOGIN_TITLE::Login- Help RPG
+LOGIN_META_DESCRIPTION::Página de login do Help RPG.
+LOGIN_META_KEYWORDS::Login, Entrar, Logar
+LOGIN_MAIN_MSG::Faça login para começar a sua sessão.
+LOGIN_ERROR_ACTIVE_ACOUNT::Um erro ocorreu! Sua conta não foi ativada.
+LOGIN_ERRO_HASH_DONT_FIND::Seu código de ativação está inválido.
+LOGIN_MSG_ERROR::Usuário ou senha estão incorretos.
+LOGIN_USER::Usuário
+LOGIN_MAIL::Email
+LOGIN_PASSWORD::Senha
+LOGIN_REMEMBER_PASSWORD::Lembrar
+LOGIN_BTN_GET_IN::ENTRAR
+LOGIN_SUBSCRIBE::Criar uma conta
+LOGIN_FORGET_PASSWORD::Esqueceu a senha?

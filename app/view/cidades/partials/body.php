@@ -4,13 +4,13 @@ $tag->div(['class'=>'row']);
 	$tag->div(['class'=>'col-md-8']);
 	   
 	    $tag->span(['class'=>'help-inline']);
-	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> CITY_GENERATION, 'value'=> CITY_GENERATION, 'onclick'=>'rand_cidades();']);
+	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> $language->CITIES_GENERATION, 'value'=> $language->CITIES_GENERATION, 'onclick'=>'rand_cidades();']);
 	    $tag->spam;
 
 	    $tag->div('class="checkbox"');
 	     	$tag->label();
 	       		$tag->input('type="checkbox" checked id="disable_mode_draw"');
-	        	$tag->printer(DISABLE_MODE_DRAW);
+	        	$tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
 	      	$tag->label;
     	$tag->div;
 	$tag->div;

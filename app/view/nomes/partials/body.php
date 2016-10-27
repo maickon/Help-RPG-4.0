@@ -11,13 +11,13 @@ $tag->div(['class'=>'row']);
 	    $tag->select;
 	
 	    $tag->span(['class'=>'help-inline']);
-	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=>'Gerar Nome', 'value'=>'Gerar Nome', 'onclick'=>'rand_nomes();']);
+	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=>$language->BUTTON_NAME_GENERATION, 'value'=>$language->BUTTON_NAME_GENERATION, 'onclick'=>'rand_nomes();']);
 	    $tag->spam;
 
 	    $tag->div('class="checkbox"');
 	     	$tag->label();
 	       		$tag->input('type="checkbox" checked id="disable_mode_draw"');
-	        	$tag->printer(DISABLE_MODE_DRAW);
+	        	$tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
 	      	$tag->label;
     	$tag->div;
 	$tag->div;

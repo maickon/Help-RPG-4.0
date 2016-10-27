@@ -1,0 +1,8 @@
+ERROR_META_DESCRIPTION :: Error page.
+ERROR_META_KEYWORDS :: Page not found, failed, Error 404
+ERROR_TITLE :: Page Not Found!
+ERROR_MSG_404 :: This page does not exist!
+ERROR_MSG_UPDATE :: An error occured! Data have not been updated.
+ERROR_MSG_USER_DONT_REGISTER :: An error occured! Your registration can not be completed.
+ERROR_MSG_CODE_EXITS :: This error code does not exist!
+ERROR_BTN_GO_MAIN_PAGE :: BACK TO HOME

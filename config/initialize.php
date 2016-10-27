@@ -11,8 +11,6 @@ define('URL_BASE_INTERNAL_HELPER', URL_BASE_INTERNAL . '/app/helpers/');
 
 require URL_BASE_INTERNAL_DB;
 require URL_BASE_INTERNAL_MAIL;
-require URL_BASE_INTERNAL_LABELS;
-
 
 function __autoload($class_name){
 	$divide_name = explode('_', $class_name);

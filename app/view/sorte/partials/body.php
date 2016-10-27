@@ -23,13 +23,13 @@ $tag->div(['class'=>'container']);
 		    $tag->select;
 		
 		    $tag->span(['class'=>'help-inline']);
-		        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> LOCK_GENERATE_LABEL, 'value'=> LOCK_GENERATE_LABEL, 'onclick'=>'rand_sorte_aleatorio();']);
+		        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> $language->LUCK_LOCK_GENERATE_LABEL, 'value'=> $language->LUCK_LOCK_GENERATE_LABEL, 'onclick'=>'rand_sorte_aleatorio();']);
 		    $tag->spam;
 
 		    $tag->div('class="checkbox"');
 		     	$tag->label();
 		       		$tag->input('type="checkbox" checked id="disable_mode_draw"');
-		        	$tag->printer(DISABLE_MODE_DRAW);
+		        	$tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
 		      	$tag->label;
 	    	$tag->div;
 		$tag->div;	

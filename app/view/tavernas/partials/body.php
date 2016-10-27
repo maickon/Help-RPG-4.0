@@ -4,20 +4,20 @@ $tag->div(['class'=>'row']);
 	$tag->div(['class'=>'col-md-8']);
 	    $tag->select('class="selectpicker margin" data-show-subtext="true" data-live-search="true" id="select"');
 	        foreach($tipos_tavernas as $key => $value):
-	            $tag->option('data-subtext="'.TAVERN_TYPE.$value.'" value="'.$key.'" title="'.$key.'"');
+	            $tag->option('data-subtext="'.$language->TAVERN_TYPE.$value.'" value="'.$key.'" title="'.$key.'"');
 	                $tag->printer($value);
 	            $tag->option;		
 	        endforeach;
 	    $tag->select;
 	
 	    $tag->span(['class'=>'help-inline']);
-	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> TAVERN_GENERATION, 'value'=> TAVERN_GENERATION, 'onclick'=>'rand_tavernas();']);
+	        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> $language->BUTTON_TAVERN_GENERATION, 'value'=> $language->BUTTON_TAVERN_GENERATION, 'onclick'=>'rand_tavernas();']);
 	    $tag->spam;
 
 	    $tag->div('class="checkbox"');
 	     	$tag->label();
 	       		$tag->input('type="checkbox" checked id="disable_mode_draw"');
-	        	$tag->printer(DISABLE_MODE_DRAW);
+	        	$tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
 	      	$tag->label;
     	$tag->div;
 	$tag->div;

@@ -1,0 +1,18 @@
+USER_PAGE_USERS_TITLE :: Users
+USER_META_DESCRIPTION_PAGE_USERS :: Help the RPG Users.
+USER_META_KEYWORDS_PAGE_USERS :: Register of users, user list, users, new users
+USER_MSG_ACTIVE_LINK :: account activation link:
+USER_MSG_ACTIVE :: Enable my account.
+USER_MSG_SUCCESS :: Registration completed!
+USER_MSG_WELLCOME :: Welcome to Help RPG
+USER_MSG_PASSWORD :: Your Password:
+USER_MSG_MAIL :: Your email:
+USER_MSG_INSTRUCTION_1 :: You can fill the rest of the member of:
+USER_MSG_INSTRUCTION_2 :: With this account you can register adventures, magic items, characters, stories, make friends, play our utilities and more. Thanks for being part of the Help RPG.
+USER_MSG_INSTRUCTION_3 :: Click the link below to activate your account. After this is just to login.
+USER_MSG_ATT :: Att,
+USER_MSG_CREATE_CONTACT :: <a href="http:www.helprpg.com.br/painel/profile/1"> Maickon Rangel </a> - help the RPG Maker
+USER_LABEL_MALE :: Male
+USER_LABEL_FEME :: Female
+USER_LABEL_YES :: Yes
+USER_LABEL_NO :: No

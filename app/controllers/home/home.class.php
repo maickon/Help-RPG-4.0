@@ -3,6 +3,7 @@
 class Home_Controller{
 
 	function index(){
+		$language = new Locale_Lib();
 		$home = new Home_Model();
 		$tag = new Tags_Lib;
 
@@ -13,7 +14,6 @@ class Home_Controller{
 		$mundos = new Mundos_Model;
 		$masmorras = new Masmorras_Model;
 		$tavernas = new Tavernas_Model;
-		$masmorras = new Masmorras_Model;
 		$personalidades = new Personalidades_Model;
 		$cidades = new Cidades_Model;
 		$marcadores = new Marcadores_Model();

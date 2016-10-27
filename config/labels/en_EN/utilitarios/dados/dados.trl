@@ -1,0 +1,13 @@
+DICE_UTILITIES :: Data Rolador - utilities
+DICE_META_DESCRIPTION :: Data Rolador - Help RPG.
+DICE_META_KEYWORDS :: Data roller, d4, d6, d8, d10, d12, d100, roll data, data.
+DICE_OPTION_CONFIC2X4 :: 2x4 (2 lines and 4 columns)
+DICE_OPTION_CONFIC2X6 :: 2x6 (2 rows and 6 columns)
+DICE_OPTION_CONFIC3X3 :: 3x3 (3 rows and 3 columns)
+DICE_OPTION_CONFIC7X1 :: 7x1 (7 rows and 1 column)
+DICE_CLEAR :: Clear
+DICE_ROLL_DICE :: Roll All
+DICE_CONFIG :: Configuration
+DICE_ROLL_PLUS :: Rolling +
+DICE_GO :: Go
+DICE_SHOW_TOTAL :: Full View

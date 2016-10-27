@@ -1,0 +1,18 @@
+USER_PAGE_USERS_TITLE::ユーザー
+USER_META_DESCRIPTION_PAGE_USERS::RPGのユーザーを支援。
+USER_META_KEYWORDS_PAGE_USERS::ユーザー登録、ユーザーリスト、ユーザー、新規ユーザー
+USER_MSG_ACTIVE_LINK::アカウント起動リンク：
+USER_MSG_ACTIVE::私のアカウントを有効にします。
+USER_MSG_SUCCESS::登録が完了しました！
+USER_MSG_WELLCOME::RPGヘルプへようこそ
+USER_MSG_PASSWORD::あなたのパスワード：
+USER_MSG_MAIL::Seu email:
+USER_MSG_INSTRUCTION_1::あなたはメンバーの残りの部分を埋めることができます。
+USER_MSG_INSTRUCTION_2::このアカウントを使用すると、友達を作る、冒険、魔法のアイテム、キャラクター、物語を登録し、当社のユーティリティなどを再生することができます。ヘルプRPGの一部でいただきありがとうございます。
+USER_MSG_INSTRUCTION_3::アカウントを有効にするには、以下のリンクをクリックしてください。これは後にだけログインします。
+USER_MSG_ATT::その、
+USER_MSG_CREATE_CONTACT::<a href="http:www.helprpg.com.br/painel/profile/1">Maickon Rangel</a> - RPGツクールヘルプ
+USER_LABEL_MALE::男性
+USER_LABEL_FEME::女性
+USER_LABEL_YES::はい
+USER_LABEL_NO::しません

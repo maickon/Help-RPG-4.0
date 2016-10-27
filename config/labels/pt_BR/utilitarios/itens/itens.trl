@@ -1,0 +1,22 @@
+ITENS_UTILITIES::Gerador de itens - utilitários
+ITENS_META_DESCRIPTION::Gerador de itens - Help RPG.
+ITENS_META_KEYWORDS::itens, armas, armaduras, artefatos, espadas, itens mundanos, itens mágicos, gerador
+ITENS_MAGIC_STUPID::Itens mágicos Estúpidos,
+ITENS_MAGIC_WAPONS::Armas mágicas		
+ITENS_COMUM_WAPONS::Armas comuns
+ITENS_MAGIC_SHIELD::Escudos mágicos
+ITENS_MAGIC_ARMOR::Armaduras mágicas
+ITENS_RATTLETRAP::Bugigangas
+ITENS_BOOTS::Botas
+ITENS_COVERS::Capas	
+ITENS_NECKLACE::Colar	
+ITENS_CROWN::Coroa	
+ITENS_HELMET::Elmo	
+ITENS_MASK::Mascaras	
+ITENS_MEDALLION::Medalhão
+ITENS_GRASSES::Óculos
+ITENS_TIARA::Tiara	
+ITENS_MAGIC_RINGS::Anéis mágicos	
+ITENS_GRIMORES::Grimórios
+ITENS_OTHERS::Outros
+ITENS_GENERATE_BUTTON::Gerar Item

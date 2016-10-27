@@ -1,0 +1,13 @@
+HIGHLIGHTER_UTILITIES :: Marcadores- utilities
+HIGHLIGHTER_META_DESCRIPTION :: Bookmarks - Help RPG
+HIGHLIGHTER_META_KEYWORDS :: record label, Magic marker to marker RPG
+HIGHLIGHTER_BUTTON_LABEL_CLEAR :: Clear markers
+HIGHLIGHTER_SELECT_MSG_LABEL :: Select the types of fields
+HIGHLIGHTER_OPTION_1_LABEL :: Name, HP, CA and damage
+HIGHLIGHTER_OPTION_2_LABEL :: Name, PV, Damage, Defense and Mana
+HIGHLIGHTER_OPTION_3_LABEL :: Name, PV, Damage and Defense
+HIGHLIGHTER_OPTION_4_LABEL :: Name, Life, Damage (Magic)
+HIGHLIGHTER_OPTION_5_LABEL :: Name, Race, Class, PV and damage
+HIGHLIGHTER_OPTION_6_LABEL :: Name, Race, Class, PV, damage and CA
+HIGHLIGHTER_OPTION_7_LABEL :: Name, Race, Class, PV, Damage, Defense and Mana
+HIGHLIGHTER_OPTION_8_LABEL :: Name, Race, Class, PV, Damage and Defense

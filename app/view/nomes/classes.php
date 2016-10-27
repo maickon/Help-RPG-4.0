@@ -1,7 +1,7 @@
 <?php
 // options select
  $rpg_nomes = [ 
-        'piratas'             => NAME_OPTIONS_PIRATES,
+        'piratas'             => $language->NAME_OPTIONS_PIRATES,
         ];
 
 $tag->div(['class'=>'container']);

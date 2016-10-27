@@ -1,0 +1,18 @@
+USER_PAGE_USERS_TITLE::Usuários
+USER_META_DESCRIPTION_PAGE_USERS::Usuários do Help RPG.
+USER_META_KEYWORDS_PAGE_USERS::Cadastro de usuários, listagem de usuários, usuários, novos usuários
+USER_MSG_ACTIVE_LINK::Link de ativação de conta:
+USER_MSG_ACTIVE::Ativar minha conta.
+USER_MSG_SUCCESS::Cadastro realizado com sucesso!
+USER_MSG_WELLCOME::Seja bem vindo ao Help RPG
+USER_MSG_PASSWORD::Sua senha:
+USER_MSG_MAIL::Seu email:
+USER_MSG_INSTRUCTION_1::Você pode preencher o restante do cadastro em:
+USER_MSG_INSTRUCTION_2::Com esta conta você pode cadastrar aventuras, itens mágicos, personagens, contos, fazer amigos, utilizar nossos utilitários e muito mais. Agradeço por fazer parte do Help RPG.
+USER_MSG_INSTRUCTION_3::Clique no link abaixo para ativar a sua conta. Após isso é só fazer o login.
+USER_MSG_ATT::Att,
+USER_MSG_CREATE_CONTACT::<a href="http:www.helprpg.com.br/painel/profile/1">Maickon Rangel</a> - Criador do help RPG
+USER_LABEL_MALE::Masculino
+USER_LABEL_FEME::Feminino
+USER_LABEL_YES::Sim
+USER_LABEL_NO::Não

@@ -7,17 +7,17 @@
 					$tag->div;
 					$tag->br();
 					$menus = [
-								['col-number' => 6, 'label' => LABEL_NAME_DUNGEON, 			'id' => 'dungeon_name', 	'type' => 'input'],
-								['col-number' => 3, 'label' => LABEL_MAP_STYLE, 			'id' => 'map_style', 		'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_GRID, 					'id' => 'grid', 			'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_LAYOUT_DUNGEON, 		'id' => 'dungeon_layout', 	'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_DUNGEON_SIZE,			'id' => 'dungeon_size', 	'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_STAIRS, 				'id' => 'add_stairs', 		'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_LAYOUT_ROOM, 			'id' => 'room_layout', 		'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_ROOM_SIZE, 			'id' => 'room_size', 		'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_DOORS, 				'id' => 'doors', 			'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_HALLS, 				'id' => 'corridor_layout', 	'type' => 'select'],
-								['col-number' => 3, 'label' => LABEL_EXIT_LANES, 			'id' => 'remove_deadends', 	'type' => 'select']
+								['col-number' => 6, 'label' => $language->DUNGEON_LABEL_NAME_DUNGEON, 		'id' => 'dungeon_name', 	'type' => 'input'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_MAP_STYLE, 			'id' => 'map_style', 		'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_GRID, 				'id' => 'grid', 			'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_LAYOUT_DUNGEON, 	'id' => 'dungeon_layout', 	'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_DUNGEON_SIZE,		'id' => 'dungeon_size', 	'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_STAIRS, 			'id' => 'add_stairs', 		'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_LAYOUT_ROOM, 		'id' => 'room_layout', 		'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_ROOM_SIZE, 			'id' => 'room_size', 		'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_DOORS, 				'id' => 'doors', 			'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_HALLS, 				'id' => 'corridor_layout', 	'type' => 'select'],
+								['col-number' => 3, 'label' => $language->DUNGEON_LABEL_EXIT_LANES, 		'id' => 'remove_deadends', 	'type' => 'select']
 							];
 
 					for($i=0; $i<count($menus); $i++):
@@ -36,18 +36,18 @@
 
 					$tag->div('class="col-md-2"');
 						$tag->br();
-						$tag->input('type="button" class="btn btn-default" id="new_name" value="'.DUNGEON_BUTTON_LABEL_NEW.'"');
+						$tag->input('type="button" class="btn btn-default" id="new_name" value="'.$language->DUNGEON_BUTTON_LABEL_NEW.'"');
 					$tag->div;
 
 					$tag->div('class="col-md-2"');
 						$tag->br();
-						$tag->input('type="button" value="'.DUNGEON_BUTTON_LABEL_SAVE.'" class="btn btn-default" onclick="save_map();"');
+						$tag->input('type="button" value="'.$language->DUNGEON_BUTTON_LABEL_SAVE.'" class="btn btn-default" onclick="save_map();"');
 					$tag->div;
 
 					$tag->div('class="col-md-2"');
 						$tag->br();
 						$tag->imprime('&nbsp;');
-						$tag->input('type="button" value="'.DUNGEON_BUTTON_LABEL_PRINT.'" class="btn btn-default" onclick="window.print();"');
+						$tag->input('type="button" value="'.$language->DUNGEON_BUTTON_LABEL_PRINT.'" class="btn btn-default" onclick="window.print();"');
 					$tag->div;
 
 				$tag->div;

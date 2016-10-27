@@ -1,0 +1,9 @@
+TIME_UTILITIES :: climate time Simulator - utilities
+TIME_META_DESCRIPTION :: Help climático- time RPG Simulator.
+TIME_META_KEYWORDS :: climate, weather, cold, hot, rainy, lightning, storm, cloudy, generator
+TIME_GENERATE_LABEL :: Simulate Time
+TIME_PRECIPITATION_LABEL :: Precipitation
+TIME_TEMPERATURE_LABEL :: Temperature
+TIME_WIND_LABEL :: Wind
+TIME_ALL_LABEL :: All
+TIME_CLIMATE_LABEL :: Climate

@@ -8,6 +8,7 @@ class Sorte_Controller extends Controller_Lib{
 
 	function index(){
 		$rota = $this;
+		$language = new Locale_Lib;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		$sorte = new Sorte_Model;
@@ -15,23 +16,24 @@ class Sorte_Controller extends Controller_Lib{
 	}
 
 	function service($params){
+		$language = new Locale_Lib;
 		$sorte = new Sorte_Model;
 		$titulo = null;
 
 		$tipos = [
-			'tipo1' 	=> LUCK_LABEL,
-			'tipo2'		=> YOU_LUCK_LABEL,
-			'tipo3'		=> YOU_LOVE_LUCK_LABEL,
-			'tipo4' 	=> YOUR_BEST_FRIEND_LUCK_LABEL,
-			'tipo5'		=> NEXT_PERSON_LUCK_LABEL,
-			'tipo6' 	=> ENEMY_LUCK_LABEL,
-			'tipo7' 	=> HIS_RIVAL_LUCK_LABEL,
-			'tipo8'		=> FAMILY_LUCK_LABEL,
-			'tipo9'		=> NEXT_TOUCH_PEOPLE_LUCK_LABEL,
-			'tipo10'	=> TO_BUMP_LUCK_LABEL,
-			'tipo11'	=> TO_KNOW_LUCK_LABEL,
-			'tipo12'	=> WOMAN_LUCK_LABEL,
-			'tipo13'	=> MAN_LUCK_LABEL
+			'tipo1' 	=> $language->LUCK_LABEL,
+			'tipo2'		=> $language->LUCK_YOU_LABEL,
+			'tipo3'		=> $language->LUCK_YOU_LOVE_LABEL,
+			'tipo4' 	=> $language->LUCK_YOUR_BEST_FRIEND_LABEL,
+			'tipo5'		=> $language->LUCK_NEXT_PERSON_LABEL,
+			'tipo6' 	=> $language->LUCK_ENEMY_LABEL,
+			'tipo7' 	=> $language->LUCK_HIS_RIVAL_LABEL,
+			'tipo8'		=> $language->LUCK_FAMILY_LABEL,
+			'tipo9'		=> $language->LUCK_NEXT_TOUCH_PEOPLE_LABEL,
+			'tipo10'	=> $language->LUCK_TO_BUMP_LABEL,
+			'tipo11'	=> $language->LUCK_TO_KNOW_LABEL,
+			'tipo12'	=> $language->LUCK_WOMAN_LABEL,
+			'tipo13'	=> $language->LUCK_MAN_LABEL
     	];
 
     	$indice = rand(1, (count($tipos)));

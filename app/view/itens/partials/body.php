@@ -6,8 +6,8 @@ $tag->div(['class'=>'container']);
 		$tag->div('class="col-md-12"');		       
 	        $tag->select('class="selectpicker margin" data-show-subtext="true" data-live-search="true" id="select"');
 		        foreach($tipos as $key => $value):
-		            $tag->option('data-subtext="Nome de '.$value[2].'" value="'.$value[2].'" title="'.$value[1].'"');
-		                $tag->printer($value[1]);
+		            $tag->option('data-subtext="'.$language->NAME_OF.' '.$value[2].'" value="'.$value[2].'" title="'.$value[1].'"');
+		                $tag->printer($value[1]);	
 		            $tag->option;		
 		        endforeach;
 		    $tag->select;
@@ -23,13 +23,13 @@ $tag->div(['class'=>'container']);
 		    $tag->select;
 		
 		    $tag->span(['class'=>'help-inline']);
-		        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=>'Gerar Nome', 'value'=>'Gerar Item', 'onclick'=>'rand_item_aleatorio();']);
+		        $tag->input(['class'=>'btn btn-success margin', 'type'=>'button', 'title'=> $language->ITENS_GENERATE_BUTTON, 'value'=> $language->ITENS_GENERATE_BUTTON, 'onclick'=>'rand_item_aleatorio();']);
 		    $tag->spam;
 
 		    $tag->div('class="checkbox"');
 		     	$tag->label();
 		       		$tag->input('type="checkbox" checked id="disable_mode_draw"');
-		        	$tag->printer(DISABLE_MODE_DRAW);
+		        	$tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
 		      	$tag->label;
 	    	$tag->div;
 		$tag->div;	

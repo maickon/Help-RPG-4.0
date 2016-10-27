@@ -1,0 +1,14 @@
+LOGIN_TITLE::RPGヘルプLogin-
+LOGIN_META_DESCRIPTION::RPGのログインページを助けます。
+LOGIN_META_KEYWORDS::ログ、ログ、ログ
+LOGIN_MAIN_MSG::あなたのセッションを開始するにはログインしてください。
+LOGIN_ERROR_ACTIVE_ACOUNT::エラーが発生しました！あなたのアカウントがアクティブ化されていません。
+LOGIN_ERRO_HASH_DONT_FIND::アクティベーションコードが無効です。
+LOGIN_MSG_ERROR::ユーザーまたはパスワードが正しくありません。
+LOGIN_USER::ユーザー
+LOGIN_MAIL::そして、メール
+LOGIN_PASSWORD::パスワード
+LOGIN_REMEMBER_PASSWORD::覚えています
+LOGIN_BTN_GET_IN::入力します
+LOGIN_SUBSCRIBE::アカウントを作成します
+LOGIN_FORGET_PASSWORD::パスワードを忘れましたか？

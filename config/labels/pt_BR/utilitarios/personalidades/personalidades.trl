@@ -1,0 +1,12 @@
+PERSONALITY_UTILITIES::Gerador de personalidades - utilitários
+PERSONALITY_META_DESCRIPTION::Gerador de personalidades - Help RPG
+PERSONALITY_META_KEYWORDS::personalidades RPG, personagem, perfil, forma de pernsamento, Npcs
+PERSONALITY_BUTTON_LABEL_NEW::Gerar Personalidade
+PERSONALITY_LABEL_MSG::Ideias para modelos/tipo de personalidade de personagens.
+PERSONALITY_TYPE::Tipo de 
+PERSONALITY_BAD_ASPECT::Um aspecto Negativo
+PERSONALITY_GOOD_ASPECT::Um aspecto Positivo
+PERSONALITY_GENERAL_ASPECT::Um aspecto Geral
+PERSONALITY_IDEOLOGIC_ASPECT::Um aspecto Ideológico
+PERSONALITY_FEAR_ASPECT::Um Medo
+PERSONALITY_TRAND_ASPECT::Uma Tendencia

@@ -1,6 +1,6 @@
 <?php
 // menus e urls
-$_MENU_LABELS = [NAME_PLACES, NAME_CLASS, NAME_RACES, NAME_CULTURAL, NAME_OTHERS];
+$_MENU_LABELS = [$language->NAME_PLACES, $language->NAME_CLASS, $language->NAME_RACES, $language->NAME_CULTURAL, $language->NAME_OTHERS];
 
 $_MENU_URLS = [
 				$rota->lugares_path, 
@@ -12,15 +12,15 @@ $_MENU_URLS = [
 $tag->div(['class'=>'row']);
 	$tag->div(['class'=>'col-md-12']);
 	    $tag->h2();
-	        $tag->printer(UTILITIES_NAME);
+	        $tag->printer($language->NAME_UTILITIES);
 	    $tag->h2;
 		
-		$tag->printer(HORIZONTAL_BAR);
+		$tag->printer($language->SITE_HORIZONTAL_BAR);
 	    for ($i=0; $i < count($_MENU_URLS); $i++) { 
 		    $tag->a(['href'=> $_MENU_URLS[$i], 'class' => 'utilitarios-link']);
 		        $tag->printer($_MENU_LABELS[$i]);
 		    $tag->a;
-		    $tag->printer(HORIZONTAL_BAR);
+		    $tag->printer($language->SITE_HORIZONTAL_BAR);
 	    }
 
 	    $tag->br();

@@ -3,16 +3,16 @@
 // lista de mensagens carrosel
 $carousel_list = [
 	                [
-	                    SLIDE_TITLE_01,
-	                    SLIDE_MESSAGE_01
+	                    $language->SLIDE_TITLE_01,
+	                    $language->SLIDE_MESSAGE_01
 	                ],
 	                [
-	                    SLIDE_TITLE_02,
-	                    SLIDE_MESSAGE_02
+	                    $language->SLIDE_TITLE_02,
+	                    $language->SLIDE_MESSAGE_02
 	                ],
 	                [
-	                    SLIDE_TITLE_03,
-	                    SLIDE_MESSAGE_03
+	                    $language->SLIDE_TITLE_03,
+	                    $language->SLIDE_MESSAGE_03
 	                ]
 	            ];
 
@@ -61,10 +61,10 @@ $_IMG_UTILITARIES = [
 	                    ],
 
 					    [  
-	                        $masmorras->masmorras_img_icon.'mapa.png', 
-	                        $masmorras->masmorras_descricao_alt, 
-	                        $masmorras->masmorras_descricao_alt, 
-	                        $masmorras->masmorras_root_path
+	                        $mundos->mundos_img_icon.'mapa.png', 
+	                        $mundos->mundos_descricao_alt, 
+	                        $mundos->mundos_descricao_alt, 
+	                        $mundos->mundos_root_path
 	                    ],
 					
 	                    [
@@ -121,106 +121,106 @@ $_IMG_UTILITARIES_2 = [
 
 	            [
 	            	IMG_ICON_PATH . 'usuario.png', 
-	            	USERS_REGISTERED, 
-	            	"{$usuarios_registrados} " . RECORDS,
+	            	$language->MENU_USERS_REGISTERED, 
+	            	"{$usuarios_registrados} " . $language->MENU_RECORDS,
 	            	URL_BASE . ''
 	            ],
 				
 				[
 					IMG_ICON_PATH . 'armadura.png', 
-					ARMOR, 
-					"{$armaduras_registradas} " . RECORDS,
+					$language->MENU_ARMOR, 
+					"{$armaduras_registradas} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'arma.png', 
-					WEAPONS, 
-					"{$armas_registradas} " . RECORDS,
+					$language->MENU_WEAPONS, 
+					"{$armas_registradas} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'artefato.png', 
-					ARTIFACTS, 
-					"{$artefatos_registrados} " . RECORDS,
+					$language->MENU_ARTIFACTS, 
+					"{$artefatos_registrados} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'personagem.png', 
-					FILE_PLAYER_CHARACTER, 
-					"{$personagens_jogadores_registrados} " . RECORDS,
+					$language->MENU_FILE_PLAYER_CHARACTER, 
+					"{$personagens_jogadores_registrados} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'mais-fichas.png', 
-					FILE_NPC_CHARACTER, 
-					"{$personagens_monstros_registrados} " . RECORDS,
+					$language->MENU_FILE_NPC_CHARACTER, 
+					"{$personagens_monstros_registrados} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'talentos.png', 
-					TALENTS, 
-					"{$talentos_registrados} " . RECORDS,
+					$language->MENU_TALENTS, 
+					"{$talentos_registrados} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'magia.png', 
-					SPELLS, 
-					"{$magias_registradas} " . RECORDS,
+					$language->MENU_SPELLS, 
+					"{$magias_registradas} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'pericia.png', 
-					SKILLS, 
-					"{$pericias_registradas} " . RECORDS,
+					$language->MENU_SKILLS, 
+					"{$pericias_registradas} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'aventura.png', 
-					ADVENTURES, 
-					"{$aventuras_registradas} " . RECORDS,
+					$language->MENU_ADVENTURES, 
+					"{$aventuras_registradas} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 
 				[
 					IMG_ICON_PATH . 'historia.png', 
-					STORIES, 
-					"{$historias_registradas} " . RECORDS,
+					$language->MENU_STORIES, 
+					"{$historias_registradas} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'contos.png', 
-					TALES, 
-					"{$contos_registrados} " . RECORDS,
+					$language->MENU_TALES, 
+					"{$contos_registrados} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'cronicas.png', 
-					CHRONICLES, 
-					"{$cronicas_registradas} " . RECORDS,
+					$language->MENU_CHRONICLES, 
+					"{$cronicas_registradas} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[	
 					IMG_ICON_PATH . 'cenarios.png', 
-					SCENARIO, 
-					"{$cenarios_registrados} " . RECORDS,
+					$language->MENU_SCENARIO, 
+					"{$cenarios_registrados} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				],
 				
 				[
 					IMG_ICON_PATH . 'bestiario.png', 
-					BESTIARY, 
-					"{$bestiarios_registrados} " . RECORDS,
+					$language->MENU_BESTIARY, 
+					"{$bestiarios_registrados} " . $language->MENU_RECORDS,
 					URL_BASE . ''
 				]
 			];

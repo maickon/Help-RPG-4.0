@@ -1,0 +1,18 @@
+DUNGEON_UTILITIES :: Generator dungeons - utilities
+DUNGEON_META_DESCRIPTION :: Generator dungeons - Help RPG
+DUNGEON_META_KEYWORDS :: dungeons, labitinro, RPG dungeon, dungeon map, random dungeon
+DUNGEON_LABEL_NAME_DUNGEON :: Name :: Dungeon
+DUNGEON_LABEL_MAP_STYLE :: map style ::
+DUNGEON_LABEL_GRID Grid :: ::
+DUNGEON_LABEL_LAYOUT_DUNGEON :: Layout :: Dungeon
+DUNGEON_LABEL_DUNGEON_SIZE :: Dungeon :: Size
+DUNGEON_LABEL_STAIRS Stairs :: ::
+DUNGEON_LABEL_LAYOUT_ROOM :: :: Room Layout
+DUNGEON_LABEL_ROOM_SIZE :: the :: Room Size
+DUNGEON_LABEL_DOORS :: Doors ::
+DUNGEON_LABEL_HALLS Corridors :: ::
+DUNGEON_LABEL_EXIT_LANES :: Remove dead ends? ::
+DUNGEON_BUTTON_LABEL_NEW :: New
+DUNGEON_BUTTON_LABEL_SAVE :: Save as PNG
+DUNGEON_BUTTON_LABEL_PRINT :: Give print
+DUNGEON_ERROR_CANVAS_MSG :: Your browser does not support HTML5 & lt; canvas & gt; element.

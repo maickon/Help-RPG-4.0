@@ -1,0 +1,8 @@
+ERROR_META_DESCRIPTION::エラーページ。
+ERROR_META_KEYWORDS::ページが見つかりません、失敗し、エラー404
+ERROR_TITLE::ページが見つかりません！
+ERROR_MSG_404::このページは存在しません！
+ERROR_MSG_UPDATE::エラーが発生しました！データが更新されていません。
+ERROR_MSG_USER_DONT_REGISTER::エラーが発生しました！あなたの登録を完了することはできません。
+ERROR_MSG_CODE_EXITS::このエラーコードは存在しません！
+ERROR_BTN_GO_MAIN_PAGE::バックホームページへ

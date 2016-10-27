@@ -1,0 +1,17 @@
+LUCK_UTILITIES::Gerador de sorte - utilitários
+LUCK_META_DESCRIPTION::Gerador de sorte - Help RPG.
+LUCK_META_KEYWORDS::sorte, npc, personagem jogador, futuro, gerador
+LUCK_LABEL::Sorteado
+LUCK_YOU_LABEL::Você
+LUCK_YOU_LOVE_LABEL::Seu amor
+LUCK_YOUR_BEST_FRIEND_LABEL::Seu melhor amigo
+LUCK_NEXT_PERSON_LABEL::Uma pessoa próxima
+LUCK_ENEMY_LABEL::Seu inimigo
+LUCK_HIS_RIVAL_LABEL::Seu rival
+LUCK_FAMILY_LABEL::Um familiar
+LUCK_NEXT_TOUCH_PEOPLE_LABEL::A próxima pessoa que tocar
+LUCK_TO_BUMP_LABEL::A pessoa que esbarrar em você
+LUCK_TO_KNOW_LABEL::A próxima pessoa que você vai conhecer
+LUCK_WOMAN_LABEL::Uma mulher
+LUCK_MAN_LABEL::Um homem
+LUCK_LOCK_GENERATE_LABEL::Gerar Sorte

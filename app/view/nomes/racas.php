@@ -1,19 +1,19 @@
 <?php
 // options select
 $rpg_nomes = [
-    'animais'             => NAME_OPTIONS_ANIMALS,
-    'anjos'               => NAME_OPTIONS_ANGELS,
-    'demonios'            => NAME_OPTIONS_DEMONS,
-    'anoes'               => NAME_OPTIONS_DWARVES,
-    'elfos'               => NAME_OPTIONS_ELVES,
-    'halflings'           => NAME_OPTIONS_HALFLING,
-    'tielfling'           => NAME_OPTIONS_TIELFLING,
-    'hobbits'             => NAME_OPTIONS_HOBBITS,
-    'orcs'                => NAME_OPTIONS_ORCS,
-    'meio_orc'            => NAME_OPTIONS_ORC_HALF,
-    'homens_ratos'        => NAME_OPTIONS_MALE_RATS,
-    'humanos_feminino'    => NAME_OPTIONS_HUMAN_FEMALE,
-    'humanos_masculino'   => NAME_OPTIONS_HUMAN_MALE
+    'animais'             => $language->NAME_OPTIONS_ANIMALS,
+    'anjos'               => $language->NAME_OPTIONS_ANGELS,
+    'demonios'            => $language->NAME_OPTIONS_DEMONS,
+    'anoes'               => $language->NAME_OPTIONS_DWARVES,
+    'elfos'               => $language->NAME_OPTIONS_ELVES,
+    'halflings'           => $language->NAME_OPTIONS_HALFLING,
+    'tielfling'           => $language->NAME_OPTIONS_TIELFLING,
+    'hobbits'             => $language->NAME_OPTIONS_HOBBITS,
+    'orcs'                => $language->NAME_OPTIONS_ORCS,
+    'meio_orc'            => $language->NAME_OPTIONS_ORC_HALF,
+    'homens_ratos'        => $language->NAME_OPTIONS_MALE_RATS,
+    'humanos_feminino'    => $language->NAME_OPTIONS_HUMAN_FEMALE,
+    'humanos_masculino'   => $language->NAME_OPTIONS_HUMAN_MALE
     ];
 
 $tag->div(['class'=>'container']);

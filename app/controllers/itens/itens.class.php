@@ -8,6 +8,7 @@ class Itens_Controller extends Controller_Lib{
 
 	function index(){
 		$rota = $this;
+		$language = new Locale_Lib;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		$itens = new Itens_Model;
@@ -15,26 +16,27 @@ class Itens_Controller extends Controller_Lib{
 	}
 
 	function service($params){
+		$language = new Locale_Lib;
 		$itens = new Itens_Model;
 		$tipos = [
-			'itens_estupidos' 	=> 'Itens mágicos Estúpidos',
-			'armas_magicas'		=> 'Armas mágicas',
-			'armas_comuns'		=> 'Armas comuns',
-			'escudos_magicos' 	=> 'Escudos mágicos',
-			'armaduras_magicas' => 'Armaduras mágicas',
-			'bugigangas' 		=> 'Bugigangas',
-			'botas' 			=> 'Botas',
-			'capa'				=> 'Capas',
-			'colar'				=> 'Colar',
-			'coroa'				=> 'Coroa',
-			'elmo'				=> 'Elmo',
-			'mascara'			=> 'Mascaras',
-			'medalhao'			=> 'Medalhão',
-			'oculos'			=> 'Óculos',
-			'tiara'				=> 'Tiara',
-			'aneis_magicos'		=> 'Anéis mágicos',
-			'grimorios'			=> 'Grimórios',
-			'outros'			=> 'Outros'
+			'itens_estupidos' 	=> $language->ITENS_MAGIC_STUPID,
+			'armas_magicas'		=> $language->ITENS_MAGIC_WAPONS,
+			'armas_comuns'		=> $language->ITENS_COMUM_WAPONS,
+			'escudos_magicos' 	=> $language->ITENS_MAGIC_SHIELD,
+			'armaduras_magicas' => $language->ITENS_MAGIC_ARMOR,
+			'bugigangas' 		=> $language->ITENS_RATTLETRAP,
+			'botas' 			=> $language->ITENS_BOOTS,
+			'capa'				=> $language->ITENS_COVERS,
+			'colar'				=> $language->ITENS_NECKLACE,
+			'coroa'				=> $language->ITENS_CROWN,
+			'elmo'				=> $language->ITENS_HELMET,
+			'mascara'			=> $language->ITENS_MASK,
+			'medalhao'			=> $language->ITENS_MEDALLION,
+			'oculos'			=> $language->ITENS_GRASSES,
+			'tiara'				=> $language->ITENS_TIARA,
+			'aneis_magicos'		=> $language->ITENS_MAGIC_RINGS,
+			'grimorios'			=> $language->ITENS_GRIMORES,
+			'outros'			=> $language->ITENS_OTHERS
     	];
 
 		if (is_array($params)) {

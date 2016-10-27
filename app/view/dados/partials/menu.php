@@ -2,7 +2,7 @@
 $tag->div(['class'=>'row']);
     $tag->div(['class'=>'col-md-12']);
         $tag->h2();
-            $tag->printer(UTILITIES_DICE);
+            $tag->printer($language->DICE_UTILITIES);
         $tag->h2;
         
         $tag->printer('|');

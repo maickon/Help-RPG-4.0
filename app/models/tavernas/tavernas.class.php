@@ -5,6 +5,7 @@ class Tavernas_Model extends Model_Lib{
 		parent::__construct();
 		$this->define_path(CONFIG_TXT_PATH.'taverna/');
 		$this->sexo = array_rand([0,1]);
+		$this->language = new Locale_Lib;
 	}
 
 	function taverna_nome_taverneiro(){
@@ -46,13 +47,13 @@ class Tavernas_Model extends Model_Lib{
 	}
 
 	function taverna_tempo_de_profissao($idade){
-		$experiencia = [TAVERN_YEARS_LABEL, TAVERN_MONTHS_LABEL, TAVERN_DAYS_LABEL];
+		$experiencia = [$this->language->TAVERN_YEARS_LABEL, $this->language->TAVERN_MONTHS_LABEL, $this->language->TAVERN_DAYS_LABEL];
 		$divisor = rand(2,4);
 		$tempo = $experiencia[rand(0,2)];
 		$carreira = intval($idade/$divisor);
 		if($carreira == 1)
 			$carreira = 2;
-		return TAVERN_HAS_LABEL ." {$carreira} {$tempo} ". TAVERN_EXPERIENCE_LABEL;
+		return $this->language->TAVERN_HAS_LABEL ." {$carreira} {$tempo} ". $this->language->TAVERN_EXPERIENCE_LABEL;
 
 	}
 
@@ -143,7 +144,7 @@ class Tavernas_Model extends Model_Lib{
 	}
 
 	function taverna_nome(){
-		$tipo = [TAVERN_NAME_TXT,TAVERN_IN_TXT];
+		$tipo = [$this->language->TAVERN_NAME_TXT,$this->language->TAVERN_IN_TXT];
 		$nome = $tipo[rand(0, count($tipo)-1)];
 		$sexo = ($this->sexo == 0)?'M': 'F';
 

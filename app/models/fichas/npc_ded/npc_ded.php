@@ -858,8 +858,8 @@ class Personagem{
 	}
 	
 	function gerar_nome(){
-		$nomesMasculinos = explode("\n", file_get_contents(URL_BASE_INTERNAL . TXT_PATH . 'nomes/anglo_saxao_homens_ingles_15_16_17.txt'));
-		$nomesFemininos = explode("\n", file_get_contents(URL_BASE_INTERNAL . TXT_PATH . 'nomes/anglo_saxao_mulheres_ingles_15_16_17.txt'));
+		$nomesMasculinos = explode("\n", file_get_contents(URL_BASE_INTERNAL . 'config/txt/pt-BR/nomes/anglo_saxao_homens_ingles_15_16_17.txt'));
+		$nomesFemininos = explode("\n", file_get_contents(URL_BASE_INTERNAL . 'config/txt/pt-BR/nomes/anglo_saxao_mulheres_ingles_15_16_17.txt'));
 		
 		if($this->sexo == 'masculino'){
 			$posicao = rand(0,count($nomesMasculinos)-1);

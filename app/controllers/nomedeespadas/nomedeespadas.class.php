@@ -8,6 +8,7 @@ class Nomedeespadas_Controller extends Controller_Lib{
 
 	function index(){
 		$rota = $this;
+		$language = new Locale_Lib;
 		$tag = new Tags_Lib();
 		$home_helper = new Home_Helper();
 		$nomedeespadas = new Nomedeespadas_Model;
@@ -15,6 +16,7 @@ class Nomedeespadas_Controller extends Controller_Lib{
 	}
 
 	function service($params){
+		$language = new Locale_Lib;
 		if (!is_numeric($params)) {
 			$this->error();
 		} else{
@@ -22,9 +24,9 @@ class Nomedeespadas_Controller extends Controller_Lib{
 			$label = null;
 
 			if ($params > 1) {
-				$label = SWORD_NAME_LABEL_PLURAL;
+				$label = $language->SWORD_NAME_LABEL_PLURAL;
 			} elseif ($params == 1) {
-				$label = SWORD_NAME_LABEL_SINGULAR;
+				$label = $language->SWORD_NAME_LABEL_SINGULAR;
 			}
 			
 			$primeiro_nome = (new Raffleitemfile_Lib("{$nomedeespadas->primeiro_nome_path}", $params))->getRaffleItens();	
