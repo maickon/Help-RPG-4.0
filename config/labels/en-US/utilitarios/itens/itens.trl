@@ -1,0 +1,22 @@
+ITENS_UTILITIES::Generator items - utilities
+ITENS_META_DESCRIPTION::Generator items - Help RPG.
+ITENS_META_KEYWORDS::items, weapons, armor, artifacts, swords, mundane items, magic items, generator
+ITENS_MAGIC_STUPID::Magic items Dunces
+ITENS_MAGIC_WAPONS::Magical Weapons
+ITENS_COMUM_WAPONS::Common Weapons
+ITENS_MAGIC_SHIELD::magical Shields
+ITENS_MAGIC_ARMOR::magical Armors
+ITENS_RATTLETRAP::Trinkets
+ITENS_BOOTS::Boots
+ITENS_COVERS::Covers
+ITENS_NECKLACE::Paste
+ITENS_CROWN::Crown
+ITENS_HELMET::Elmo
+ITENS_MASK::Mascaras
+ITENS_MEDALLION::Medallion
+ITENS_GRASSES::Glasses
+ITENS_TIARA::Tiara
+ITENS_MAGIC_RINGS::Magic Rings
+ITENS_GRIMORES::Grimoires
+ITENS_OTHERS::Other
+ITENS_GENERATE_BUTTON::Generate Item

@@ -1,8 +1,12 @@
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+    <meta name="description" content="<?php echo $language->UTILITIES_META_DESCRIPTION; ?>">
+    <meta name="keywords" content="<?php echo $language->UTILITIES_META_KEYWORDS; ?>">
+    <meta name="author" content="<?php echo $language->SITE_META_AUTHOR; ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Utilitários</title>
+    <title><?php echo $language->UTILITIES_TITLE; ?></title>
     <!-- Favicon-->
     <link rel="shortcut icon" href="<?php echo $painel->url->logo_icon_img_path; ?>" type="image/x-icon">
 

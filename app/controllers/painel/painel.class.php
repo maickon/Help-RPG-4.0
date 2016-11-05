@@ -11,6 +11,7 @@ class Painel_Controller extends Controller_Lib{
 		$tag = new Tags_Lib;
 		$form = new Form_Lib;
 		$painel = new Painel_Model;
+		$language = new Locale_Lib;
 		$usuario = (new Usuario_Model())->select('usuarios','*',['id','=',$_SESSION['id']])[0];
 		$time_ago = new Timeago_Helper;
 		$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
@@ -18,90 +19,31 @@ class Painel_Controller extends Controller_Lib{
 		require (new Render_Lib())->get_required_path();
 	}
 
-	function utilitarios(){
-		$tag = new Tags_Lib;
-		$form = new Form_Lib;
-		$painel = new Painel_Model;
-
-		$dados = new Dados_Model;
-		$nomes = new Nomes_Model;
-		$fichas = new Fichas_Model;
-		$geradoraventuras = new GeradorAventuras_Model;
-		$mundos = new Mundos_Model;
-		$masmorras = new Masmorras_Model;
-		$tavernas = new Tavernas_Model;
-		$masmorras = new Masmorras_Model;
-		$personalidades = new Personalidades_Model;
-		$cidades = new Cidades_Model;
-		$marcadores = new Marcadores_Model();
-		$itens = new Itens_Model();
-		$sorte = new Sorte_Model();
-		$tempo = new Tempo_Model();
-		$nomedeespadas = new Nomedeespadas_Model();
-
-		require (new Render_Lib())->get_required_path('utilitarios');
-	}
-
 	function cadastros(){
+		session_start();
 		$tag = new Tags_Lib;
 		$form = new Form_Lib;
 		$painel = new Painel_Model;
-
-		// armaduras registradas
-		$armadura = new Armaduras_Model();
-		$armaduras_registradas = $armadura->qtd_max('armaduras')['count'];
-		
-		// armas registradas 
-		$arma = new Armas_Model();
-		$armas_registradas = $arma->qtd_max('armas')['count'];
-
-		// artefatos registrados
-		$artefato = new Artefatos_Model();
-		$artefatos_registrados = $artefato->qtd_max('artefatos')['count'];
-
-		// personagens do tipo jogador registrados
-		$personagem_jogador = new Personagens_Model();
-		$personagens_jogadores_registrados = $personagem_jogador->qtd_max('personagens', 'tipo = \'Personagem jogador\'')['count'];
-
-		// personagens do tipo monstros registrados
-		$personagem_monstro = new Personagens_Model();
-		$personagens_monstros_registrados = $personagem_monstro->qtd_max('personagens', 'tipo = \'Monstro\'')['count'];
-
-		// talentos registrados
-		$talento = new Talentos_Model();
-		$talentos_registrados = $talento->qtd_max('talentos')['count'];
-
-		// magias registradas
-		$magia = new Magias_Model();
-		$magias_registradas = $talento->qtd_max('magias')['count'];
-
-		// pericias registradas
-		$pericia = new Pericias_Model();
-		$pericias_registradas = $pericia->qtd_max('pericias')['count'];
-
-		// aventuras registradas
-		$aventura = new Aventuras_Model();
-		$aventuras_registradas = $aventura->qtd_max('aventuras')['count'];
-
-		// historias registradas
-		$historia = new Historias_Model();
-		$historias_registradas = $historia->qtd_max('historias')['count'];
-
-		// contos registrados
-		$conto = new Contos_Model();
-		$contos_registrados = $conto->qtd_max('contos')['count'];
-
-		// cronicas registradas
-		$cronica = new Cronicas_Model();
-		$cronicas_registradas = $cronica->qtd_max('cronicas')['count'];
-
-		// cenarios registrados
-		$cenario = new Cenarios_Model();
-		$cenarios_registrados = $cenario->qtd_max('cenarios')['count'];
-
-		// bestiarios registrados
-		$bestiario = new Bestiario_Model();
-		$bestiarios_registrados = $bestiario->qtd_max('bestiario')['count'];
+		$language = new Locale_Lib;
+		$usuario = (new Usuario_Model())->select('usuarios','*',['id','=',$_SESSION['id']])[0];
+		$time_ago = new Timeago_Helper;
+		$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
+		$cadastros = [
+						['nome'=>$language->MENU_ARMOR, 'link'=>URL_BASE . 'armaduras/'],
+						['nome'=>$language->MENU_ARTIFACTS, 'link'=>URL_BASE . 'artefatos/'],
+						['nome'=>$language->MENU_WEAPONS, 'link'=>URL_BASE . 'armas/'],
+						['nome'=>$language->MENU_SPELLS, 'link'=>URL_BASE . 'magias/'],
+						['nome'=>$language->MENU_TALENTS, 'link'=>URL_BASE . 'talentos/'],
+						['nome'=>$language->MENU_SKILLS, 'link'=>URL_BASE . 'pericias/'],
+						['nome'=>$language->MENU_STORIES, 'link'=>URL_BASE . 'historias/'],
+						['nome'=>$language->MENU_ADVENTURES, 'link'=>URL_BASE . 'aventuras/'],
+						['nome'=>$language->MENU_TALES, 'link'=>URL_BASE . 'contos/'],
+						['nome'=>$language->MENU_CHRONICLES, 'link'=>URL_BASE . 'cronicas/'],
+						['nome'=>$language->MENU_SCENARIO, 'link'=>URL_BASE . 'cenarios/'],
+						['nome'=>$language->MENU_BESTIARY, 'link'=>URL_BASE . 'bestiario/'],
+						['nome'=>$language->MENU_FILE_MONSTERS, 'link'=>URL_BASE . 'fichas_npc/'],
+						['nome'=>$language->MENU_FILE_NPC_CHARACTER, 'link'=>URL_BASE . 'fichas_jogador/']
+					];
 
 		require (new Render_Lib())->get_required_path('cadastros');
 	}		

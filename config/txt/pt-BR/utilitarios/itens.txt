@@ -1,7 +1,0 @@
-IMG**http://acad-arcana.weebly.com/uploads/8/0/2/6/8026723/1400358826.jpg
-TITLE**Itens
-DESCRIPTION**Neste gerador de itens você tem uma vasta opção de artefatos para sortear em sua aventura. Alista vai desde itens mundanos até itens mágicos poderosos ou estúpidos rsrs. Obs: A lista de itens mágicos estúpidos foi retirada de um blog que não me lembro o nome.
-LENGUAGE**Portugês Brasileiro
-SITE_NAME**Help RPG
-FONT**http://helprpg.com.br
-APP_LINK**itens

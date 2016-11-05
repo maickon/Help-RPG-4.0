@@ -1,0 +1,12 @@
+ERROR_FILE_NOT_FOUND::Arquivo de classe não pode ser encontrado.
+ERROR_NAME_NOT_FOUND::Nome não pode ser encontrado.
+ERROR_META_DESCRIPTION::Página de erro do Help RPG.
+ERROR_META_KEYWORDS::erro, error, página não encontrada
+ERROR_TITLE::Página de erro
+ERROR_404::404
+ERROR_MSG_PAGE_DONT_EXIST::Esta página não existe!
+ERROR_BTN_MSG::Voltar para a página principal.
+ERROR_BTN_GO_BACK::Voltar para a página anterior.
+ERROR_MSG_CODE_NONEXISTENT::Código de erro inexistente!
+ERROR_MSG_USER_DONT_SUBSCRIBE::Usuário não cadastrado.
+ERROR_MSG_UPDATE::Ocorreu um erro ao atualizar.

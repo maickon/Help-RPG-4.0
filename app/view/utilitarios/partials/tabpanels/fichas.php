@@ -1,7 +1,7 @@
 <div role="tabpanel" class="tab-pane fade" id="fichas">
     <br>
     <div class="row">
-    	<?php foreach ($fichas as $key => $value) { ?>
+    	<?php foreach ($utilitarios->fichas as $key => $value) { ?>
 	    	<div class="col-sm-2 col-md-2">
 	            <div class="thumbnail">
 	                <img src="<?php echo $value['IMG']; ?>" class="utilitarios-thumbnail" title="<?php echo $value['TITLE']; ?>">
@@ -23,7 +23,7 @@
 </div>
 
 <!-- Large Size -->
-<?php foreach ($fichas as $key => $value) { ?>
+<?php foreach ($utilitarios->fichas as $key => $value) { ?>
 	<div class="modal fade" id="fichas_<?php echo $key; ?>" tabindex="-1" role="dialog">
 	    <div class="modal-dialog modal-lg" role="document">
 	        <div class="modal-content">
@@ -38,8 +38,12 @@
 	            	<p><b>Fonte:</b><a href="<?php echo $value['FONT']; ?>"><?php echo $value['FONT']; ?></a></p>
 	            </div>
 	            <div class="modal-footer">
-	                <a href="<?php echo $value['FONT'].$value['APP_LINK']; ?>" class="btn btn-link waves-effect">VISITAR FERRAMENTA</a>
-	                <a href="#" class="btn btn-link waves-effect" data-dismiss="modal">FECHAR</a>
+	                <a href="<?php echo $value['FONT'].$value['APP_LINK']; ?>" target="blank" class="btn btn-link waves-effect">
+	                	<?php echo $language->UTILITIES_LABEL_BTN_ACCESS; ?>
+	                </a>
+	                <a href="#" class="btn btn-link waves-effect" data-dismiss="modal">
+	                	<?php echo $language->UTILITIES_LABEL_BTN_CLOSE; ?>
+	                </a>
 	            </div>
 	        </div>
 	    </div>

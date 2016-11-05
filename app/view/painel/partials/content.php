@@ -4,8 +4,8 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        <?php echo 'Bem vindo ao Help RPG' ?>
-                        <?php echo '<small>Compartilhe suas ideias, faça amigos e conheça nossos utilitários. </small>'; ?>
+                        <?php echo $language->PANEL_WELCOME; ?>
+                        <?php echo "<small>{$language->PANEL_MAIN_MSG}</small>"; ?>
                     </h2>
                     <ul class="header-dropdown m-r--5">
                         <li class="dropdown">
@@ -27,7 +27,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        Publicidade
+                        <?php echo $language->PANEL_ADVERTISING; ?>
                     </h2>
                 </div>
                 <div class="body">
@@ -43,7 +43,7 @@
                 <div class="card">
                     <div class="header">
                         <?php echo $value->titulo; ?>
-                    <div>
+                    </div>
                     <div class="body">
                         <p class="lead">
                             <?php echo $value->data_postagem; ?>
@@ -57,6 +57,5 @@
                 </div>
             <?php } ?>
         </div>
-
     </div>
 </section>

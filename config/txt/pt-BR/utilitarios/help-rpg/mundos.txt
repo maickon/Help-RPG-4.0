@@ -1,0 +1,7 @@
+IMG::http://files.eligium-deamon.webnode.com/200000005-d05a8d24e5/guia-do-jogo_mundo_galgaron.jpg
+TITLE::Mundos
+DESCRIPTION::Este gerador cria mapas mundi para simular planetas. Em seu menu o usuário pode manipular opçoes de projeção do mapa, paleta, porcentagem de água no mundo, porcentagem de gelo e entre outras coisas. Este mapa foi estraído originamente do site do donjon e traduzino.
+LENGUAGE::Portugês Brasileiro
+SITE_NAME::Help RPG
+FONT::http://helprpg.com.br
+APP_LINK::mundos

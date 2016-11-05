@@ -31,20 +31,20 @@ class Home_Helper{
 			];
 
 		$_MENU_URLS = [
-			HOME_URL, 
-			ROLL_DICE_URL, 
-			NAMES_URL, 
-			RANDOM_FILE_URL,
-			GENERATOR_ADVENTURE_URL,
-			TAVERN_URL,
-			GENERATOR_WORLDS_URL,
-			GENERATOR_DUNGEON_URL,
-			GENERATOR_PERSONALITIES_URL,
-			GENERATOR_CITIES_URL,
-			HIGHLIGHTER_URL,
-			GENERATOR_ITENS_URL,
-			GENERATOR_LUCK_URL,
-			GENERATOR_NAME_SWORD_URL
+			URL_BASE , 
+			URL_BASE . 'dados', 
+			URL_BASE . 'nomes', 
+			URL_BASE . 'fichas',
+			URL_BASE . 'geradorAventuras',
+			URL_BASE . 'tavernas',
+			URL_BASE . 'mundos',
+			URL_BASE . 'masmorras',
+			URL_BASE . 'personalidades',
+			URL_BASE . 'cidades',
+			URL_BASE . 'marcadores',
+			URL_BASE . 'itens',
+			URL_BASE . 'sorte',
+			URL_BASE . 'nomedeespadas'
 			];
 
 		for ($i=0; $i < count($_MENU_URLS); $i++) { 

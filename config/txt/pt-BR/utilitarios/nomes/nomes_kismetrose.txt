@@ -1,0 +1,7 @@
+IMG::http://www.dinamo.art.br/wordpress/wp-content/uploads/2014/12/tormenta-rpg-by-caiomm-d7cfcxz.jpg
+TITLE::Kismetrose  
+DESCRIPTION::Traz uma lista de nomes de A a Z. Caso deseje baixar os nomes, o site oferece uma lista de nomes em PDF com 29 páginas repletas de nomes de fantasia para você utilizar em sua aventura.
+LENGUAGE::Inglês
+SITE_NAME::Kismetrose
+FONT::http://www.kismetrose.com/
+APP_LINK::dnd/MyCharacterNameList.html

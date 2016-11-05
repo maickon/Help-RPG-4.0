@@ -1,0 +1,7 @@
+IMG::https://sites.google.com/site/curitibarpg/_/rsrc/1334205314145/vampiro-o-requiem/clas-requiem.JPG?height=308&width=400
+TITLE::Ficha de vampiro
+DESCRIPTION::Formulário de ficha online para o RPG Vampiro: o Réquiem.
+LENGUAGE::Portugês
+SITE_NAME::Lua Sombria
+FONT::http://www.luasombria.com.br/
+APP_LINK::ficha-requiem/

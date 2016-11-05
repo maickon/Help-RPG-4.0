@@ -1,0 +1,7 @@
+IMG::https://s-media-cache-ak0.pinimg.com/736x/ef/bd/ce/efbdce3ba7721cad18bfaeb6e2f97fde.jpg
+TITLE::Tavernas
+DESCRIPTION::Este gerador da suporte a estabelecimentos medievais como uma tarverna e a estabelecimentos mais conteporâneo como bares, restaurantes e botequim. Você seleciona um destes tipos e se espanta com o que pode aparecer rsrs.
+LENGUAGE::Portugês Brasileiro
+SITE_NAME::Help RPG
+FONT::http://helprpg.com.br
+APP_LINK::fichas

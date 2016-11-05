@@ -36,7 +36,7 @@ $tag->div(['class'=>'row']);
     $tag->div('class="checkbox"');
       $tag->label();
         $tag->input('type="checkbox" id="disable_mode_draw"');
-        $tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
+        $tag->printer($language->BUTTON_DISABLE_MODE_DRAW);
       $tag->label;
     $tag->div;
 

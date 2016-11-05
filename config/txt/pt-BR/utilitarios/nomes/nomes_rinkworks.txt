@@ -1,0 +1,7 @@
+IMG::http://rpg-escolamitica.weebly.com/uploads/1/0/5/2/10524112/194608985.jpg
+TITLE::Fantasy Rink Wworks
+DESCRIPTION::Este gerador de nomes é especializado na criação de nomes para personagens de fantasia. Você pode escolher o nome pelo tamanho ou estilo, nomes idiotas ou agressivos, ou inspirados em nomes Japoneses, Chineses, Gregos, Havaianos, Dragões, Pokemons, etc.
+LENGUAGE::Inglês
+SITE_NAME::RinK Works
+FONT::http://rinkworks.com/
+APP_LINK::namegen/

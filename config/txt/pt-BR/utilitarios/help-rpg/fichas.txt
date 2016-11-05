@@ -1,0 +1,7 @@
+IMG::http://www.rpgmusings.com/wp-content/uploads/2010/07/combat1.jpg
+TITLE::Fichas
+DESCRIPTION::Gerador de fichas para os mais diversos sistemas de RPG. O objetivo deste gerador é dar suporte aos RPGs mais jogados. É bem provavél que ainda não se tenha preenchido todos os sistemas de RPG. Este é o utilitário mais demorado e complexo de se desenvolver.
+LENGUAGE::Portugês Brasileiro
+SITE_NAME::Help RPG
+FONT::http://helprpg.com.br
+APP_LINK::fichas

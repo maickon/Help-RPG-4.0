@@ -1,7 +1,0 @@
-RECOVER_PASSWORD_META_DESCRIPTION :: password recovery page.
-RECOVER_PASSWORD_META_KEYWORDS :: Password Recovery, Recover account
-RECOVER_PASSWORD_TITLE :: Forgot Password
-RECOVER_PASSWORD_MAIL :: Email
-RECOVER_PASSWORD_MSG :: Enter your e-mail address you used to register. We will send an email with your username and password.
-RECOVER_PASSWORD_BTN :: RECOVER MY PASSWORD
-RECOVER_PASSWORD_SUBSCRIBE_LINK :: Create an account

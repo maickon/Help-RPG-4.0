@@ -1,0 +1,14 @@
+LOGIN_TITLE::Login- Help RPG
+LOGIN_META_DESCRIPTION::Help the RPG login page.
+LOGIN_META_KEYWORDS::Log, Log, Log
+LOGIN_MAIN_MSG::Log in to begin your session.
+LOGIN_ERROR_ACTIVE_ACOUNT::An error occured! Your account has not been activated.
+LOGIN_ERRO_HASH_DONT_FIND::Your activation code is invalid.
+LOGIN_MSG_ERROR::User or password is incorrect.
+LOGIN_USER::User
+LOGIN_MAIL::Email
+LOGIN_PASSWORD::Password
+LOGIN_REMEMBER_PASSWORD::Remember
+LOGIN_BTN_GET_IN::ENTER
+LOGIN_SUBSCRIBE::Create an account
+LOGIN_FORGET_PASSWORD::Forgot your password?

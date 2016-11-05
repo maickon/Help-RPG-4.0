@@ -1,0 +1,7 @@
+IMG::http://1.bp.blogspot.com/-GlPL4Xy_oro/T-nDU5_KPtI/AAAAAAAACS0/PqkF_At5dXE/s1600/Grom_Glowei.jpg
+TITLE::Orc The Land of Shadow
+DESCRIPTION::É um gerador simples, você apenas informa o seu nome e ele te retorna a versão em orc do seu nome. Óbviamente que você poderá colocar o nome que quiser e saber a versão orc do nome escolhido.
+LENGUAGE::Inglês
+SITE_NAME::The Land of Shadow
+FONT::http://www.thelandofshadow.com/
+APP_LINK::mordorgate/darkdownloads/blackspeech/orcname.htm

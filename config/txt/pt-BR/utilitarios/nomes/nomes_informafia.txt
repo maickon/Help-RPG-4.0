@@ -1,0 +1,7 @@
+IMG::http://vignette4.wikia.nocookie.net/zh.uncyclopedia/images/e/e7/PSM_fantasy_RPG_illo_by_AdamWarren.jpg/revision/latest?cb=20140306032606
+TITLE::Informafia
+DESCRIPTION::Gerador de Nomes V0.2.1 beta. Este é um gerador muito simples. Ele permite que você escolha o tamanho da palavra e gera apenas um único nome.
+LENGUAGE::Portugês
+SITE_NAME::Informafia
+FONT::http://informafia.com/
+APP_LINK::gera_nomes.php

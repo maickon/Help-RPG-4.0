@@ -1,0 +1,11 @@
+PANEL_NAME::Painel Help RPG
+PANEL_META_DESCRIPTION::Página de gerenciamento dos seus registros no Help RPG.
+PANEL_META_KEYWORDS::Cadastros, Amizades, RPG, Help RPG, Consultar RPG, Aprender RPG, Jogar RPG
+PANEL_TITLE::Help Rpg - Admin
+PANEL_WELCOME::Bem vindo ao Help RPG
+PANEL_MAIN_MSG::Compartilhe suas ideias, faça amigos e conheça nossos utilitários.
+PANEL_ADVERTISING::Publicidade
+PANEL_ARE_YOU_SURE_MSG::Você tem certeza que deseja apagar este registro?
+PANEL_EDIT_MSG::Dados editados com sucesso!
+PANEL_DELETE_MSG::Dados deletados com sucesso!
+PANEL_CREATE_MSG::Registro criado com sucesso!

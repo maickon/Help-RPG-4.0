@@ -6,6 +6,10 @@ class Amizades_Controller extends Controller_Lib{
 		parent::get_path();
 	}
 
+	function index(){
+		header('Location: ' . URL_BASE . 'amizades/listar');
+	}
+
 	function pedido($params = ''){
 		$erro_msg = 'Um erro acorreu. A amizade não pode ser concluida.';
 		if (is_array($params)) {

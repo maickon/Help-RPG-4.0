@@ -8,9 +8,9 @@
 	margin-right:20px;
 }
 
-a img.utilitarios-thumbnail{
-	width:200px;
-	height:100px;
+.utilitarios-thumbnail{
+	width:200px !important;
+	height:100px !important;
 }
 .scroll{
 	overflow: auto;

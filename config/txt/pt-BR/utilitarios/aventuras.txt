@@ -1,7 +1,0 @@
-IMG**http://photos4.meetupstatic.com/photos/event/3/9/4/6/600_275114662.jpeg
-TITLE**Aventuras
-DESCRIPTION**Gerador de aventuras que se divide por enquanto em três temas que são: Medieval, Star Wars e Apocalipse. Ele consiste em gerar seis características que juntas forma uma ideia para uma aventura. Estas características estão em volta de um objetivo, local, antagonista, coadjuvante, complicação e recompensa. Uma observação é que a ideia original deste gerador de aventuras pertence ao blog pontos de experiência. Eu apenas implementei a ideia que achei muito boa!
-LENGUAGE**Portugês Brasileiro
-SITE_NAME**Help RPG
-FONT**http://helprpg.com.br
-APP_LINK**geradoraventuras

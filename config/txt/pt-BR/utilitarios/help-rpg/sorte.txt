@@ -1,0 +1,7 @@
+IMG::https://i21.servimg.com/u/f21/16/01/24/48/olhosd10.jpg
+TITLE::Sorte
+DESCRIPTION::Um gerador de sorte ou azar, ele vai sortear algum evento que possa acontece com algum personagem. É evidente que isso vai depender do mestre. Mas talvez caia alguma coisa que deixe o joga mais interessante. Você escolhe uma pessoa conforme a descrição entre as opções e tenta a sorte rsrs. Assim como alguns outros utilitários, este foi baseado num post no blog pontos de experiência.
+LENGUAGE::Portugês Brasileiro
+SITE_NAME::Help RPG
+FONT::http://helprpg.com.br
+APP_LINK::sorte

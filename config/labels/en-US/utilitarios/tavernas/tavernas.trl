@@ -1,0 +1,31 @@
+TAVERN_UTILITIES::Generator taverns - utilities
+TAVERN_META_DESCRIPTION::Generator taverns - Help RPG.
+TAVERN_META_KEYWORDS::RPG taverns, saloons generator, random tavern, find taverna
+TAVERN_TYPE::taverna type
+TAVERN_MEDIEVAL::Medieval
+TAVERN_PUB_BAR::Bar
+TAVERN_RESTAURANT::Restaurant
+TAVERN_TAVERN::Botequim
+TAVERN_PUB::Pub
+TAVERN_SALOOM::Saloom
+TAVERN_HAS_LABEL::It features
+TAVERN_EXPERIENCE_LABEL::experience.
+TAVERN_YEARS_LABEL::years
+TAVERN_MONTHS_LABEL::months
+TAVERN_DAYS_LABEL::days
+TAVERN_NAME_TXT::Taverna
+TAVERN_IN_TXT::Inn of
+TAVERN_PERSONALITY_TITLE::personality appearance and other characteristics:
+TAVERN_APPEARANCE_TITLE::Appearance:
+TAVERN_SOME_DRINKS_TITLE::Drinks:
+TAVERN_PLATES_TITLE::dishes:
+TAVERN_PLAYING_TITLE::Playing
+TAVERN_AN_ATTRACTION_TITLE::An attraction
+TAVERN_DESSERT_TITLE::Desserts:
+TAVERN_SOME_FOOD_TITLE::Some things to eat available:
+TAVERN_SOME_FIGTH_OBJECTS_TITLE::In case of fight! learn what you can be close to you:
+TAVERN_GARCON_PERSONALITY_TITLE::personality aspect and other features of Waiters
+TAVERN_OWNER::Owner:
+TAVERN_RACE::Race:
+TAVERN_WITH::has
+TAVERN_YEARS::years.

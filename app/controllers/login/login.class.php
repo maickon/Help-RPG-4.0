@@ -30,9 +30,8 @@ class Login_Controller extends Controller_Lib{
 				$_SESSION['id'] = $usuario_login[0]->id;
 				$_SESSION['nome'] = $usuario_login[0]->nome;
 				$_SESSION['login'] = $usuario_login[0]->login;
-				$_SESSION['capa_link'] = $usuario_login[0]->capa_link;
-				$_SESSION['foto_link'] = $usuario_login[0]->foto_link;
 				$_SESSION['email'] = $usuario_login[0]->email;
+				$_SESSION['lingua'] = $usuario_login[0]->lingua;
 				header("Location: " .URL_BASE. "painel");
 			} else {
 				header("Location: " .URL_BASE. "login?erro=true");
@@ -40,7 +39,6 @@ class Login_Controller extends Controller_Lib{
 		} else {
 			header("Location: " .URL_BASE. "login");
 		}
-		print_r($_REQUEST);
 	}
 
 	function verificar($params = ''){

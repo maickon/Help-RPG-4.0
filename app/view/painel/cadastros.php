@@ -1,5 +1,4 @@
 <?php require 'partials/home_page.php'; ?>
-<?php require 'cadastros/cadastros_link.php'; ?>
 
     <section class="content">
 
@@ -12,11 +11,21 @@
             <div class="card">
                 <div class="row clearfix">
                     <div class="body">
-                        <?php foreach ($_CADASTROS as $key => $value) { ?>
+                        <?php foreach ($cadastros as $key => $value) { ?>
                             <div class="col-lg-3">
-                                <a href="<?php echo $_CADASTROS[$key][3]; ?>" data-sub-html="<?php echo $_CADASTROS[$key][2]; ?>">
-                                    <img class="img-responsive thumbnail" title="<?php echo $_CADASTROS[$key][1]; ?>" src="<?php echo $_CADASTROS[$key][0]; ?>">
-                                </a>
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <h6 class="center">
+                                            <?php echo $value['nome']; ?>
+                                        </h6>
+                                        <div class="center demo-google-material-icon">
+                                            <a href="<?php echo $value['link'];?>" target="blank">
+                                                <i class="material-icons">launch</i>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>  
+                                </div>
                             </div>
                         <?php } ?>
                     </div>

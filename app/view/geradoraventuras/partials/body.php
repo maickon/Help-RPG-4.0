@@ -1,8 +1,8 @@
 <?php
 $tipos_de_aventura = [
-		$language->ADVENTURE_TYPE_MEDIVEL => $language->ADVENTURE_MEDIVEL_LABEL,
+		$language->ADVENTURE_TYPE_MEDIEVAL => $language->ADVENTURE_MEDIEVAL_LABEL,
 		$language->ADVENTURE_TYPE_STAR_WAR => $language->ADVENTURE_STAR_WAR_LABEL,
-		$language->ADVENTURE_TYPE_APOCALIPSE => $language->ADVENTURE_TYPE_APOCALIPSE,
+		$language->ADVENTURE_TYPE_APOCALIPSE => $language->ADVENTURE_APOCALIPSE_LABEL,
 		];
 $tag->br();
 $tag->div(['class'=>'row']);
@@ -22,7 +22,7 @@ $tag->div(['class'=>'row']);
 	    $tag->div('class="checkbox"');
 	     	$tag->label();
 	       		$tag->input('type="checkbox" checked id="disable_mode_draw"');
-	        	$tag->printer($language->ADVENTURE_DISABLE_MODE_DRAW);
+	        	$tag->printer($language->BUTTON_DISABLE_MODE_DRAW);
 	      	$tag->label;
     	$tag->div;
 	$tag->div;

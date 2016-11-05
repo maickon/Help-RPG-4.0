@@ -1,0 +1,7 @@
+IMG::http://3.bp.blogspot.com/-YctOSjxXNZI/Vh642of2cxI/AAAAAAAACNA/dUp18jB1pPU/s1600/druida-banner-2-e1419276616954.jpg
+TITLE::Hero Lab
+DESCRIPTION::O premiado software de gerenciamento de caracteres para RPGs. Criar novos personagens (e recriar os antigos), gerenciar a evolução dos caracteres, fichas de personagens de impressão, e usar o seu laptop na mesa de jogo.
+LENGUAGE::Inglês
+SITE_NAME::PCGen
+FONT::http://www.wolflair.com/
+APP_LINK::index.php?context=hero_lab

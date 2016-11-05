@@ -1,0 +1,7 @@
+IMG::http://3.bp.blogspot.com/_RywfJ-555Rg/S7AVnp5OcMI/AAAAAAAAAfo/1xYZ5aBZQ78/s1600/Prison_set_sketches_by_godbo6.jpg
+TITLE::Masmorras
+DESCRIPTION::Com este gerador você conseguirá criar mapas para os mais diversos tipos de masmorras. A masmorra gerada já vem com um nome e você pode definir algumas características como o estilo do mapa, se tem grid ou não, o layout da sala, seu tamanho, a quantidade de portas, tipos de corredores e etc. São tantas opções que te permitem construir masmorras muito boas. Este utilitário foi extraído e traduzido do site do donjon.
+LENGUAGE::Portugês Brasileiro
+SITE_NAME::Help RPG
+FONT::http://helprpg.com.br
+APP_LINK::masmorras

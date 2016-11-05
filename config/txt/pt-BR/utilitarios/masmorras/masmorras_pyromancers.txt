@@ -1,0 +1,7 @@
+IMG::http://i20.photobucket.com/albums/b230/cleareyes_/Others/Scenes/masmorras02.jpg
+TITLE::Criador de masmorras
+DESCRIPTION::Com este gerador você poderá desenhar masmorras, salas, cidades, tavernas do jeito que você desejar. é um utilitário muito interessante, ele te oferece diversas texturas de chão e objetos. Pelo que pude observar você vai conseguir criar masmorras, campos abertos ou salas específicas de acordo com a sua necessidade. 
+LENGUAGE::Inglês
+SITE_NAME::Pyromancers
+FONT::http://pyromancers.com/
+APP_LINK::dungeon-painter-online/

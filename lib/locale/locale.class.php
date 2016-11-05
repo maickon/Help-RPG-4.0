@@ -4,6 +4,9 @@ class Locale_Lib{
 
   function __construct($dir = 'pt_BR', $separetor = '::'){
     $path = URL_BASE_INTERNAL . 'config/labels/';
+    if (isset($_SESSION['lingua']))
+      $dir = $_SESSION['lingua'];
+    
     $this->set_language("{$path}{$dir}/", $separetor);
   }
 
@@ -22,7 +25,7 @@ class Locale_Lib{
             $h = fopen("{$dir}{$value}/{$f_value}",'r');
             while ($line = fgets($h)) {
               $label = explode($separetor, $line);
-              $attr = ltrim($label[0]);
+              $attr = ltrim($label[0],' ');
               $this->$attr = $label[1]; 
             }
           } else if (is_dir("{$dir}{$value}/{$f_value}/")){
@@ -34,7 +37,7 @@ class Locale_Lib{
                 while($line = fgets($h)){
                   $label = explode($separetor, $line);
                   // echo "{$label[0]}:{$label[1]}<br>";
-                  $attr = ltrim($label[0]);
+                  $attr = ltrim($label[0], ' ');
                   $this->$attr = $label[1]; 
               }
             }
@@ -70,5 +73,12 @@ class Locale_Lib{
       // mkdir($value);
       $this->copiaDir('pt_BR/', $value);
     }
+  }
+
+  function show(){
+    echo '<pre>';
+    print_r($this);
+    echo '</pre>';
+    exit();
   }
 }

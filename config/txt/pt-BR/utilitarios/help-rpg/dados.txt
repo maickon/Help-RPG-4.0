@@ -1,0 +1,7 @@
+IMG::http://www.mundofreak.com.br/wp-content/uploads/2015/07/Mundo-Freak-RPG-1060x450.jpg
+TITLE::Dados
+DESCRIPTION::Este rolador de dados lhe permite rolar os principais dados de RPG utilizados em aventuras. Você pode escolher rolar mais de um dado e ver os resultados juntos. Além disso falhas críticas tem cor avermelhada enquanto sucessos críticos tem cores verdes. Após rolar diversos dados, basta clicar no botão "ver total" para visualizar o total rolado.
+LENGUAGE::Portugês Brasileiro
+SITE_NAME::Help RPG
+FONT::http://helprpg.com.br
+APP_LINK::dados

@@ -1,0 +1,7 @@
+IMG::http://s.glbimg.com/po/tt/f/original/2013/04/26/soul-sacrifice-vita.jpg
+TITLE::Seventh Sanctum
+DESCRIPTION::Gerador de nomes com nomes para: Elfos negros, nomes malignos, goblins, barcos de piratas e vampiros.
+LENGUAGE::Inglês
+SITE_NAME::Seventh Sanctum
+FONT::http://www.seventhsanctum.com/
+APP_LINK::generate.php?Genname=lcnamer

@@ -1,9 +1,14 @@
 <?php
 require "url/url.php";
 
+session_start();
+if (empty($_SESSION['lingua'])) {
+	$_SESSION['lingua'] = 'pt-BR';
+}
+
 define('URL_BASE_INTERNAL_DB', URL_BASE_INTERNAL . 'config/db/db.php');
 define('URL_BASE_INTERNAL_MAIL', URL_BASE_INTERNAL . 'config/mail/mail.php');
-define('URL_BASE_INTERNAL_LABELS', URL_BASE_INTERNAL . 'config/labels/pt-br/labels.php');
+define('URL_BASE_INTERNAL_LABELS', URL_BASE_INTERNAL . 'config/labels/'.$_SESSION['lingua'].'/labels.php');
 define('URL_BASE_INTERNAL_CONTROLLER', URL_BASE_INTERNAL . '/app/controllers/');
 define('URL_BASE_INTERNAL_MODEL', URL_BASE_INTERNAL . '/app/models/');
 define('URL_BASE_INTERNAL_LIB', URL_BASE_INTERNAL . '/lib/');

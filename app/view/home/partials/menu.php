@@ -16,12 +16,13 @@ $tag->div('class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-sec
             $tag->ul('class="nav navbar-nav navbar-right"');
             
             $menu = [
-                        ['#'.strtolower($language->MENU_HOME),          $language->MENU_HOME],
-                        ['#'.strtolower($language->MENU_RECORDS),       $language->MENU_RECORDS],
-                        ['#'.strtolower($language->MENU_CONTACT),       $language->MENU_CONTACT],
-                        [URL_BASE.strtolower($language->MENU_LOGIN),    $language->MENU_LOGIN],
-                        [strtolower(WORDPRESS_URL),                     $language->MENU_BLOG],
-                        [strtolower(YOU_TUBE_URL),                      $language->MENU_YOUTUBE]
+                        ['#home',           $language->MENU_HOME],
+                        ['#registros',      $language->MENU_RECORDS],
+                        ['#contato',        $language->MENU_CONTACT],
+                        [URL_BASE.'login',  $language->MENU_LOGIN],
+                        [WORDPRESS_URL,     $language->MENU_BLOG],
+                        [YOU_TUBE_URL,      $language->MENU_YOUTUBE],
+                        [URL_BASE.'idioma', $language->MENU_LANGUAGE]
                     ];    
             foreach ($menu as $key => $value) {
                 $tag->li();
@@ -36,7 +37,6 @@ $tag->div('class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-sec
                     }
                 $tag->li;
             }
-         
             $tag->ul;
         $tag->div;
     $tag->div;

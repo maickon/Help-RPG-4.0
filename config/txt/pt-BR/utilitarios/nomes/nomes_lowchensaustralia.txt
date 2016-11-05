@@ -1,0 +1,7 @@
+IMG::http://1.bp.blogspot.com/-uhBWXOdH8Gk/TzKWglqWN9I/AAAAAAAABHE/fkxfcsIdNyM/s1600/fairies.jpg
+TITLE::Fantasy Land 
+DESCRIPTION::Cara! Este site é um universo de nomes! Tem muita coisa nele. Se você gosta de ficar folheando páginas e páginas para olhar nomes, significados e suas histórias. Aqui você vai encontrar tudo isso.
+LENGUAGE::Inglês
+SITE_NAME::Fantasy Land
+FONT::http://www.lowchensaustralia.com/
+APP_LINK::names/fantasylinks.htm

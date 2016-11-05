@@ -1,0 +1,7 @@
+IMG::http://1.bp.blogspot.com/-w_hWb1NlC3k/UGnyWsfME5I/AAAAAAAAT1o/KWvDpgjO3fo/s1600/p00abertura.jpeg
+TITLE::Cidades
+DESCRIPTION::O gerador de cidades pode simular uma cidade prontinha com apenas uns cliques. O modelo adotado para a geração da cidade foi baseado no livro de Dungeons and Dragons.
+LENGUAGE::Portugês Brasileiro
+SITE_NAME::Help RPG
+FONT::http://helprpg.com.br
+APP_LINK::cidades

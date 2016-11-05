@@ -1,0 +1,7 @@
+IMG::http://3.bp.blogspot.com/-cDl9SVwkSaQ/UYpA8twvgVI/AAAAAAAAUXM/1U9JvlXVJd8/s640/tormenta+rpg.jpg
+TITLE::Behind The Name
+DESCRIPTION::Este gerador permite escolher uma categoria para o nome a ser gerado, esta categoria está relacionada com algum lugar do mundo. Você pode escolher nomes compostos e o mais interessante é que quando você gera um nome, tem como saber a sua origem e onde é utilizado.
+LENGUAGE::Inglês
+SITE_NAME::Behind The Name
+FONT::http://www.behindthename.com/
+APP_LINK::random/

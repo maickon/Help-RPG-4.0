@@ -1,0 +1,7 @@
+IMG::http://2.bp.blogspot.com/-oZmDOPEiGe4/UqjOL_zvJaI/AAAAAAAAGoY/lRGBQHBZN2E/s1600/masmorra+a.jpg
+TITLE::Dungeon Generator D&D 3.5
+DESCRIPTION::Gerador de masmorras do famoso site Donjon. Este gerador é completo, pois ele traz inúmeras características como os detalhes descritivos de certos corredores, armadilhas, monstros e etc. São muitos detalhes que este gerador traz.
+LENGUAGE::Inglês
+SITE_NAME::donjon
+FONT::http://donjon.bin.sh/
+APP_LINK::/d20/dungeon/

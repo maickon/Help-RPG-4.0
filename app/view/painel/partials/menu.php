@@ -8,7 +8,7 @@
             </a>
         </li>
         <li>
-            <a href="<?php echo URL_BASE.'painel/amigos'; ?>">
+            <a href="<?php echo URL_BASE.'amizades/listar'; ?>">
                 <i class="material-icons">people</i>
                 <span>Amigos</span>
             </a>
@@ -26,7 +26,7 @@
             </a>
         </li> -->
         <li>
-            <a href="<?php echo URL_BASE.'painel/utilitarios'; ?>">
+            <a href="<?php echo URL_BASE.'utilitarios'; ?>">
                 <i class="material-icons">widgets</i>
                 <span>Utilitários</span>
             </a>

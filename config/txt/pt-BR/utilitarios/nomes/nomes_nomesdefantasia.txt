@@ -1,0 +1,7 @@
+IMG::https://1.bp.blogspot.com/-FXvTHiQr3ZY/VvrzI51-eTI/AAAAAAAA4IQ/sqaK0Sl8kKclJD_92ucc3omFIaxOsmTzw/s1600/The%2BOakvale%2BTavern.jpg
+TITLE::Nomes de Fantasia
+DESCRIPTION::Este gerador traz nomes que podem ser curtos, médios e longos. A quantidade de nome exibida é limitada.
+LENGUAGE::Português, Inglês, Espanhol e Francês
+SITE_NAME::Nomes de Fantasia
+FONT::http://www.nomesdefantasia.com/
+APP_LINK::

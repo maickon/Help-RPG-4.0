@@ -1,0 +1,7 @@
+IMG::https://s-media-cache-ak0.pinimg.com/564x/6a/65/b8/6a65b8edddf4be486bd950ff6672b5f7.jpg
+TITLE::RPG Character Generator
+DESCRIPTION::PCGen ajuda a construir personagens para jogos de RPG como Pathfinder e D&D.
+LENGUAGE::Inglês
+SITE_NAME::PCGen
+FONT::http://pcgen.org/
+APP_LINK::

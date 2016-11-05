@@ -1,9 +1,6 @@
 <?php
 
 require 'base/base.php';
-require 'modulos/modulos.php';
-require 'utilitarios/utilitarios.php';
-require 'views/views.php';
 require 'social/social.php';
 require 'txt/aventuras/aventuras.php';
 require 'txt/tavernas/tavernas.php';

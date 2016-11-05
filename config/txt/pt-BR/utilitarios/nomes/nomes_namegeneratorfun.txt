@@ -1,0 +1,7 @@
+IMG::http://i39.tinypic.com/9hugpe.png
+TITLE::Fairy Name Generator Fun
+DESCRIPTION::Você pode gerar um nome de fada de duas formas. Uma é informando um nome na qual ele o retornará com relativo para fada ou você pode gerar um aleatóriamente. Quando o nome é gerado vem de brinde uma descrição sobre o personagem que vai receber o nome.
+LENGUAGE::Inglês
+SITE_NAME::Name Generator Fun
+FONT::http://fairy.namegeneratorfun.com/
+APP_LINK::

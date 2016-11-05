@@ -1,0 +1,8 @@
+ARMOR_HEAVY::Heavy Armor
+ARMOR_MEDIA::Average Armor
+ARMOR_LIGHT::Light Armor
+ARMOR_SIMPLE Armor::Simple
+ARMOR_HEAVY_MAGIC::Heavy Armor Magic
+ARMOR_MEDIA_MAGIC::Magic Armor Average
+ARMOR_LIGHT_MAGIC::Magic Light Armor
+ARMOR_SIMPLE_MAGIC::Armor Simple Magic

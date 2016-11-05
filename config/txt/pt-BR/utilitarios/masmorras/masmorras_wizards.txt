@@ -1,0 +1,7 @@
+IMG::http://www.rolando20.com.br/wp-content/uploads/2009/11/traps.jpg
+TITLE::Dungeon Generator D&D v.3.5
+DESCRIPTION::Gerador de masmorras da Wizards.
+LENGUAGE::Inglês
+SITE_NAME::Wizards
+FONT::http://www.wizards.com/
+APP_LINK::dnd/mapper/launcher.htm

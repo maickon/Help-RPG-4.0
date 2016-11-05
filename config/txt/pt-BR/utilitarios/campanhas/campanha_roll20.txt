@@ -1,0 +1,7 @@
+IMG::http://www.rolando20.com.br/wp-content/uploads/2013/09/130924_foc_pathfinder_ddnext.jpg
+TITLE::Roll20
+DESCRIPTION::Roll20 é uma nova mesa virtual que é incrivelmente fácil de usar, e é executado on-line, direto no seu navegador web.
+LENGUAGE::Inglês
+SITE_NAME::Roll20
+FONT::https://app.roll20.net
+APP_LINK::

@@ -4,8 +4,8 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        UTILITÁRIOS
-                        <small>Aqui você encontra os utilitários do Help RPG e o de terceiros.</small>
+                        <?php echo $language->UTILITIES_NAME; ?>
+                        <small><?php echo $language->UTILITIES_MAIN_MSG; ?></small>
                     </h2>
                     <ul class="header-dropdown m-r--5">
                         <li class="dropdown">
@@ -13,9 +13,9 @@
                                 <i class="material-icons">more_vert</i>
                             </a>
                             <ul class="dropdown-menu pull-right">
-                                <li><a href="<?php echo URL_BASE; ?>" class=" waves-effect waves-block">Home</a></li>
-                                <li><a href="<?php echo URL_BASE.'login/'; ?>" class=" waves-effect waves-block">Login</a></li>
-                                <li><a href="<?php echo URL_BASE.'inscreverse'; ?>" class=" waves-effect waves-block">Criar uma conta</a></li>
+                                <li><a href="<?php echo URL_BASE; ?>" class=" waves-effect waves-block"><?php echo $language->MENU_HOME; ?></a></li>
+                                <li><a href="<?php echo URL_BASE.'login/'; ?>" class=" waves-effect waves-block"><?php echo $language->MENU_LOGIN; ?></a></li>
+                                <li><a href="<?php echo URL_BASE.'inscreverse'; ?>" class=" waves-effect waves-block"><?php echo $language->RECOVER_PASSWORD_SUBSCRIBE_LINK; ?></a></li>
                             </ul>
                         </li>
                     </ul>

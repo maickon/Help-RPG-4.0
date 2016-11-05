@@ -33,6 +33,16 @@ class HelperRecord_Lib{
         endif;
     }
     
+    public function set_attr_class($class, $table){
+        $s = $this->conn->prepare("SELECT * FROM {$table} LIMIT 1");
+        if($s->execute()):
+            $attr = $s->fetchAll(PDO::FETCH_OBJ); 
+            foreach ($attr[0] as $key => $value) {
+                $class->$key = '';
+            }
+        endif;
+    }
+
     public function getConn(){
         return $this->conn;
     }
@@ -198,20 +208,12 @@ class HelperRecord_Lib{
         Retorna um registro que tenha o maior ID na tabela
     */
     protected function __maxId($table){
-        $s = $this->conn->prepare("SELECT MAX(Id) FROM {$table}");
-    
+        $s = $this->conn->prepare("SELECT * FROM {$table} WHERE id = (SELECT MAX(Id) FROM {$table})");
         if($s->execute()):
             $message = "{$this->now} => ID máximo na <b>{$table}</b> retornada com sucesso!";
             $message .= "<br>Instruçãosql:<b>{$s->queryString}</b>\n";
             $this->logRegister($message);
-            $maxIdData = $s->fetchAll(PDO::FETCH_OBJ);  
-            $s2 = $this->conn->prepare("SELECT * FROM {$table} WHERE id = {$maxIdData[0]['MAX(Id)']}");
-            if($s2->execute()):
-                $message2 = "{$this->now} => Dados na tabela <b>{$table}</b> retornados com sucesso!";
-                $message2 .= "<br>Instrução sql:<b>{$s2->queryString}</b>\n";
-                $this->logRegister($message2); 
-                return $s2->fetchAll(PDO::FETCH_OBJ);  
-            endif;
+            return $s->fetchAll(PDO::FETCH_OBJ); 
         else:
             $message = "Um erro ocorreu. ID máximo na <b>{$table}</b> não pode ser retornada.<br>";
             $message .= "$this->conn->errorInfo()[2]";
