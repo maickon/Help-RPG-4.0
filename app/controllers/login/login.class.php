@@ -7,7 +7,7 @@ class Login_Controller extends Controller_Lib{
 	}
 
 	function index(){
-		session_start();
+		@session_start();
 		if (isset($_SESSION['id']) and isset($_SESSION['nome']) and isset($_SESSION['login']))
 			header('Location: ' . URL_BASE . 'painel');
 

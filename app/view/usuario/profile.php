@@ -13,12 +13,12 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                 $tag->printer($usuario->login);
                             $tag->span;
                             $tag->span('class="font-bold col-orange"');
-                                $tag->printer('Nível ');
+                                $tag->printer($language->USER_LABEL_LEVEL);
                                 $tag->printer($usuario->nivel);
                             $tag->span;
                             $tag->span('class="font-bold col-teal"');
                                 $tag->printer($usuario->xp);
-                                $tag->printer('Xp ');
+                                $tag->printer($language->USER_LABEL_XP);
                             $tag->span;
                         $tag->h2;
                         if ($usuario->id == $_SESSION['id']) {
@@ -32,17 +32,17 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                     $tag->ul('class="dropdown-menu pull-right"');
                                         $tag->li();
                                             $tag->a('href="'.URL_BASE.'usuario/editar" class="waves-effect waves-block"');
-                                                $tag->printer('Editar');
+                                                $tag->printer($language->USER_LABEL_EDIT);
                                             $tag->a;
                                         $tag->li;
                                         $tag->li();
                                             $tag->a('href="#" class="waves-effect waves-block"');
-                                                $tag->printer('Alterar Senha');
+                                                $tag->printer($language->USER_LABEL_CHANGE_PASSWORD);
                                             $tag->a;
                                         $tag->li;
                                         $tag->li();
                                             $tag->a('href="#" class="waves-effect waves-block"');
-                                                $tag->printer('Deletar Conta');
+                                                $tag->printer($language->USER_LABEL_DELETE_ACOUNT);
                                             $tag->a;
                                         $tag->li;
                                     $tag->ul;
@@ -55,24 +55,24 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                         if (count($amizade) != 0) {
                                             if (($amizade[0]->status == 'aprovacao') and ($amizade[0]->de == $_SESSION['id'])) {
                                                 $tag->button('type="button" id="fazer_amizade" title="Aguardando resposta." class="btn btn-default waves-effect"'); 
-                                                    $tag->printer('Aguardando resposta...'); 
+                                                    $tag->printer($language->USER_LABEL_DELETE_WAITING_FOR_ANSWERS); 
                                                 $tag->button;
                                             } elseif ($amizade[0]->status == 'aprovado') {
                                                  $tag->button('type="button" id="fazer_amizade" class="btn btn-default waves-effect"'); 
-                                                    $tag->printer('Ele é seu amigo'); 
+                                                    $tag->printer($language->USER_LABEL_HE_IS_YOUR_FRIEND); 
                                                 $tag->button;
                                             } elseif (($amizade[0]->status == 'aprovacao') and ($amizade[0]->para == $_SESSION['id'])) {
                                                 $tag->button('type="button" id="aceitar_amizade" onclick="aceitar_amizade('.$usuario->id.','.$_SESSION['id'].');" title="Aceitar o pedido de amizade." class="btn btn-default waves-effect"'); 
-                                                    $tag->printer('Aceitar pedido de amizade'); 
+                                                    $tag->printer($language->USER_LABEL_ACEPT_FRIEND_REQUEST); 
                                                 $tag->button;
                                             } else {
                                                 $tag->button('type="button" id="fazer_amizade" onclick="fazer_amizade('.$_SESSION['id'].','.$usuario->id.');" title="Fazer pedido de amizade." class="btn btn-default waves-effect"'); 
-                                                    $tag->printer('Fazer pedido de amizade'); 
+                                                    $tag->printer($language->USER_LABEL_DOING_FRIEND_REQUEST); 
                                                 $tag->button;
                                             }
                                         } else {
                                             $tag->button('type="button" id="fazer_amizade" onclick="fazer_amizade('.$_SESSION['id'].','.$usuario->id.');" title="Fazer pedido de amizade." class="btn btn-default waves-effect"'); 
-                                                $tag->printer('Fazer pedido de amizade'); 
+                                                $tag->printer($language->USER_LABEL_DOING_FRIEND_REQUEST); 
                                             $tag->button;
                                         }
                                         $tag->button('type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"');
@@ -84,17 +84,17 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                         $tag->ul('class="dropdown-menu" id="dropdown-menu-amizade"');
                                             $tag->li();
                                                 $tag->a('href="javascript:void(0);" class=" waves-effect waves-block"'); 
-                                                    $tag->printer('Ver atividades'); 
+                                                    $tag->printer($language->USER_LABEL_LOOK_ACTIVE); 
                                                 $tag->a; 
                                             $tag->li;
                                             $tag->li();
                                                 $tag->a('href="javascript:void(0);" class=" waves-effect waves-block"');
-                                                    $tag->printer('Ver últimas postagens'); 
+                                                    $tag->printer($language->USER_LABEL_LOOK_LAST_POSTS); 
                                                 $tag->a; 
                                             $tag->li;
                                             $tag->li();
                                                 $tag->a('href="#" class=" waves-effect waves-block"'); 
-                                                    $tag->printer('Comparar status'); 
+                                                    $tag->printer($language->USER_LABEL_COMPARE_STATUS); 
                                                 $tag->a; 
                                             $tag->li;
                                             if (count($amizade) != 0) {
@@ -103,7 +103,7 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                                     $tag->li;
                                                     $tag->li('class="desfazer"');
                                                         $tag->a('href="#" onclick="desfazer_amizade('.$_SESSION['id'].','.$usuario->id.');" title="Desfazer pedido de amizade." class="waves-effect waves-block"'); 
-                                                            $tag->printer('Desfazer amizade'); 
+                                                            $tag->printer($language->USER_LABEL_UNDO_FRIENDSHIP); 
                                                         $tag->a; 
                                                     $tag->li;
                                                 }
@@ -313,7 +313,7 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                                 $tag->h2('class="card-inside-title"');
                                     $tag->printer('<span class="font-bold">É mestre e tem experiência?</span>');
                                 $tag->h2;
-                                $resposta = [''=>'','s'=>USUARIO_LABEL_SIM,'n'=>USUARIO_LABEL_NAO];
+                                $resposta = [''=>'','s'=>$language->USER_LABEL_YES,'n'=>$language->USER_LABEL_NO];
                                 $tag->p('class="font-18"');
                                     $tag->printer($resposta[$usuario->e_mestre]);
                                 $tag->p;

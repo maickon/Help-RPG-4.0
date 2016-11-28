@@ -7,10 +7,11 @@ ARMOR_MEDIA_MAGIC::Armadura Mágica Média
 ARMOR_LIGHT_MAGIC::Armadura Mágica Leve
 ARMOR_SIMPLE_MAGIC::Armadura Mágica Simples
 ARMOR_BTN_NEW_ARMOR::NOVA ARMADURA
+ARMOR_BTN_EDIT_ARMOR::EDITAR ARMADURA
 ARMOR_ID::ID
 ARMOR_NAME::Nome
 ARMOR_OWNER::Dono
-ARMOR_ACTION::Ação MUITO LONFGA
+ARMOR_ACTION::Ação
 ARMOR_SUBSCRIBE_BY::Cadastrado por
 ARMOR_RPG_SYSTEM::Sistema de RPG
 ARMOR_CATEGORY::Categoria
@@ -18,3 +19,6 @@ ARMOR_DESCRIPTION::Descrição
 ARMOR_NAME_LABEL::Nome
 ARMOR_NAME_PLACEHOLDER::Nome da armadura
 ARMOR_BTN_BACK_TITLE::Voltar
+ARMOR_SECCESS_MSG::Armadura cadastrada com sucesso.
+ARMOR_DELETE_MSG::Armadura deleta com sucesso.
+ARMOR_UPDATE_MSG::Armadura atualizada com sucesso.

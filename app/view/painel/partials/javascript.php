@@ -1,6 +1,7 @@
 
 <?php 
 	$_JS = [$painel->url->painel_js_path . '/plugins/jquery/jquery.min.js',
+			$painel->url->painel_js_path . '/plugins/rateYo/rateYo.js',
 			$painel->url->painel_js_path . '/plugins/bootstrap/js/bootstrap.js',
 			$painel->url->painel_js_path . '/plugins/bootstrap-select/js/bootstrap-select.js',
 			$painel->url->painel_js_path . '/plugins/jquery-slimscroll/jquery.slimscroll.js',

@@ -26,6 +26,7 @@
             $painel->url->painel_css_path . '/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css',
             $painel->url->painel_css_path . '/plugins/bootstrap-select/css/bootstrap-select.css',
             $painel->url->painel_css_path . '/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css',
+            $painel->url->painel_css_path . '/plugins/rateYo/rateYo.css',
             $painel->url->painel_css_path . '/style.css', 
             $painel->url->painel_css_path . '/themes/all-themes.css',
             $painel->url->index_css_path 

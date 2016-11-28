@@ -113,3 +113,13 @@ function getRandomData() {
 
     return res;
 }
+
+//show profile
+
+function display_profile(){
+    $("#display_profile_box").show();
+}
+
+function hide_profile(){
+    $("#display_profile_box").hide();
+}

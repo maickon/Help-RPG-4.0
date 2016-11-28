@@ -2,6 +2,7 @@
 
 $_JS = [	
 			$painel->url->painel_js_path . '/plugins/jquery/jquery.min.js',
+			$painel->url->painel_js_path . '/plugins/rateYo/rateYo.js',
 			$painel->url->painel_js_path . '/plugins/bootstrap/js/bootstrap.js',
 			$painel->url->painel_js_path . '/plugins/bootstrap-select/js/bootstrap-select.js',
 			$painel->url->painel_js_path . '/plugins/jquery-slimscroll/jquery.slimscroll.js',
@@ -24,6 +25,7 @@ $_JS = [
 			$painel->url->painel_js_path . '/plugins/tables/jquery-datatable.js',
 			$painel->url->painel_js_path . '/editors.js',
 			$painel->url->painel_js_path . '/demo.js',
+			$painel->url->painel_js_path . '/index.js',
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

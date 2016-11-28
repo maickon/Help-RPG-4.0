@@ -1,21 +1,76 @@
+
 <?php
-class Armas_Controller extends DbPersistence_Controller{
-	private $attr;
-	
-	function __construct($path = '', $warning_msg = 'Já existe uma arma com este nome!'){
-		parent::__construct(strtolower(get_class($this)), $path, $warning_msg);
+	// Help RPG 2016
+	// @author Maickon Rangel
+	// Classe de controle gerada no automatico
+
+	class Armas_Controller extends Controller_Lib { 	
+		function __construct(){
+			parent::get_path();	
+		}
+
+		function index(){
+			@session_start();
+			if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login']))
+			    header("Location: " . URL_BASE);
+
+			$language = new Locale_Lib;
+			$tag = new Tags_Lib;
+			$form = new Form_Lib;
+			$painel = new Painel_Model;
+			$usuario = (new Usuario_Model())->select('usuarios','*',['id','=',$_SESSION['id']])[0];
+			$time_ago = new Timeago_Helper;
+			$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
+			
+			$armas = new Armas_Model;
+			require (new Render_Lib())->get_required_path();
+		}
+
+		function novo(){
+			@session_start();
+			if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login']))
+			    header("Location: " . URL_BASE);
+
+			$language = new Locale_Lib;
+			$tag = new Tags_Lib;
+			$form = new Form_Lib;
+			$painel = new Painel_Model;
+			$usuario = (new Usuario_Model())->select('usuarios','*',['id','=',$_SESSION['id']])[0];
+			$time_ago = new Timeago_Helper;
+			$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
+			
+			require (new Render_Lib('novo'))->get_required_path();
+		} 
+
+		function salvar(){
+			$language = new Locale_Lib;
+		}
+
+		function visualizar($params=''){
+			@session_start();
+			$comments = new Disqus_Helper;
+			if ($params == '' || !is_numeric($params)) {
+				header('Location:' . URL_BASE. 'armas');
+			}
+
+			$language = new Locale_Lib;
+			$tag = new Tags_Lib;
+			$painel = new Painel_Model;
+
+			require (new Render_Lib('visualizar'))->get_required_path();
+		}
+
+		function editar($params){
+			@session_start();
+			if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login']))
+			    header('Location:' . URL_BASE);
+		}
+
+		function atualizar(){
+
+		}
+
+		function error(){
+			header('Location: ' . URL_BASE . 'erro/codigo/404');
+		}
 	}
-	
-	function __set($attr_name, $attr_value){
-	
-		$this->attr["{$attr_name}"] = $attr_value;
-	}
-	
-	function __get($attr){
-		return $this->attr["{$attr}"];
-	}
-	
-	function getTable(){
-		return $this->table;
-	}
-}

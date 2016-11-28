@@ -15,6 +15,7 @@ class Usuario_Controller extends Controller_Lib{
 	}
 
 	function profile($id = ''){
+		$language = new Locale_Lib;
 		session_start();
 		if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login']))
 		    header("Location: " . URL_BASE);
@@ -101,6 +102,7 @@ class Usuario_Controller extends Controller_Lib{
 	}
 
 	function editar(){
+		$language = new Locale_Lib;
 		session_start();
 		if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login']))
 		    header("Location: " . URL_BASE);
@@ -116,6 +118,7 @@ class Usuario_Controller extends Controller_Lib{
 	}
 
 	function salvar(){
+		$language = new Locale_Lib;
 		$usuario = new Usuario_Model();
 		$usuario_check = $usuario->select('usuarios', ['email'], ['email','=',$_REQUEST['email']]);
 		if (array_key_exists(0, $usuario_check)) {
@@ -141,25 +144,25 @@ class Usuario_Controller extends Controller_Lib{
 					$mail->Password 	= MAIL_PASSWORD;
 
 					//Define o remetente  
-					$mail->SetFrom(MAIL_MAIN_EMAIL, SITE_NAME); 
-					$mail->AddReplyTo(MAIL_MAIN_EMAIL, SITE_NAME);
-					$mail->Subject 	= USUARIO_MSG_SUCESSO;//Assunto do e-mail
+					$mail->SetFrom(MAIL_MAIN_EMAIL, $language->MAIL_MSG_SITE_NAME); 
+					$mail->AddReplyTo(MAIL_MAIN_EMAIL, $language->MAIL_MSG_SITE_NAME);
+					$mail->Subject 	= $language->MAIL_MSG_SUCCESS;//Assunto do e-mail
 
 					//Define os destinatário(s)
 					$mail->AddAddress($_REQUEST['email'], $_REQUEST['login']);
 
 					//Define o corpo do email
 					$mail->MsgHTML('
-					<h1>'.USUARIO_MSG_BOAS_VINDAS.'</h1>
-					<p>'.USUARIO_MSG_DE_ORIENTACAO_2.'</p> 
-					<p><b>'.USUARIO_MSG_SENHA.'</b>: '.$_REQUEST['senha'].'</p>
-					<p><b>'.USUARIO_MSG_EMAIL.'</b>: '.$_REQUEST['email'].'</p>
+					<h1>'.$language->MAIL_MSG_WELLCOME.'</h1>
+					<p>'.$language->MAIL_MSG_ORIENTATION_1.'</p> 
+					<p><b>'.$language->MAIL_MSG_PASSWORD.'</b>: '.$_REQUEST['senha'].'</p>
+					<p><b>'.$language->MAIL_MSG_MAIL.'</b>: '.$_REQUEST['email'].'</p>
 					<br>
-					<p><b>'.USUARIO_MSG_DE_ORIENTACAO_3.'</b></p>
-					<p><b>'.USUARIO_MSG_LINK_DE_ATIVACAO.'</b>: <a href="'. URL_BASE.'login/verificar/'.$hash_code.'">'.USUARIO_MSG_ATIVACAO.'</a></p>
-					<p>'.USUARIO_MSG_DE_ORIENTACAO_1.': <a href="'.URL_BASE.'painel/profile" target="blanck">Aqui</a></p>
-					<p>'.USUARIO_MSG_ATT.'</p> 
-					<p>'.USUARIO_MSG_CONTATO_CRIADOR.'</p>'); 
+					<p><b>'.$language->MAIL_MSG_ORIENTATION_2.'</b></p>
+					<p><b>'.$language->MAIL_MSG_ACTIVE_LINK.'</b>: <a href="'. URL_BASE.'login/verificar/'.$hash_code.'">'.$language->MAIL_MSG_ACTIVE_MY_ACOUNT_LINK.'</a></p>
+					<p>'.$language->MAIL_MSG_ORIENTATION_3.': <a href="'.URL_BASE.'painel/profile" target="blanck">'.$language->MAIL_MSG_ACTIVE_LABEL.'</a></p>
+					<p>'.$language->MAIL_MSG_BY.'</p> 
+					<p>'.$language->MAIL_MSG_CREATOR_CONTACT.'</p>'); 
 
 					//Caso queira colocar o conteudo de um arquivo utilize o método abaixo ao invés da mensagem no corpo do e-mail.
 					//$mail->MsgHTML(file_get_contents('arquivo.html'));

@@ -1,0 +1,13 @@
+MAIL_MSG_SITE_NAME::Help RPG
+MAIL_MSG_SUCCESS::Cadastro realizado com sucesso!
+MAIL_MSG_WELLCOME::Seja bem vindo ao Help RPG
+MAIL_MSG_ORIENTATION_1::Com esta conta você pode cadastrar aventuras, itens mágicos, personagens, contos, fazer amigos, utilizar nossos utilitários e muito mais. Agradeço por fazer parte do Help RPG.
+MAIL_MSG_PASSWORD::Sua senha
+MAIL_MSG_MAIL::Seu email
+MAIL_MSG_ORIENTATION_2::Clique no link abaixo para ativar a sua conta. Após isso é só fazer o login.
+MAIL_MSG_ACTIVE_LINK::Link de ativação de conta
+MAIL_MSG_ACTIVE_LABEL::Aqui
+MAIL_MSG_ACTIVE_MY_ACOUNT_LINK::Ativar minha conta.
+MAIL_MSG_ORIENTATION_3::Você pode preencher o restante do cadastro em
+MAIL_MSG_BY::Att,
+MAIL_MSG_CREATOR_CONTACT::Maickon Rangel - Criador do help RPG

@@ -4,13 +4,13 @@ $tag->html();
 	$tag->head();
 	    $tag->meta('charset="UTF-8"');
 	    $tag->meta('content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"');
-	    $tag->meta('name="description" content="' . $inscreverse->descricao . '"');
-        $tag->meta('name="keywords" content="' . $inscreverse->palavras_chave . '"');
-        $tag->meta('name="author" content="' . $inscreverse->autor . '"');
+	    $tag->meta('name="description" content="' . $language->SUBSCRIBE_META_DESCRIPTION . '"');
+        $tag->meta('name="keywords" content="' . $language->SUBSCRIBE_META_KEYWORDS . '"');
+        $tag->meta('name="author" content="' . $language->SITE_META_AUTHOR . '"');
         $tag->link('rel="shortcut icon" href="' . $inscreverse->inscreverse_img_icon.'usuario.png"');
 
 	    $tag->title();
-	    	$tag->printer($inscreverse->titulo);
+	    	$tag->printer($language->SUBSCRIBE_TITLE);
 	    $tag->title;
 	    // <!-- Favicon-->
 	    $tag->link('rel="icon" href="../../favicon.ico" type="image/x-icon"');
