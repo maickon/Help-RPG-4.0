@@ -12,16 +12,18 @@
                         <i class="material-icons">person</i>
                     </span>
                     <div class="form-line">
-                        <input type="text" class="form-control" name="login" placeholder="<?php echo $language->SUBSCRIBE_USER; ?>" required autofocus>
+                        <input type="text" onchange="login_check(this.value)" onfocus="login_check(this.value)" class="form-control" name="login" placeholder="<?php echo $language->SUBSCRIBE_USER; ?>" required autofocus>
                     </div>
+                    <div id="login-exists"></div>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">
                         <i class="material-icons">email</i>
                     </span>
                     <div class="form-line">
-                        <input type="email" class="form-control" name="email" placeholder="<?php echo $language->SUBSCRIBE_EMAIL; ?>" required>
+                        <input type="email" onchange="email_check(this.value)" onfocus="email_check(this.value)" class="form-control" name="email" placeholder="<?php echo $language->SUBSCRIBE_EMAIL; ?>" required>
                     </div>
+                    <div id="email-exists"></div>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">

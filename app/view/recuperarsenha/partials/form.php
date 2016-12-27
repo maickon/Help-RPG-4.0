@@ -5,7 +5,7 @@
     </div>
     <div class="card">
         <div class="body">
-            <form id="forgot_password" method="POST">
+            <form id="forgot_password" method="POST" action="<?php echo URL_BASE ?>recuperarsenha/checar">
                 <div class="msg">
                    <?php echo $language->RECOVER_PASSWORD_MSG; ?>
                 </div>

@@ -9,4 +9,5 @@ ERROR_BTN_MSG::Voltar para a página principal.
 ERROR_BTN_GO_BACK::Voltar para a página anterior.
 ERROR_MSG_CODE_NONEXISTENT::Código de erro inexistente!
 ERROR_MSG_USER_DONT_SUBSCRIBE::Usuário não cadastrado.
+ERROR_MSG_USER_DONT_EXISTS::Este usuário não existe.
 ERROR_MSG_UPDATE::Ocorreu um erro ao atualizar.

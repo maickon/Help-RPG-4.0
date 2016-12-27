@@ -83,3 +83,16 @@ $(function () {
 //         $(slider).parent().find('span.js-nouislider-value').text(val);
 //     });
 // }
+//
+
+function verificar_data(data){
+
+    $("#data-msg-aviso").empty();
+    var data_limite = new Date(data);
+    var data_atual = new Date();
+
+    if(data_limite < data_atual) {
+        $("#data-msg-aviso").css('color','red');
+        $("#data-msg-aviso").append('Invalid Data!');
+    }
+}

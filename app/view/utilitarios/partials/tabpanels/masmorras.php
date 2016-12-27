@@ -4,7 +4,7 @@
     	<?php foreach ($utilitarios->masmorras as $key => $value) { ?>
 	    	<div class="col-sm-2 col-md-2">
 	            <div class="thumbnail">
-	                <img src="<?php echo $value['IMG']; ?>" class="utilitarios-thumbnail" title="<?php echo $value['TITLE']; ?>">
+	                <img src="<?php echo URL_BASE . $value['IMG']; ?>" class="utilitarios-thumbnail" title="<?php echo $value['TITLE']; ?>">
 	                <div class="caption">
 	                	<h6 class="center"><?php echo $value['TITLE']; ?></h6>
 	                    <div class="center demo-google-material-icon"> 
@@ -13,7 +13,7 @@
 		                    </a>
 		                    <a href="#" data-toggle="modal" data-target="#masmorras_<?php echo $key; ?>">
 		                    	<i class="material-icons" data-toggle="modal">info_outline</i>
-		                    </a> 
+		                    </a>
 	                    </div>
 	                </div>
 	            </div>

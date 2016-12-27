@@ -1,20 +1,13 @@
+a.ancora{
+	text-decoration: none !important;
+	color: #000;
+}
 .utilitarios-link:hover{
 	color: red;
 }
 
 th.btns-del-edit{
 	text-align: center !important;
-}
-
-th div.btn-del{
-	margin-left: 30px !important;
-	float: left !important;
-	height: auto;
-}
-
-th div.btn-edit{
-	float: left !important;
-	height: auto;
 }
 
 .utilitarios-content{
@@ -105,4 +98,80 @@ th div.btn-edit{
 
 .radius{
 	border-radius: 10px;
+}
+
+.timeline_text{
+	background-color: #FFFAFA;
+}
+
+.timeline_title{
+	font-size: 20px;
+	font-style: bold;
+	text-decoration: none;
+}
+
+.social_btn, .fb-xfbml-parse-ignore{
+	float: left;
+	margin-right: 10px;
+	padding: 0px;
+}
+
+img.img-profile{
+	width: 200px !important;
+	height: 150px !important;
+}
+
+#timeline-body img{
+	width: 140px !important;
+	height: auto !important;
+}
+
+.page{
+	margin: 15px !important;
+}
+
+#video_title{
+	max-width: 190px; /* Tamanho */
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap
+}
+
+#user_name{
+	max-width: 190px; /* Tamanho */
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+img.fb-image-lg{
+	width: 100%;
+}
+
+.fb-image-profile
+{
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%; 
+}
+
+@media (max-width:768px)
+{
+	.fb-profile-text>h1{
+	    font-weight: 700;
+	    font-size:16px;
+	}
+
+	.fb-image-profile
+	{
+	    margin: -45px 10px 0px 25px;
+	    z-index: 9;
+	    width: 20%; 
+	}
 }

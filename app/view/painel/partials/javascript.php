@@ -1,7 +1,6 @@
 
 <?php 
 	$_JS = [$painel->url->painel_js_path . '/plugins/jquery/jquery.min.js',
-			$painel->url->painel_js_path . '/plugins/rateYo/rateYo.js',
 			$painel->url->painel_js_path . '/plugins/bootstrap/js/bootstrap.js',
 			$painel->url->painel_js_path . '/plugins/bootstrap-select/js/bootstrap-select.js',
 			$painel->url->painel_js_path . '/plugins/jquery-slimscroll/jquery.slimscroll.js',
@@ -17,6 +16,7 @@
 			$painel->url->painel_js_path . '/plugins/flot-charts/jquery.flot.time.js',
 			$painel->url->painel_js_path . '/plugins/jquery-sparkline/jquery.sparkline.js',
 			$painel->url->painel_js_path . '/admin.js',
+			$painel->url->config_js_path,
 			$painel->url->painel_js_path . '/index.js',
 			$painel->url->painel_js_path . '/demo.js',
 			];

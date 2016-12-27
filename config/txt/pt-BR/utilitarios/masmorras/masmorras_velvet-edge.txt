@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/masmorras/velvet-edge.png
+TITLE::Risus Monkey's
+DESCRIPTION::Este site gera mapas de cidade no estilo rabisco a lápis.
+LENGUAGE::Inglês
+SITE_NAME::Velvet Edge
+FONT::http://www.velvet-edge.com/RisusMonkeyMap.html
+APP_LINK::

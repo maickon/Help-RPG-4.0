@@ -26,8 +26,13 @@
     	</a>
     </li>
     <li role="presentation" class="">
-    	<a href="#nomes" data-toggle="tab" aria-expanded="false">
-    		<?php echo $language->UTILITIES_LABEL_NAMES; ?>
+        <a href="#nomes" data-toggle="tab" aria-expanded="false">
+            <?php echo $language->UTILITIES_LABEL_NAMES; ?>
+        </a>
+    </li>
+    <li role="presentation" class="">
+    	<a href="#complementos" data-toggle="tab" aria-expanded="false">
+    		<?php echo $language->UTILITIES_LABEL_COMPLEMENTS; ?>
     	</a>
     </li>
 </ul>

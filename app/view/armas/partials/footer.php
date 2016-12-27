@@ -4,7 +4,7 @@
 	// @author Maickon Rangel
 	// Pagina footer da visualizacao gerada no automatico
 
-	$_JS = [	
+	$_JS = [
 				$painel->url->painel_js_path . '/plugins/jquery/jquery.min.js',
 				$painel->url->painel_js_path . '/plugins/rateYo/rateYo.js',
 				$painel->url->painel_js_path . '/plugins/bootstrap/js/bootstrap.js',
@@ -14,7 +14,7 @@
 				$painel->url->painel_js_path . '/plugins/node-waves/waves.js',
 				$painel->url->painel_js_path . '/plugins/tinymce/tinymce.js',
 				$painel->url->painel_js_path . '/plugins/ckeditor/ckeditor.js',
-				
+
 				$painel->url->painel_js_path . '/plugins/jquery-datatable/jquery.dataTables.js',
 				$painel->url->painel_js_path . '/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js',
 				$painel->url->painel_js_path . '/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js',
@@ -32,7 +32,7 @@
 				$painel->url->painel_js_path . '/index.js',
 				];
 		foreach ($_JS as $key => $value) {
-		    $tag->script('src="' . $value . '" rel="stylesheet"'); 
+		    $tag->script('src="' . $value . '" rel="stylesheet"');
 		    $tag->script;
 		}
 

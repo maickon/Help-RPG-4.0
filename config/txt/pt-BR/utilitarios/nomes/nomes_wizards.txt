@@ -1,4 +1,4 @@
-IMG::https://d289qh4hsbjjw7.cloudfront.net/rpgmaker-20130522223546811/files/rpg-maker-mv-wallpaper-sample-no-logo.jpg
+IMG::app/assets/img/utilitarios/nomes/wizards.png
 TITLE::Wizards
 DESCRIPTION::Gerador de nomes do site da Wizards.
 LENGUAGE::Inglês

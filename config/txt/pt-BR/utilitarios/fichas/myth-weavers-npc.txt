@@ -1,5 +1,5 @@
-IMG::http://mycean-rpg.weebly.com/uploads/2/9/8/8/29889375/361837296.jpg
-TITLE::Npc Gerador D&D 3.5
+IMG::app/assets/img/utilitarios/fichas/myth-weavers.png
+TITLE::Myth Weavers
 DESCRIPTION::Este utilitário cria uma ficha para Dungeons and Dragons 3.5. Nele você pode informar até três classes e definir o nível de cada uma. O sistema de rolagem de dados para definir as habilidades também ficam ao seu critério. Além disso você pode gerar mais de uma ficha de vez. O seu formato para visualização é baseado no modelo de ficha estilo o livro dos monstros.
 LENGUAGE::Inglês
 SITE_NAME::Myth Weavers

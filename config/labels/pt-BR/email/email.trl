@@ -11,3 +11,9 @@ MAIL_MSG_ACTIVE_MY_ACOUNT_LINK::Ativar minha conta.
 MAIL_MSG_ORIENTATION_3::Você pode preencher o restante do cadastro em
 MAIL_MSG_BY::Att,
 MAIL_MSG_CREATOR_CONTACT::Maickon Rangel - Criador do help RPG
+MAIL_MSG_PASSWORD_RECOVER::
+MAIL_MSG_PASSWORD_RECOVER_WELLCOME::Recuperação de senha Help RPG
+MAIL_MSG_PASSWORD_RECOVER_PASSWORD::Sua nova senha
+MAIL_MSG_PASSWORD_RECOVER_ORIENTATION_1::Você fez um pedido de recuperação de senha no site do Help RPG. Uma nova senha foi criada e sua conta está bloqueada.
+MAIL_MSG_PASSWORD_RECOVER_ORIENTATION_2::Clique no link abaixo para desbloquear sua conta e após isso faça login com a nova senha que te enviamos.
+MAIL_MSG_PASSWORD_RECOVER_ORIENTATION_3::Não se esqueça de atualizar a sua senha quando logar no site, a não ser que queira ficar com eta senha.

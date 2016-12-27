@@ -21,7 +21,7 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
                     $tag->div('class="body"');
                         $tag->div('class="row"');
                             foreach ($counts as $key => $value) {
-                                $tag->div('class="col-lg-3 col-md-3 col-sm-6 col-xs-12"');                             
+                                $tag->div('class="col-lg-3 col-md-3 col-sm-6 col-xs-12"');
                                     $tag->div('class="info-box-3 bg-red"');
                                         $tag->div('class="icon"');
                                             $tag->i('class="material-icons"');

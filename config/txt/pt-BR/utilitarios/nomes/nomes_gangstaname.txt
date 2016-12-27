@@ -1,7 +1,0 @@
-IMG::http://i0.statig.com.br/bancodeimagens/6z/w2/gt/6zw2gt3e0vgdp825m9wnq5q0r.jpg
-TITLE::Gangsta Name
-DESCRIPTION::Neste gerador você preenche um campo com um nome e ele o retornará com o respectivo nome de pirata para você.
-LENGUAGE::Inglês
-SITE_NAME::Gangsta Name
-FONT::http://rinkworks.com/
-APP_LINK::namegen/

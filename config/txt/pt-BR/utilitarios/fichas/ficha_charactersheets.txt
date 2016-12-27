@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/fichas/charactersheets.png
+TITLE::Character Sheets
+DESCRIPTION::Ficha online para o RPG Pathfinder e D&D.
+LENGUAGE::Inglês
+SITE_NAME::Character Sheets
+FONT::http://charactersheets.minotaur.cc/
+APP_LINK::

@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/masmorras/paratime.png
+TITLE::Paratime Design
+DESCRIPTION::Este é um site que oferece centenas de imagens de mapas para masmorras. O site é muito interessante, vale a pena acessa-lo.
+LENGUAGE::Inglês
+SITE_NAME::Paratime
+FONT::http://www.paratime.ca/cartography/colour_dungeons.html
+APP_LINK::cartography/colour_dungeons.html

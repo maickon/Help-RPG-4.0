@@ -1,5 +1,5 @@
-IMG::https://1.bp.blogspot.com/-Conrm4UFJ8g/Vyjm5e0HuoI/AAAAAAAADnk/DuhyA2-VFKY39sQyhCbTJoxMnQngCXOpQCLcB/s1600/RPG01.jpg
-TITLE::RPGinspiration 
+IMG::app/assets/img/utilitarios/nomes/rpginspiration.png
+TITLE::RPGinspiration
 DESCRIPTION::Gerador completo com diversos tipos de nomes. Basta dar um clique que 20 novos nomes são gerados.
 LENGUAGE::Inglês
 SITE_NAME::RPGinspiration

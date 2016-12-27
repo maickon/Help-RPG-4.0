@@ -9,9 +9,11 @@ class Sistemasrpg_Helper{
 
 	function nomes(){
 		$this->rpg_nomes = [
-			 $this->language->RPG_DED
+			 $this->language->RPG_NO_SYSTEM
+			,$this->language->RPG_DED
 			,$this->language->RPG_DED4EDITION
 			,$this->language->RPG_DED5EDITION
+			,$this->language->RPG_DARKSUM
 			,$this->language->RPG_FATE
 			,$this->language->RPG_SEVAGE_WORLDS
 			,$this->language->RPG_3DET

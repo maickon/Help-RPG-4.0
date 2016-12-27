@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/nomes/myprecious.png
+TITLE::My Precious
+DESCRIPTION::Este utilitário converte o nome informado para um nome equivalente ao da terra média do senhor dos anéis.
+LENGUAGE::Inglês
+SITE_NAME::My Precious
+FONT::http://www.myprecious.us/name_generator.php
+APP_LINK::http://www.myprecious.us/name_generator.php

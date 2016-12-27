@@ -6,4 +6,5 @@
     <?php require 'tabpanels/itens.php'; ?>
     <?php require 'tabpanels/nomes.php'; ?>
     <?php require 'tabpanels/masmorras.php'; ?>
+    <?php require 'tabpanels/complementos.php'; ?>
 </div>

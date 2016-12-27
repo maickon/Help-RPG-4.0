@@ -4,7 +4,7 @@ SITE_NAME_RPG::RPG
 SITE_HORIZONTAL_BAR::|
 SITE_META_DESCRIPTION::Help rpg - Faça cadastro de Fichas de RPG, itens, armas, talentos, gere mapas de masmorra, nome de cidades, personagens, reinos e muito mais.
 SITE_META_AUTHOR::Maickon Rangel
-SITE_META_KEYWORDS::Fichas de RPG, Utilitários para RPG, Utilitários, Ferramentas para RPG, Cadastro de armas RPG, Cadastro de Magias RPG, Cadastro de Artefatos para RPG, D&D, Rifts RPG,  Mundo das trevas RPG, Mutantes & Malfeitores RPG, Traveller RPG, Call of Cthulhu RPG, Hackmaster RPG, GURPS RPG, Savage Worlds RPG, Pathfinder RPG	
+SITE_META_KEYWORDS::Fichas de RPG, Utilitários para RPG, Utilitários, Ferramentas para RPG, Cadastro de armas RPG, Cadastro de Magias RPG, Cadastro de Artefatos para RPG, D&D, Rifts RPG,  Mundo das trevas RPG, Mutantes & Malfeitores RPG, Traveller RPG, Call of Cthulhu RPG, Hackmaster RPG, GURPS RPG, Savage Worlds RPG, Pathfinder RPG
 SLIDE_TITLE_01::Tudo que você precisa para o seu RPG está aqui!
 SLIDE_TITLE_02::Compartilhe o seu RPG aqui! Seja um Helper
 SLIDE_TITLE_03::Utilize nossos utilitários e seja feliz com o Help RPG!
@@ -16,3 +16,5 @@ SITE_PRELOADER_MSG::Aguarde um momento por favor...
 SITE_TITLE_LABEL::Título Teste
 SITE_BTN_LABEL::Botão Teste
 SITE_ATTR_LABEL::Atributo label
+SITE_SUBSCRIBE_BY::Cadastrado por
+SITE_ACTION::Ação

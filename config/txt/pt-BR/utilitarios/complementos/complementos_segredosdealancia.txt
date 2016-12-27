@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/complementos/segredosdealancia.png
+TITLE::Segredos de Alancia
+DESCRIPTION::Segredos de Alancia traz resumo de regras de vários sistemas de RPG. Entre os sistemas temos D&D 5e, Age a queda, Age, The Witcher RPG, Sevage Worlds, Age of Changeling e Alancia.
+LENGUAGE::Portugês
+SITE_NAME::Segredos de Alancia
+FONT::http:http://www.segredosdealancia.com.br/
+APP_LINK::

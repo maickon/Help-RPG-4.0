@@ -1,7 +1,7 @@
-IMG::http://www.rederpg.com.br/wp/wp-content/uploads/2015/08/monstermanual_th.jpg
-TITLE::D&D 5e NPC Generator
+IMG::app/assets/img/utilitarios/fichas/rpgtinker.png
+TITLE::RPGTinker
 DESCRIPTION::Com este utilitário você pode criar fichas de Npcs para o sistema Dungeons and Dragons 5° Edição. Ele te oferece opcões como classe, raça, padrões de atributos ou rolagens e dados de vida. Você pode tembém acessar uma página de bestiário que lista tipos de NPC por tribo, classe ou localidade. Pelo que vi o aplicativo ainda está em fase beta, mas mesmo assim ele é bem interessante.
 LENGUAGE::Inglês
 SITE_NAME::RPGTinker
 FONT::http://rpgtinker.com/
-APP_LINK:: 
+APP_LINK::

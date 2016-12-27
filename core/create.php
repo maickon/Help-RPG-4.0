@@ -15,7 +15,7 @@ unset($_REQUEST['atributos']);
 $check = 1;
 
 if (empty($name)) {
-	header('Location: http://127.0.0.1/help-rpg-teste/core?status=2');
+	header('Location: '. URL_BASE . 'core?status=2');
 } else {
 	foreach ($_REQUEST as $key => $value) {
 		$class = ucfirst($key).'Creator';
@@ -28,7 +28,7 @@ if (empty($name)) {
 }
 
 if ($status == false) {
-	header('Location: http://127.0.0.1/help-rpg-teste/core?status=0');
+	header('Location: '. URL_BASE . 'core?status=0');
 } else{
-	header('Location: http://127.0.0.1/help-rpg-teste/core?status=1');
+	header('Location: '. URL_BASE . 'core?status=1');
 }

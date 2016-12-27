@@ -16,6 +16,7 @@
                                 <li><a href="<?php echo URL_BASE; ?>" class=" waves-effect waves-block"><?php echo $language->MENU_HOME; ?></a></li>
                                 <li><a href="<?php echo URL_BASE.'login/'; ?>" class=" waves-effect waves-block"><?php echo $language->MENU_LOGIN; ?></a></li>
                                 <li><a href="<?php echo URL_BASE.'inscreverse'; ?>" class=" waves-effect waves-block"><?php echo $language->RECOVER_PASSWORD_SUBSCRIBE_LINK; ?></a></li>
+                                <li><a href="<?php echo URL_BASE.'painel'; ?>" class=" waves-effect waves-block"><?php echo 'PAINEL PRINCIPAL' ?></a></li>
                             </ul>
                         </li>
                     </ul>

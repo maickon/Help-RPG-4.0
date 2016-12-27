@@ -7,48 +7,66 @@ require URL_BASE_INTERNAL.'app/view/painel/partials/home_page.php';
         $tag->div('class="row clearfix"');
             $tag->div('class="col-lg-12 col-md-12 col-sm-12 col-xs-12"');
                 $tag->div('class="card"');
-                    $tag->br();
                     $tag->div('class="header"');
-                        $tag->div('class="col-md-8"');   
-                            $tag->h2();
-                                $tag->printer('PESSOAS QUE ESTÃO NO HELP RPG');
-                            $tag->h2;
-                        $tag->div;
-                        $tag->div('class="col-md-4"');
-                            $tag->div('class="form-group"');
-                                $tag->div('class="form-line"');
-                                    $tag->input('name="search" id="filtro" onkeydown="filtrar_usuario(value)" class="form-control" placeholder=" Encontre alguém"');
-                                $tag->div;
+                        $tag->h2();
+                            $tag->printer('PESSOAS QUE ESTÃO NO HELP RPG');
+                        $tag->h2;
+                    $tag->div;
+                    $tag->div('class="col-sm-8"');
+                    $tag->div;
+                    $tag->div('class="col-sm-4"');
+                        $tag->div('class="form-group"');
+                            $tag->div('class="form-line"');
+                                $tag->input('type="text" onkeydown="buscar_usuario(this.value)" name="nome" value="" class="form-control" placeholder="Pesquisar..."');
                             $tag->div;
-                            $tag->span('id="filter-count"');
-                            $tag->span;
                         $tag->div;
                     $tag->div;
                     $tag->div('class="body"');
-                        $tag->div('class="row" id="usuarios"');
+                       $tag->div('class="row" id="profiles"');
                             foreach ($usuarios as $key => $value) {
-                                $tag->div('class="col-sm-6 col-md-4"');                             
+                                $tag->div('class="col-md-3"');
                                     $tag->div('class="thumbnail"');
                                         $tag->a('href="'.URL_BASE.'usuario/profile/'.$value->id.'"');
-                                            if (empty($value->foto_link)) {
-                                                $tag->img('src="'.$usuario->url->social_img_path.'/profle.png." class="img-circle" height="128" width="128"');
+                                           if (empty($value->foto_link)) {
+                                                $tag->img('src="'.$usuario->url->social_img_path.'/profle.png." class="img-responsive img-profile"');
                                             } else {
-                                                $tag->img('src="'.$value->foto_link.'" class="img-circle" height="128" width="128"');
-                                            } 
+                                                $tag->img('src="'.$value->foto_link.'" class="img-responsive img-profile"');
+                                            }
                                         $tag->a;
-                                        $tag->div('class="caption"');
-                                            $tag->h3('class="align-center"');
-                                                $tag->printer($value->login);
-                                            $tag->h3;
-                                            
-                                            $tag->p('class="align-center font-10"');
-                                                $tag->printer($value->email);
-                                            $tag->p;
+                                        $tag->div('class="caption center"');
+                                            $tag->h5('id="user_name"');
+                                                $tag->printer("{$value->login} Lv {$value->nivel}");
+                                            $tag->h5;
                                         $tag->div;
                                     $tag->div;
                                 $tag->div;
                             }
                         $tag->div;
+                    $tag->div;
+
+                    $tag->div('class="footer center" id="counter"');
+                        $tag->ul('class="pagination"');
+                            if ($params > 1) {
+                                $tag->li('class=""');
+                                    $indice_menos = $params - 1;
+                                    $tag->a('href="'.URL_BASE.'usuario/listar/'.($indice_menos).'"');
+                                        $tag->printer('<i class="material-icons">chevron_left</i>');
+                                    $tag->a;
+                                $tag->li;
+                            }
+                            for ($i=1; $i < $numero_usuarios +1; $i++) {
+                                $ativo = ($i == $params) ? 'active' : '';
+                                $tag->printer('<li class="'.$ativo.'"><a href="'.URL_BASE.'usuario/listar/'.$i.'" class="waves-effect">'.$i.'</a></li>');
+                            }
+                            if ($params < $numero_usuarios) {
+                                $tag->li();
+                                    $indice_mais = $params + 1;
+                                    $tag->a('href="'.URL_BASE.'usuario/listar/'.$indice_mais.'" class="waves-effect"');
+                                        $tag->printer('<i class="material-icons">chevron_right</i>');
+                                    $tag->a;
+                                $tag->li;
+                            }
+                        $tag->ul;
                     $tag->div;
                 $tag->div;
             $tag->div;

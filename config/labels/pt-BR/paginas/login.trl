@@ -12,3 +12,5 @@ LOGIN_REMEMBER_PASSWORD::Lembrar
 LOGIN_BTN_GET_IN::ENTRAR
 LOGIN_SUBSCRIBE::Criar uma conta
 LOGIN_FORGET_PASSWORD::Esqueceu a senha?
+LOGIN_USER_MSG::Nome de usuário já existe.
+LOGIN_MAIL_MSG::Email já existe.

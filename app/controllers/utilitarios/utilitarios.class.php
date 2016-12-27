@@ -20,7 +20,8 @@ class Utilitarios_Controller extends Controller_Lib{
 		$utilitarios->utilitarios('masmorras');
 		$utilitarios->utilitarios('aventuras');
 		$utilitarios->utilitarios('nomes');
-	
+		$utilitarios->utilitarios('complementos');
+
 		require (new Render_Lib())->get_required_path();
 	}
 }

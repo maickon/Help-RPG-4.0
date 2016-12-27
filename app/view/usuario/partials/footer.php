@@ -29,7 +29,8 @@ $_JS = [
 			$painel->url->painel_js_path . '/editors.js',
 			$painel->url->painel_js_path . '/demo.js',
 			$painel->url->usuario_js_path . '/usuario.js',
-			$painel->url->amizades_js_path . '/amizades.js',
+			$painel->url->painel_js_path . '/index.js',
+			$painel->url->config_js_path
 			];
 	foreach ($_JS as $key => $value) {
 	    $tag->script('src="' . $value . '" rel="stylesheet"'); 

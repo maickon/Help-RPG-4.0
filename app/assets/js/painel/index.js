@@ -123,3 +123,89 @@ function display_profile(){
 function hide_profile(){
     $("#display_profile_box").hide();
 }
+
+function deletar_url(url){
+    $("#delete_url").attr("href", url);
+}
+
+function buscar_imagem(texto){
+    var raca = $.ajax({
+      type: 'post',
+      dataType: 'html',
+      url: URL_BASE + 'galeria/filtrar_imagem/' + texto,
+      success: function(result){
+        var json = (eval("(" + result + ")"));
+            $( "#aniimated-thumbnials").empty();
+            $( "#counter").empty();
+            var img = '';
+            for(var key in json){
+                var array = json[key];
+                img +='<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">';
+                img += '<a href="'+json[key]['url_img']+'" data-sub-html="'+json[key]['descricao']+'">';
+                img += '<img class="img-responsive thumbnail" src="'+json[key]['url_img']+'">';
+                img += '</a>';
+                img += '</div>';
+            }
+            $( "#aniimated-thumbnials").append(img);
+        }
+    });
+}
+
+function buscar_usuario(texto){
+    var raca = $.ajax({
+      type: 'post',
+      dataType: 'html',
+      url: URL_BASE + 'usuario/filtrar/' + texto,
+      success: function(result){
+        var json = (eval("(" + result + ")"));
+            $( "#profiles").empty();
+            var profiles = '';
+            for(var key in json){
+                var array = json[key];
+                profiles +='<div class="col-sm-6 col-md-3">';
+                profiles +='<div class="thumbnail">';
+                profiles +='<a href="'+URL_BASE+'usuario/profile/'+json[key]['id']+'">';
+                profiles +='<img src="'+json[key]['foto_link']+'" class="img-responsive img-profile">';
+                profiles +='</a>';
+                profiles += '<div class="caption center">';
+                profiles += '<h5>';
+                profiles += json[key]['login']+' Lv'+json[key]['nivel'];
+                profiles += '</h5>';
+                profiles += '</div>';
+                profiles += '</div>';
+                profiles += '</div>';
+            }
+            $( "#profiles").append(profiles);
+        }
+    });
+}
+
+function buscar_videos(texto){
+    var raca = $.ajax({
+      type: 'post',
+      dataType: 'html',
+      url: URL_BASE + 'videos/filtrar_videos/' + texto,
+      success: function(result){
+        var json = (eval("(" + result + ")"));
+            $( "#videos_galery").empty();
+            $( "#counter").empty();
+            var img = '';
+            for(var key in json){
+                var array = json[key];
+
+                var url = json[key]['link'];
+                var videoid = url.match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/);
+
+                img +='<div class="col-md-3">';
+                img += '<a href="'+URL_BASE+'videos/visualizar/'+json[key]['id']+'" class="center">';
+                img += '<p id="video_title">';
+                img += json[key]['nome'];
+                img += '</p>';
+                img += '</a>';
+                img += '<img src="http://img.youtube.com/vi/'+videoid[1]+'/0.jpg" width="200">';
+                img += '</div>';
+            }
+            $( "#videos_galery").append(img);
+        }
+    });
+}

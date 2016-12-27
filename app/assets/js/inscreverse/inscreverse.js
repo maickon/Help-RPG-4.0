@@ -21,3 +21,34 @@ $(function () {
         }
     });
 });
+
+
+function login_check(login){
+    $.ajax({
+        url: URL_BASE + 'login/checar_login/' + login,
+        type: 'POST',
+        success: function(data) {
+            if (data == 1) {
+                $("#login-exists").empty();
+                $("#login-exists").append('<label id="login-msg" class="error" for="login">This login already exists.</label>');
+            } else {
+                $("#login-exists").empty();
+            }
+        }
+    });
+}
+
+function email_check(email){
+    $.ajax({
+        url: URL_BASE + 'login/checar_email/' + email,
+        type: 'POST',
+        success: function(data) {
+            if (data == 1) {
+                $("#email-exists").empty();
+                $("#email-exists").append('<label id="email-msg" class="error" for="email">This email already exists.</label>');
+            } else {
+                $("#email-exists").empty();
+            }
+        }
+    });
+}

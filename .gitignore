@@ -1,8 +1,4 @@
 # Ignorar arquivos específicos
-curl.php
-sobre.php
-start.php
-teste.php
 
 # Ignorar todos os diretórios e arquivos em um diretório.
-projetos/**/* 
+core/**/*

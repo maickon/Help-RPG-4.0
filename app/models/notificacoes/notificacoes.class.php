@@ -2,23 +2,18 @@
 class Notificacoes_Model extends HelperRecord_Lib{
 
 	public $url;
-	
+
 	function __construct(){
-		parent::__construct();	
+		parent::__construct();
 		$this->url = new Model_Lib();
 	}
 
-	function notificador_de_amizades(){
-		$amizades = new Amizades_Model;
-		return $amizades->direct_instruction("
-			SELECT a.*, u.nome
-			FROM amizades a, usuarios u 
-			WHERE a.para = {$_SESSION['id']} 
-			AND u.id = a.de
-			AND visualizado = 0", 'amizades e usuarios');
-	}
-
 	function escalonador_de_noticifacoes(){
-		return $this->notificador_de_amizades();
+		$ultimo_acesso = $_SESSION['ultimo_login'];
+		$login = $_SESSION['login'];
+		$data_atual =date('Y-m-d H:i:s');
+		$timeline = new Timeline_Model;
+		$notificacoes = $timeline->direct_instruction("SELECT * FROM timeline WHERE dono != '{$login}' AND cadastrado_em BETWEEN '{$ultimo_acesso}' AND '{$data_atual}' ORDER BY cadastrado_em DESC",'timeline');
+		return $notificacoes;
 	}
 }

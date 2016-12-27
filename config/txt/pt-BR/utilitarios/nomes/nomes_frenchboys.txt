@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/nomes/frenchboys.png
+TITLE::French Boys
+DESCRIPTION::O French Boys gera nomes de pessoas, cidades, países e outros lugares.
+LENGUAGE::Inglês
+SITE_NAME::French Boys
+FONT::http://nine.frenchboys.net/site.html
+APP_LINK::

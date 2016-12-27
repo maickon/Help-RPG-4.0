@@ -5,7 +5,6 @@ require 'social/social.php';
 require 'txt/aventuras/aventuras.php';
 require 'txt/tavernas/tavernas.php';
 
-define('LOG_PATH', URL_BASE_INTERNAL . 'config/log/log.txt');
 // img url
 define('IMG_ICON_PATH', URL_BASE . 'app/assets/img/icons/');
 define('CONFIG_DB_PATH', 'config/db/');

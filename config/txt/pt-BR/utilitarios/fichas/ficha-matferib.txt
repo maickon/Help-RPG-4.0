@@ -1,5 +1,5 @@
-IMG::http://pre07.deviantart.net/a20f/th/pre/f/2015/308/c/7/last_stand_by_katemaxpaint-d9fgym6.jpg
-TITLE::Planilha para D&D 3.5
+IMG::app/assets/img/utilitarios/fichas/planilha-de-personagem-dd.png
+TITLE::Planilha Ficha
 DESCRIPTION::Planilha para criação de personagens de D&D 3.5. Contém algumas coisas específicas de Faerun e uma pseudo geração de personagens. Um excelente utilitário!
 LENGUAGE::Portugês, Inglês
 SITE_NAME::Sem site oficial

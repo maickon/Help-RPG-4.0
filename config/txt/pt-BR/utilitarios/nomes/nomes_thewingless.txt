@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/nomes/thewingless.png
+TITLE::The Wingless
+DESCRIPTION::O The Wingless gera nomes de pessoas, de lugares, de magias e de criaturas.
+LENGUAGE::Inglês
+SITE_NAME::The Wingless
+FONT::http://www.thewingless.com/forge/about.html
+APP_LINK::

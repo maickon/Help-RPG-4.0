@@ -12,12 +12,12 @@ class viewCreator{
 		$class_name = ucfirst(strtolower($class_name));
 
 		mkdir("{$path}app/view/{$file_name}/");
-		$this->footer_generation($path, $file_name);	
+		$this->footer_generation($path, $file_name);
 		$this->form_generation($path, $file_name, $atributes);
 		$this->index_generation($path, $file_name, $atributes);
 		$this->edit_generation($path, $file_name);
 		$this->new_generation($path, $file_name);
-		$this->view_generation($path, $file_name, $atributes);		
+		$this->view_generation($path, $file_name, $atributes);
 	}
 
 	// Cria o arquivo de footer
@@ -31,7 +31,7 @@ class viewCreator{
 	// @author Maickon Rangel
 	// Pagina footer da visualizacao gerada no automatico
 
-	$_JS = [	
+	$_JS = [
 				$painel->url->painel_js_path . \'/plugins/jquery/jquery.min.js\',
 				$painel->url->painel_js_path . \'/plugins/rateYo/rateYo.js\',
 				$painel->url->painel_js_path . \'/plugins/bootstrap/js/bootstrap.js\',
@@ -41,7 +41,7 @@ class viewCreator{
 				$painel->url->painel_js_path . \'/plugins/node-waves/waves.js\',
 				$painel->url->painel_js_path . \'/plugins/tinymce/tinymce.js\',
 				$painel->url->painel_js_path . \'/plugins/ckeditor/ckeditor.js\',
-				
+
 				$painel->url->painel_js_path . \'/plugins/jquery-datatable/jquery.dataTables.js\',
 				$painel->url->painel_js_path . \'/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js\',
 				$painel->url->painel_js_path . \'/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js\',
@@ -59,7 +59,7 @@ class viewCreator{
 				$painel->url->painel_js_path . \'/index.js\',
 				];
 		foreach ($_JS as $key => $value) {
-		    $tag->script(\'src="\' . $value . \'" rel="stylesheet"\'); 
+		    $tag->script(\'src="\' . $value . \'" rel="stylesheet"\');
 		    $tag->script;
 		}
 
@@ -77,91 +77,97 @@ class viewCreator{
 	// @author Maickon Rangel
 	// Pagina de formulario da visualizacao gerada no automatico
 
+	$tag->input(\'type="hidden" name="dono" value="\'.$_SESSION[\'login\'].\'" required aria-required="true"\');
+    $tag->input(\'type="hidden" name="lingua" value="\'.$_SESSION[\'lingua\'].\'" required aria-required="true"\');
+	$tag->input(\'type="hidden" name="id" value="\'.$'.$file_name.'->id.\'" required aria-required="true"\');';
+
+		$atributes_list = array();
+		$atribute_select = null;
+		$array = null;
+
+		foreach ($atributes as $key => $value) {
+			$atribute = explode(':', $value);
+			if (strpos($atribute[0], '-')) {
+				$select = explode('-',$atribute[0]);
+				$atribute_select = $select[0];
+				unset($select[0]);
+				$array = '$selects = [';
+				foreach ($select as $key => $value) {
+					if (count($select) == $key) {
+						$array .= '\''.$value.'\'];';
+					} else {
+						$array .= '\''.$value.'\',';
+					}
+				}
+				$atributes_list[] = [$atribute_select, $atribute[1]];
+			} else {
+				$atributes_list[] = [$atribute[0],$atribute[1]];
+			}
+		}
+
+		foreach ($atributes_list as $value) {
+			if ($value[1] == 'text') {
+				$code_form .= '
 	$tag->div(\'class="col-sm-4"\');
 		$tag->p();
 	        $tag->b();
-	        	$tag->printer($language->$'.$translate_text.');
+	        	$tag->printer(\''.$value[0].'\');
 	        $tag->b;
 	    $tag->p;
 	    $tag->div(\'class="form-group"\');
 	        $tag->div(\'class="form-line"\');
-	        	$tag->input(\'type="hidden" name="dono" value="\'.$_SESSION[\'login\'].\'" required aria-required="true"\');
-	            $tag->input(\'type="hidden" name="lingua" value="\'.$_SESSION[\'lingua\'].\'" required aria-required="true"\');
-	        	$tag->input(\'type="hidden" name="id" value="\'.$'.$file_name.'->id.\'" required aria-required="true"\');
-	        	';
-	            foreach ($atributes as $key => $value) {
-					$atribute = explode(':', $value);
-					if (strpos($atribute[0], '-')) {
-						$select = explode('-',$atribute[0]);
-						$atribute_select = $select[0];
-						unset($select[0]);
-						$array = '$selects = [';
-						foreach ($select as $key => $value) {
-							if (count($select) == $key) {
-								$array .= '\''.$value.'\'];';
-							} else {
-								$array .= '\''.$value.'\',';	
-							}
-						}
-					$code_form .= '
-				'.$array.'
+	        	$tag->input(\'type="text" name="'.$value[0].'" value="\'.$'.$file_name.'->'.$value[0].'.\'" required aria-required="true" class="form-control" placeholder=""\');
+			$tag->div;
+		$tag->div;
+	$tag->div;';
+			} elseif ($value[1] == 'select') {
+				$code_form .= $array;
+				$code_form .= '
 
+	$tag->div(\'class="col-md-4"\');
+		$tag->p();
+	        $tag->b();
+	        	$tag->printer($language->ARMOR_RPG_SYSTEM);
+	        $tag->b;
+	    $tag->p;
 
-				$tag->div(\'class="col-sm-4"\');
-					$tag->p();
-				        $tag->b();
-				        	$tag->printer($language->$'.$translate_text.');
-				        $tag->b;
-				    $tag->p;
-				    $tag->select(\'class="form-control show-tick" name="'.$atribute[0].'" data-live-search="true" id="'.$atribute[0].'"\');
-				    	foreach ($selects as $key => $value) {
-				            if ($value == $'.$file_name.'->$'.$atribute_select.') {
-					            $tag->option(\'selected\');
-					            	$tag->printer($value);
-					            $tag->option;
-				    		} else {
-					            $tag->option();
-					            	$tag->printer($value);
-					            $tag->option; 
-				    		}
-				    	}
-				    $tag->select;
-				$tag->div;
+	    //$sistemas_helper->rpg_nomes
 
-				';
-					} elseif ($atribute[1] == 'textarea') {
-					$code_form .=
-
-				'$tag->div(\'class="col-sm-12"\');
-					$tag->p();
-				        $tag->b();
-				        	$tag->printer($language->$'.$translate_text.');
-				        $tag->b;
-				    $tag->p;
-				    $tag->div(\'class="form-group"\');
-				        $tag->div(\'class="form-line"\');	
-				        	$tag->textarea(\'id="ckeditor" name="'.$atribute[0].'"\');
-				        		$tag->printer($'.$file_name.'->'.$atribute[0].');
-				        	$tag->textarea;
-						$tag->div;
-					$tag->div;
-				$tag->div;
-
-				';
-					} else {
-					$code_form .= 
-
-				'$tag->input(\'type="'.$atribute[1].'" name="'.$atribute[0].'" value="\'.$'.$file_name.'->'.$atribute[0].'.\'" required aria-required="true" class="form-control" placeholder="\'.$language->'.$translate_text.'.\'"\');
-				
-				';	
-					}
-				}
-	        		$code_form .= 
-
-			'$tag->div;
+	    $tag->select(\'class="form-control show-tick" name="'.$atribute_select.'" data-live-search="true" id="lista"\');
+	    	foreach ($selects as $key => $value) {
+	    		if (trim($value) == $'.$file_name.'->'.$atribute_select.') {
+		            $tag->option(\'selected\');
+		            	$tag->printer($value);
+		            $tag->option;
+	    		} else {
+		            $tag->option();
+		            	$tag->printer($value);
+		            $tag->option;
+	    		}
+	    	}
+	    $tag->select;
+	$tag->div;';
+			} elseif ($value[1] == 'textarea') {
+				$code_form .= '
+	$tag->div(\'class="col-sm-12"\');
+		$tag->p();
+	        $tag->b();
+	        	$tag->printer($language->WEAPON_DESCRIPTION);
+	        $tag->b;
+	    $tag->p;
+	    $tag->div(\'class="form-group"\');
+	        $tag->div(\'class="form-line"\');
+	        	$tag->textarea(\'id="ckeditor" name="'.$value[0].'"\');
+	        		$tag->printer($'.$file_name.'->'.$value[0].');
+	        	$tag->textarea;
+			$tag->div;
 		$tag->div;
 	$tag->div;
 	';
+			}
+		}
+
+
 
 		file_put_contents("{$path}app/view/{$file_name}/partials/form.php", $code_form);
 	}
@@ -187,41 +193,37 @@ class viewCreator{
                 		$tag->div(\'class="card"\');
 		                    $tag->div(\'class="header"\');
 		                        $tag->a(\'href="\'.$this->novo_path.\'" class="btn btn-primary waves-effect"\');
-		                            $tag->printer($language->'.$translate_text.');
+		                            $tag->printer($language->BUTTON_SUBSCRIBE);
 		                        $tag->a;
 		                    $tag->div;
 		                    $tag->div(\'class="body"\');
 		                        $tag->table(\'class="table table-bordered table-striped table-hover dataTable js-exportable"\');
 		                            $tag->thead();
-		                                $tag->tr();';
-		                                $atribute_field = '
-		                                	$atributes = [';
-		                                
+		                                $tag->tr();
+		                                $form->th(\'ID\');
+		                                $form->th(\'Dono\');';
+
 		                                foreach ($atributes as $key => $value) {
 											$atribute = explode(':', $value);
 											if (strpos($atribute[0], '-')) {
 												$select = explode('-',$atribute[0]);
 												$atribute[0] = $select[0];
 											}
-											if ((count($atribute) -1) == $key) {
-												$atribute_field .= '\''.$file_name.'->'.$atribute[0].'\'];';
-											} else {
-												$atribute_field .= '\''.$file_name.'->'.$atribute[0].'\',';
-											}
 
 	                    					$code_index .= '
-		                                    $form->th('.$atribute[0].');';
+		                                    $form->th(\''.$atribute[0].'\');';
 		                            	}
 		                            $code_index .= '
+		                            	$form->th($language->SITE_ACTION);
 		                                $tag->tr;
 		                            $tag->thead;';
 
-		                            $code_index .= $atribute_field;
-
 		                            $code_index .= '
 		                            $tag->tbody();
-		                                foreach ($atributes as $key => $value) {
-		                                    $tag->tr();';
+		                                foreach ($'.$file_name.' as $key => $value) {
+		                                    $tag->tr();
+		                                    	$form->th($value->id);
+		                                    	$form->th($value->dono);';
 		                                    foreach ($atributes as $key => $value) {
 												$atribute = explode(':', $value);
 												if (strpos($atribute[0], '-')) {
@@ -231,25 +233,29 @@ class viewCreator{
 
 												if ($atribute[0] == 'nome') {
 													$code_index .= '
-												$form->th("<a href=\"".URL_BASE."'.$file_name.'/visualizar/{$'.$file_name.'->id}\">{$'.$file_name.'->'.$atribute[0].'}</a>");';
+												$form->th("<a href=\"".URL_BASE."'.$file_name.'/visualizar/{$value->id}\">{$value->'.$atribute[0].'}</a>");';
+												} else if ($atribute[0] == 'descricao') {
+													$code_index .= '
+												$text = $limit_text->limitar_texto(strip_tags($value->'.$atribute[0].'), 128);
+												$form->th($text);';
 												} else {
 													$code_index .= '
-													$form->th($'.$file_name.'->'.$atribute[0].');';
+												$form->th($value->'.$atribute[0].');';
 												}
 											}
 
 		                                    $code_index .= '
-		                                        if ($'.$file_name.'->dono == $_SESSION[\'login\']) {
+		                                        if ($value->dono == $_SESSION[\'login\']) {
 		                                            $tag->th(\'class="btns-del-edit"\');
-		                                                $tag->div(\'class="icon-button-demo js-modal-buttons btn-del"\');
+		                                                $tag->div(\'class="icon-button-demo js-modal-buttons"\');
 		                                                    $tag->button(\'data-color="red" class="icon-button-demo btn bg-red btn-xs waves-effect"\');
-		                                                        $tag->i(\'class="material-icons"\');
+		                                                        $tag->i(\'class="material-icons" onclick="deletar_url(\'\'.URL_BASE.\''.$file_name.'/deletar/\'.$value->id.\'\')"\');
 		                                                            $tag->printer(\'delete\');
 		                                                        $tag->i;
 		                                                    $tag->button;
 		                                                $tag->div;
-		                                                $tag->div(\'class="icon-button-demo btn-edit"\');
-		                                                    $tag->a(\'href="\'.URL_BASE.\''.$file_name.'/editar/\'.$'.$file_name.'->id.\'"\');
+		                                                $tag->div(\'class="icon-button-demo"\');
+		                                                    $tag->a(\'href="\'.URL_BASE.\''.$file_name.'/editar/\'.$value->id.\'"\');
 		                                                        $tag->button(\'class="btn bg-green btn-xs waves-effect"\');
 		                                                            $tag->i(\'class="material-icons"\');
 		                                                                $tag->printer(\'edit\');
@@ -257,10 +263,10 @@ class viewCreator{
 		                                                        $tag->button;
 		                                                    $tag->a;
 		                                                $tag->div;
-		                                            $tag->th; 
+		                                            $tag->th;
 		                                        } else {
 		                                            $tag->th(\'class="btns-del-edit"\');
-		                                                $tag->a(\'href="\'.URL_BASE.\''.$file_name.'/visualizar/\'.$'.$file_name.'->id.\'" target="_blank"\');
+		                                                $tag->a(\'href="\'.URL_BASE.\''.$file_name.'/visualizar/\'.$value->id.\'" \');
 		                                                    $tag->button(\'class="btn bg-deep-purple btn-xs waves-effect"\');
 		                                                        $tag->i(\'class="material-icons"\');
 		                                                            $tag->printer(\'pageview\');
@@ -293,7 +299,7 @@ class viewCreator{
 	                $tag->printer($language->PANEL_ARE_YOU_SURE_MSG);
 	            $tag->div;
 	            $tag->div(\'class="modal-footer"\');
-	                $tag->a(\'href="#" target="blank" class="btn btn-link waves-effect"\');
+	                $tag->a(\'href="#" target="blank" id="delete_url" class="btn btn-link waves-effect"\');
 	                     $tag->printer($language->BUTTON_YES);
 	                $tag->a;
 	                $tag->a(\'href="#" class="btn btn-link waves-effect" data-dismiss="modal"\');
@@ -320,7 +326,7 @@ class viewCreator{
 
 	require URL_BASE_INTERNAL.\'app/view/painel/partials/home_page.php\';
 
-	 $tag->section(\'class="content"\');
+	$tag->section(\'class="content"\');
 
 	    $tag->div(\'class="col-lg-12"\');
 	        $tag->div(\'class="row clearfix"\');
@@ -332,24 +338,27 @@ class viewCreator{
 				            $tag->h2;
 
 				            $tag->ul(\'class="header-dropdown m-r--5"\');
-	                            $tag->li(\'class="dropdown"\');
-	                                $tag->a(\'href="javascript:window.history.go(-1)" role="button" title="\'.$language->BTN_BACK_TITLE_HERE.\'" aria-haspopup="true" aria-expanded="false"\');
-	                                    $tag->i(\'class="material-icons"\');
-	                                    	$tag->printer(\'keyboard_return\');
-	                                    $tag->i;
-	                                $tag->a;
+	                            $tag->li(\'class="dropdown open"\');
+	                                $tag->a(\'href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"\');
+		                                $tag->printer(\'<i class="material-icons">more_vert</i>\');
+		                            $tag->a;
+		                            $tag->ul(\'class="dropdown-menu pull-right"\');
+		                                $tag->printer(\'<li><a href="javascript:window.history.go(-1)" class=" waves-effect waves-block">\'.$language->BUTTON_BACK.\'</a></li>\');
+		                                $tag->printer(\'<li><a href="\'.URL_BASE.\''.$file_name.'" class=" waves-effect waves-block">\'.$language->MENU_HOME.\'</a></li>\');
+		                                $tag->printer(\'<li><a href="\'.URL_BASE.\''.$file_name.'/novo" class=" waves-effect waves-block">\'.$language->BUTTON_SUBSCRIBE.\'</a></li>\');
+		                            $tag->ul;
 	                            $tag->li;
 	                        $tag->ul;
 	                    $tag->div;
-	                    
+
 	                    $tag->div(\'class="body"\');
 	                    	$tag->div(\'class="row clearfix"\');
 	                    		$tag->form(\'method="post" action="\'.$this->atualizar_path.\'"\');
-		                            
+
 	                    			require \'partials/form.php\';
 
 		                        	$tag->div(\'class="col-sm-12"\');
-				                        $tag->input(\'type="submit" class="btn btn-primary waves-effect" name="submit" value="\'.$language->BTN_EDIT_HERE.\'"\');
+				                        $tag->input(\'type="submit" class="btn btn-primary waves-effect" name="submit" value="\'.$language->BUTTON_SAVE_UPDATE.\'"\');
 			    	                    $tag->input;
 			    	                $tag->div;
 		                        $tag->form;
@@ -377,7 +386,7 @@ class viewCreator{
 
 	require URL_BASE_INTERNAL.\'app/view/painel/partials/home_page.php\';
 
-	 $tag->section(\'class="content"\');
+	$tag->section(\'class="content"\');
 
 	    $tag->div(\'class="col-lg-12"\');
 	        $tag->div(\'class="row clearfix"\');
@@ -389,24 +398,27 @@ class viewCreator{
 				            $tag->h2;
 
 				            $tag->ul(\'class="header-dropdown m-r--5"\');
-	                            $tag->li(\'class="dropdown"\');
-	                                $tag->a(\'href="javascript:history.go(-1)" role="button" title="\'.$language->BTN_BACK_TITLE_HERE.\'" aria-haspopup="true" aria-expanded="false"\');
-	                                    $tag->i(\'class="material-icons"\');
-	                                    	$tag->printer(\'keyboard_return\');
-	                                    $tag->i;
-	                                $tag->a;
+	                            $tag->li(\'class="dropdown open"\');
+	                                $tag->a(\'href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"\');
+		                                $tag->printer(\'<i class="material-icons">more_vert</i>\');
+		                            $tag->a;
+		                            $tag->ul(\'class="dropdown-menu pull-right"\');
+		                                $tag->printer(\'<li><a href="javascript:window.history.go(-1)" class=" waves-effect waves-block">\'.$language->BUTTON_BACK.\'</a></li>\');
+		                                $tag->printer(\'<li><a href="\'.URL_BASE.\''.$file_name.'" class=" waves-effect waves-block">\'.$language->MENU_HOME.\'</a></li>\');
+		                                $tag->printer(\'<li><a href="\'.URL_BASE.\'utilitarios" class=" waves-effect waves-block">\'.$language->MENU_UTILITIES.\'</a></li>\');
+		                            $tag->ul;
 	                            $tag->li;
 	                        $tag->ul;
 	                    $tag->div;
-	                    
+
 	                    $tag->div(\'class="body"\');
 	                    	$tag->div(\'class="row clearfix"\');
 	                    		$tag->form(\'method="post" action="\'.$this->salvar_path.\'"\');
-		                            
+
 	                    			require \'partials/form.php\';
 
 		                        	$tag->div(\'class="col-sm-12"\');
-				                        $tag->input(\'type="submit" class="btn btn-primary waves-effect" name="submit" value="\'.$language->BTN_NEW_HERE.\'"\');
+				                        $tag->input(\'type="submit" class="btn btn-primary waves-effect" name="submit" value="\'.$language->BUTTON_SAVE.\'"\');
 			    	                    $tag->input;
 			    	                $tag->div;
 		                        $tag->form;
@@ -442,22 +454,33 @@ class viewCreator{
 
 	            	$tag->div(\'class="card"\');
 	                    $tag->div(\'class="header"\');
+	                    	$tag->ul(\'class="header-dropdown m-r--5"\');
+	                            $tag->li(\'class="dropdown open"\');
+	                                $tag->a(\'href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"\');
+		                                $tag->printer(\'<i class="material-icons">more_vert</i>\');
+		                            $tag->a;
+		                            $tag->ul(\'class="dropdown-menu pull-right"\');
+		                                $tag->printer(\'<li><a href="javascript:window.history.go(-1)" class=" waves-effect waves-block">\'.$language->BUTTON_BACK.\'</a></li>\');
+		                                $tag->printer(\'<li><a href="\'.URL_BASE.\''.$file_name.'" class=" waves-effect waves-block">\'.$language->MENU_HOME.\'</a></li>\');
+		                                $tag->printer(\'<li><a href="\'.URL_BASE.\''.$file_name.'/novo" class=" waves-effect waves-block">\'.$language->BUTTON_SUBSCRIBE.\'</a></li>\');
+		                                 if ($_SESSION[\'nome\'] == $'.$file_name.'_view->usuario_nome) {
+		                                	$tag->printer(\'<li><a href="\'.URL_BASE.\''.$file_name.'/editar/\'.$'.$file_name.'_view->id.\'" class=" waves-effect waves-block">\'.$language->BUTTON_UPDATE.\'</a></li>\');
+				    	                }
+		                            $tag->ul;
+	                            $tag->li;
+	                        $tag->ul;
 	                    	$tag->h2();
 				                $tag->printer("
-				                		<span class=\"font-bold col-blue\">{$'.$file_name.'->nome}</span> 
-				                		{$language->'.$translate_text.'} 
+				                		<span class=\"font-bold col-blue\">{$'.$file_name.'_view->nome}</span>
+				                		{$language->SITE_SUBSCRIBE_BY}
 				                		<span class=\"font-bold col-blue\">
-				                			<a onmouseover=\"display_profile();\" onmouseout=\"hide_profile();\" href=\"".URL_BASE."usuario/profile/{$'.$file_name.'->usuario_id}\" target=\"_blank\">
-				                				{$'.$file_name.'->usuario_nome}
+				                			<a onmouseover=\"display_profile();\" onmouseout=\"hide_profile();\" href=\"".URL_BASE."usuario/profile/{$'.$file_name.'_view->usuario_id}\" target=\"_blank\">
+				                				{$'.$file_name.'_view->usuario_nome}
 				                			</a>
 				                		</span>");
 				            $tag->h2;
-
-				            // $tag->div(\'id="rateyo"\');
-				         
-				            // $tag->div;
 	                    $tag->div;
-	                 
+
 	                    $tag->div(\'id="display_profile_box" style="display:none"\');
 	                    	$tag->div(\'class="row clearfix"\');
 					            $tag->div(\'class="col-lg-12 col-md-12 col-sm-12 col-xs-12"\');
@@ -465,50 +488,50 @@ class viewCreator{
 					                    $tag->div(\'class="body"\');
 					                    	$tag->div(\'class="row clearfix"\');
 						                    	$tag->div(\'class="col-md-2"\');
-		                    						$tag->img(\'src="\'.$'.$file_name.'->foto_link.\'" class="img-responsive thumbnail"\');
+		                    						$tag->img(\'src="\'.$'.$file_name.'_view->foto_link.\'" class="img-responsive thumbnail"\');
 						                    	$tag->div;
 						                    	$tag->div(\'class="col-md-3"\');
 						                    		$tag->b();
 						                    			$tag->printer("{$language->USER_LABEL_NAME}");
 						                    		$tag->b;
-						                    		$tag->printer("{$'.$file_name.'->usuario_nome}");
+						                    		$tag->printer("{$'.$file_name.'_view->usuario_nome}");
 						                    	$tag->div;
 
 						                    	$tag->div(\'class="col-md-3"\');
 						                    		$tag->b();
 						                    			$tag->printer("{$language->USER_LABEL_COUNTRY}");
 						                    		$tag->b;
-						                    		$tag->printer("{$'.$file_name.'->pais}");
+						                    		$tag->printer("{$'.$file_name.'_view->pais}");
 						                    	$tag->div;
 
 						                    	$tag->div(\'class="col-md-3"\');
 						                    		$tag->b();
 						                    			$tag->printer("{$language->USER_LABEL_XP}");
 						                    		$tag->b;
-						                    		$tag->printer("{$'.$file_name.'->xp}");
+						                    		$tag->printer("{$'.$file_name.'_view->xp}");
 						                    	$tag->div;
 
 						                    	$tag->div(\'class="col-md-3"\');
 						                    		$tag->b();
 						                    			$tag->printer("{$language->USER_LABEL_LEVEL}");
 						                    		$tag->b;
-						                    		$tag->printer("{$'.$file_name.'->nivel}");
+						                    		$tag->printer("{$'.$file_name.'_view->nivel}");
 						                    	$tag->div;
 
 						                    	$tag->div(\'class="col-md-3"\');
 						                    		$tag->b();
 						                    			$tag->printer("{$language->USER_LABEL_STARS}");
 						                    		$tag->b;
-						                    		$tag->printer("{$'.$file_name.'->estrelas}");
+						                    		$tag->printer("{$'.$file_name.'_view->estrelas}");
 						                    	$tag->div;
 
 						                    	$tag->div(\'class="col-md-10"\');
 						                    		$tag->b();
-						                    			$tag->printer("{$language->USER_LABEL_ABOUT} {$'.$file_name.'->usuario_nome}");
+						                    			$tag->printer("{$language->USER_LABEL_ABOUT} {$'.$file_name.'_view->usuario_nome}");
 						                    		$tag->b;
-						                    		$tag->printer("{$'.$file_name.'->usuario_descricao}");
+						                    		$tag->printer("{$'.$file_name.'_view->usuario_descricao}");
 						                    	$tag->div;
-						                    	
+
 					                    	$tag->div;
 					                    $tag->div;
 					    			$tag->div;
@@ -530,38 +553,17 @@ class viewCreator{
 		                            $tag->div(\'class="col-sm-12"\');
 		                            	$tag->p();
 		                                    $tag->b();
-		                                    	$tag->printer($language->'.$translate_text.');
+		                                    	$tag->printer(\''.$atribute[0].'\');
 		                                    $tag->b;
 		                                $tag->p;
 		                                $tag->div(\'class="form-group"\');
 		                                    $tag->div(\'class="form-line"\');
-				                                $tag->printer($'.$file_name.'->'.$atribute[0].');
+				                                $tag->printer($'.$file_name.'_view->'.$atribute[0].');
 		                                    $tag->div;
 		                                $tag->div;
 		                            $tag->div;';
 		                        }
-
-		                            	$code_view .= '
-		                        $tag->div(\'class="col-sm-2"\');
-			                        $tag->a(\'href="\'.URL_BASE.\'armaduras/novo" class="btn bg-indigo waves-effect"\');
-		    	                    	$tag->printer($language->'.$translate_text.');
-		    	                    $tag->a;
-		    	                $tag->div;
-		    	               
-		    	                if ($_SESSION[\'nome\'] == $'.$file_name.'->usuario_nome) {
-			    	                $tag->div(\'class="col-sm-2"\');
-				                        $tag->a(\'href="'.URL_BASE.'armaduras/editar/\'.$'.$file_name.'->id.\'" class="btn bg-indigo waves-effect"\');
-			    	                    	$tag->printer($language->'.$translate_text.');
-			    	                    $tag->a;
-			    	                $tag->div;
-		    	                }
-
-		    	                $tag->div(\'class="col-sm-2"\');
-			                        $tag->a(\'href="\'.URL_BASE.\'armaduras" class="btn bg-deep-purple waves-effect"\');
-		    	                    	$tag->printer($language->'.$translate_text.');
-		    	                    $tag->a;
-		    	                $tag->div;
-
+		                        $code_view .= '
 	                        $tag->div;
 
 	                        //comentario disqus

@@ -14,11 +14,11 @@ $tag->div;
 
 $tag->div('class="col-sm-6"');
     $tag->h2('class="card-inside-title"');
-        $tag->printer('<span class="font-bold">Nick</span>');
+        $tag->printer('<span class="font-bold">Link Capa Pequena</span>');
     $tag->h2;
     $tag->div('class="form-group"');
         $tag->div('class="form-line"');
-            $tag->input('type="text" name="login" value="'.$usuario->login.'" class="form-control" placeholder="Nome de usuário ou Nick"');
+            $tag->input('type="text" name="capa_pequena_link" value="'.$usuario->capa_pequena_link.'" class="form-control" placeholder="Link para a capa pequena acima do menu."');
         $tag->div;
     $tag->div;
 $tag->div;
@@ -147,12 +147,22 @@ $tag->div('class="col-sm-6"');
     $tag->div('class="form-group"');
         $tag->div('class="form-line"');
             $tag->select('class="form-control show-tick" name="e_mestre" data-live-search="true" id="lista"');
-                $tag->option('value="s"');
+            if ($usuario->e_mestre == 's') {
+                $tag->option('value="s" selected');
                     $tag->printer($language->USER_LABEL_YES);
                 $tag->option;
-                 $tag->option('value="n"');
+            } else{
+                 $tag->option('value="n" selected');
                     $tag->printer($language->USER_LABEL_NO);
                 $tag->option;
+            }
+            
+            $tag->option('value="s"');
+                    $tag->printer($language->USER_LABEL_YES);
+            $tag->option;
+            $tag->option('value="s"');
+                $tag->printer($language->USER_LABEL_YES);
+            $tag->option;
             $tag->select;
         $tag->div;
     $tag->div;

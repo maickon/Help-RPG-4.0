@@ -42,6 +42,7 @@ $tag->html();
 					$inscreverse->painel_js_path . '/plugins/node-waves/waves.js',
 					$inscreverse->painel_js_path . '/plugins/jquery-validation/jquery.validate.js',
 					$inscreverse->painel_js_path . '/admin.js',
+					$inscreverse->config_js_path,
 					$inscreverse->inscreverse_js_path . '/inscreverse.js',
 				];
 			foreach ($_JS as $key => $value) {

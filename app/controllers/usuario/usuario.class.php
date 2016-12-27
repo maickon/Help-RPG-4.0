@@ -14,40 +14,54 @@ class Usuario_Controller extends Controller_Lib{
 		require (new Render_Lib())->get_required_path();
 	}
 
-	function profile($id = ''){
+	function profile($params = ''){
 		$language = new Locale_Lib;
-		session_start();
+		@session_start();
 		if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login']))
 		    header("Location: " . URL_BASE);
-		
+
 		$tag = new Tags_Lib;
 		$form = new Form_Lib;
-		$usuario_modelo = new Usuario_Model();
-		if (is_numeric($id)) {
-			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$id]);
-			$amizades = new Amizades_Model;
-			$colunas = ['de','para'];
-			$valores = [$_SESSION['id'], $id];
-			$amizade = $amizades->select('amizades','*', [ [$colunas[0], '=', $valores[0]], [$colunas[1], '=', $valores[1]] ], 'AND');
-			if (count($amizade) == 0) {
-				$amizade = $amizades->select('amizades','*', [ [$colunas[0], '=', $valores[1]], [$colunas[1], '=', $valores[0]] ], 'AND');
-			}
-		} else if ($id == ''){
+		$timeline = new Timeline_Model;
+	 	$usuario_modelo = new Usuario_Model();
+	 	$id = null;
+
+		if (!is_array($params) and is_numeric($params)) {
+			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$params]);
+			$id = $params;
+		} else if (is_array($params)) {
+			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$params[0]]);
+			$id = $params[0];
+		} elseif ($params == '') {
 			$usuario = $usuario_modelo->select('usuarios', '*', ['id','=',$_SESSION['id']]);
+			$id = $_SESSION['id'];
 		} else {
 			header('Location: ' . URL_BASE . 'erro/codigo/404');
 		}
-	
+
+	 	// pegando tudo que o user ja postou
+	 	$posts = $usuario_modelo->get_all($usuario[0]->login);
+	 	if (empty($posts)) {
+	 		$postagens = [];
+	 		$pagina_atual = 0;
+	 		$contador = 0;
+	 	} else {
+		 	$pagina_atual = is_array($params) ? $params[1] : 1;
+		 	$pagias = array_chunk($posts, 10);
+		 	$contador = count($pagias);
+		 	$postagens = $pagias[$pagina_atual-1];
+	 	}
+
 		if (count($usuario) == 0) {
 			header('Location: ' . URL_BASE . 'erro/codigo/404');
 		} elseif (count($usuario) == 1) {
 			$usuario = $usuario[0];
-		} 
+		}
 		$painel = new Painel_Model;
 
 		$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
 		$time_ago = new Timeago_Helper;
-		
+
 		require (new Render_Lib('profile'))->get_required_path();
 	}
 
@@ -82,7 +96,7 @@ class Usuario_Controller extends Controller_Lib{
 		$pericias_count 		= $pericia->qtd_max('pericias', 'dono = "'.$_SESSION['nome'].'"')['count'];
 		$personagens_count 		= $personagem->qtd_max('personagens', 'dono = "'.$_SESSION['nome'].'"')['count'];
 		$talentos_count 		= $talento->qtd_max('talentos', 'dono = "'.$_SESSION['nome'].'"')['count'];
-		
+
 		$counts = [
 					'ARMADURAS'=>$armaduras_count,
 					'ARMAS'=>$armas_count,
@@ -103,7 +117,7 @@ class Usuario_Controller extends Controller_Lib{
 
 	function editar(){
 		$language = new Locale_Lib;
-		session_start();
+		@session_start();
 		if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login']))
 		    header("Location: " . URL_BASE);
 
@@ -120,22 +134,30 @@ class Usuario_Controller extends Controller_Lib{
 	function salvar(){
 		$language = new Locale_Lib;
 		$usuario = new Usuario_Model();
-		$usuario_check = $usuario->select('usuarios', ['email'], ['email','=',$_REQUEST['email']]);
+
+		$usuario_check = $usuario->select(
+			'usuarios',
+			['email','login'],
+			[ 	[ 'email','=',$_REQUEST['email'] ],
+				[ 'login','=',$_REQUEST['login'] ]
+			],
+			'AND');
+
 		if (array_key_exists(0, $usuario_check)) {
-			header('Location: '.URL_BASE.'login?erro=2');
+			header('Location: ' . URL_BASE . 'erro/msg/'.$language->ERROR_MSG_USER_OR_EMAIL_EXITS);
 		} else {
 			$hash_code = hash('sha256', microtime());
 			if ($usuario->insert('usuarios', 
 							['nome','email','senha','login','hash_code'],
 							[$_REQUEST['login'],$_REQUEST['email'],md5($_REQUEST['senha']),$_REQUEST['login'], $hash_code])) {
-			
+
 				require URL_BASE_INTERNAL . 'lib/PHPMailer-master/PHPMailerAutoload.php';
 				// Inicia a classe PHPMailer
 				$mail = new PHPMailer(true);
 				// Define os dados do servidor e tipo de conexão
 				$mail->IsSMTP(); // Define que a mensagem será SMTP
 				$mail->SMTPSecure 		= MAIL_SMTP_SECURE;
-				
+
 				try {
 					$mail->Host 		= MAIL_HOST;
 					$mail->SMTPAuth 	= MAIL_SMTP_AUTH;
@@ -169,24 +191,67 @@ class Usuario_Controller extends Controller_Lib{
 
 					$mail->Send();
 
-					//caso apresente algum erro é apresentado abaixo com essa exceção.
+					// caso apresente algum erro é apresentado abaixo com essa exceção.
 				    } catch (phpmailerException $e) {
 				    	header('Location: ' . URL_BASE . 'erro/msg/' . $e->errorMessage());
 					}
-					
+
 					header('Location: ' . URL_BASE . 'login/entrar');
 			} else {
 				header('Location: ' . URL_BASE . 'erro/codigo/002');
 			}
-	
 		}
 	}
 
 	function atualizar(){
 		$usuario = new Usuario_Model();
 		if ($usuario->update('usuarios', 
-							['nome','sexo','pais','data_nascimento','cidade','estado','whats_app','skype','rpgs_preferido','classe_preferida','raca_preferida','e_mestre','frase_preferida','login','foto_link','capa_link','facebook_link','twitter_link','gplus_link','pagina_social','site_pessoal','email','descricao'], 
-							[$_REQUEST['nome'],$_REQUEST['sexo'],$_REQUEST['pais'],$_REQUEST['data_nascimento'],$_REQUEST['cidade'],$_REQUEST['estado'],$_REQUEST['whats_app'],$_REQUEST['skype'],$_REQUEST['rpgs_preferido'],$_REQUEST['classe_preferida'],$_REQUEST['raca_preferida'],$_REQUEST['e_mestre'],$_REQUEST['frase_preferida'],$_REQUEST['login'],$_REQUEST['foto_link'],$_REQUEST['capa_link'],$_REQUEST['facebook_link'],$_REQUEST['twitter_link'],$_REQUEST['gplus_link'],$_REQUEST['pagina_social'],$_REQUEST['site_pessoal'],$_REQUEST['email'],$_REQUEST['descricao']], 
+							[	'nome',
+								'sexo',
+								'pais',
+								'data_nascimento',
+								'cidade',
+								'estado',
+								'whats_app',
+								'skype',
+								'rpgs_preferido',
+								'classe_preferida',
+								'raca_preferida',
+								'e_mestre',
+								'frase_preferida',
+								'foto_link',
+								'capa_link',
+								'capa_pequena_link',
+								'facebook_link',
+								'twitter_link',
+								'gplus_link',
+								'pagina_social',
+								'site_pessoal',
+								'email',
+								'descricao'],
+							[	$_REQUEST['nome'],
+								$_REQUEST['sexo'],
+								$_REQUEST['pais'],
+								$_REQUEST['data_nascimento'],
+								$_REQUEST['cidade'],
+								$_REQUEST['estado'],
+								$_REQUEST['whats_app'],
+								$_REQUEST['skype'],
+								$_REQUEST['rpgs_preferido'],
+								$_REQUEST['classe_preferida'],
+								$_REQUEST['raca_preferida'],
+								$_REQUEST['e_mestre'],
+								$_REQUEST['frase_preferida'],
+								$_REQUEST['foto_link'],
+								$_REQUEST['capa_link'],
+								$_REQUEST['capa_pequena_link'],
+								$_REQUEST['facebook_link'],
+								$_REQUEST['twitter_link'],
+								$_REQUEST['gplus_link'],
+								$_REQUEST['pagina_social'],
+								$_REQUEST['site_pessoal'],
+								$_REQUEST['email'],
+								$_REQUEST['descricao']],
 							'id', $_REQUEST['id'])) {
 			header('Location: ' . URL_BASE . 'usuario/profile');
 		} else {
@@ -194,19 +259,36 @@ class Usuario_Controller extends Controller_Lib{
 		}
 	}
 
-	function listar(){
-		session_start();
+	function listar($params = 1){
+		@session_start();
 		if (!isset($_SESSION['id']) and !isset($_SESSION['nome']) and !isset($_SESSION['login'])) 
 		    header("Location: " . URL_BASE);
 
-		$tag = new Tags_Lib;
-		$form = new Form_Lib;
-		$painel = new Painel_Model;
-		$usuario = new Usuario_Model();
-		$time_ago = new Timeago_Helper;
-		$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
-		$usuarios = $usuario->select('usuarios');
-		require (new Render_Lib('listar'))->get_required_path();
+		if (!is_numeric($params)) {
+			header('Location: ' . URL_BASE . 'erro/codigo/404');
+		} else {
+			$language = new Locale_Lib;
+			$tag = new Tags_Lib;
+			$form = new Form_Lib;
+			$painel = new Painel_Model;
+			$usuario_model = new Usuario_Model();
+			$time_ago = new Timeago_Helper;
+			$notificacoes = (new Notificacoes_Model())->escalonador_de_noticifacoes();
+			$usuario = $usuario_model->select('usuarios','*',[ ['id','=',$_SESSION['id']] ])[0];
+			$usuarios = $usuario_model->select('usuarios');
+
+			// contador
+			$qtd_usuarios = count($usuarios);
+			$registros = 20;
+			$numero_usuarios = ceil($qtd_usuarios/$registros);
+
+			$inicio = ($registros*$params) - $registros;
+
+			$usuarios = $usuario_model->direct_instruction("SELECT * FROM usuarios LIMIT {$inicio},{$registros}",'usuarios');
+			$qtd_usuarios = count($usuarios);
+
+			require (new Render_Lib('listar'))->get_required_path();
+		}
 	}
 
 	function filtrar($filtro = ''){
@@ -218,8 +300,9 @@ class Usuario_Controller extends Controller_Lib{
 		$cidade = ['cidade', 'LIKE', "%{$filtro}%"];
 		$estado = ['estado', 'LIKE', "%{$filtro}%"];
 		$pais = ['pais', 'LIKE', "%{$filtro}%"];
+		$pais = ['nivel', 'LIKE', "%{$filtro}%"];
 		$usuario_filtrado = $usuario->select('usuarios','*',[ $nome, $login, $sexo, $data_nascimento, $cidade, $estado, $pais], 'OR');
 		$toJason = json_encode($usuario_filtrado);
 		echo $toJason;
-	}		
+	}
 }

@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/masmorras/inkwellideas.png
+TITLE::Inkwell Ideas
+DESCRIPTION::Um simples gerador de masmorras.
+LENGUAGE::Inglês
+SITE_NAME::Inkwell Ideas
+FONT::http://www.inkwellideas.com/roleplaying_tools/random_dungeon/index.shtml?percentcaves=10&submit=submit
+APP_LINK::

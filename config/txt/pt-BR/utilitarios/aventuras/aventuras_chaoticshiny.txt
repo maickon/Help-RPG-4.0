@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/aventuras/chaoticshiny.png
+TITLE::Chaotic Shiny
+DESCRIPTION::Este gerador te da a opção de gerar até 15 ideias para uma aventura. Cada frase informa alguma tarefa ou problema que o grupo poderá resolver. Além disso o site oferece diversas outras ferramentas.
+LENGUAGE::Inglês
+SITE_NAME::Chaotic Shiny
+FONT::http://www.chaoticshiny.com/adventuregen.php
+APP_LINK::

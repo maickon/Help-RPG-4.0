@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/masmorras/inkwellideas-city.png
+TITLE::Inkwell Ideas
+DESCRIPTION::Um gerador de mapas de cidades colorido.
+LENGUAGE::Inglês
+SITE_NAME::Inkwell Ideas
+FONT::http://inkwellideas.com/free-tools/random-city-map-generator/
+APP_LINK::

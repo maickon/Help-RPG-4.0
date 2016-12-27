@@ -1,0 +1,74 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="card">
+        <div class="header">
+            <h2>
+                GALERIA DE VÍDEOS
+                <small>Encontre vídeos que te ajudem a jogar RPG.</small>
+            </h2>
+            <ul class="header-dropdown m-r--5">
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="material-icons">more_vert</i>
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a href="<?php echo URL_BASE.'videos/novo' ?>" class=" waves-effect waves-block">Nova Vídeo</a></li>
+                        <li><a href="<?php echo URL_BASE.'videos/' ?>" class=" waves-effect waves-block">Listar Vídeos</a></li>
+                        <li><a href="<?php echo URL_BASE.'painel/cadastros/' ?>" class=" waves-effect waves-block">Cadastrar</a></li>
+                        <li><a href="<?php echo URL_BASE.'utilitarios/' ?>" class=" waves-effect waves-block">Utilitários</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="body">
+            <div class="col-sm-8">
+            </div>
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <div class="form-line">
+                        <input type="text" onkeydown="buscar_videos(this.value)" name="nome" value="" class="form-control" placeholder="Pesquisar...">
+                    </div>
+                </div>
+            </div>
+            <div class="srow clearfix" id="videos_galery">
+                <?php foreach ($videos as $key => $value) { ?>
+                    <div class="col-md-3">
+                        <?php
+                            $itens = parse_url($value->link);
+                            parse_str($itens['query'], $params_link);
+                         ?>
+                        <a href="<?php $tag->printer(URL_BASE.'videos/visualizar/'.$value->id); ?>" class="center">
+                            <p id="video_title">
+                                <?php $tag->printer($value->nome); ?>
+                            </p>
+                        </a>
+                        <img src="http://img.youtube.com/vi/<?php $tag->printer($params_link['v']); ?>/0.jpg" title="<?php $tag->printer($value->nome); ?>" width="200">
+                    </div>
+                <?php }?>
+            </div>
+        </div>
+        <div class="footer center" id="counter">
+            <ul class="pagination">
+                <?php if ($params > 1) { ?>
+                    <li class="">
+                        <?php $indice_menos = $params - 1; ?>
+                        <a href="<?php echo URL_BASE.'videos/galeria/'.($indice_menos); ?>">
+                            <i class="material-icons">chevron_left</i>
+                        </a>
+                    </li>
+                <?php } ?>
+                <?php for ($i=1; $i < $numero_paginas +1; $i++) {
+                    $ativo = ($i == $params) ? 'active' : '';
+                    echo '<li class="'.$ativo.'"><a href="'.URL_BASE.'videos/galeria/'.$i.'" class="waves-effect">'.$i.'</a></li>';
+                } ?>
+                <?php if ($params < $numero_paginas) { ?>
+                    <li>
+                        <?php $indice_mais = $params + 1; ?>
+                        <a href="<?php echo URL_BASE.'videos/galeria/'.$indice_mais; ?>" class="waves-effect">
+                            <i class="material-icons">chevron_right</i>
+                        </a>
+                    </li>
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+</div>

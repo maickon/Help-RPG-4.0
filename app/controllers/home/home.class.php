@@ -35,8 +35,8 @@ class Home_Controller{
 		$armas_registradas = $arma->qtd_max('armas')->count;
 
 		// artefatos registrados
-		$artefato = new Artefatos_Model();
-		$artefatos_registrados = $artefato->qtd_max('artefatos')->count;
+		// $artefato = new Artefatos_Model();
+		// $artefatos_registrados = $artefato->qtd_max('artefatos')->count;
 
 		// personagens do tipo jogador registrados
 		$personagem_jogador = new Personagens_Model();

@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/nomes/namator.png
+TITLE::Namator
+DESCRIPTION::O Namator gera nome de pessoas, planetas, corporações, fantasias e etc. É uma ferramenta com bastante opção.
+LENGUAGE::Inglês
+SITE_NAME::Namator
+FONT::http://www.namator.com/index.php
+APP_LINK::

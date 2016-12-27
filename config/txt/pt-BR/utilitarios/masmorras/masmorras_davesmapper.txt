@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/masmorras/davesmapper.png
+TITLE::Davesmapper
+DESCRIPTION::Este utilitário gera mapas para masmorras, cidades, cavernas e até naves. O modelo dos mapas são estilo desenho a mão. Você pode modificar os mapas gerados como se fossem quebra cabeças e além disso pode exportar como arquivo de imagem.
+LENGUAGE::Inglês
+SITE_NAME::Davesmapper
+FONT::http://davesmapper.com/
+APP_LINK::

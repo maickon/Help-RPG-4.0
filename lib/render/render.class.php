@@ -40,7 +40,7 @@ class Render_Lib{
 		
 		if (!isset($url[1])) {
 			// caminho principal da view
-			$partial_path = "{$url[0]}/index.php";		
+			$partial_path = "{$url[0]}/index.php";
 		} elseif ($view != '') {
 			// parte do path
 			$partial_path = "{$url[0]}/{$view}";

@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/masmorras/dizzydragon.png
+TITLE::Dizzy Dragon
+DESCRIPTION::Este site gera mapas de masmorra. Cada sala gerrada tem uma descrição especifica dizendo se há encontro, tesouro e entre outras coisas. Antes da criação da mamorra existe algumas opções que podem ser preenchidas para personalizar a masmorra a ser gerada.
+LENGUAGE::Inglês
+SITE_NAME::Dizzy Dragon
+FONT::http://www.dizzydragon.net/adventuregenerator/gen
+APP_LINK::

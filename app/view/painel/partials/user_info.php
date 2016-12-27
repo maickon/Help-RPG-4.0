@@ -1,4 +1,4 @@
-<div class="user-info" style="background: url('<?php echo $usuario->capa_link; ?>'); no-repeat no-repeat; width: 100% !important;">
+<div class="user-info" style="background: url('<?php echo $usuario->capa_pequena_link; ?>'); no-repeat no-repeat; width: 100% !important;">
     <div class="image">
         <img src="<?php echo $usuario->foto_link; ?>" width="48" height="48" alt="User" />
     </div>
@@ -13,16 +13,13 @@
                 </li>
                 <li role="seperator" class="divider"></li>
                     <li>
-                        <a href="<?php echo URL_BASE.'amizades/listar'; ?>"><i class="material-icons">group</i>Amigos</a>
-                    </li>
-                    <li>
                         <a href="<?php echo URL_BASE.'usuario/listar'; ?>"><i class="material-icons">people_outline</i>Pessoas</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"><i class="material-icons">widgets</i>Utilitários</a>
+                        <a href="<?php echo URL_BASE.'utilitarios'; ?>"><i class="material-icons">widgets</i>Utilitários</a>
                     </li>
                     <li>
-                        <a href="<?php echo URL_BASE.'usuario/feitos'; ?>"><i class="material-icons">fingerprint</i>Seus Feitos</a>
+                        <a href="<?php echo URL_BASE.'usuario/editar'; ?>"><i class="material-icons">create</i>Editar</a>
                     </li>
                     <li role="seperator" class="divider">
                 </li>

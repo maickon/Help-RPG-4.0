@@ -28,10 +28,10 @@ class Nomedeespadas_Controller extends Controller_Lib{
 			} elseif ($params == 1) {
 				$label = $language->SWORD_NAME_LABEL_SINGULAR;
 			}
-			
+
 			$primeiro_nome = (new Raffleitemfile_Lib("{$nomedeespadas->primeiro_nome_path}", $params))->getRaffleItens();	
 			$segundo_nome = (new Raffleitemfile_Lib("{$nomedeespadas->segundo_nome_path}", $params))->getRaffleItens();	
-			
+
 			if (is_array($primeiro_nome)) {
 				for($i=0; $i<count($primeiro_nome); $i++) {
 					$descricao[] = "{$primeiro_nome[$i]} {$segundo_nome[$i]}";
@@ -41,7 +41,7 @@ class Nomedeespadas_Controller extends Controller_Lib{
 			}
 
 			$nomes = ['titulo' => $label, 'descricao' => $descricao];
-		
+
 			// echo '<pre>';
 			// print_r($nome);
 			echo json_encode($nomes);

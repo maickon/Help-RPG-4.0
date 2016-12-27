@@ -32,12 +32,41 @@ class Login_Controller extends Controller_Lib{
 				$_SESSION['login'] = $usuario_login[0]->login;
 				$_SESSION['email'] = $usuario_login[0]->email;
 				$_SESSION['lingua'] = $usuario_login[0]->lingua;
+				$_SESSION['ultimo_login'] = $usuario_login[0]->ultimo_login;
 				header("Location: " .URL_BASE. "painel");
 			} else {
 				header("Location: " .URL_BASE. "login?erro=true");
-			}	
+			}
 		} else {
 			header("Location: " .URL_BASE. "login");
+		}
+	}
+
+	function checar_login($login){
+		$usuario = new Usuario_Model();
+		$usuario_check = $usuario->select(
+			'usuarios',
+			['login'],
+			[ 'login','=',$login]);
+
+		if (array_key_exists(0, $usuario_check)) {
+			echo 1;
+		} else{
+			echo 0;
+		}
+	}
+
+	function checar_email($email){
+		$usuario = new Usuario_Model();
+		$usuario_check = $usuario->select(
+			'usuarios',
+			['email'],
+			[ 'email','=',$email]);
+
+		if (array_key_exists(0, $usuario_check)) {
+			echo 1;
+		} else{
+			echo 0;
 		}
 	}
 
@@ -45,6 +74,8 @@ class Login_Controller extends Controller_Lib{
 		if (is_array($params) or $params == '') {
 			$this->error();
 		}
+
+		$language = new Locale_Lib();
 
 		if (is_string($params)) {
 			$usuario = new Usuario_Model;
@@ -54,13 +85,11 @@ class Login_Controller extends Controller_Lib{
 					$usuario->update('usuarios', ['hash_code'], ['expirado'], 'hash_code', $params);
 					header("Location: " .URL_BASE. "login?status=conta_ativada");
 				} else {
-					header('Location: ' . URL_BASE . 'erro/msg/' . LOGIN_ERRO_CONTA_ATIVADA);
+					header('Location: ' . URL_BASE . 'erro/msg/' . $language->LOGIN_ERROR_ACTIVE_ACOUNT);
 				}
 			} else {
-				header('Location: ' . URL_BASE . 'erro/msg/' . LOGIN_ERRO_HASH_NAO_ENCONTRADA);
+				header('Location: ' . URL_BASE . 'erro/msg/' . $language->LOGIN_ERRO_HASH_DONT_FIND);
 			}
-			echo '<pre>';
-			print_r($usuario_validado);
 		}
 	}
 

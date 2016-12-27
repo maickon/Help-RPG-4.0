@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/fichas/azrapse.png
+TITLE::Azrapse
+DESCRIPTION::Ficha online para o RPG The One Ring
+LENGUAGE::Inglês
+SITE_NAME::Azrapse
+FONT::http://azrapse.es/tor/sheet.html
+APP_LINK::

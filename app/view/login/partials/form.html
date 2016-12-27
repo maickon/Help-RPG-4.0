@@ -1,13 +1,13 @@
 <div class="login-box">
     <div class="logo">
-        <a href="<?php echo $login->base_url; ?>"><?php echo $language->SITE_NAME_HELP; ?><b><?php echo $language->SITE_NAME_RPG; ?></b></a>
+        <a href="<?php echo URL_BASE ?>"><?php echo $language->SITE_NAME_HELP; ?><b><?php echo $language->SITE_NAME_RPG; ?></b></a>
         <small><?php echo $language->LOGIN_TITLE; ?></small>
     </div>
     <div class="card">
         <div class="body">
             <form id="sign_in" method="POST" action="login/entrar">
                 <?php if (isset($_REQUEST['erro']) and $_GET['erro'] == 'true') {?>
-                    <div class="msg-danger"><?php echo $language->LOGIN_MSG_ERROR; ?></div>                    
+                    <div class="msg-danger"><?php echo $language->LOGIN_MSG_ERROR; ?></div>
                 <?php } else { ?>
                     <div class="msg"><?php echo $language->LOGIN_MSG_ERROR; ?></div>
                 <?php }?>
@@ -42,7 +42,7 @@
                         <a href="<?php echo URL_BASE.'inscreverse' ?>"><?php echo $language->LOGIN_SUBSCRIBE; ?></a>
                     </div>
                     <div class="col-xs-6 align-right">
-                        <a href="<?php echo URL_BASE.'esqueceusenha'; ?>"><?php echo $language->LOGIN_FORGET_PASSWORD; ?></a>
+                        <a href="<?php echo URL_BASE.'recuperarsenha'; ?>"><?php echo $language->LOGIN_FORGET_PASSWORD; ?></a>
                     </div>
                 </div>
             </form>

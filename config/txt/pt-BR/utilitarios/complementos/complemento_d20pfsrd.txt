@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/complementos/d20pfsrd.png
+TITLE::d20 Pfsrd
+DESCRIPTION::Este site traz uma grande base de dados com muita informação para jogadores e mestres.
+LENGUAGE::Inglês
+SITE_NAME::d20 Pfsrd
+FONT::http://www.d20pfsrd.com/
+APP_LINK::

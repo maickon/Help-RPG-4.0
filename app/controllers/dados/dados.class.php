@@ -1,7 +1,7 @@
 <?php
 
 class Dados_Controller{
-	
+
 	function index(){
 		$language = new Locale_Lib();
 		$tag = new Tags_Lib();
@@ -16,14 +16,15 @@ class Dados_Controller{
 			if (method_exists($d, $params[0])) {
 				for($i=1; $i<=$params[1]; $i++):
 					$d =  new Dados_Model;
-					if($d->$params[0] == 1):
+					$dado = $params[0];
+					if($d->$dado == 1):
 						$class_css = 'result-rol-fail';
-					elseif($d->$params[0] == substr($params[0], 1)):
+					elseif($d->$dado == substr($dado, 1)):
 						$class_css = 'result-rol-critical';
 					else:
 						$class_css = 'result-rol-normal';
 					endif;
-					$result[] = $d->$params[0];
+					$result[] = $d->$dado;
 				endfor;
 			} else {
 				$result = $this->error();

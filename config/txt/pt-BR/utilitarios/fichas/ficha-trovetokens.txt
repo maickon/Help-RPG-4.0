@@ -1,5 +1,5 @@
-IMG::http://www.rpgnoticias.com.br/wp-content/uploads/2015/08/PATHFINDER_rpg_fantasy_dragon_board__2__1920x1418.jpg
-TITLE::Pathfinder Sheet
+IMG::app/assets/img/utilitarios/fichas/pathfinder.png
+TITLE::Trove Tokens
 DESCRIPTION::Ficha online para o RPG Pathfinder.
 LENGUAGE::Inglês
 SITE_NAME::Trove Tokens

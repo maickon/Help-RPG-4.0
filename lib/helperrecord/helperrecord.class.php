@@ -32,15 +32,14 @@ class HelperRecord_Lib{
             }
         endif;
     }
-    
+
     public function set_attr_class($class, $table){
-        $s = $this->conn->prepare("SELECT * FROM {$table} LIMIT 1");
-        if($s->execute()):
-            $attr = $s->fetchAll(PDO::FETCH_OBJ); 
-            foreach ($attr[0] as $key => $value) {
-                $class->$key = '';
-            }
-        endif;
+        $s = $this->conn->prepare("SHOW COLUMNS FROM {$table}");
+        $s->execute();
+        while ($column = $s->fetch(PDO::FETCH_ASSOC)) {
+            $column = $column["Field"];
+            $class->$column = '';
+        }
     }
 
     public function getConn(){
@@ -52,7 +51,7 @@ class HelperRecord_Lib{
     }
 
     public function logRegister($msg){
-        file_put_contents(LOG_PATH, $msg, FILE_APPEND);
+        file_put_contents(URL_BASE_INTERNAL . 'config/log/log.txt', $msg, FILE_APPEND);
     }
 
     private function errorMsg($action, $msg){
@@ -116,15 +115,41 @@ class HelperRecord_Lib{
             return true;
         else:
             $this->logRegister("Banco de dados não configurado.");
-            die("Database is not configured");
+            die("Banco de dados não está configurado.");
             return false;
         endif;
     }
     
-    protected function __createTable($params){
-        $q = "CREATE TABLE IF NOT EXISTS $params[0] ( id int NOT NULL AUTO_INCREMENT CHECK (Id>0), ";
+    protected function __createDatabase($database_name){
+        $q = "CREATE DATABASE {database_name} IF NOT EXISTS";
+        if($this->conn->exec($q) == 0):
+            $message = "{$this->now} => Banco de dados <b>{$database_name}</b> criado com sucesso!";
+            $message .= "<br>Instrução sql::<b>{$q}</b>\n";
+            $this->logRegister($message);
+        else:
+            $message = "Um erro ocorreu. O banco de dados {$database_name} não pode ser criado.<br>";
+            $message .= "$this->conn->errorInfo()[2]";
+            $this->logRegister($message);
+        endif;
+    }
 
-        foreach($params[1] as $key => $columnParam):
+    protected function __dropDatabase($database_name){
+        $q = "DROP DATABASE {database_name} IF NOT EXISTS";
+        if($this->conn->exec($q) == 0):
+            $message = "{$this->now} => Banco de dados apagado <b>{$database_name}</b> criado com sucesso!";
+            $message .= "<br>Instrução sql::<b>{$q}</b>\n";
+            $this->logRegister($message);
+        else:
+            $message = "Um erro ocorreu. O banco de dados {$database_name} não pode ser deletado.<br>";
+            $message .= "$this->conn->errorInfo()[2]";
+            $this->logRegister($message);
+        endif;
+    }
+
+    protected function __createTable($params){
+        $q = "CREATE TABLE IF NOT EXISTS {$params['table_name']} ( id int NOT NULL AUTO_INCREMENT CHECK (Id>0), ";
+
+        foreach($params['fields'] as $key => $columnParam):
             $q .= "{$key} {$columnParam} NOT NULL, ";
         endforeach;
 
@@ -137,13 +162,13 @@ class HelperRecord_Lib{
             $q .= "PRIMARY KEY (id)";
             $q .= ");";
         }
-                
+
         if($this->conn->exec($q) == 0):
-            $message = "{$this->now} => Tabela <b>{$params[0]}</b> criada com sucesso!";
+            $message = "{$this->now} => Tabela <b>{$params['table_name']}</b> criada com sucesso!";
             $message .= "<br>Instrução sql::<b>{$q}</b>\n";
             $this->logRegister($message);
         else:
-            $message = "Um erro ocorreu. Tabela {$params[0]} não pode ser criada.<br>";
+            $message = "Um erro ocorreu. Tabela {$params['table_name']} não pode ser criada.<br>";
             $message .= "$this->conn->errorInfo()[2]";
             $this->logRegister($message);
         endif;
@@ -189,16 +214,27 @@ class HelperRecord_Lib{
     /*
         method __fkReferences()
         Adiciona uma referencia de chave estrangeira
-        @params $column - coluna de chave estrangeira quevai referenciar a tabela de id (string)
-        @params $reference_table - nome da tabela a ser referenciada (string)
+        @params $table - nome da tabela referenciada
+        @params $field - coluna de chave estrangeira que vai referenciar a tabela de id (string)
+        @params $referenced_table_name - nome do tabela a ser referenciada (string)
         @prams $cascate define se a tabela referenciada sofrera alteracao em DELETE e UPDATE
     */
 
-    protected function __fkReferences($column, $reference_table, $cascate = true){
+    protected function __fkReferences($table, $field, $referenced, $cascate = true){
         if($cascate):
-            return "FOREIGN KEY ($column) REFERENCES {$reference_table} (id) ON DELETE CASCADE ON UPDATE CASCADE"; 
+            $q = "ALTER TABLE {$table} ADD FOREIGN KEY ({$field}) REFERENCES {$referenced} (id) ON DELETE CASCADE ON UPDATE CASCADE"; 
         else:
-            return "FOREIGN KEY ($column) REFERENCES {$reference_table} (id)"; 
+            $q = "ALTER TABLE {$table} ADD FOREIGN KEY ({$field}) REFERENCES {$referenced} (id)";
+        endif;
+
+        if($this->conn->exec($q) == 0):
+            $message = "{$this->now} => Chave estrangeira  <b>{$field}</b> criada com sucesso!";
+            $message .= "<br>Instrução sql::<b>{$q}</b>\n";
+            $this->logRegister($message);
+        else:
+            $message = "Um erro ocorreu. Chave estrangeira {$field} não pode ser criada.<br>";
+            $message .= "$this->conn->errorInfo()[2]";
+            $this->logRegister($message);
         endif;
     }
 
@@ -228,7 +264,7 @@ class HelperRecord_Lib{
     */
     protected function __minId($table){
         $s = $this->conn->prepare("SELECT MIN(Id) FROM {$table}");
-    
+
         if($s->execute()):
             $message = "{$this->now} => ID máximo na <b>{$table}</b> retornada com sucesso!";
             $message .= "<br>Instruçãosql:<b>{$s->queryString}</b>\n";
@@ -260,15 +296,14 @@ class HelperRecord_Lib{
         }
 
         $s = $this->conn->prepare($sql);
-    
         if($s->execute()):
             $message = "{$this->now} => Quantidade de registros encontrado em <b>{$table}</b> retornado com sucesso!";
             $message .= "<br>Instruçãosql:<b>{$s->queryString}</b>\n";
             $this->logRegister($message);
-            return $s->fetchAll(PDO::FETCH_OBJ)[0];  
+            return $s->fetchAll(PDO::FETCH_OBJ)[0];
         else:
             $message = "Um erro ocorreu. Não foi possível retornar o número total de registros da tabela <b>{$table}</b>.<br>";
-            $message .= "$this->conn->errorInfo()[2]";
+            $message .= "{$this->conn->errorInfo()[2]}";
             $this->logRegister($message);
         endif;
     }
@@ -405,11 +440,11 @@ class HelperRecord_Lib{
                 $s .= '?)';
 
                 $s = $this->conn->prepare($s);
-        
+
                 foreach($values as $key => $value):
                     $s->bindValue($key + 1, $value);
                 endforeach;
-                
+
                if($s->execute()):
                     $message = "{$this->now} => Dados inseridos com sucesso na tabela <b>{$table}</b>";
                     $message .= "<br>Instrução sql::<b>{$s->queryString}</b>\n";
@@ -421,14 +456,14 @@ class HelperRecord_Lib{
                endif;
             elseif(count($fields) != count($values)):
                 // diferenca no tamanho dos arrays fields e values
-                $this->errorMsgSize('__insert',$table);         
+                $this->errorMsgSize('__insert',$table);
             endif;  
         else:
             // a tabela nao existe
             $this->errorMsgTableExists('__insert',$table);
         endif;
     }
-    
+
     /*
         @method __update()
         @params $table - Nome da tabela (string)
@@ -455,13 +490,13 @@ class HelperRecord_Lib{
                 endforeach;
 
                 $s .= ' WHERE ' . $whereField . ' = ?';
-               
+
                 $s = $this->conn->prepare($s);
-  
+
                 foreach($values as $key => $value):
                     $s->bindValue($key + 1, $value);
                 endforeach;
-                
+
                 // troca o caracter coringa (?) na instrucao sql pela variavel where value 
                 $s->bindValue( count($values) + 1 , $whereValue);
                 if($s->execute()):
@@ -472,7 +507,7 @@ class HelperRecord_Lib{
                 else:
                     $this->errorMsgInsertTable('__update', $table, $s->errorInfo()[2]);
                 endif;
-                
+
             elseif(count($fields) != count($values)):
                 $this->errorMsgSize('__update', $table);
             endif;
@@ -480,7 +515,7 @@ class HelperRecord_Lib{
             $this->errorMsgTableExists('__update', $table);
         endif;
     }
-    
+
     /*
         @method __select()
         @params $table - Nome da tabela (string)
@@ -561,8 +596,7 @@ class HelperRecord_Lib{
                     $this->errorMsg('__select', "O metodo select() aceita somente array no parametro where. A string '$where' é inválida.\n");
                 endif;
             endif;
-            
-          
+
             if($s->execute()):
                 if($s->rowCount() > 0):
                     $message = "{$this->now} => Dados retornados com sucesso na tabela <b>{$table}</b>";
@@ -583,7 +617,7 @@ class HelperRecord_Lib{
             $this->errorMsgTableExists('__select', $table);
         endif;
     }
-    
+
     /*
         @method __delete()
         @param $table - Nome da tabela (string)
@@ -609,20 +643,20 @@ class HelperRecord_Lib{
             $object->delete('TableName', [ ['idade', '=', 22], ['sexo', '=', 'masculino'] ], 'AND')
             isso e aquivalente a DELETE FROM TableName WHERE idade = 22 AND 'sexo' = 'masculino'
     */
-    
+
     private function __delete($table, $where = null, $logical = 'AND'){
         if($this->__checkTableExists($table)):
             $s = 'DELETE FROM ' . $table;
-                                    
+
             if($where == null || empty($where)):
                 $this->errorMsg('__delete', "Erro ao deletar um registro! O parametro where é obrigatório.\n");
             else:
                 if($logical != 'OR'):
                     $logical = 'AND';
                 endif;
-                
+
                 $s .= ' WHERE ';
-                
+
                 $i = 1;
                 if(isset( $where[0] ) && is_array( $where[0])):
                     foreach ($where as $param):
@@ -632,10 +666,10 @@ class HelperRecord_Lib{
                             $s .= $logical .' '. $param[0] .' '. $param[1] . ' ? ';
                         endif;
                         $i++;
-                    endforeach; 
+                    endforeach;
 
                     $s = $this->conn->prepare($s);
-                
+
                     $i = 1;
                     foreach($where as $param):
                         $s->bindValue($i, $param[2]);
@@ -650,7 +684,7 @@ class HelperRecord_Lib{
                     $this->errorMsg('__select', "O metodo delete() aceita somente array no parametro where. A string '$where' é inválida.\n");
                 endif;
             endif;
-                        
+
             if($s->execute()):
                 $message = "{$this->now} => Dados deletados com sucesso na tabela <b>{$table}</b>";
                 $message .= "<br>Instrução sql::<b>{$s->queryString}</b>\n";
@@ -659,28 +693,28 @@ class HelperRecord_Lib{
             else:
                 $this->errorMsgDeleteTable('__delete', $table, $s->errorInfo()[2]);
             endif;
-            
+
         else:
             $this->errorMsgTableExists('__delete', $table);
         endif;
     }
-    
+
     private function __direct_instruction($sql, $table = 'Não informada'){
         $instruction = $this->conn->prepare($sql);
         if($instruction->execute()):
             $message = "{$this->now} => Instrução executada com sucesso na tabela <b>{$table}<b>";
             $message .= "<br>Instrução sql::<b>{$instruction->queryString}</b>\n";
-            $this->successMsg('__direct_instruction', $message);
+            //$this->successMsg('__direct_instruction', $message);
             return $instruction->fetchAll(PDO::FETCH_OBJ);
         else:
-            $this->errorMsgDirectInstruction('__direct_instruction', $table, $instruction->errorInfo()[2]);
+            //$this->errorMsgDirectInstruction('__direct_instruction', $table, $instruction->errorInfo()[2]);
         endif;
     }
 
     function check_duplicate($table, $fields, $values){
         if($this->__checkTableExists($table)):
             $s = "SELECT count(*) from {$table} WHERE ";
-            
+
             for($i=0; $i<count($fields); $i++):
                 if(end($fields) == $fields[$i]):
                     $s .= "$fields[$i] = '$values[$i]' ";
@@ -688,17 +722,25 @@ class HelperRecord_Lib{
                     $s .= " $fields[$i] = '$values[$i]' AND ";
                 endif;
             endfor;
-            
+
             return $this->conn->query($s)->fetchColumn();
          else:
             trigger_error('Tabela <code>' . $table . '</code> não existe.');
         endif;
     }
-      
-    public function createTable($columnsParams){        
+
+    function createDatabase($database_name){
+        return $this->__createDatabase($database_name);
+    }
+
+    public function dropDatabase($database_name){
+        return $this->__dropDatabase($database_name);
+    }
+
+    public function createTable($columnsParams){
         return $this->__createTable($columnsParams);
     }
-    
+
     public function renameTable($old, $new){
         $this->__renameTable($old, $new);
     }
@@ -723,22 +765,22 @@ class HelperRecord_Lib{
         return $this->__count($table, $where);
     }
 
-    public function fkReferences($table, $reference_table){
-        return $this->__fkReferences($table, $reference_table);
-    } 
+    public function fkReferences($table, $field, $referenced_table_name, $cascate = true){
+        return $this->__fkReferences($table, $field, $referenced_table_name, $cascate = true);
+    }
 
-    public function insert($table, $fields, $values){        
+    public function insert($table, $fields, $values){
         return $this->__insert($table, $fields, $values);
     }
-    
-    public function update($table, $fields, $values, $whereField, $whereValue){        
+
+    public function update($table, $fields, $values, $whereField, $whereValue){
         return $this->__update($table, $fields, $values, $whereField, $whereValue);
     }
-    
+
     public function select($table, $columns = null, $where = null, $logical = 'AND'){
         return $this->__select($table, $columns, $where, $logical);
     }
-    
+
     public function delete($table, $where = null, $logical = 'AND'){
         return $this->__delete($table, $where, $logical);
     }

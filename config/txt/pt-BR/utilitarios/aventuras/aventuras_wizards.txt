@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/aventuras/wizards.png
+TITLE::Wizards
+DESCRIPTION::Este gerador é da Wizards. Ele oferece apenas ideias para ganchos de aventuras.
+LENGUAGE::Inglês
+SITE_NAME::Wizards
+FONT::http://archive.wizards.com/dnd/hook/Welcome.asp#
+APP_LINK::

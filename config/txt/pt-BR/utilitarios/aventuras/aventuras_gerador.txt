@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/aventuras/gerador.png
+TITLE::Gerador Ultrav
+DESCRIPTION::Um gerador de aventuras baseado nas cartas de magic. A aventura é dividida em palavras chaves como cenário, problema, solução, ajudante e antagonista. Cada carta de magic sorteada vai representar uma destas palavras chaves.
+LENGUAGE::Português
+SITE_NAME::Gerador Ultrav
+FONT::http://gerador.ultrav.com.br/
+APP_LINK::

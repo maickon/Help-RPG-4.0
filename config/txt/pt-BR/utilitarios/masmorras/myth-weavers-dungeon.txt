@@ -1,5 +1,5 @@
-IMG::https://vocevaientender.files.wordpress.com/2011/10/dungeon.jpg
-TITLE::Dungeon Generator D&D 3.5
+IMG::app/assets/img/utilitarios/masmorras/myth-weavers.png
+TITLE::Myth Weavers
 DESCRIPTION::Esta ferramenta gera masmorras aleatórias para os heróis de sua campanha explorar. Cada masmorra vem com um mapa completo com quartos, suas descrições, características, monstros e tesouros. Você ainda pode salvar ou marcar a url de seus resultados para voltar a eles mais tarde. Esta ferramenta é bem completa pois além de criar o mapa ela oferece informações como tesouro, monstros e entre outras características sobre cada sala.
 LENGUAGE::Inglês
 SITE_NAME::Myth Weavers

@@ -1,0 +1,7 @@
+IMG::app/assets/img/utilitarios/aventuras/thievesguild.png
+TITLE::Thieves Guild
+DESCRIPTION::Um gerador aleatório para gancho de aventura. Este gerador on-line irá configurar um enredo aleatório para tornar as coisas interessantes.
+LENGUAGE::Inglês
+SITE_NAME::Thieves Guild
+FONT::http://www.thievesguild.cc/generators/adventure-hook-generator
+APP_LINK::
